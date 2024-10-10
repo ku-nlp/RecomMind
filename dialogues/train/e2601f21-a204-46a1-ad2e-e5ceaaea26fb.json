@@ -1,0 +1,824 @@
+{
+  "dialog_id": "e2601f21-a204-46a1-ad2e-e5ceaaea26fb",
+  "created_timestamp": "2022-12-22T10:26:36.336812+09:00",
+  "archived_timestamp": "2022-12-22T11:03:34.204667+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いいたします。",
+      "timestamp": "2022-12-22T10:29:05.245250+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。早速ですがどのようなジャンルの映画がお好きですか？",
+      "timestamp": "2022-12-22T10:30:52.109624+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "特にこれ！って決まっていないのですがミステリーやコメディをよく見ます。\n何かおすすめはありますか？",
+      "timestamp": "2022-12-22T10:32:40.046277+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ミステリーやコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "「ナイブズ・アウト／名探偵と刃の館の秘密」はご覧になったことはありますでしょうか？",
+      "timestamp": "2022-12-22T10:34:02.555988+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "「ナイブズ・アウト／名探偵と刃の館の秘密」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-22T10:33:10.877906+09:00",
+          "query": "シャーロックホームズ",
+          "genres": "",
+          "results": "340799"
+        },
+        {
+          "timestamp": "2022-12-22T10:33:36.268886+09:00",
+          "query": "ナイブズ",
+          "genres": "",
+          "results": "369949"
+        }
+      ],
+      "checked": [
+        "369949_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "いえ、ないです。\nどのようなストーリーですか？",
+      "timestamp": "2022-12-22T10:34:29.153902+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "裕福な家で殺人事件が起こり、探偵を読んで解決しようとするのですが、その中で家族の中でドラマがあるといった内容です",
+      "timestamp": "2022-12-22T10:36:59.399592+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "裕福な家",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "殺人事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "探偵",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "その中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "家族の中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "あるといった内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "犯人を探すだけでなく、家族の中でのストーリーも同時進行していく、、という感じですね。のめり込んで見てしまいますね。\n\nストーリーの展開やロケ地などで、見どころなどはありますか？",
+      "timestamp": "2022-12-22T10:41:41.129838+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "犯人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "家族の中でのストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "同時進行していく、、という感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ストーリーの展開やロケ地",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "アメリカの設定です。ミステリーだけでなくコメディ要素も入っているんです。シリアルな場面だけではなく、コミカルなシーンもありながら、誰がどうやって殺したか推察していきます。",
+      "timestamp": "2022-12-22T10:44:09.807080+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "アメリカの設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "シリアルな場面",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "コミカルなシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369949_genre-0"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "コメディ要素もあるんですね。\nとても興味をもちました！ありがとうございます。\n\nその他の作品で、お勧めはありますか？\nジャンルは問いません。",
+      "timestamp": "2022-12-22T10:46:30.341574+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "その他の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "同じようなミステリーとコメディで思いついたのが「シャーロック・ホームズ　シャドウ ゲーム」です。ご覧になったことはありますか？",
+      "timestamp": "2022-12-22T10:47:51.853721+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「シャーロック・ホームズ　シャドウ　ゲーム」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-22T10:47:03.545170+09:00",
+          "query": "シャーロックホームズ",
+          "genres": "",
+          "results": "340799"
+        }
+      ],
+      "checked": [
+        "340799_title"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "こちらもないです。\nシャーロックホームズシリーズはたくさんありますね。\nこの作品の内容を教えてください。",
+      "timestamp": "2022-12-22T10:49:43.774584+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "シャーロックホームズシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "この作品の内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "ロバート・ダウニー・Jrが主役の作品です。宿敵であるモリアーティ教授との宿命の戦いを描く緊迫した作品です。",
+      "timestamp": "2022-12-22T10:50:27.411077+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ロバート・ダウニー・Jr",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "主役の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "宿敵であるモリアーティ教授との宿命の戦いを描く緊迫した作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340799_cast_name-0"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "ワクワクしそうな内容ですね。\nシャーロックホームズシリーズをほとんど見ていないので、登場人物の背景など把握していないのですが。。この作品から見ても大丈夫ですか？",
+      "timestamp": "2022-12-22T10:53:31.397653+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "ワクワクしそうな内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "シャーロックホームズシリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "登場人物の背景",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "この映画だけでも十分に楽しめます。ホームズの頭脳明晰ぶりを通して、ありとあらゆる伏線を回収していく脚本も巧いです",
+      "timestamp": "2022-12-22T10:54:37.352486+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ホームズの頭脳明晰ぶり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ありとあらゆる伏線を回収していく脚本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340799_review-2"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうなんですね！\nセリフなどを漏らさないして、じっくり見ますね。\n\nところで、今後、上映される映画で見に行かれる予定の作品などございますか？",
+      "timestamp": "2022-12-22T10:57:25.997501+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "セリフ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "今後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "上映される映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "見に行かれる予定の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "アバター2は観たいと思っていました。アバター1は観ましたか？",
+      "timestamp": "2022-12-22T10:59:37.701659+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "アバター2",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "アバター1",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "334089_title"
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "アバター１も見逃してるんですよ。\nちょうど２が公開されるので、見ようと思ってたところです。\nとても楽しみですね。",
+      "timestamp": "2022-12-22T11:01:32.924680+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "アバター１",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "２",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "見ようと思ってたところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "繋がりがあるかは分かりませんが、1を見てからの方が楽しめるかもしれませんね。本日はありがとうございました。",
+      "timestamp": "2022-12-22T11:02:50.222012+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "繋がり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "1を見てからの方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "はい。\nこちらこそありがとうございました。",
+      "timestamp": "2022-12-22T11:03:07.011912+09:00",
+      "internal_states": []
+    }
+  ]
+}

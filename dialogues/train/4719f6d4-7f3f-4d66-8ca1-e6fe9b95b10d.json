@@ -1,0 +1,826 @@
+{
+  "dialog_id": "4719f6d4-7f3f-4d66-8ca1-e6fe9b95b10d",
+  "created_timestamp": "2023-03-23T19:59:10.425850+09:00",
+  "archived_timestamp": "2023-03-23T20:29:43.308528+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。",
+      "timestamp": "2023-03-23T20:06:45.381165+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "すみません、本日よろしくお願いいたします。",
+      "timestamp": "2023-03-23T20:06:53.833554+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "大丈夫です。\nどんな映画がお好きですか。\n洋画メインでしか紹介できませんが、よろしくお願いいたします。",
+      "timestamp": "2023-03-23T20:07:40.589534+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画メイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "洋画の方がよく観るのでうれしいです。明るい気分になれるような楽しい映画でおすすめはありますか？",
+      "timestamp": "2023-03-23T20:08:29.076499+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "明るい気分になれるような楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "楽しい映画ですね。\nコメディ系の「スクール・オブ・ロック」「キューティ・ブロンド」、ドラマ系の「シェフ　三ツ星フードトラック始めました」などはご覧になりましたか。",
+      "timestamp": "2023-03-23T20:10:50.150798+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "コメディ系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「スクール・オブ・ロック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「キューティ・ブロンド」、ドラマ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「シェフ　三ツ星フードトラック始めました」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-23T20:09:07.879908+09:00",
+          "query": "スクールオブ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-23T20:09:09.973247+09:00",
+          "query": "スクール",
+          "genres": "",
+          "results": "19931,236645,319234,325768,327928,328996,329456,329681,332153,340604,350237,351663,360962,363013,369671,370182,374337"
+        },
+        {
+          "timestamp": "2023-03-23T20:10:08.189284+09:00",
+          "query": "シェフ",
+          "genres": "",
+          "results": "18409,326246,340512,348781,350060,350453,366943,368692,368764"
+        }
+      ],
+      "checked": [
+        "319234_title",
+        "236645_title",
+        "350453_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "「スクール・オブ・ロック」はまだ観たことがないと思います。いつ頃の作品でしょう？",
+      "timestamp": "2023-03-23T20:12:23.547982+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "「スクール・オブ・ロック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "いつ頃の作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "2004年公開です。",
+      "timestamp": "2023-03-23T20:12:44.641926+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "2004年公開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-23T20:11:25.596733+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,162615,20324,2046,27724,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,366826,369783,369976,375786,381726"
+        },
+        {
+          "timestamp": "2023-03-23T20:11:43.308003+09:00",
+          "query": "サンドラ・ブロック",
+          "genres": "",
+          "results": "12124,27724,335925,341035,346608,351145,363392,381726"
+        },
+        {
+          "timestamp": "2023-03-23T20:12:05.268570+09:00",
+          "query": "デンジャラス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-23T20:12:10.642062+09:00",
+          "query": "サンドラ・ブロック",
+          "genres": "",
+          "results": "12124,27724,335925,341035,346608,351145,363392,381726"
+        },
+        {
+          "timestamp": "2023-03-23T20:12:30.636880+09:00",
+          "query": "スクール",
+          "genres": "",
+          "results": "19931,236645,319234,325768,327928,328996,329456,329681,332153,340604,350237,351663,360962,363013,369671,370182,374337"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "少し前の映画なんですね。誰が出ている映画ですか？",
+      "timestamp": "2023-03-23T20:13:33.145125+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "前の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "誰が出ている映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "主演は、ジャック・ブラックです。\n「ジュマンジ／ウェルカム・トゥ・ジャングル」などに出ています。",
+      "timestamp": "2023-03-23T20:14:17.688326+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ジャック・ブラック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「ジュマンジ／ウェルカム・トゥ・ジャングル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-23T20:13:30.312857+09:00",
+          "query": "ジャック・ブラック",
+          "genres": "",
+          "results": "319234,321603,326504,329522,361726,365085,369013"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "どちらも観たことはないんですが、俳優さんの顔は思い浮かびました！あらすじも教えていただいていいでしょうか？",
+      "timestamp": "2023-03-23T20:15:56.955118+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "俳優さんの顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "主人公は、バンドを首になった音楽オタクです。\n友人に来た臨時教師の仕事になりすまして、名門私立学校に潜り込んでしまいます。\n初めは、授業などせず給料だけ貰えばいいと考えていたのですが、生徒たちに音楽の才能があることに気づき、一緒にバンドバトルにでて賞金を稼ぐことを画策します。",
+      "timestamp": "2023-03-23T20:18:31.854646+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "バンドを首になった音楽オタク",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "友人に来た臨時教師の仕事",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "名門私立学校",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "授業",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "給料",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "生徒たちに音楽の才能があること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "バンドバトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "でて賞金を稼ぐこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-23T20:15:36.994469+09:00",
+          "query": "ドリュー",
+          "genres": "",
+          "results": "10701,10909,160134,1709,23378,236089,240346,241078,242071,318646,321822,322404,327078,328315,328547,328724,329124,333367,337475,337671,340403,340426,341090,341436,341437,343391,346341,347358,347722,350926,350927,352378,354289,355316,358205,359061,361759,364566,368180,369903,370266,370446,378066,381726,54664,54739,83911,84330,84617,8508,981"
+        },
+        {
+          "timestamp": "2023-03-23T20:15:51.328778+09:00",
+          "query": "ドリュー・バリモア",
+          "genres": "",
+          "results": "1709,240346,321822,327078,333367,54739"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "面白うそうなストーリーですね！バンド系好きなので興味ありです。\nバンドは賞金をゲットできるんでしょうか？",
+      "timestamp": "2023-03-23T20:20:39.583286+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "面白うそうなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "バンド系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "興味あり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "バンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "賞金",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そこは、ネタバレになってしまうのでお話はできないのですが、バックに流れる音楽は70年代から90年代前半で、バンドバトルで演奏する曲はオリジナルになります。",
+      "timestamp": "2023-03-23T20:22:16.898120+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "バックに流れる音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "70年代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "90年代前半",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "バンドバトルで演奏する曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ネタバレを内緒にしていただいてありがとうございます(笑)。\n70年代から90年代前半の音楽でしたら知っている曲も多そうです。",
+      "timestamp": "2023-03-23T20:23:49.215362+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "内緒",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "70年代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "90年代前半の音楽でしたら知っている曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "Led ZeppelinやThe Who、Stevie Nicksなど多数掛かります。\nまたロック史を授業で教えたりするので、その辺りも面白かったりします。",
+      "timestamp": "2023-03-23T20:27:24.202254+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "多数",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ロック史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "授業",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "その辺り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ロック好きの方にはおすすめの映画なんですね。楽しそうな映画を紹介いただいてありがとうございます。",
+      "timestamp": "2023-03-23T20:28:35.769230+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "ロック好きの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "楽しそうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、興味を持っていただけたなら幸いです。\n今日は、ありがとうございました。",
+      "timestamp": "2023-03-23T20:29:31.047686+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

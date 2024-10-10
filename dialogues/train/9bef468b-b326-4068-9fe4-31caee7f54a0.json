@@ -1,0 +1,806 @@
+{
+  "dialog_id": "9bef468b-b326-4068-9fe4-31caee7f54a0",
+  "created_timestamp": "2023-03-24T16:07:26.078202+09:00",
+  "archived_timestamp": "2023-03-24T16:32:47.254226+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。初めまして、宜しくお願いします。",
+      "timestamp": "2023-03-24T16:11:07.296865+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。\n早速ですが普段はよく映画は観ますか？",
+      "timestamp": "2023-03-24T16:12:31.600619+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "宣伝が気になって、よくチェックしたりしています。そんなにたくさんは見ていません。\nちょっと珍しい映画とか、オススメ作品があれば教えて下さい。",
+      "timestamp": "2023-03-24T16:14:43.182775+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "宣伝",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "珍しい映画とか、オススメ作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "私は洋画と邦画ばかりなので、韓国映画自体が珍しいのですが「パラサイト 半地下の家族」はご覧になられましたか？",
+      "timestamp": "2023-03-24T16:16:39.525621+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "韓国映画自体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「パラサイト　半地下の家族」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T16:15:42.987874+09:00",
+          "query": "珍しい",
+          "genres": "",
+          "results": "162761,163028,237362,327025,344585,346639,361665,380758"
+        },
+        {
+          "timestamp": "2023-03-24T16:16:08.802265+09:00",
+          "query": "パラサイト",
+          "genres": "",
+          "results": "347596,347597,368576,85113"
+        }
+      ],
+      "checked": [
+        "368576_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "まだ観ていませんが、噂は聞いたことがあります。それ以外でほかにありますか？",
+      "timestamp": "2023-03-24T16:17:59.156017+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "噂",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "以外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ほか",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ではレディー・ガガが演技をしているという点で「珍しい」、「アリー/ スター誕生」はいかがでしょうか？",
+      "timestamp": "2023-03-24T16:19:07.386383+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "レディー・ガガ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "演技をしているという点",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「珍しい」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「アリー/　スター誕生」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T16:18:28.133028+09:00",
+          "query": "クーパー",
+          "genres": "",
+          "results": "159709,159869,162615,162811,20696,21943,2969,321603,331238,332669,333367,334235,334288,336061,338115,339722,342725,344429,346643,349221,349437,349677,350823,358653,359505,361806,363105,363202,364566,366365,366491,368180,54734"
+        }
+      ],
+      "checked": [
+        "364566_title",
+        "364566_cast_name-1"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "確かに珍しい映画ですね。教えて頂きたいわ。その映画は興味あります。",
+      "timestamp": "2023-03-24T16:19:52.156128+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "確かに珍しい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "歌手になることを夢見みつつそれを諦めかけていた女性が、有名ミュージシャンの男と出会います。そして彼に才能を見いだされ、ステージ上に導かれていきます。しかし栄光の日々の中、彼女の心は愛と成功の狭間で揺れ始めるという物語です。",
+      "timestamp": "2023-03-24T16:20:57.795211+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "歌手になること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "夢見みつつそれを諦めかけていた女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "有名ミュージシャンの男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "才能",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ステージ上",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "栄光の日々の中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "彼女の心",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "愛と成功の狭間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "揺れ始めるという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "現実に彼女のサクセスストーリーでしょうか。彼女の心理に興味が沸きますね。",
+      "timestamp": "2023-03-24T16:22:30.654934+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "現実に彼女のサクセスストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "彼女の心理",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "1937年のウィリアム・A・ウェルマン監督作品『スタァ誕生』を皮切りに過去３回も映画化されている物語を、レディー・ガガ主演で描いた作品です。\n彼女の歌だけでなく、繊細な演技も見どころの一つです。",
+      "timestamp": "2023-03-24T16:23:38.150472+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "1937年のウィリアム・A・ウェルマン監督作品『スタァ誕生』を皮切りに過去３回も映画化されている物語を、レディー・ガガ主演で描いた作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "彼女の歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "繊細な演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "見どころの一つ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "古い映画のリメイク版ですか。オーデションの場面とか、彼女の演技って観たいと思いますね。\n現代のショービジネスの世界が分かりますか？",
+      "timestamp": "2023-03-24T16:26:09.991997+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "古い映画のリメイク版",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "オーデションの場面とか、彼女の演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "現代のショービジネスの世界",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そうですね、現代のショービジネスの一部が示されていると思います。\n光があれば影があるところが興味深かったです。",
+      "timestamp": "2023-03-24T16:27:34.205311+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "そうですね、現代のショービジネスの一部",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "光",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "あれば影があるところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "光と影、歌や演技、見所が満載ですね。最後の結末が気になります。",
+      "timestamp": "2023-03-24T16:29:06.050478+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "光",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "影、歌や演技、見所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "満載",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "最後の結末",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "また相手役はブラッドリー・クーパーです。彼が当初監督をする予定だったクリント・イーストウッドからバトンを受け、主演と監督の二役をこなしたところもまた別の見どころです。",
+      "timestamp": "2023-03-24T16:30:05.389385+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "相手役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ブラッドリー・クーパー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "当初監督をする予定だったクリント・イーストウッド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "バトン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "受け、主演と監督の二役をこなしたところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "別の見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "364566_director_name"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "良いお相手役。一般人としては興味をそそる作品。ご紹介頂き、有り難うございました。",
+      "timestamp": "2023-03-24T16:32:11.068748+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "良いお相手役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "一般人としては興味をそそる作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひ機会があればご覧ください。\n楽しんでいただけると思います！",
+      "timestamp": "2023-03-24T16:32:45.140086+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

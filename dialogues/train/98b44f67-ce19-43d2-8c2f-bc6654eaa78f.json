@@ -1,0 +1,968 @@
+{
+  "dialog_id": "98b44f67-ce19-43d2-8c2f-bc6654eaa78f",
+  "created_timestamp": "2023-03-29T12:51:29.704691+09:00",
+  "archived_timestamp": "2023-03-29T13:43:52.221654+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "031",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 2,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！どうぞよろしくお願いします。",
+      "timestamp": "2023-03-29T13:00:56.041774+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願い致します！",
+      "timestamp": "2023-03-29T13:01:09.581605+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、どんな映画が好きですか？",
+      "timestamp": "2023-03-29T13:01:50.038408+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "わりとジャンルを問わず広く見る方です。あまり重すぎるものは最近は見ません。",
+      "timestamp": "2023-03-29T13:04:44.676623+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "1",
+          "text": "問わず広く見る方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "重すぎるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。\n最近、邦画で「コンフィデンスマンJP」の最新作「英雄編」を見たのですが、ご存じですか？\nテンポも良くて、見ていて楽しいコメディです。",
+      "timestamp": "2023-03-29T13:07:19.171301+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「コンフィデンスマンJP」の最新作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「英雄編」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "テンポ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "見ていて楽しいコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-29T13:05:42.235901+09:00",
+          "query": "コンフィデンスマン",
+          "genres": "",
+          "results": "366008,370446,378595"
+        }
+      ],
+      "checked": [
+        "378595_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "その映画は見ていません。コメディをよくご覧になるのですか？",
+      "timestamp": "2023-03-29T13:08:59.755574+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうですね。見ると元気の出るので、コメディ作品が好きです。",
+      "timestamp": "2023-03-29T13:11:03.833695+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "コメディ作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "みなさんが過去にたくさん見てきた中でどの映画が好きか、印象に残っているか興味があるのですが、よろしければお好きなコメディ作品を教えていただけませんか？",
+      "timestamp": "2023-03-29T13:12:27.626525+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "みなさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "過去",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "見てきた中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "どの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "好き",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "お好きなコメディ作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "結構たくさんあるのですが、\n邦画でしたら、篠原涼子さんが好きなので、「今日も嫌がらせ弁当」です。これは最後に感動するシーンもあり、心が温かくなる作品です。\n洋画でしたら、ジャッキーチェン主演の「ベスト・キッド」です。これも笑えるだけでなく、最後のシーンが感動的です。",
+      "timestamp": "2023-03-29T13:17:04.904642+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "篠原涼子さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「今日も嫌がらせ弁当」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "感動するシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "あり、心が温かくなる作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ジャッキーチェン主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「ベスト・キッド」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "最後のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-29T13:15:16.855381+09:00",
+          "query": "ベスト",
+          "genres": "",
+          "results": "237383,25289,318646,319257,321617,325867,327025,336292,344605,345497,346099,350923,354473,357279,357995,358670,359809,362962,369195,370458,51461"
+        }
+      ],
+      "checked": [
+        "336292_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "どちらの映画も笑いと感動の両方があるのですね。\n「今日も嫌がらせ弁当」は見ていません。どういうお話ですか？",
+      "timestamp": "2023-03-29T13:19:49.480866+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "どちらの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "笑いと感動の両方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「今日も嫌がらせ弁当」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "反抗期で口も利いてくれなくなった高校生の娘に、嫌がらせとして、毎日３年間、キャラ弁を作るお母さんの話です。",
+      "timestamp": "2023-03-29T13:22:07.210751+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "反抗期で口も利いてくれなくなった高校生の娘に、嫌がらせとして、毎日３年間、キャラ弁を作るお母さんの話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-29T13:20:39.585466+09:00",
+          "query": "今日も嫌がらせ弁当",
+          "genres": "",
+          "results": "366787"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "お母さんは大変ですね。毎日３年間、キャラ弁を作るなんてほんとに偉業だと思います。キャラ弁が笑えるのですか？",
+      "timestamp": "2023-03-29T13:25:03.200268+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "お母さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "毎日３年間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ほんとに偉業",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい！日頃言いたいことを、海苔でメッセ書いて書いて届けています。「勉強しろ！」とか「ボンド買った？」とか。\nキャラ弁が毎回おもしろいのと、反抗期の娘にむきになっていくお母さんの姿もおもしろいです。",
+      "timestamp": "2023-03-29T13:28:50.431150+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "日頃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "言いたいこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "海苔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "メッセ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "「勉強しろ！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "「ボンド買った？」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "毎回",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "反抗期の娘にむきになっていくお母さんの姿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "娘は海苔のメッセージを食べるんですね（笑）たしかに嫌がらせかも。母強い！\nへえ、お母さんはむきになっていくんですか。どんなふうに？",
+      "timestamp": "2023-03-29T13:32:39.335416+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "娘",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "海苔のメッセージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "食べるんですね（笑）たしかに嫌がらせ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "母",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "お母さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "むき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "とにかくいろいろ聞いてもうるさがって会話にならなくかったので、「よーし見てろよ！」とお母さんがキャラ弁を作り始めた、という経緯があります。\nそして作り始めたら、どんどんはまっていき、朝早く起きて毎日作り続けるのです。これも後にあってみれば大きな愛情の証なのですが・・・",
+      "timestamp": "2023-03-29T13:37:22.285986+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "会話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "お母さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "作り始めた、という経緯",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "朝",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "毎日",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "大きな愛情の証",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そこまで娘に関わろうとするのも愛だし、朝早く起きてキャラ弁作るのも愛だし、大きな愛の話にしか聞こえません（笑）コメディなので気楽に面白く見れそうなのがいいですね。ステキな作品をご紹介いただいてありがとうございました！",
+      "timestamp": "2023-03-29T13:42:27.738663+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "娘",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "朝",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "愛",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "大きな愛の話にしか聞こえません（笑）コメディ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "63",
+          "text": "ステキな作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ぜひ、ご覧下さい！\nこちらこそありがとうございました！",
+      "timestamp": "2023-03-29T13:43:46.967278+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

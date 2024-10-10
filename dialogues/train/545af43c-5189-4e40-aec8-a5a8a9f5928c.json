@@ -1,0 +1,919 @@
+{
+  "dialog_id": "545af43c-5189-4e40-aec8-a5a8a9f5928c",
+  "created_timestamp": "2023-02-04T12:59:05.875328+09:00",
+  "archived_timestamp": "2023-02-04T13:35:09.182390+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。よろしくお願いいたします。",
+      "timestamp": "2023-02-04T12:59:31.718078+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いします。最近は何か映画をご覧になられましたか？",
+      "timestamp": "2023-02-04T12:59:58.889352+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "最近見た映画は「ナイト＆ディ」でした？タイトルが不確かですが、トム・クルーズとキャメロン・ディアス主演の映画です。",
+      "timestamp": "2023-02-04T13:01:05.464795+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "最近見た映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "「ナイト＆ディ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "トム・クルーズとキャメロン・ディアス主演の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "大物俳優どうしですね。好きな俳優さんですか？",
+      "timestamp": "2023-02-04T13:03:29.327122+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "大物俳優どうし",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T13:00:22.810361+09:00",
+          "query": "スノー",
+          "genres": "",
+          "results": "324357,325401,325438,338607,339678,341293,345712,346556,351163,351301,351610,353664,355080,355619,360445,366550,367080,367742"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "そうですね。わりと好きな俳優さんです。",
+      "timestamp": "2023-02-04T13:03:59.018335+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ガンアクションとラブロマンスの要素もあるのでどちらも楽しめますね！どちらかというと、アクションの方がお好きですか？",
+      "timestamp": "2023-02-04T13:05:11.345389+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ガンアクションとラブロマンスの要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "アクションの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "特にアクション系が大好きというのではありませんが、いろいろなジャンルの映画を観ますね。たまたまテレビで放送されていて、この映画のことはなんとなく知っていましたし、時間があったので観ました。",
+      "timestamp": "2023-02-04T13:06:39.490540+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "アクション系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "大好き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "この映画のこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "少し昔ですが、若い頃のキャメロンが出演していてヒーローもので笑いありというストーリーの作品があります。好きそうでしょうか？",
+      "timestamp": "2023-02-04T13:12:17.939183+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "若い頃のキャメロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ヒーローもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "笑いありというストーリーの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T13:06:38.438033+09:00",
+          "query": "キャメロン・ディアス",
+          "genres": "action",
+          "results": "22113,240346,336078"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "もしかして、チャーリーズエンジェル・シリーズですか？もしそうなら、全作品を観ています。明るい彼女たちのキュートでパワフルな活躍が楽しい作品ですよね。",
+      "timestamp": "2023-02-04T13:13:59.613613+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "チャーリーズエンジェル・シリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "全作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "明るい彼女たちのキュートでパワフルな活躍が楽しい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "エンジェルは楽しいですね！私のおすすめの方はスパイダーマンみたいなラブストーリーですが、笑いの要素が多く気軽に観られます。あと出てくる犬がかわいいです。",
+      "timestamp": "2023-02-04T13:16:40.499452+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "エンジェル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "私のおすすめの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "スパイダーマンみたいなラブストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "笑いの要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "あと出てくる犬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "映画のタイトルは何ですか？どんなストーリーですか？",
+      "timestamp": "2023-02-04T13:17:18.830760+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "映画のタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "「マスク」という作品です。若いキャメロンの美貌も必見です。冴えない銀行員の男性が銀行に訪れた女性歌手に一目惚れするところから始まります。",
+      "timestamp": "2023-02-04T13:20:31.093173+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "「マスク」という作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "若いキャメロンの美貌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "必見",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "冴えない銀行員の男性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "銀行に訪れた女性歌手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "惚れするところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "22113_title"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "「マスク」は何度も観ています！まさにアメリカ映画的なおおげさなリアクションやジョークが満載の映画ですよね。何度も大笑いしてしまいました。",
+      "timestamp": "2023-02-04T13:22:32.069035+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "「マスク」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "アメリカ映画的なおおげさなリアクションやジョーク",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "満載の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "そう、演出がとてもアメリカ的で笑いが多いですね！では、少し方向性を変えて、キャメロンで「運命のボタン」などはご存じですか？",
+      "timestamp": "2023-02-04T13:26:16.626014+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "演出",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "方向性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "キャメロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "「運命のボタン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T13:23:47.424058+09:00",
+          "query": "キャメロン・ディアス",
+          "genres": "adventure",
+          "results": "240346"
+        },
+        {
+          "timestamp": "2023-02-04T13:23:55.826495+09:00",
+          "query": "キャメロン・ディアス",
+          "genres": "science-fiction",
+          "results": "22113,334339"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "その作品は全く知りません。どんな映画ですか？",
+      "timestamp": "2023-02-04T13:26:48.717031+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "その作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "これはコメディではなくヒューマンドラマありつつ少しサスペンス的です。夫婦とひとり息子がいる家族で、ある日キャメロン(母役)が『ボタンを押せば100万ドルが手に入ります』『ボタンを押すことによって誰かが死にます』というボタンを",
+      "timestamp": "2023-02-04T13:30:22.395247+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "夫婦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ひとり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "いる家族",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ある日キャメロン(母役)",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "100万ドル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "『ボタンを押すこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "死にます』というボタン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "334339_title"
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "サスペンス系ですか？どちらかというと積極的には選ばないジャンルですね。でも、キャメロン・ディアス主演でヒューマンドラマの要素があるのなら、またチェックしてみます。",
+      "timestamp": "2023-02-04T13:32:15.716307+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "サスペンス系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "積極的には選ばないジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "54",
+          "text": "キャメロン・ディアス主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ヒューマンドラマの要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "悲惨な殺人シーンがあるようなことはありません。ボタンを前にいろいろ悩みます。お時間があれば観てみてください。ありがとうございました。",
+      "timestamp": "2023-02-04T13:34:47.881608+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "悲惨な殺人シーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ボタンを前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "こちらこそ、どうもありがとうございました。",
+      "timestamp": "2023-02-04T13:35:01.269160+09:00",
+      "internal_states": []
+    }
+  ]
+}

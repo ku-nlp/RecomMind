@@ -1,0 +1,794 @@
+{
+  "dialog_id": "8838b28c-10d7-4b6b-823a-fd0d41383a5b",
+  "created_timestamp": "2022-12-09T10:51:34.395149+09:00",
+  "archived_timestamp": "2022-12-09T11:33:17.382328+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "007",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくおねがいします。どんな映画を紹介していただけますか？",
+      "timestamp": "2022-12-09T10:57:46.096850+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "どうぞよろしくお願します。\n洋画、邦画など、お好きな映画はありますか？\nまたは好きな俳優さんとか？",
+      "timestamp": "2022-12-09T10:58:40.299543+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画、邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "さいきんはまったく見ていないので、これが面白かったよ！というのありましたら、そちらを是非",
+      "timestamp": "2022-12-09T10:59:57.820588+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "さいきん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "なるほど！わかりました。では、邦画で、劇場版「きのう何食べた？」をご紹介します。ごぞんじですか？",
+      "timestamp": "2022-12-09T11:02:07.095128+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "劇場版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「きのう何食べた？」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "377182_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "内田向陽さんでしたっけ？男性二人のお話かな？\n見たことないです。そちらをお願いします！",
+      "timestamp": "2022-12-09T11:06:16.995991+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "内田向陽さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "男性二人のお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "な？",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "そうです！西島秀俊さん（シロさん）と内野聖陽さん（ケンジ）がカップル役なんです。シロさんは倹約かで真面目な弁護士で、ケンジは陽気な美容師という凸凹な性格のコンビネーションが見ていて面白いです。",
+      "timestamp": "2022-12-09T11:10:38.573217+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "西島秀俊さん（シロさん）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "内野聖陽さん（ケンジ）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "カップル役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "シロさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "12",
+          "text": "倹約",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "真面目な弁護士",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ケンジ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "陽気な美容師という凸凹な性格のコンビネーション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-09T11:03:40.521352+09:00",
+          "query": "きのう",
+          "genres": "",
+          "results": "351330,377182"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "美味しい食べ物もたくさん出てくるんですよね。食べ物の話も好きなんですが、その辺りはどんな感じですか？\n映像とか・・・レシピとか？",
+      "timestamp": "2022-12-09T11:12:42.927575+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "美味しい食べ物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "食べ物の話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "その辺り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "映像とか・・・レシピ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "そうなんですよ。シロさんは料理上手で、だからと言って珍しいものを作るというよりか、とても身近な料理を短時間でさっと作ってしまうのがすごいです。ちゃんと解説もしてくれます。",
+      "timestamp": "2022-12-09T11:15:45.659822+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "シロさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "21",
+          "text": "料理",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "珍しいもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "身近な料理",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "短時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "解説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "理想的なシェフですね！解説もあるんですか。興味がうんと湧いてきました。\n最近では、同性カップルのお話、昔は背徳感のあるものが多かったですが、最近はカジュアルなものが増えましたね。",
+      "timestamp": "2022-12-09T11:17:58.517895+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "理想的なシェフ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "解説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "同性カップルのお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "29",
+          "text": "背徳感のあるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "30",
+          "text": "カジュアルなもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "そうですね。特にこのカップルは、見ていて本当に幸せそうでほのぼのします。ケンジのシロさんへの一途な思いがとてもかわいいです。ケンジはいつもしろさんの料理をそれはそれはおいしそうに食べてくれるんです。そこも見所です！",
+      "timestamp": "2022-12-09T11:21:31.704612+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "このカップル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ケンジのシロさんへの一途な思い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ケンジ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "34",
+          "text": "しろさんの料理",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "お話聞くだけでも、ほのぼのしますね。\n他にどんな出演者さんがいますか？",
+      "timestamp": "2022-12-09T11:22:35.387404+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "どんな出演者さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "浅田美代子さん（シロさんに料理を教えてくれるスーパーでの買い物仲間）、山本耕史さん（同性パートナーを持つ友達）が出ています。とても個性的ですよ。",
+      "timestamp": "2022-12-09T11:25:34.892785+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "浅田美代子さん（シロさんに料理を教えてくれるスーパーでの買い物仲間）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "39",
+          "text": "山本耕史さん（同性パートナーを持つ友達）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "シロさんが、スーパーでお買得品を探したりするシーンとかもあるんでしょうか？\nそこも微笑ましい",
+      "timestamp": "2022-12-09T11:27:39.016104+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "シロさんが、スーパーでお買得品を探したりするシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "そうなんです。値段を見ながら買おうか悩んでいるシーンもあったりして、思わず笑ってしまいます。",
+      "timestamp": "2022-12-09T11:29:07.440194+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "値段",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "買おうか悩んでいるシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "可愛いですね♪\nシロさんとケンジに会いたくなりました！",
+      "timestamp": "2022-12-09T11:29:58.254539+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "シロさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ケンジ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひ、ご覧になってください。もとは、テレビ東京のドラマだったので、アマゾンプライムなどご加入でしたら、ドラマもおすすめです。",
+      "timestamp": "2022-12-09T11:31:25.700951+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "もと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "テレビ東京のドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "48",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "機会があったら見てみます、ありがとうございました！\nメリークリスマス！",
+      "timestamp": "2022-12-09T11:31:57.827062+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "メリークリスマス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "こちらこそ、聞いていただきありがとうございました！メリークリスマス！",
+      "timestamp": "2022-12-09T11:32:39.476943+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

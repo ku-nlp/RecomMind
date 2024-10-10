@@ -1,0 +1,1193 @@
+{
+  "dialog_id": "c1b730bf-b7d8-4932-9deb-d4e0a09c7574",
+  "created_timestamp": "2023-02-21T11:52:23.898534+09:00",
+  "archived_timestamp": "2023-02-21T12:35:35.004180+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-02-21T12:01:33.057919+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-02-21T12:01:48.165243+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくお聞きしてしまいますが、どんな映画がお好きですか？",
+      "timestamp": "2023-02-21T12:01:55.086869+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "普段はヒューマンドラマやラブコメが好きでよく観ます。\nサスペンスやアクションにもチャレンジしたいなと思いますが、\nあまりストーリーが複雑すぎるのは苦手でして・・・",
+      "timestamp": "2023-02-21T12:03:30.990090+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ヒューマンドラマやラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "サスペンスやアクション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "では、娯楽性が高くてコメディ要素もあるスパイ映画をご紹介します。「キングスマン」はご覧になったことありますか？",
+      "timestamp": "2023-02-21T12:05:02.159168+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "娯楽性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "高くてコメディ要素もあるスパイ映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「キングスマン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-21T12:04:33.585136+09:00",
+          "query": "キングスマン",
+          "genres": "",
+          "results": "353152,360777,369783"
+        }
+      ],
+      "checked": [
+        "353152_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "コメディ要素のあるスパイ映画、いいですね！\n「キングスマン」、知りませんでした。\nぜひお願いします！",
+      "timestamp": "2023-02-21T12:05:47.479773+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "コメディ要素のあるスパイ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「キングスマン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "イギリスで労働者階級の不良少年が非政府のスパイ組織にリクルートされ、いっぱしの紳士スパイに成長し、政界を救うお話です。少年をリクルートする英国紳士がコリン・ファース。この映画の中ではお仕立てのスーツをクールに着こなし、とても素敵です。",
+      "timestamp": "2023-02-21T12:08:45.230763+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "イギリス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "労働者階級の不良少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "非政府のスパイ組織",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "いっぱしの紳士スパイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "政界",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "少年をリクルートする英国紳士",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "コリン・ファース",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "この映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "お仕立てのスーツ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_cast_name-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "不良少年が紳士スパイになるのですね、面白そうです！\nコリン・ファースのことを知らなかったのですが、どんな俳優さんですか？",
+      "timestamp": "2023-02-21T12:11:15.548769+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "不良少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "紳士スパイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "コリン・ファースのこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "すみません。政界→世界です。全然意味が違ってしまいますね。\n（汗）\nコリン・ファースは大ベテランですよ。真面目そうでルックスのいいひととでも言いますか。「英国王のスピーチ」とかで英国王になってるかと思えば、「ブリジット・ジョーンズの日記」のようなこめでいぃにも登場します。もしご存じなければこの機会にぜひキングスマンでご覧になってくださいな。\n少年が当時新人のタロン・エガートン。彼は将来有望な役者だと思っております。悪役にサミュエル・L・ジャクソンで、めちゃくちゃ笑わせてくれますよ。",
+      "timestamp": "2023-02-21T12:14:26.670230+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "政界→世界",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "意味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "コリン・ファース",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "大ベテラン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "真面目そうでルックスのいいひと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「英国王のスピーチ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "英国王",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「ブリジット・ジョーンズの日記」のようなこめ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "この機会",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "29",
+          "text": "キングスマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "当時新人のタロン・エガートン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "将来有望な役者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "悪役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "サミュエル・L・ジャクソン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "めちゃくちゃ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_cast_name-0",
+        "353152_cast-1_other_title-8:235071",
+        "353152_cast-1_other_title-11:338127",
+        "353152_cast_name-2"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "世界を救うのですね！それはもっとスケールが大きくなってよかったです。\nあっ「英国王のスピーチ」の俳優さんでしたかー！確かに大ベテランです！名前と顔が一致していませんでした。\n少年役も悪役もどんな演技をするのか気になります。\n\nそもそも、不良少年をどのようにリクルートできたのでしょうか？コリン・ファースの人間性に惹かれて？それとも巧みな話術でしょうか？",
+      "timestamp": "2023-02-21T12:19:14.429070+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "世界",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "スケール",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "「英国王のスピーチ」の俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "確かに大ベテラン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "42",
+          "text": "顔",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "少年役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "悪役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "どんな演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "不良少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "コリン・ファースの人間性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "巧みな話術",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ちょっと事情があり、かつて少年の父がその組織にリクルートされていたのですが、現場での訓練でその少年の父親は自分の身を挺して皆をテロリストの手りゅう弾から守って死んでしまうのです。その後少年一家は貧困に落ちるのですが、その縁があって出会うのですよ。リクルートされても最後にエージェントにまでなれるのは一人だけなのです。",
+      "timestamp": "2023-02-21T12:22:56.934699+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "事情",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "少年の父",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "51",
+          "text": "その組織",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "現場での訓練",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "その少年の父親",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "54",
+          "text": "自分の身",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "テロリストの手りゅう弾",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "少年一家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "その縁",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "エージェント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "一人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど！そんな背景があったのですね。\n少年は自分の父親と同じ道を選んだというわけですね。\nところでその少年はエージェントになれたのでしょうか？",
+      "timestamp": "2023-02-21T12:24:57.885236+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "そんな背景",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "自分の父親と同じ道",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "その少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "エージェント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい。その少年はいっぱしの紳士スパイとなり続編にも登場します。３作目も制作されますよ。SINGでゴリラのジョニーの声やっている俳優です。歌が上手なんですよ。",
+      "timestamp": "2023-02-21T12:27:00.408600+09:00",
+      "internal_states": [
+        {
+          "id": "66",
+          "text": "その少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "いっぱしの紳士スパイ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "SINGでゴリラのジョニーの声やっている俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_cast-0_other_title-2:378013"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "3作目まであるんですか！すごい。\nSINGのジョニーの声好きです。素敵な声ですね。\nそれはさらに観たくなりました。",
+      "timestamp": "2023-02-21T12:28:38.011636+09:00",
+      "internal_states": [
+        {
+          "id": "72",
+          "text": "3作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "SINGのジョニーの声",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "素敵な声",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ぜひぜひ！キングスマンでは歌いませんが、先輩紳士のコリン・ファースに向けるあこがれの眼差しがかわいくて。とても良い表情をする俳優さんです。「ロケットマン」というエルトンジョンの自伝映画みたいなのではエルトン・ジョンを演じ、全部彼が歌いましたよ。",
+      "timestamp": "2023-02-21T12:31:06.991741+09:00",
+      "internal_states": [
+        {
+          "id": "75",
+          "text": "キングスマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "76",
+          "text": "先輩紳士のコリン・ファースに向けるあこがれの眼差し",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "77",
+          "text": "良い表情をする俳優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "「ロケットマン」というエルトンジョンの自伝映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "エルトン・ジョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "80",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_cast-0_other_title-3:367684"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "「ロケットマン」、気になっている映画でした。\nこれも合わせて観てみますね。\n見所をたくさん教えて頂き、ありがとうございました！",
+      "timestamp": "2023-02-21T12:33:58.582213+09:00",
+      "internal_states": [
+        {
+          "id": "81",
+          "text": "「ロケットマン」、気になっている映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "82",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "タロン・エガートンは私の中では１－２位を争う将来有望俳優なので是非観てくださいね。今日はありがとうございました。",
+      "timestamp": "2023-02-21T12:35:06.858736+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "353152_cast_name-0"
+      ]
+    }
+  ]
+}

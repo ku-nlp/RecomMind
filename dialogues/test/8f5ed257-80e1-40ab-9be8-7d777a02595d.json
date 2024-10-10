@@ -1,0 +1,842 @@
+{
+  "dialog_id": "8f5ed257-80e1-40ab-9be8-7d777a02595d",
+  "created_timestamp": "2023-02-07T13:58:44.132062+09:00",
+  "archived_timestamp": "2023-02-07T14:24:05.642797+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-07T14:00:10.525620+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-07T14:00:28.097949+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-07T14:00:35.292316+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "コメディ映画が好きです。洋画・邦画は問いません。",
+      "timestamp": "2023-02-07T14:01:35.536539+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "洋画・邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "コメディですね。2007年のナイト ミュージアムはご覧になったことはありますか？",
+      "timestamp": "2023-02-07T14:02:54.232614+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "2007年のナイト　ミュージアム",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-07T14:01:48.465559+09:00",
+          "query": "ナイト",
+          "genres": "",
+          "results": "159811,16482,17046,22237,236636,237781,239768,239900,240710,318646,319653,320372,320917,323368,323917,324027,324329,326503,326744,327386,328495,329605,329767,330573,332598,333196,333965,334943,335605,336078,336142,337331,337671,338067,338090,338494,338546,339054,339223,340611,341568,342677,344613,345058,346480,350077,350366,350926,350931,352299,353277,353390,353463,354676,355085,355740,358894,359052,359506,359622,360632,362179,363223,364938,365009,365598,366068,372555,376781,377442,7298,85349,8674"
+        },
+        {
+          "timestamp": "2023-02-07T14:01:59.457032+09:00",
+          "query": "ミュージアム",
+          "genres": "",
+          "results": "326503,329293,330178,333196,350366,354843"
+        }
+      ],
+      "checked": [
+        "326503_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "観たことはありません。夜の美術館のお話ですか？",
+      "timestamp": "2023-02-07T14:03:36.066332+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "夜の美術館",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうです。個人的に好きなベン・スティラーも出ていますが、今は亡きロビン・ウィリアムズも出演しています。ニューヨークの自然史博物館で警備員として働く男性が、夜不思議な体験をするです。",
+      "timestamp": "2023-02-07T14:05:03.719286+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "個人的に好きなベン・スティラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "亡きロビン・ウィリアムズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ニューヨークの自然史博物館で警備員として働く男性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "夜",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "不思議な体験",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326503_cast_name-0",
+        "326503_cast_name-5",
+        "326503_plot-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "不思議な体験ですか。どんな体験ですか？",
+      "timestamp": "2023-02-07T14:06:18.862569+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "不思議な体験",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "どんな体験",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ィラノサウルスの骨格標本が走り回ったり、動物の剥製、ミニチュア人形など他の展示物も同様に動き回って博物館の夜を毎晩楽しんでいるのですが、朝になると動かなくなります。しかしある晩、エジプトの展示部屋からアクメンラーの石板という展示物が盗まれてしまいｍす。それを、動く展示物たちと奮闘して取り戻します。",
+      "timestamp": "2023-02-07T14:08:37.784462+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ィラノサウルスの骨格標本",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "動物の剥製、ミニチュア人形など他の展示物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "博物館の夜",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "毎晩",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "朝",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ある晩",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "エジプトの展示部屋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "アクメンラーの石板という展示物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "動く展示物たち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326503_plot-5",
+        "326503_plot-7",
+        "326503_plot-10"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "警備員は、怖がるどころか楽しんでいるわけですね。動く展示物は、盗まれた展示物を取り戻す手伝いもしてくれるのですね。警備員の業務上のミスなのに。面白そうですね。",
+      "timestamp": "2023-02-07T14:12:36.161830+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "動く展示物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "盗まれた展示物を取り戻す手伝い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "警備員の業務上のミス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "朝になると散らかり放題で怒られるんですけどね。ロビン・ウィリアムズは、展示物のリーダー的存在であるルーズベルトの銅像の役ですが、あの優しい雰囲気とコミカルな動きがやっぱり上手いなと思いました。",
+      "timestamp": "2023-02-07T14:13:07.243119+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "散らかり放題",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ロビン・ウィリアムズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "展示物のリーダー的存在であるルーズベルトの銅像の役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "あの優しい雰囲気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "コミカルな動き",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326503_cast_name-5",
+        "326503_plot-12"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "銅像の役なんて、難しそうですよね。流石ですね。で、最後は盗まれた展示物を取り戻し、何事もなかったように朝を迎えるというお話ですか？",
+      "timestamp": "2023-02-07T14:16:08.605477+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "銅像の役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "盗まれた展示物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "何事",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "朝",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "なんやかんやで取り戻すのですが、その夜の騒ぎが世間にばれて、でもそれが思わぬ宣伝効果となって博物館には来場者が殺到し、経営難だった博物館に活気が戻って、ハッピーエンドです。",
+      "timestamp": "2023-02-07T14:17:57.817142+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "なんやかん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "その夜の騒ぎ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "世間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "思わぬ宣伝効果",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "博物館",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "来場者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "経営難だった博物館",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "活気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326503_plot-20"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなんですね。その博物館は、夜も営業することにしたのですか？",
+      "timestamp": "2023-02-07T14:20:02.087584+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "その博物館",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "夜",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "夜の経営はしてなかったと思いますが、石板による夜しか動けないという縛りが解けて、昼間も動けるようになった、といった内容だったと思うのですが、最後うろ覚えですみません。\n続編もでています。深く考えずに、ただ笑える映画シリーズなので、機会があればぜひご覧になって下さい。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-02-07T14:22:29.878191+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "夜の経営",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "石板による夜",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "動けないという縛り",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "昼間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "動けるようになった、といった内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "最後うろ覚え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "笑える映画シリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "楽しそうな映画ですね。ぜひ観てみたいと思います。今日はありがとうございました。",
+      "timestamp": "2023-02-07T14:23:56.499672+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "楽しそうな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

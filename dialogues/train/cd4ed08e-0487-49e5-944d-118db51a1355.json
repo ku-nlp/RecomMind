@@ -1,0 +1,909 @@
+{
+  "dialog_id": "cd4ed08e-0487-49e5-944d-118db51a1355",
+  "created_timestamp": "2023-01-31T09:55:24.533621+09:00",
+  "archived_timestamp": "2023-01-31T10:33:55.417506+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "025",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-01-31T09:57:02.499755+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくおねがいします。\n映画はよくご覧になりますか？",
+      "timestamp": "2023-01-31T09:58:09.410422+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "見たいのですが、なかなか時間がなく、見ることができていません。",
+      "timestamp": "2023-01-31T09:59:30.900610+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "そうですよね。映画はまとまった時間が必要ですものね。\nただ最近は、アマゾンプライムなど配信サービスを利用して気軽に観られるようにもなりました。\n映画をみるとなると、どんな風に選びますか？",
+      "timestamp": "2023-01-31T10:03:35.820797+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "まとまった時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "必要ですもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "配信サービス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ホラーなど怖い内容や暗い映画は苦手なので、コメディやアクション系のものを選ぶようにしています。ちなみに最近、少し見たのは「ラッシュアワー」です。",
+      "timestamp": "2023-01-31T10:06:38.498121+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "怖い内容や暗い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "コメディやアクション系のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「ラッシュアワー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ラッシュアワー、いいですね！",
+      "timestamp": "2023-01-31T10:09:30.195822+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "ラッシュアワー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T10:09:14.256037+09:00",
+          "query": "ラッシュアワー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-31T10:09:19.512265+09:00",
+          "query": "ラッシ",
+          "genres": "",
+          "results": "159811,20324,239900,240710,241078,29038,321603,321617,323212,323470,324138,324328,325423,326203,326216,326744,327080,334088,334913,335567,336703,338127,338382,338546,339701,343761,344125,346876,347018,352647,354345,355316,355761,358130,358996,359479,359641,359876,360835,361302,363762,367684,368450,369413,370322,371684,378799,842,85030"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "ラッシュアワーのような、アクション系でオススメの映画はありますか？",
+      "timestamp": "2023-01-31T10:10:16.697561+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "ラッシュアワーのような、アクション系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "私は最近邦画で観たのが、「劇場版 奥様は、取り扱い注意」です。\nご存じですか？",
+      "timestamp": "2023-01-31T10:11:23.843999+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "最近邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「劇場版　奥様は、取り扱い注意」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T10:10:53.094515+09:00",
+          "query": "奥様",
+          "genres": "",
+          "results": "370182"
+        }
+      ],
+      "checked": [
+        "370182_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "題名は知っています。内容は、想像する限り、アグレッシブな奥さんが主人公ですか？",
+      "timestamp": "2023-01-31T10:13:11.739138+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "題名",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "想像する限り",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "アグレッシブな奥さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "はい、この作品テレビドラマが映画化されたもので、\n綾瀬はるか演じる凄腕の元特殊工作員と西島秀俊演じる公安の人間がお互いに正体を隠して夫婦生活を送る、という話です。",
+      "timestamp": "2023-01-31T10:15:58.054492+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "この作品テレビドラマが映画化されたもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "綾瀬はるか演じる凄腕の元特殊工作員",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "西島秀俊演じる公安の人間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "正体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "夫婦生活",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "送る、という話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "370182_cast_name-0",
+        "370182_cast_name-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "なんだかMr.&Mrs.スミスみたいですね。主人公の夫婦は敵同士なのですか？",
+      "timestamp": "2023-01-31T10:17:32.529123+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "Mr.&Mrs.スミス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "主人公の夫婦",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "敵同士",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "はい、夫の任務は、工作員の妻の監視なんです。\n今回、妻は記憶喪失になっていて、今までの記憶を全て失っています。記憶が戻ったときに公安の協力者にならなければ始末するよう、夫は命じられています。",
+      "timestamp": "2023-01-31T10:21:01.315699+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "夫の任務",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "工作員の妻の監視",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "妻",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "記憶喪失",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "今までの記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "36",
+          "text": "記憶が戻ったとき",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "公安の協力者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ならなければ始末するよう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "夫",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "奥さんを場合によっては始末しなければいけないなんて、なかなかシリアスな命令ですね。ということは、映画の中で奥さんは記憶が戻るんですか？",
+      "timestamp": "2023-01-31T10:23:38.221303+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "場合",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "シリアスな命令ですね。ということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "奥さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "はい、記憶は戻るのですが、共通の敵が現われ一緒に戦うことになります。\nここは迫力満点のアクションシーンです。",
+      "timestamp": "2023-01-31T10:29:12.496801+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "共通の敵",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "47",
+          "text": "迫力満点のアクションシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "綾瀬はるかさんのアクションシーンは見たことがないので、とても気になります。ぜひ見てみたいと思います。\n素敵な映画をご紹介くださり、ありがとうございました。",
+      "timestamp": "2023-01-31T10:30:15.380018+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "綾瀬はるかさんのアクションシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "素敵な映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "この作品の見所は、綾瀬さんのギャップです。前半は夫に尽くす料理上手な健気な奥様で、後半は黒のスーツでキレッキレの動きで戦う工作員。最後の展開も見逃せません！ぜひご覧下さい。",
+      "timestamp": "2023-01-31T10:32:22.815153+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "この作品の見所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "綾瀬さんのギャップ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "前半",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "夫に尽くす料理上手な健気な奥様",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "後半",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "黒のスーツでキレッキレの動きで戦う工作員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "最後の展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "ギャップとアクションシーンに注目して見てみます！\nありがとうございます。",
+      "timestamp": "2023-01-31T10:33:51.880791+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "ギャップ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "アクションシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

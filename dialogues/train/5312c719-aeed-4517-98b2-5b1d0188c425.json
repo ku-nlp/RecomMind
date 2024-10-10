@@ -1,0 +1,1180 @@
+{
+  "dialog_id": "5312c719-aeed-4517-98b2-5b1d0188c425",
+  "created_timestamp": "2023-02-14T08:55:30.132449+09:00",
+  "archived_timestamp": "2023-02-14T09:43:21.183887+09:00",
+  "recommender": {
+    "name": "025",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "おはようございます。どうぞよろしくお願いします。",
+      "timestamp": "2023-02-14T09:00:27.555203+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "おはようございます。こちらこそ、どうぞよろしくお願いいたします。\n早速ですが、普段、どのようなテレビ番組をご覧になりますか？",
+      "timestamp": "2023-02-14T09:01:14.593020+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段、どのようなテレビ番組",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "ドキュメンタリーやコメディが好きですね。",
+      "timestamp": "2023-02-14T09:01:37.163022+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ドキュメンタリーやコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "私もコメディが好きです！ちなみに、先週末、テレビで「テルマエ・ロマエ」が放送されていましたが、ご覧になりましたか？",
+      "timestamp": "2023-02-14T09:04:04.762036+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "先週末",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「テルマエ・ロマエ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T09:01:22.319078+09:00",
+          "query": "ミニオン",
+          "genres": "",
+          "results": "336808,345366,351145,359899"
+        },
+        {
+          "timestamp": "2023-02-14T09:03:09.602167+09:00",
+          "query": "テルマエロマエ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-14T09:03:13.847587+09:00",
+          "query": "テルマエ",
+          "genres": "",
+          "results": "340852,347375"
+        }
+      ],
+      "checked": [
+        "340852_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "漫画が原作の映画ですよね？観たことないですが、お風呂の話が面白そうですね。",
+      "timestamp": "2023-02-14T09:05:17.496637+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "漫画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "原作の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "お風呂の話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "漫画が原作の映画です。阿部寛さん演じる古代ローマの浴場の設計師が、現代にタイムスリップする話です。上戸彩さんも出演されています。コメディがお好きなら、お薦めです。",
+      "timestamp": "2023-02-14T09:07:31.014793+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "漫画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "原作の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "阿部寛さん演じる古代",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ローマの浴場の設計師",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "現代にタイムスリップする話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "上戸彩さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "お好き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340852_cast_name-0",
+        "340852_cast_name-1"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "古代ローマ人を演じているのは日本人で、日本語を話しているんですよね？そこを違和感なくどうやって見せるのか気になります、",
+      "timestamp": "2023-02-14T09:10:35.100899+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "ローマ人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "日本人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "日本語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "違和感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "おっしゃる通り、日本人が古代ローマ人を演じるのは、不自然になってしまいそうですが、阿部寛さんのお顔立ちがはっきりしているので、違和感もなく、その他に出演されているのも市村正親さんや北村一輝さんという濃いお顔と演技力がある俳優さんなので、違和感はありませんでした。\nそして、日本人のことを「平たい顔族」と馬鹿にしていますが、現代の日本の技術にプライドを失っていくのを面白く演出されています。",
+      "timestamp": "2023-02-14T09:15:13.073568+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "日本人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "古代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ローマ人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "阿部寛さんのお顔立ち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "その他",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "市村正親さんや北村一輝さんという濃いお顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "演技力がある俳優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "違和感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "日本人のこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "「平たい顔族」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "現代の日本の技術",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "プライド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340852_cast_name-2",
+        "340852_cast_name-3"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "濃いキャラが多くて見ごたえがありそうですね。ただ古代ローマ人が温泉に感動する話だと思っていましたが、日本の技術の話が出てくるのは面白そうです。",
+      "timestamp": "2023-02-14T09:20:42.441815+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "濃いキャラ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "古代ローマ人が温泉に感動する話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "日本の技術の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "私たちにとって、当たり前の技術が、古代ローマ人から見たら、どのように目に映るのかが面白く演出されています。例えば、ウォシュレットを体験して、実は裏に奴隷がいて、水を流したり、換気しているように勘違いする場面など、発想がとても面白いです。",
+      "timestamp": "2023-02-14T09:23:56.577968+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "当たり前の技術",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "古代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ローマ人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ウォシュレット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "裏",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "奴隷",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "水",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "換気しているように勘違いする場面",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "発想",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T09:18:53.748287+09:00",
+          "query": "マミー",
+          "genres": "",
+          "results": "355085,360497"
+        },
+        {
+          "timestamp": "2023-02-14T09:19:00.778210+09:00",
+          "query": "テルマエ",
+          "genres": "",
+          "results": "340852,347375"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "その発想は斬新ですね！「平たい顔族」とかユーモアのセンスが好きです。舞台は東京ですか？",
+      "timestamp": "2023-02-14T09:30:02.560665+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "その発想",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "「平たい顔族」とかユーモアのセンス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "東京",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "舞台は、東京ではなく、地方の温泉だったと思います。何回かローマと現代の日本を行き来するのですが、温泉だったり、銭湯だったり、あとショールームのお風呂だったり、毎回色々なところに現れます。",
+      "timestamp": "2023-02-14T09:32:07.963978+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "東京",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "地方の温泉",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ローマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "現代の日本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "温泉",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "銭湯",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "ショールームのお風呂",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "毎回",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "色々なところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "いろんなお風呂を観ることができるんですね。それは知らなかったです。観たら温泉に行きたくなりそう！さっそく探してみます。",
+      "timestamp": "2023-02-14T09:35:21.087914+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "いろんなお風呂",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "温泉",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "寒い今にぴったりの映画かもしれませんね。この映画の監督は、武内秀樹さんですが、この監督をご存知ですか？",
+      "timestamp": "2023-02-14T09:38:02.695723+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "寒い今",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "ぴったりの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "65",
+          "text": "この映画の監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "武内秀樹さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "この監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340852_director_name"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうですね、暖かいお風呂が恋しい季節ですね。その監督は初めて聞きました。有名な方ですか？",
+      "timestamp": "2023-02-14T09:38:49.954671+09:00",
+      "internal_states": [
+        {
+          "id": "68",
+          "text": "そうですね、暖かいお風呂が恋しい季節",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "その監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "有名な方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "他にもいくつか映画を撮っていて、「翔んで埼玉」という映画もとても面白くてお薦めです。こちらは東京が舞台なので、お時間があれば、この映画もお薦めです。\n色々とお薦めしてしまいましたが、拙い推薦にお付き合いくださり、ありがとうございました。",
+      "timestamp": "2023-02-14T09:40:57.731857+09:00",
+      "internal_states": [
+        {
+          "id": "71",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "「翔んで埼玉」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "東京",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "76",
+          "text": "拙い推薦",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340852_director_other_title-2:365245"
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "そちらもすごく気になるタイトルですね！「テルマエロマエ」の次はそちらを探してみます。面白そうな映画をおすすめいただき、どうもありがとうございました！",
+      "timestamp": "2023-02-14T09:43:13.468074+09:00",
+      "internal_states": [
+        {
+          "id": "77",
+          "text": "すごく気になるタイトル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "「テルマエロマエ」の次",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

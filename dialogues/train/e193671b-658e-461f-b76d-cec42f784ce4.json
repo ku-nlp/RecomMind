@@ -1,0 +1,1479 @@
+{
+  "dialog_id": "e193671b-658e-461f-b76d-cec42f784ce4",
+  "created_timestamp": "2023-03-12T19:56:09.536929+09:00",
+  "archived_timestamp": "2023-03-12T20:39:55.354564+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんばんは！よろしくお願いします",
+      "timestamp": "2023-03-12T20:01:16.158315+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは！こちらこそよろしくお願いいたします。\nさっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-03-12T20:01:35.474029+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "春なので、新生活に向かって元気をもらえるような映画でおすすめがあればお願いします。",
+      "timestamp": "2023-03-12T20:02:57.608905+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "新生活",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "向かって元気をもらえるような映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "新生活ですね。笑えて元気もらえる映画として、私は最近「シコふんじゃった。」を再鑑賞しました。30年前の1992年の映画ですがご存じですか？",
+      "timestamp": "2023-03-12T20:04:41.507809+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "新生活",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "笑えて元気もらえる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「シコふんじゃった。」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "30年前の1992年の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T20:03:54.710171+09:00",
+          "query": "シコふんじゃった",
+          "genres": "",
+          "results": "151599"
+        }
+      ],
+      "checked": [
+        "151599_title",
+        "151599_year"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "「シコふんじゃった。」聞いたことがあります！どんな映画でしたでしょうか？「シコふむ」から、相撲関係でしょうか？",
+      "timestamp": "2023-03-12T20:05:57.597712+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "「シコふんじゃった。」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「シコふむ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "相撲関係",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "そうです！今ディズニー独占配信ですが、リメイクもされているのです。30年前、時はまだバブルの受かれた時代でして、チャラい大学生が要領だけで就職の内定も決まっていたのを4年生になった新歓の季節、代返でごまかしてきた授業の教授から単位と引き換えに廃部寸前\nぼ相撲部に入部して大会に出場しようとする話です。",
+      "timestamp": "2023-03-12T20:08:20.954941+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "今ディズニー独占配信",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "リメイク",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "30年前",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "バブルの受かれた時代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "チャラい大学生が要領だけで就職の内定も決まっていたのを4年生になった新歓の季節、代返でごまかしてきた授業の教授",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "単位",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "引き換えに廃部寸前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ぼ相撲部",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "入部して大会に出場しようとする話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_title",
+        "151599_year"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "ディズニー独占配信ですか！ディズニーと相撲、ちょっと意外な組み合わせですね（笑）。ストーリーを聞くだけでちょっと笑えますね！続きが気になります。\nところで「代返」というのは何でしょう？",
+      "timestamp": "2023-03-12T20:11:13.682605+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "ディズニー独占配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "相撲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "意外な組み合わせ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "続き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「代返」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "はい。授業の出席取るときの返事を誰かに代行してもらうことです。\n主人公は授業は全部出席して解禁してるはずなのですが、教授の顔も知りませんでした。呼び出されて「初めまして」だったのです。このチャラい大学生がまだアイドル感残っていた本木雅弘でして、まわしを締めて裸体をさらしております。その昔、もっくんって実は演技力もある役者さんじゃん！とこの映画で見直したのを覚えています。\n映画の方はツタヤでもあると思います。独占配信はリメイクされたドラマの方です。",
+      "timestamp": "2023-03-12T20:13:42.348925+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "授業の出席取るときの返事を誰かに代行してもらうこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "授業",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "教授の顔",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "このチャラい大学生",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "アイドル感残っていた本木雅弘",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "まわし",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "裸体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "もっくん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "演技力もある役者さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "映画の方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ツタヤ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "独占配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "リメイクされたドラマの方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_cast_name-0"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "代返はそういう意味なんですね。\n主人公はもっくんですか。ハチャメチャなストーリ展開ですが、演技派でさらに裸体までさらして、もっくんさすがですね！リメイクはいつ頃されたんでしょう？",
+      "timestamp": "2023-03-12T20:16:29.039982+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "代返",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "そういう意味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ハチャメチャなストーリ展開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "演技派",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "裸体",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "もっくん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "リメイク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "すみません。解禁→皆勤の変換ミスです。リメイクは去年、ちょうど30周年の時にです。このリメイク版は今の時代です。時代の移り変わりもたくさん見れますが、笑えるのは、オリジナル映画に出てた人々がそのまま30年後にも同じキャラで登場するところです。続きのような感じなのですよ。これはブレードランナーの上を行きます。",
+      "timestamp": "2023-03-12T20:19:11.168742+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "解禁→皆勤の変換ミス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "去年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "30周年の時",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "このリメイク版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "今の時代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "時代の移り変わり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "オリジナル映画に出てた人々",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "30年後にも同じキャラで登場するところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "続きのような感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ブレードランナーの上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "ちゃらくて代返のくせに、皆勤やったんですか（笑）\nリメイクは最近なんですね！えー、オリジナル映画の方がそのまま登場するんですか（笑）それはぜひ、オリジナルを、まず楽しんでから、リメイクを観てみたいですね。",
+      "timestamp": "2023-03-12T20:21:33.549999+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "ちゃらくて代返のくせ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "59",
+          "text": "皆勤",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "60",
+          "text": "オリジナル映画の方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "オリジナル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "リメイク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そうなんです！オリジナル映画見ていた方が絶対楽しめます。私も今回ふと、あまり期待もせずリメイクドラマを見ていて、こちらはこちらでおもしろいですけど、何が一番って、あれ、この人？え、この人もいる！とオリジナル映画に出てた人を見つけていくこと。あとは曲もかなり映画の物をは拝借していて、れ？この曲おんなじじゃんってかんっじでオリジナルを改めて見直しました。\nそしてやっぱりこのオリジナルの「シコふんじゃった。」って笑いと言いストーリー展開と言い、改めてすごいわと思った次第です。",
+      "timestamp": "2023-03-12T20:24:44.295568+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "オリジナル映画見ていた方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "期待",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "リメイクドラマ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "この人？え、この人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "いる！とオリジナル映画に出てた人を見つけていくこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "映画の物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "この曲おんなじじゃんってかんっじ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "オリジナル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "「シコふんじゃった。」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "ストーリー展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "すごいわと思った次第",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_title"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "めちゃめちゃ遊び心が満載の映画とドラマのようですね！もっくんの他に、リメイク版に出られている俳優さんはどんな方がいますか？そういえば監督も同じ方でしょうか？",
+      "timestamp": "2023-03-12T20:27:48.317524+09:00",
+      "internal_states": [
+        {
+          "id": "76",
+          "text": "めちゃめちゃ遊び心",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "77",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "もっくんの他に、リメイク版に出られている俳優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "80",
+          "text": "どんな方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "81",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "82",
+          "text": "同じ方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "オリジナルは周防正行監督でしたが、今回監修だけで別の監督がリメイクは作っています。ちなみに残念ながらリメイクにもっくんだけは出てこないのですよ。でも清水美砂や竹中直人（この人はどちらでも一番笑いを持って行きます）田口浩正に柄本明、その他大勢出てくるんですよ。",
+      "timestamp": "2023-03-12T20:30:35.063310+09:00",
+      "internal_states": [
+        {
+          "id": "83",
+          "text": "オリジナル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "84",
+          "text": "周防正行監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "85",
+          "text": "監修",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "86",
+          "text": "別の監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "87",
+          "text": "リメイク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "88",
+          "text": "もっくん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "89",
+          "text": "清水美砂や竹中直人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "90",
+          "text": "この人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "91",
+          "text": "持って行きます）田口浩正",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "92",
+          "text": "柄本明",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "93",
+          "text": "大勢",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_director_name",
+        "151599_cast_name-1",
+        "151599_cast_name-2",
+        "151599_cast_name-3",
+        "151599_cast_name-4"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "もっくんは出ていないですね。残念！でも周りの俳優陣の名前を聞くだけでも（特に竹中直人）楽しめそうですね。ぜひ観たいです！",
+      "timestamp": "2023-03-12T20:35:05.300175+09:00",
+      "internal_states": [
+        {
+          "id": "94",
+          "text": "もっくん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "95",
+          "text": "周りの俳優陣の名前",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "96",
+          "text": "（特に竹中直人）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "是非観てみてください！他にも映画なら配信あるかしら？少なくともレンタルDVDはあるはずです。いやいやこれだけ笑えるのに、負け犬チックな弱い人達が元気づけられます。そういうヘンなぱっとしない人ばかりが相撲部にそれぞれの理由で縫う部刷るのですが、皆それぞれの道を見つけて前に進んで行くのですよ。とてもやさしい映画でもあるのです。",
+      "timestamp": "2023-03-12T20:38:04.761856+09:00",
+      "internal_states": [
+        {
+          "id": "97",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "98",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "99",
+          "text": "レンタルDVD",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "100",
+          "text": "負け犬チックな弱い人達",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "101",
+          "text": "そういうヘンなぱっとしない人ばかりが相撲部にそれぞれの理由で縫う部",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "102",
+          "text": "それぞれの道",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "103",
+          "text": "やさしい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "なんだかストーリーの紹介いただけるだけで、元気をもらえました（笑）\n良い映画をご紹介いただいてありがとうございました。",
+      "timestamp": "2023-03-12T20:39:00.783091+09:00",
+      "internal_states": [
+        {
+          "id": "104",
+          "text": "元気をもらえました（笑）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "105",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "縫う部刷る→入部するです。ごめんなさい。\n是非観てくださいね。こちらこそありがとうございました。",
+      "timestamp": "2023-03-12T20:39:30.858738+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

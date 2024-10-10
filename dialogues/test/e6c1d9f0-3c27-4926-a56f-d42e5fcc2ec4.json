@@ -1,0 +1,986 @@
+{
+  "dialog_id": "e6c1d9f0-3c27-4926-a56f-d42e5fcc2ec4",
+  "created_timestamp": "2023-03-15T19:56:14.933210+09:00",
+  "archived_timestamp": "2023-03-15T20:34:09.268120+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "056",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。",
+      "timestamp": "2023-03-15T19:59:13.245611+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします！",
+      "timestamp": "2023-03-15T19:59:29.579294+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんな映画がお好きですか？\n洋画メインで観ているので、邦画は少し苦手です。",
+      "timestamp": "2023-03-15T20:00:16.340839+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画メイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "特に好き嫌いはないのですが、ちょっと古い時代の洋画でおすすめはありますか？",
+      "timestamp": "2023-03-15T20:01:04.035134+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "好き嫌い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "古い時代の洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "古い時代と言うと、80'sあたりのですか？",
+      "timestamp": "2023-03-15T20:01:50.865247+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "古い時代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "80'sあたり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "そうですね、もう少し古くても大丈夫です。",
+      "timestamp": "2023-03-15T20:02:24.791282+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "1970年代くらいからしかわからないのですが、定番で「ゴッドファーザー」「エイリアン」「ゴッドファーザー」「アメリカン・グラフィティ」などはいかがですか。",
+      "timestamp": "2023-03-15T20:08:04.051483+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "1970年代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "定番",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「エイリアン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「ゴッドファーザー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「アメリカン・グラフィティ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-15T20:04:23.322665+09:00",
+          "query": "ゴッドファーザー",
+          "genres": "",
+          "results": "241171,364938,7931"
+        },
+        {
+          "timestamp": "2023-03-15T20:05:03.296617+09:00",
+          "query": "エイリアン",
+          "genres": "",
+          "results": "159811,235794,2752,2753,2755,319069,326362,328996,333331,335765,338323,339013,339354,341460,342444,344646,355228,355424,359315,365988,366584,83465"
+        },
+        {
+          "timestamp": "2023-03-15T20:05:31.142387+09:00",
+          "query": "ロッキー",
+          "genres": "",
+          "results": "10248,24136,328996,354167,355570,358526,364743,367867,368764"
+        },
+        {
+          "timestamp": "2023-03-15T20:05:44.552293+09:00",
+          "query": "タワリング",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-15T20:07:39.582688+09:00",
+          "query": "アメリカン",
+          "genres": "",
+          "results": "12124,1281,159869,20696,235234,321448,324328,327713,329107,335381,335925,337482,340426,344125,346643,350823,352378,359063,363117,369005,4450"
+        }
+      ],
+      "checked": [
+        "7931_title",
+        "2752_title",
+        "1281_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "タイトルはよく知っていますが、観たことがないものばかりです。アメリカン・グラフティは青春映画でしたか？",
+      "timestamp": "2023-03-15T20:09:07.421176+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "観たことがないもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アメリカン・グラフティ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "青春映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ジョージルーカスの青春物です。",
+      "timestamp": "2023-03-15T20:10:10.957971+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "ジョージルーカスの青春物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-15T20:08:27.654571+09:00",
+          "query": "タワーリング",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-15T20:08:31.589395+09:00",
+          "query": "タワリング",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-15T20:08:33.098218+09:00",
+          "query": "タワリング",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-15T20:08:41.435792+09:00",
+          "query": "ポセイドン",
+          "genres": "",
+          "results": "335196,335568,340731,359876"
+        },
+        {
+          "timestamp": "2023-03-15T20:09:12.077369+09:00",
+          "query": "フレンチ",
+          "genres": "",
+          "results": "241897,27023,335255,356113,364788"
+        },
+        {
+          "timestamp": "2023-03-15T20:09:23.394987+09:00",
+          "query": "アメリカン・グラフティ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-15T20:09:27.562616+09:00",
+          "query": "アメリカン",
+          "genres": "",
+          "results": "12124,1281,159869,20696,235234,321448,324328,327713,329107,335381,335925,337482,340426,344125,346643,350823,352378,359063,363117,369005,4450"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ジョージ・ルーカスが製作したものだったんですね。どのような内容ですか？",
+      "timestamp": "2023-03-15T20:11:00.090950+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "ジョージ・ルーカス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "製作したもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "どのような内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "4人の若者たちが過ごす一晩の物語です。\n大学に進むため、街を出る者と過ごす最後の夜を楽しむため街に繰り出します。\nロックの名曲がバックに流れます。",
+      "timestamp": "2023-03-15T20:14:00.644580+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "4人の若者たちが過ごす一晩の物語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "大学に進むため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "街を出る者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "過ごす最後の夜を楽しむため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "街",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ロックの名曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "バック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "まさに青春ですね。どのような俳優が出演していますか？",
+      "timestamp": "2023-03-15T20:14:46.432885+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "青春",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "どのような俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "後に監督として名を成すロン・ハワードyリチャード・ドレイファスや無名時代のハリソン・フォードも出ています。",
+      "timestamp": "2023-03-15T20:16:55.743449+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "監督として名を成すロン・ハワードyリチャード・ドレイファスや無名時代のハリソン・フォード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ハリソン・フォードですか！青春と結びつかない感じですね。あとの二つの映画は内容もなんとなくわかりますが、おすすめのポイントはどんなところですか？",
+      "timestamp": "2023-03-15T20:17:59.969372+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ハリソン・フォード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "青春と結びつかない感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "あとの二つの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "おすすめのポイント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "どんなところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "アメリカン・グラフィティは、やはり日本との違いに皆憧れがあったところです。高校生または卒業間近で車に乗ってみんなで溜まり場に集まるなんて公開時には日本では想像できなかったと思います。\nエイリアンは、やはりエイリアンの造詣となかなか姿を現さないため恐怖が増幅されます。\nゴッドファーザーは、3部作ですが1作目のマーロン・ブランドのマフィアのドンの演技と有無を言わさぬ暴力と哀愁に満ちたテーマソングが素晴らしいです。",
+      "timestamp": "2023-03-15T20:24:06.322568+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "アメリカン・グラフィティ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "日本との違い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "あったところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "高校生または卒業",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "車",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "溜まり場",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "公開時",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "日本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "エイリアン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "エイリアンの造詣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "姿を現さないため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "恐怖",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ゴッドファーザー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "3部作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "1作目のマーロン・ブランドのマフィアのドンの演技と有無を言わさぬ暴力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "哀愁に満ちたテーマソング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-15T20:22:45.506768+09:00",
+          "query": "ゴッドファーザー",
+          "genres": "",
+          "results": "241171,364938,7931"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ゴッドファーザーのテーマは有名ですねそれぞれジャンルが違いますが、今ののよ",
+      "timestamp": "2023-03-15T20:28:13.278813+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "ゴッドファーザーのテーマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "どれも名作と言われる物ですので、ご興味があれば一度観ていただければ良いと思います。\n結構新しい映画にも、オマージュというかギャグで古い映画のシーン真似とかあります。\n今日は、タイプミスとかありすみませんでした。",
+      "timestamp": "2023-03-15T20:32:00.379469+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "どれも名作と言われる物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "新しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "オマージュ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "ギャグで古い映画のシーン真似",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "タイプミス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "furu",
+      "timestamp": "2023-03-15T20:33:14.490783+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "furu",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-03-15T20:33:59.433490+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

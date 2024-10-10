@@ -1,0 +1,736 @@
+{
+  "dialog_id": "bbd0dc1a-b285-4da3-883c-f217f54438d8",
+  "created_timestamp": "2023-03-08T20:00:04.543047+09:00",
+  "archived_timestamp": "2023-03-08T20:42:55.583348+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 1,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-03-08T20:00:46.912849+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。ハリウッド映画をよく観ています。\nどんなジャンルの映画がお好きですか。",
+      "timestamp": "2023-03-08T20:01:23.254990+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ハリウッド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "ジャンルは特に決まっていないですが、邦画はよく見ます。洋画も面白いのがあれば見たりします。",
+      "timestamp": "2023-03-08T20:04:41.116416+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "洋画は、アクション大作とか観られますか。\n「トップガン マーヴェリック」、「アベンジャーズ」シリーズとか観られてますか。",
+      "timestamp": "2023-03-08T20:06:33.807068+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アクション大作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「トップガン　マーヴェリック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「アベンジャーズ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T20:04:55.534934+09:00",
+          "query": "トップガン",
+          "genres": "",
+          "results": "15997,369221"
+        }
+      ],
+      "checked": [
+        "369221_title",
+        "341611_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "比較的に新しい映画でしょうか？古い映画はあまり興味がなくて、、、",
+      "timestamp": "2023-03-08T20:07:20.175162+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "比較的に新しい映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "古い映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "「トップガン マーヴェリック」は、昨年5月公開でした。\nあまり邦画が得意でないので、観られた洋画を教えていただけますか。",
+      "timestamp": "2023-03-08T20:10:15.764693+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "「トップガン　マーヴェリック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "昨年5月公開",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "観られた洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "アカデミー賞を取った作品を見たりします。例えば「グリーンブック」とか、「レヴェナント：蘇えりし者」を見ました。",
+      "timestamp": "2023-03-08T20:15:03.888916+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "アカデミー賞を取った作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「グリーンブック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「レヴェナント：蘇えりし者」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "「グリーンブック」、「レヴェナント：蘇えりし者」は、アカデミー賞受賞してますね。\n昨年受賞した「コーダ　あいのうた」は、聴覚障害者の家族の話なんですけれどいかがでしょうか。",
+      "timestamp": "2023-03-08T20:19:29.998989+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "「グリーンブック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「レヴェナント：蘇えりし者」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "アカデミー賞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「コーダ　あいのうた」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "聴覚障害者の家族の話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T20:18:17.518933+09:00",
+          "query": "コーダ",
+          "genres": "",
+          "results": "320442,321011,329546,336170,346339,346341,350931,356503,362656,367262,379867"
+        }
+      ],
+      "checked": [
+        "379867_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "こちらも聞いたことはありますが、まだ見ていないです。どんな作品でしょうか？",
+      "timestamp": "2023-03-08T20:21:49.651615+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "もとはフランス映画で、ハリウッドリメイク作品です。\n聴覚障害の家族の中で、唯一耳が聞こえる主人公が一般社会との架け橋となって家業の手伝いをしていたのですが、合唱クラブの顧問が、彼女の才能に気づいて名門音大への受験を進めるのですが、そこで家族との間にわだかまりができ、それを乗り越えていく話です。",
+      "timestamp": "2023-03-08T20:26:06.113710+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "もと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "フランス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ハリウッドリメイク作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "聴覚障害の家族の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "耳が聞こえる主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "一般社会との架け橋",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "家業の手伝い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "合唱クラブの顧問",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "彼女の才能",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "名門音大への受験",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "家族との間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "わだかまり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "でき、それを乗り越えていく話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "なるほど、感動作ですね。映画の中で手話がいっぱい出ますか？実は最近、手話に興味を持ち始めています。",
+      "timestamp": "2023-03-08T20:28:34.841611+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "感動作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "手話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "手話は、出てきます。\n聴覚障害の家族役のかたは、みなさん実際に聴覚障害の方達が演じています。",
+      "timestamp": "2023-03-08T20:31:04.477732+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "手話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "聴覚障害の家族役のかた",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "みなさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "聴覚障害の方達",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "へえー、みんな素人ですか？それとも他の映画にも出演したことがあるのですか？",
+      "timestamp": "2023-03-08T20:35:52.471812+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "素人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "他の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "両親役の方は、昔から活躍されていたようです。この映画を観るまで私も存じ上げていなかったのです。",
+      "timestamp": "2023-03-08T20:37:23.710227+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "両親役の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうなんですね。見てみたいと思います！ありがとうございました！",
+      "timestamp": "2023-03-08T20:40:20.835817+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "興味を持っていただけてよかったです。",
+      "timestamp": "2023-03-08T20:41:13.474911+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

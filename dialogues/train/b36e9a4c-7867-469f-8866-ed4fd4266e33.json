@@ -1,0 +1,826 @@
+{
+  "dialog_id": "b36e9a4c-7867-469f-8866-ed4fd4266e33",
+  "created_timestamp": "2023-01-28T13:58:32.736507+09:00",
+  "archived_timestamp": "2023-01-28T14:30:40.533748+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "026",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-01-28T14:02:00.827065+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-01-28T14:02:19.446751+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-01-28T14:02:34.435090+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "なんでも興味があるほうですので、ぜひおすすめの映画を教えていただけますか？\n新旧問いません！",
+      "timestamp": "2023-01-28T14:03:56.368137+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "興味があるほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "新旧",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ちょうど今朝アン・ハサウェイの記事を読んだところだったのですが、「マイ・インターン」はご覧になったことはありますか？",
+      "timestamp": "2023-01-28T14:05:39.051004+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "今朝アン・ハサウェイの記事を読んだところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「マイ・インターン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-28T14:04:55.380822+09:00",
+          "query": "インターん",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-28T14:04:59.324277+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title",
+        "353403_cast_name-1"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "最初の方、少しテレビで見て、全部見ないで、録画はしたままになっています。\n楽しそうな映画ですね。アン・ハサウェイは好きですね、",
+      "timestamp": "2023-01-28T14:07:34.856958+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "最初の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "録画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "したまま",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "楽しそうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "どうでしたか、とにかく綺麗でキャリアウーマンなアン・ハサウェイと茶目っ気たっぷりなロバート・デ・ニーロのコンビが素敵な映画です。",
+      "timestamp": "2023-01-28T14:08:57.582032+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "綺麗でキャリアウーマン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "茶目っ気たっぷりなロバート・デ・ニーロのコンビが素敵な映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "本当に最初のところで、デ・ニーロが求職案内を見て応募して、採用されることになったところ\nまでで、すみません、まだそこまでです。恋に落ちるのですか？？",
+      "timestamp": "2023-01-28T14:12:35.465776+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "本当に最初のところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "デ・ニーロ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "求職案内",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "採用されることになったところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "恋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "元々アン・ハサウェイは結婚していて、子供もいます。彼女が経営する会社に、40年間も電話帳の会社で働いていた70歳の老人ベンが、シニア・インターン制度で採用されてやってくるというストーリーです。",
+      "timestamp": "2023-01-28T14:14:20.475318+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "彼女が経営する会社に、40年間も電話帳の会社で働いていた70歳の老人ベン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "シニア・インターン制度",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "やってくるというストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_cast_name-1",
+        "353403_plot-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "電話帳の会社のところは最初に出てきて、何かの伏線かなあと思っています。\nデ・ニーロがこれまでの職歴や人生経験を活かしてアン・ハサウェイを\nサポートしていくという印象ですね。",
+      "timestamp": "2023-01-28T14:19:12.850802+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "電話帳の会社のところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "何かの伏線",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "デ・ニーロ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "これまでの職歴や人生経験",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "サポートしていくという印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "その通りです。若者ばかりの社内で当初はやや浮いた存在になってしまっていたベンだったが、いつしか彼はその誠実で穏やかな人柄と細やかな仕事ぶりによって、社内の人気者になっていくという展開です。",
+      "timestamp": "2023-01-28T14:20:10.050742+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "若者ばかりの社内",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "当初",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "浮いた存在になってしまっていたベン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "その誠実で穏やかな人柄",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "細やかな仕事ぶり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "社内の人気者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "なっていくという展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_plot-2"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "少し前に日本のテレビドラマで、西島秀敏と永野芽郁出演の「ユニコーンに乗って」\nも、シニア・インターンではないけれど、よく似たテーマでした。\n年代の差を超えて、良い影響を与えあうというのはいいことですね。",
+      "timestamp": "2023-01-28T14:23:48.173876+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "日本のテレビドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "西島秀敏と永野芽郁出演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "「ユニコーンに乗って」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "も、シニア・インターン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "似たテーマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "年代の差",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "良い影響",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "いいこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうでしたか。そのドラマは観ていませんが、素敵ですね。この映画はコメディ要素もあるので、気軽に観れる映画だと思います。",
+      "timestamp": "2023-01-28T14:26:03.470864+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "そのドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "気軽に観れる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "コメディは見ていて気持ちが明るくなりますね。よくコメディは見られるのですか？",
+      "timestamp": "2023-01-28T14:26:56.026287+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "気持ち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "シリアス過ぎない映画なら、気軽に観れるので好きです。よく観ます。もし機会があればぜひ録画していたマイ・インターン観てくださいね。今日はありがとうございました。",
+      "timestamp": "2023-01-28T14:29:22.759894+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "シリアス過ぎない映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "録画していたマイ・インターン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_title"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ぜひ近々みようと思います。\nどうもありがとうございました！",
+      "timestamp": "2023-01-28T14:30:35.324765+09:00",
+      "internal_states": []
+    }
+  ]
+}

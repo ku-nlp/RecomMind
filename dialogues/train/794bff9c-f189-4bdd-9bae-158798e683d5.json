@@ -1,0 +1,757 @@
+{
+  "dialog_id": "794bff9c-f189-4bdd-9bae-158798e683d5",
+  "created_timestamp": "2023-02-01T09:58:26.370826+09:00",
+  "archived_timestamp": "2023-02-01T10:17:56.479487+09:00",
+  "recommender": {
+    "name": "035",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いいたします。",
+      "timestamp": "2023-02-01T10:00:30.061357+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願いします。",
+      "timestamp": "2023-02-01T10:00:33.554996+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、普段どんなジャンルの映画をご覧になりますか？",
+      "timestamp": "2023-02-01T10:00:52.760905+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段どんなジャンルの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "日本の映画で、チャンバラ映画ともいうというか、凜々しいお殿様と綺麗なお姫様が登場する映画が好きです。",
+      "timestamp": "2023-02-01T10:01:56.726792+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "日本の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "チャンバラ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "凜々しいお殿様",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "綺麗なお姫様が登場する映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「たそがれ清兵衛」はご存じですか？",
+      "timestamp": "2023-02-01T10:02:32.644720+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「たそがれ清兵衛」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-01T10:02:10.155621+09:00",
+          "query": "",
+          "genres": "historical",
+          "results": "159561,234051,237101,238297,240096,321931,326308,329862,330507,333522,335402,336481,338319,339723,341516,345033,345075,346393,346394,346791,347552,350112,353460,353539,354343,356033,356148,356895,357209,358205,362465,363374,364143,364542,365786,366964,367926,368738,369333,369911,370667,370963,374337,86066,87913"
+        }
+      ],
+      "checked": [
+        "238297_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "タイトルは知っていますが、詳しくは知りません。",
+      "timestamp": "2023-02-01T10:03:07.100535+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "山田洋次監督の映画で、主演は真田広之です。\nとても寡黙で真面目な主人公は、病気の妻を献身的にささえながら生きる主人公に降りかかる苦難…\nといった内容です。",
+      "timestamp": "2023-02-01T10:04:59.612137+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "山田洋次監督の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "真田広之",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "寡黙で真面目な主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "病気の妻",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "献身的にささえながら生きる主人公に降りかかる苦難",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "といった内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "山田洋次監督は有名ですね。観た後はぐっと感動しましたか。",
+      "timestamp": "2023-02-01T10:06:10.509163+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "山田洋次監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "感動というよりも、考えさせるお話でした。",
+      "timestamp": "2023-02-01T10:07:10.461978+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "感動",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "どんなポイントで考えるのでしょうか。鑑賞後は生活態度が変りましたか。",
+      "timestamp": "2023-02-01T10:08:01.089924+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "どんなポイント",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "鑑賞後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "生活態度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "武士の生き方の美しさ、歯痒さを噛み締める、そんな感じでしょうか。\n生活態度は特に変わりませんが、時代劇をみた後は、人生の価値について考え直す気がします。",
+      "timestamp": "2023-02-01T10:08:56.632170+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "武士の生き方の美しさ、歯痒さを噛み締める、そんな感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "生活態度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "時代劇をみた後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "人生の価値について考え直す気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "確かに、考え直すという点では、私も同じです。だから、映画を観たくなるのでしょうね。映像や音楽は、いかがでしたか。",
+      "timestamp": "2023-02-01T10:10:23.379746+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "確かに、考え直すという点",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "映像や音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "主題歌は井上陽水「決められたリズム」で、意外な組み合わせでしたが、儚く柔らかな歌声や優しく美しいメロディが見終わった後の色々な感情を包み込んでくれるような、完璧な選曲だと感じました。",
+      "timestamp": "2023-02-01T10:11:42.582715+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "主題歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "井上陽水",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「決められたリズム」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "意外な組み合わせ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "儚く柔らかな歌声や優しく美しいメロディが見終わった後の色々な感情を包み込んでくれるような、完璧な選曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "238297_plot-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "わあ、井上陽水さんは好きな音楽家です。歌やメロディが素敵ですよね。その映画をほんとに見たくなりました。レンタルで探してみようかしら。",
+      "timestamp": "2023-02-01T10:13:22.310133+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "わあ、井上陽水さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "好きな音楽家",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "歌やメロディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "レンタル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "それは良かったです。\n本当に、独特の表現が素敵ですね。\nぜひ一度ご覧ください。",
+      "timestamp": "2023-02-01T10:14:14.175024+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "独特の表現",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ちなみに、どちらで鑑賞しましたか。鑑賞方法など、お勧めがあれば教えて頂きたいわ。",
+      "timestamp": "2023-02-01T10:15:05.948904+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "鑑賞方法",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "友人が所有していたDVDを鑑賞しました。\n大きめのテレビで見るとより物語に没入できる気がします。\n映像がシンプルで繊細なので、プロジェクションよりテレビモニターがおすすめです。",
+      "timestamp": "2023-02-01T10:16:49.727590+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "友人が所有していたDVD",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "大きめのテレビ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "物語に没入できる気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "プロジェクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "テレビモニター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "いい情報を有り難うございました。",
+      "timestamp": "2023-02-01T10:17:21.437353+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "いい情報",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました。\n楽しんでください！",
+      "timestamp": "2023-02-01T10:17:40.058064+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

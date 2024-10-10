@@ -1,0 +1,761 @@
+{
+  "dialog_id": "9c8ded1a-87ed-41a3-a34e-32b81e80753a",
+  "created_timestamp": "2023-03-06T16:57:46.838143+09:00",
+  "archived_timestamp": "2023-03-06T17:23:55.411740+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-03-06T17:00:00.675206+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-06T17:00:12.962093+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-03-06T17:00:23.017334+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "基本的には怖い映画以外なら何でも大丈夫ですが、以前はコメディなど話題になっているものをよく観ていました。メジャーなものでなくてもいいので、最近面白かった映画があれば知りたいです。",
+      "timestamp": "2023-03-06T17:04:13.005887+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "基本的には怖い映画以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "話題になっているもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "メジャーなもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "面白かった映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうですね、最近ミニオンズのシリーズを1から見直したのですが、改めて見ると、大笑いするほど面白かったです。ご覧になったことはございますか？",
+      "timestamp": "2023-03-06T17:05:27.294088+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "そうですね、最近",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ミニオンズのシリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "1",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "大笑いするほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "観たことはありません。どんな映画ですか？",
+      "timestamp": "2023-03-06T17:05:59.616233+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ミニオンズは、2015年のユニバーサルのアニメーション映画なのですが、黄色い体にデニムのオーバーオールを着たキャラクターはお見掛けしたことはあるのではないでしょうか。",
+      "timestamp": "2023-03-06T17:07:13.783652+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ミニオンズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "2015年のユニバーサルのアニメーション映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "黄色い体にデニムのオーバーオールを着たキャラクター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T17:06:08.576294+09:00",
+          "query": "ミニオンズ",
+          "genres": "",
+          "results": "351145"
+        }
+      ],
+      "checked": [
+        "351145_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "なんとなくわかります。ウサギでしたっけ？",
+      "timestamp": "2023-03-06T17:08:00.627284+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ウサギ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "いや、動物ではなく、未知の単細胞生物なんですね。悪党に仕えていて、第一作目はその悪党の指示により、エリザベス女王の王冠を盗むよう指示されます。なので、舞台はロンドンなのですが、あちこちに皮肉やジョークが隠れています。エリザベス女王もそっくりに描かれていますよ。",
+      "timestamp": "2023-03-06T17:09:26.211594+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "未知の単細胞生物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "悪党",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "第一作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "その悪党の指示により、エリザベス女王の王冠を盗むよう",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ロンドン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "皮肉やジョーク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "エリザベス女王",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "それは面白そうですね。そのシリーズは何作あるのですか？",
+      "timestamp": "2023-03-06T17:11:33.971495+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "そのシリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "計５作ですが、私は1が一番すきです。アメリカ人から見たイギリスのイメージでしょうか、歯並びが悪い、いつでもどこでもお茶をすする、といった皮肉なシーンもあり、ディズニーでは観られないシーンだなと、面白かったです。",
+      "timestamp": "2023-03-06T17:12:28.162450+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "計５作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "1",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "アメリカ人から見たイギリスのイメージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "歯並び",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "お茶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "すする、といった皮肉なシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ディズニーでは観られないシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうですよね。未知の単細胞生物ももしかして皮肉なんですか？",
+      "timestamp": "2023-03-06T17:14:29.535710+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "未知の単細胞生物もも",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね、結構マヌケな生物なので、皮肉かもしれませんね。英語なのかスペイン語なのか分からない機械音でコミュニケーションをとっています。１作目の悪党の声が、サンドラブロックだったのですが、とても自然でお上手でした。",
+      "timestamp": "2023-03-06T17:17:16.380763+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "マヌケな生物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "英語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "スペイン語なのか分からない機械音",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "コミュニケーション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "１作目の悪党の声",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "サンドラブロック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "351145_cast_name-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "それは大笑いしそうですね。悪党の声がサンドラ・ブロックというのも、ミスマッチというか、興味を持ってしまいますね。",
+      "timestamp": "2023-03-06T17:20:21.354159+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "悪党の声",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "サンドラ・ブロック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ミスマッチ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "是非字幕版で観て下さい。日本語版は笑福亭鶴瓶の声のクセがキツすぎて私は無理でした。全作面白いので、笑ってストレスを発散したいときなどにおススメです！ぜひご覧になって頂きたいです。",
+      "timestamp": "2023-03-06T17:21:08.063567+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "字幕版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "日本語版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "42",
+          "text": "笑福亭鶴瓶の声のクセ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "全作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "笑ってストレスを発散したいとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "日本語版があるんですね。その内容だと字幕版を観た方が絶対いいですよね。大笑いしてストレス発散したいと思います。今日はありがとうございました。",
+      "timestamp": "2023-03-06T17:23:41.207794+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "日本語版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "46",
+          "text": "その内容だと字幕版を観た方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ストレス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございます。",
+      "timestamp": "2023-03-06T17:23:53.281744+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

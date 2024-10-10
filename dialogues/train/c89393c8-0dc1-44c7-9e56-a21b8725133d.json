@@ -1,0 +1,823 @@
+{
+  "dialog_id": "c89393c8-0dc1-44c7-9e56-a21b8725133d",
+  "created_timestamp": "2023-02-07T15:54:11.485264+09:00",
+  "archived_timestamp": "2023-02-07T16:18:22.814112+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "023",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-07T16:00:07.197768+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！始めまして。よろしくお願いいたします。",
+      "timestamp": "2023-02-07T16:00:31.457672+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-07T16:00:41.316086+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "コメディとかラブコメとか笑えるものが好きです。",
+      "timestamp": "2023-02-07T16:02:07.862901+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディとかラブコメとか笑えるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画や邦画、アニメなどのこだわりはいかがでしょうか。",
+      "timestamp": "2023-02-07T16:02:42.907274+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画や邦画、アニメなどのこだわり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかと言うと洋画が好きですが、邦画も面白いものなら見たいです。アニメはあまり好きではありません。",
+      "timestamp": "2023-02-07T16:03:27.998002+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "面白いもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "邦画で、2007年の「舞妓 Haaaan!!!」という映画はご覧になったことはありますか？",
+      "timestamp": "2023-02-07T16:04:38.055532+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "2007年の「舞妓　Haaaan!!!」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-07T16:03:27.344042+09:00",
+          "query": "魔法に",
+          "genres": "",
+          "results": "328581,346540,361356,369014,369413"
+        },
+        {
+          "timestamp": "2023-02-07T16:03:48.921021+09:00",
+          "query": "舞妓",
+          "genres": "",
+          "results": "326289,348578"
+        }
+      ],
+      "checked": [
+        "326289_title",
+        "326289_year"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "聞いたことがないです。どんな映画ですか？",
+      "timestamp": "2023-02-07T16:05:04.607853+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "出演は阿部サダヲさん、堤真一さん、柴咲コウさんなど、豪華です。修学旅行で迷子になった際に舞妓さんに助けられたことがきっかけで、舞妓と遊ぶことを夢見続けている鬼塚公彦役を阿部サダヲさんが演じておられます。",
+      "timestamp": "2023-02-07T16:06:26.504877+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "堤真一さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "柴咲コウさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "修学旅行",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "迷子になった際に舞妓さんに助けられたこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "きっかけ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "舞妓と遊ぶことを夢見続けている鬼塚公彦役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "阿部サダヲさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326289_cast_name-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "面白そうですね！（コメディとは関係ありませんが）映像や衣装が奇麗なものだとテンションが上がりますが、舞妓さんということで奇麗そうですね。舞台は京都でしょうか。",
+      "timestamp": "2023-02-07T16:08:29.523811+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "（コメディとは関係ありませんが）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "テンション",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "舞妓さんということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "京都",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "舞台は京都です。人事異動により、京都支社に転勤となり、念願の舞妓遊びができると意気込むのですが、もしろんイチゲンさんさんはお断りされてしまう。そこで、自社の社長と仲良くなり、舞妓遊びに連れていってもらうまでこじつけたり、舞妓さんと遊ぶだけのために奮闘する姿を、コミカルに演じておられます。",
+      "timestamp": "2023-02-07T16:10:08.071248+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "人事異動",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "23",
+          "text": "京都支社",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "転勤",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "念願の舞妓遊び",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ろんイチゲンさんさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "自社の社長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "舞妓遊び",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "こじつけたり、舞妓さんと遊ぶだけのために奮闘する姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326289_plot-2"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "京都に舞妓さんということで映像も楽しめそうですね！面白くて楽しそうですね。\nどこで見ることができますか。配信サービスなどでもあるのでしょうか。",
+      "timestamp": "2023-02-07T16:12:11.837195+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "京都",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "舞妓さんということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "配信サービス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "配信にあると思いますが、アマゾンプライムでは有料でした。私は当時映画館に観にいき、爆笑したのを覚えています。関西弁の堤真一さんと、東京から来た阿部サダヲさんとの絡みが面白いですよ。",
+      "timestamp": "2023-02-07T16:13:52.462300+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "有料",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "関西弁の堤真一さんと、東京から来た阿部サダヲさんとの絡み",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほどー。映画館だと他の人の笑い声も聞こえてきて楽しそうですね。\nそのお二人はコミカルな演技がお上手そうですよね。言葉の掛け合いも面白そうです。\n柴咲コウさんは舞妓さん役ですか？",
+      "timestamp": "2023-02-07T16:16:13.350214+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "他の人の笑い声",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "そのお二人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "コミカルな演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "言葉の掛け合い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "柴咲コウさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "舞妓さん役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "柴咲コウさんは、阿部サダヲさんの元カノ役なので、最初は冴えない女子で登場しますが、最後に舞妓姿になるところが、とても美しかったです。機会があればぜひご覧になって下さいね。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-02-07T16:17:05.950113+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "柴咲コウさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "阿部サダヲさんの元カノ役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "冴えない女子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "最後に舞妓姿になるところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326289_cast_name-2"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね！柴咲コウさんの舞妓姿美しそうですね！機会があれば是非見てみます。\n今日はいろいろ教えていただきありがとうございました！",
+      "timestamp": "2023-02-07T16:18:14.602490+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "柴咲コウさんの舞妓姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

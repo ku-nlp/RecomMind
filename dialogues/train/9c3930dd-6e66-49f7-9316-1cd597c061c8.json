@@ -1,0 +1,708 @@
+{
+  "dialog_id": "9c3930dd-6e66-49f7-9316-1cd597c061c8",
+  "created_timestamp": "2023-01-30T17:57:52.678447+09:00",
+  "archived_timestamp": "2023-01-30T18:25:35.784642+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いいたします。どのような映画をよくご覧になりますか。",
+      "timestamp": "2023-01-30T17:59:15.087728+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。普段は、特にジャンルは決まっていないですが、話題になっている映画を見ます。",
+      "timestamp": "2023-01-30T18:00:14.333556+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "話題になっている映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "一番最近は何をご覧になりました？",
+      "timestamp": "2023-01-30T18:00:41.636811+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T17:59:54.448687+09:00",
+          "query": "アクション",
+          "genres": "",
+          "results": "12124,13523,159811,234444,329546,329604,330464,332756,333497,335434,335766,336357,336755,336791,340335,341440,341645,341767,342363,344016,344381,344443,344573,345058,346393,346394,346540,347535,347722,347764,349726,350698,350825,350949,351033,351372,352384,353152,354345,354676,360777,361665,363764,367638,367742"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "人間失格太宰治と3人の女たち　とかですね。",
+      "timestamp": "2023-01-30T18:02:23.576175+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "人間失格太宰治",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "3人の女たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "文学作品に元図いたものがお好きなのですか？",
+      "timestamp": "2023-01-30T18:02:51.704015+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "文学作品に元図いたもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:01:36.043875+09:00",
+          "query": "最近の映画",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-30T18:01:37.704410+09:00",
+          "query": "最近の映画",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "そうですね。",
+      "timestamp": "2023-01-30T18:04:14.731858+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "日本の作家と海外ものだとどちらがお好きですか？",
+      "timestamp": "2023-01-30T18:04:35.495921+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "作家",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "海外もの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:04:14.981584+09:00",
+          "query": "小説",
+          "genres": "",
+          "results": "10248,15902,16912,18114,22667,239580,318646,322281,324630,325798,326216,326658,326699,327992,328495,330039,330487,330573,335122,335612,335872,339701,341568,342201,342984,343488,343721,344013,344358,346264,348087,348154,350531,350659,352549,352899,354522,355278,356113,357070,357140,357423,359685,360776,362725,363105,364462,365459,366255,366665,369158,369949"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "日本のほうが好きかもしれません。",
+      "timestamp": "2023-01-30T18:05:06.576242+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "日本のほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "原作で選ばれますか？それとも俳優で選ばれますか？",
+      "timestamp": "2023-01-30T18:06:22.299428+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:05:40.698679+09:00",
+          "query": "日本映画",
+          "genres": "",
+          "results": "337257,347810,361463"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "俳優です。",
+      "timestamp": "2023-01-30T18:06:55.597734+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "誰のファンでいらっしゃいます？（笑）",
+      "timestamp": "2023-01-30T18:07:32.513337+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "誰のファン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "小栗旬など、イケメンが出ているものですかね。でも、演技があまりにも下手くそだったら嫌ですけど。",
+      "timestamp": "2023-01-30T18:09:33.333909+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "小栗旬",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "イケメンが出ているもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "でも小栗旬さんはイケメンのトップバッターですよね。全部ご覧になってたりされます？",
+      "timestamp": "2023-01-30T18:10:44.949814+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "小栗旬さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "イケメンのトップバッター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:09:52.261143+09:00",
+          "query": "小栗旬",
+          "genres": "drama",
+          "results": "328795,335550,335874,337450,340953,358365,363105,367252,368008"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "小栗旬の映画は全部見ているわけではないです。",
+      "timestamp": "2023-01-30T18:12:12.751506+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "小栗旬の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "イケメン俳優が出ていたら見に行く気になるって感じですか？",
+      "timestamp": "2023-01-30T18:12:45.872492+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "イケメン俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "出ていたら見に行く気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:11:45.521657+09:00",
+          "query": "玉木宏",
+          "genres": "drama",
+          "results": "234846,332860,334576,334577,340493"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい、そうです。",
+      "timestamp": "2023-01-30T18:13:25.951480+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "お好きかわかりませんが、嵐の二宮和也の出ていた母と暮らせばをお薦めさせてください。２０１５年の映画なので少し前のですが、もう鑑賞済みでしょうか？",
+      "timestamp": "2023-01-30T18:15:26.339028+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "お好き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "嵐の二宮和也の出ていた母",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "２０１５年の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "鑑賞",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T18:13:20.776670+09:00",
+          "query": "母と暮らせば",
+          "genres": "drama",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-30T18:13:33.025234+09:00",
+          "query": "二宮",
+          "genres": "drama",
+          "results": "324563,324734,326216,345678,352873,360062,363644,370524"
+        }
+      ],
+      "checked": [
+        "352873_title"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "見たことないです。どんな映画ですか？",
+      "timestamp": "2023-01-30T18:15:54.644514+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "長崎に原爆が落ちてしまった日に死んでしまった帝大生（二宮）と残されたお母さん（吉永小百合）と彼のGFのその後の話です。\nかなり泣けます。",
+      "timestamp": "2023-01-30T18:17:35.207949+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "長崎に原爆が落ちてしまった日に死んでしまった帝大生（二宮）と残されたお母さん（吉永小百合）と彼のGFのその後の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "感動的なストーリーなんですね。",
+      "timestamp": "2023-01-30T18:18:25.492594+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "感動的なストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "speaker": "recommender",
+      "text": "はい。他にも浅野忠信が出ていて、この方も素晴らしかったです。",
+      "timestamp": "2023-01-30T18:18:41.623773+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "浅野忠信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "この方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "21",
+      "speaker": "seeker",
+      "text": "浅野忠信も好きな俳優の一人です！",
+      "timestamp": "2023-01-30T18:19:24.067497+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "浅野忠信も好きな俳優の一人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "speaker": "recommender",
+      "text": "でしたらぜひとも見に行ってください。\n珍しく地味に控えめな役なのですが、ものすごく印象的で存在感がありました。",
+      "timestamp": "2023-01-30T18:20:15.755432+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "地味に控えめな役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "存在感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "23",
+      "speaker": "seeker",
+      "text": "そうなんですね。ちょっと見てみたくなりました。ありがとうございます。",
+      "timestamp": "2023-01-30T18:21:13.959416+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "24",
+      "speaker": "recommender",
+      "text": "ぜひとも。ハンカチを持って見てくださいね。",
+      "timestamp": "2023-01-30T18:21:44.986462+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "ハンカチ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "25",
+      "speaker": "seeker",
+      "text": "はい！ぜひ、そのようにします。ありがとうございます。",
+      "timestamp": "2023-01-30T18:22:41.671804+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "26",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-01-30T18:23:04.642222+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

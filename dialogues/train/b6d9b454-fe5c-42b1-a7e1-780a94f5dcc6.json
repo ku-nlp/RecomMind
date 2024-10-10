@@ -1,0 +1,1074 @@
+{
+  "dialog_id": "b6d9b454-fe5c-42b1-a7e1-780a94f5dcc6",
+  "created_timestamp": "2023-02-20T10:56:19.788589+09:00",
+  "archived_timestamp": "2023-02-20T11:32:21.695961+09:00",
+  "recommender": {
+    "name": "045",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "028",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。今日はよろしくお願いします！",
+      "timestamp": "2023-02-20T10:57:24.444610+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそよろしく。",
+      "timestamp": "2023-02-20T10:58:57.611601+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速なのですが、普段、映画はよくご覧になりますか？",
+      "timestamp": "2023-02-20T10:59:01.496779+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段、映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "スクリーンで見る方が好きなので、もっと見に行きたいのですが、なかなか、、。市や団体などの上映会が近くで多い地域なので、行くようにしています。",
+      "timestamp": "2023-02-20T11:01:20.158375+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "スクリーンで見る方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "市や団体などの上映会",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "近くで多い地域",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうですか！上映会が開催されている地域にお住まいなんですね。\nでは、上映会ではなく、ご自身で以前映画を観る時などに（サブスク・TVなど含み）選ぶ傾向の高いジャンルなどありますか？または気になる（好きな）俳優さんなどいれば、ぜひ聞かせてもらえたら助かります。",
+      "timestamp": "2023-02-20T11:02:52.280594+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "上映会が開催されている地域",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "お住まい",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "上映会",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ご自身",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "含み）選ぶ傾向の高いジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ありますか？または気になる（好きな）俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "特にこれでないとというジャンルや好きな俳優さんはないです。上映会が多いので、ほとんど問題作です。\nできれば、心が温まるような映画を見たいです。",
+      "timestamp": "2023-02-20T11:14:28.068700+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "これでないとというジャンルや好きな俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "上映会",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "問題作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "心が温まるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "了解です！では、洋画でご紹介できるものがあれば探してみようと思いますが、よろしいでしょうか？\nもし邦画をご希望であれば、ぜひお知らせください。",
+      "timestamp": "2023-02-20T11:14:38.712627+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "了解",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "洋画でご紹介できるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T11:04:00.921556+09:00",
+          "query": "オーロラ",
+          "genres": "",
+          "results": "161559,333529,348610,359024,364754,369014"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どちらも好きです。",
+      "timestamp": "2023-02-20T11:14:56.360037+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "約20年前くらいにアメリカで製作された映画で「オーロラの彼方へ」という映画はご存じですか？サスペンスにファンタジーも加わり、また家族の絆を感じられる映画です。こちらの映画をご紹介しても良いですか？",
+      "timestamp": "2023-02-20T11:16:17.533837+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "約20年前くらいにアメリカで製作された映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「オーロラの彼方へ」という映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "サスペンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "加わり、また家族の絆を感じられる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "こちらの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "161559_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ファンタジー、家族愛等面白そうですね。お願いします。",
+      "timestamp": "2023-02-20T11:17:14.160449+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ファンタジー、家族愛等",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "了解です。ざっくりお伝えすると、話は1969年にさかのぼります。\nその年、太陽嵐の現象によって、NYで異常気象によるオーロラが観測されたのですが、その夜、消防士だった父親がある火災現場で殉職してしまいます。その30年後に、またNYにオーロラが観測されたのですが、その日息子が父の趣味だった無線機を見つけて引っ張りだしていじっていると、無線機の向こうから聞きなれた声がするのです。\nそして聞こえてくる話し声や内容が30年前の話題ばかりが流れてきて、、それが殉職したはずの父親の声で、30年前の父と現在の息子が無線機を通じて会話できることを発見し・・。そこから、現代の息子が父の殉職を防ごうと、30年前の父にその後起ころうとすることを必死で伝え、助けようとして・・・というお話です。",
+      "timestamp": "2023-02-20T11:21:49.437204+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "了解",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "1969年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "その年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "太陽嵐の現象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "NY",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "異常気象によるオーロラ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "その夜",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "消防士だった父親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ある火災現場",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "その30年後に、またNY",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "オーロラ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "その日息子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "父の趣味だった無線機",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "いじっていると、無線機の向こうから聞きなれた声",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "聞こえてくる話し声や内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "30年前の話題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "それが殉職したはずの父親の声",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "現在の息子が無線機を通じて会話できること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "現代の息子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "父の殉職",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "30年前の父にその後起ころうとすること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "面白そうなストーリーですね。無線機がタイムマシンの代わりをする。\n息子さんが父の運命を変えようとしている姿に、観客はハラハラドキドキしますね。",
+      "timestamp": "2023-02-20T11:25:14.857614+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "面白そうなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "無線機",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "タイムマシンの代わり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "息子さんが父の運命を変えようとしている姿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "観客",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうなのです。無線機の向こうの父親も、最初は30年後の息子と会話が出来ていることを信じられなかったのですが、その息子からのアドバイスのお陰で殉職するはずの火災で助かることが出来て、でも、そのために今度はタイムパラドックスが起こり、その後の歴史が変わってしまい、今度は・・・というお話です。\nこれ以上はネタバレになるので（笑）、ぜひ一度ご覧になってください！",
+      "timestamp": "2023-02-20T11:26:06.437991+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "無線機の向こうの父親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "30年後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "会話が出来ていること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "その息子からのアドバイスのお陰",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "殉職するはずの火災",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "タイムパラドックス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "その後の歴史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "以上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "歴史を変えると、よいことだけでなく、タイムパラドックスということも起きるのですね！ネタを聞きたくてうずうずしますね。それが映画の魅力の一つですか？オーロラの彼方へを探して、鑑賞したいです。\nご紹介ありがとうございました。",
+      "timestamp": "2023-02-20T11:29:45.727512+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "歴史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "タイムパラドックスということ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "ネタ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "映画の魅力の一つ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "オーロラの彼方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうなのです。現実ではありえない話ですが、息子が家族を助けようと必死に考え行動していくので、観客側もドキドキしながら飽きません。\n映像も綺麗で、温かい雰囲気の映画なのでおススメです。今回ご紹介の映画作品に、ご興味をお持ちいただければ幸いです。ありがとうございました！",
+      "timestamp": "2023-02-20T11:31:11.944761+09:00",
+      "internal_states": [
+        {
+          "id": "67",
+          "text": "現実ではありえない話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "考え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "71",
+          "text": "観客側",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "綺麗で、温かい雰囲気の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "今回ご紹介の映画作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそ。",
+      "timestamp": "2023-02-20T11:31:36.478562+09:00",
+      "internal_states": []
+    }
+  ]
+}

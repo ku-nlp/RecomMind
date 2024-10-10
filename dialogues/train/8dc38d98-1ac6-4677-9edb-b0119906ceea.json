@@ -1,0 +1,925 @@
+{
+  "dialog_id": "8dc38d98-1ac6-4677-9edb-b0119906ceea",
+  "created_timestamp": "2023-02-25T21:18:46.508312+09:00",
+  "archived_timestamp": "2023-02-25T21:48:30.920605+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "054",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-02-25T21:19:25.722794+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "宜しくお願いいたします。",
+      "timestamp": "2023-02-25T21:19:34.639295+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-02-25T21:19:50.498984+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "アニメ映画が好きです。\n最近では鬼滅の刃 鍛冶屋の里編を観に行きました。",
+      "timestamp": "2023-02-25T21:20:42.984413+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "鬼滅の刃　鍛冶屋の里編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "アニメですね。ディズニーとかのもご覧になりますか？",
+      "timestamp": "2023-02-25T21:21:37.303676+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-25T21:20:25.529804+09:00",
+          "query": "チョコレートドーナッツ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T21:20:29.145761+09:00",
+          "query": "チョコレートドーナツ",
+          "genres": "",
+          "results": "348035"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ディズニーはほとんど観ませんね。",
+      "timestamp": "2023-02-25T21:22:41.437877+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "なるほど。私はアニメは子供と一緒にの方が多いもので（汗）\n漫画原作アニメつながりで、実写版のフランス版「シティーハンター THE MOVIE 史上最香のミッション」はご覧になりました？",
+      "timestamp": "2023-02-25T21:25:00.247045+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "子供と一緒にの方が多いもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "漫画原作アニメつながり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "実写版のフランス版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「シティーハンター　THE　MOVIE　史上最香のミッション」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-25T21:24:21.029921+09:00",
+          "query": "シティーハンター THE MOVIE 史上最香のミッション",
+          "genres": "",
+          "results": "150405,152697,16912,17252,237082,240800,319259,321736,322193,322994,323212,325606,328367,329464,331823,333967,334285,334943,335874,336061,336237,336591,337331,338067,340731,340849,341255,342205,342677,342785,343337,343647,346099,346100,346346,349882,349920,352166,352385,352647,352899,352900,353774,353896,357404,357411,360428,360564,360566,361374,362526,362717,363764,365791,366132,366737,367006,367521,367670,368180,368233,369333,369470,370524,373697,374882,375424"
+        },
+        {
+          "timestamp": "2023-02-25T21:24:25.725172+09:00",
+          "query": "シティーハンター ",
+          "genres": "",
+          "results": "369470"
+        }
+      ],
+      "checked": [
+        "369470_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "あ、実写版なのに原作に見た目が凄く近いと話題になった映画ですね（笑）\nタイミングが合わず観に行けなかったのですが、やはり原作に近く笑いあり、ハードボイルドありの作品になっていたのでしょうか？",
+      "timestamp": "2023-02-25T21:27:21.535148+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "実写版",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "見た目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "凄く近いと話題になった映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ハードボイルドありの作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうなのです！　フラン人の監督（自分で主演もしました）のシティーハンター愛が凄すぎて、よくぞここまでの人材を探してきたもんだとそこだけで笑い転げます。何かの手術を受けようとしていて巻き込まれるだけのおっさんの名前がモッコリー氏だったり。何でこんなところまでこだわれるのかと本当に感心しました。\n私なんて何十年も前に漫画読んだきりだったのに、香の兄の槇村（餅ラ音フランス人）が登場した途端、思わず、「まきむらぁ！」って叫びそうになりましたよ。",
+      "timestamp": "2023-02-25T21:31:39.302461+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "フラン人の監督（自分で主演もしました）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ここまでの人材を探してきたもん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "何かの手術",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "受けようとしていて巻き込まれるだけのおっさんの名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "氏",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "こんなところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "私なんて何十年も前に漫画読んだきり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "香の兄の槇村（餅ラ音フランス人）が登場した途端",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「まきむらぁ！」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369470_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "モッコリー氏なんて役も出ていたんですね（笑）\nそれだけシティーハンター愛のある監督さんですと、キャストのキャラクターも原作に近そうですね！\nストーリー的には原作に負けない展開だったのでしょうか？",
+      "timestamp": "2023-02-25T21:34:49.323445+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "氏",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "27",
+          "text": "シティーハンター愛のある監督さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "キャストのキャラクター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ストーリー的には原作に負けない展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "負けてないです！　確か原作者ともコンタクト取って制作前に許可もらってたくらいですから。全然負けておらず（どれだけ原作愛が強いのかって感じですが）お下品なところも笑いもすべて踏襲しています。\n漫画を知っていたら２０倍くらい楽しめる映画です。日本の劇場公開ではアニメの声優さんが同じく吹き替えもしていたそうですよ。神谷明さんとか。私は字幕版観てしまいましたが。",
+      "timestamp": "2023-02-25T21:37:47.882078+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "原作者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "コンタクト取って制作前に許可もらってたくらい",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "（どれだけ原作愛が強いのかって感じですが）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "漫画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "知っていたら２０倍くらい楽しめる映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "日本の劇場公開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "アニメの声優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "吹き替え",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "神谷明さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "字幕版",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "展開や役柄が原作に近ければより楽しめそうですね！\nそして監督さんの原作愛も強そう（笑）\nこの作品でおすすめしたいワンシーンなどありますか？",
+      "timestamp": "2023-02-25T21:39:15.993036+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "展開や役柄",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "監督さんの原作愛",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "強そう",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "この作品でおすすめしたいワンシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "私がすごくいいなぁと思ったのは、これだけアクションと笑いを取りながらちゃんと香（フランス版ではローラでしたが）へのストイックな愛情も描かれているとこでしょうか？",
+      "timestamp": "2023-02-25T21:41:10.849079+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "香（フランス版ではローラでしたが）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなんですね。\nやはり原作と同じように香（ローラ）への愛情もありながら、それを表に出さない二人のやり取りもあったのでしょうか？\nたしかフライヤーでは香がハンマーを持っていたような記憶があるのですが。",
+      "timestamp": "2023-02-25T21:43:12.515304+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "香（ローラ）への愛情もありながら、それを表に出さない二人のやり取り",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "フライヤーでは香がハンマーを持っていたような記憶",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "なにかと殴られてますよ。(笑)　嗅いだら目の前にいる人に愛して恋して追いまわすへんてこな香水が出てくるのですが、香がこっそり使うのですが効果がなくガックリするのですが、時s津はその香水はもともと愛情がある場合には効果を発揮しないのだとか。",
+      "timestamp": "2023-02-25T21:46:29.207493+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "(笑)　嗅いだら目の前にいる人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "愛して恋して追いまわすへんてこな香水",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "香",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "時s津",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "その香水",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "57",
+          "text": "愛情がある場合",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "効果",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そんな展開もあるのですね（笑）\n改めて観てみたくなりました！\n詳しくご紹介いただき、ありがとうございました！",
+      "timestamp": "2023-02-25T21:47:55.428468+09:00",
+      "internal_states": [
+        {
+          "id": "59",
+          "text": "そんな展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "とにかく笑えるのでぜひ見てくださいね！こちらこそありがとうございました。",
+      "timestamp": "2023-02-25T21:48:21.825601+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

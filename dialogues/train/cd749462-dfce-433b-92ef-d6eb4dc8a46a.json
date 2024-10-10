@@ -1,0 +1,961 @@
+{
+  "dialog_id": "cd749462-dfce-433b-92ef-d6eb4dc8a46a",
+  "created_timestamp": "2023-03-19T12:18:11.621928+09:00",
+  "archived_timestamp": "2023-03-19T12:39:49.474549+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 2,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-19T12:21:25.629783+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-19T12:21:34.863649+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが普段はよく映画は観ますか？どのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-03-19T12:21:41.207198+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ホラー以外なら、比較的何でも観ます。歴史物やアクション物に興味があります。",
+      "timestamp": "2023-03-19T12:22:20.964069+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "歴史物やアクション物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "では実話に基づいた作品の「バリー・シール／アメリカをはめた男」はご覧になられましたか？",
+      "timestamp": "2023-03-19T12:23:29.717321+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "実話に基づいた作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「バリー・シール／アメリカをはめた男」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-19T12:22:39.968568+09:00",
+          "query": "バリー",
+          "genres": "",
+          "results": "16912,18312,20109,20486,22811,235794,241146,25274,29040,321448,322489,329299,329887,335210,336191,341460,344055,352332,352612,352899,356506,357070,358077,358306,358996,359063,359506,361148,363978,369195,370890,376782,377441,52338,83465"
+        },
+        {
+          "timestamp": "2023-03-19T12:22:49.292017+09:00",
+          "query": "バリー　シール",
+          "genres": "",
+          "results": "1146,11831,11832,16912,18312,18409,20109,20486,22811,235794,241146,25274,2752,29040,320442,321448,321599,322208,322489,324791,326850,329299,329887,335210,336191,341460,343731,344055,344920,346309,347542,347764,350823,351200,352332,352612,352899,354522,355057,356251,356506,357070,357979,358077,358306,358996,359063,359506,360445,361148,362717,363978,369195,370890,376782,377441,52338,83465"
+        }
+      ],
+      "checked": [
+        "361148_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "まだ観ていません。サスペンス系ですか？",
+      "timestamp": "2023-03-19T12:23:47.383584+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "サスペンス系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "アクション、コメディ要素もありますが、ドラマ系でしょうか。\n1970年代、アメリカ。パイロットだったバリー・シールは、その技術を買われてCIAにスカウトされます。しかし、任務中に麻薬王と知り合った彼は、やがて運び屋として暗躍します。莫大な富を築くが、同時に大きな危機に直面することになるという物語です。",
+      "timestamp": "2023-03-19T12:25:00.835747+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "アクション、コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ドラマ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "1970年代、アメリカ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "パイロットだったバリー・シール",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "その技術",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "CIA",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "任務中に麻薬王と知り合った彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "運び屋",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "莫大な富",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "大きな危機",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "直面することになるという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "361148_genre-0",
+        "361148_genre-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "名前だけ聞いたことがあるかもしれません。「ブレット・トレイン」みたいなアクションがメインではないですよね？",
+      "timestamp": "2023-03-19T12:27:48.340007+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「ブレット・トレイン」みたいなアクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "メイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "アクションはメインではなく、天才パイロットとして活躍し、その後CIAから極秘密輸作戦のパイロットにスカウトされ、さらに麻薬の密輸で莫大な財産を築いた実在の人物＝バリー・シールの生涯がメインです。",
+      "timestamp": "2023-03-19T12:29:01.982384+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "天才パイロット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "CIA",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "極秘密輸作戦のパイロット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "麻薬の密輸で莫大な財産を築いた実在の人物＝バリー・シールの生涯",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "メイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ドラマ系ですね。この人物は、最後に逮捕されるのでしょうか？",
+      "timestamp": "2023-03-19T12:29:33.126712+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "ドラマ系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "この人物",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "はい、ドラマ系です。\n最後のシーンはお楽しみに取っておいて、ぜひ実際に映画をご覧ください。\nちなみにトム・クルーズが主役です。",
+      "timestamp": "2023-03-19T12:30:18.346210+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ドラマ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "最後のシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "お楽しみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "トム・クルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "361148_cast_name-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "トム・クルーズなら安定していますね！「トップガン」のヒーローが、ダーク・ヒーローになった感じでしょうか。。見どころは、飛行機で薬を運ぶところでしょうか？",
+      "timestamp": "2023-03-19T12:31:42.793098+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "トム・クルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "「トップガン」のヒーロー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ダーク・ヒーローになった感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "飛行機で薬を運ぶところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "「トップガン」のヒーローが、ダーク・ヒーローになった感じとも言えないですかね。\nトムクルーズらしいアクションはもちろん見どころですが、ストーリーがどう展開しているかをぜひ楽しみにしてほしいです。",
+      "timestamp": "2023-03-19T12:33:11.800172+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "「トップガン」のヒーローが、ダーク・ヒーローになった感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "トムクルーズらしいアクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ストーリーが二転三転していくのでしょうか？悪役だと思っていたら善玉、またその逆とか、どんでん返しがあるのでしょうか？",
+      "timestamp": "2023-03-19T12:34:51.577711+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "二転",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "三",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "悪役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "善玉、またその逆とか、どんでん返し",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "どんでん返しというよりかは、ホワイトハウスやCIAの命令に従いながら、同時に違法な麻薬密輸ビジネスで数十億円の荒稼ぎ、かしそんな彼の背後には、とんでもない危険が迫っていくという展開ですね。",
+      "timestamp": "2023-03-19T12:35:58.578357+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "どんでん返し",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ホワイトハウスやCIAの命令",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "違法な麻薬密輸ビジネス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "数十億円の荒稼ぎ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "そんな彼の背後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "とんでもない危険",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "迫っていくという展開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "不気味な感じですね。麻薬王とCIAのどちらから、もしかしてどちらからも命を狙われているとか？実際に見てみないといけませんね。",
+      "timestamp": "2023-03-19T12:38:34.742266+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "不気味な感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "麻薬王とCIA",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "命",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "麻薬がらみは常に危険との隣り合わせですね。機会があればご覧ください。\n本日はありがとうございました。",
+      "timestamp": "2023-03-19T12:39:14.300216+09:00",
+      "internal_states": [
+        {
+          "id": "59",
+          "text": "麻薬がらみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "危険との隣り合わせ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "トム・クルーズ主演なので、観る価値はありそうです。本日はありがとうございました。",
+      "timestamp": "2023-03-19T12:39:46.351460+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "トム・クルーズ主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "62",
+          "text": "観る価値",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

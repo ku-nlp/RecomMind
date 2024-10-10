@@ -1,0 +1,942 @@
+{
+  "dialog_id": "a8458811-98ea-4481-87bc-af8c9170439b",
+  "created_timestamp": "2023-03-28T09:07:56.357377+09:00",
+  "archived_timestamp": "2023-03-28T09:32:24.833460+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。よろしくお願いいたします。",
+      "timestamp": "2023-03-28T09:09:03.304212+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "おはようございます。よろしくお願いいたします。",
+      "timestamp": "2023-03-28T09:10:21.386838+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが普段はよく映画は観ますか？\nどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-03-28T09:11:20.024838+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "基本的には邦画洋画を問わず、何でも観ます。怖い映画は苦手です。、",
+      "timestamp": "2023-03-28T09:12:32.273836+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "怖い映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ピクセルはご覧になられましたか？\n2015年のSFアクション・コメディ映画です。",
+      "timestamp": "2023-03-28T09:14:55.477467+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ピクセル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "2015年のSFアクション・コメディ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T09:14:14.772523+09:00",
+          "query": "サンドラー",
+          "genres": "",
+          "results": "321822,325622,332672,352585"
+        }
+      ],
+      "checked": [
+        "352585_title",
+        "352585_genre-0",
+        "352585_genre-1",
+        "352585_genre-2"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "まだ観ていません。画素のピクセルでしょうか？SF、アクション、コメディと盛りだくさんですが、どの要素が強いですか？",
+      "timestamp": "2023-03-28T09:16:01.030930+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "画素のピクセル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "SF、アクション、コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "どの要素",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "私はコメディ要素が一番強いと思います。\n主演はコメディ映画では引っ張りだこのアダム・サンドラーです。\nピクセルと言う意味は、NASAは地球外生命体に向けて、1982年当時流行していたゲームの映像などを収録したメッセージを友好目的として宇宙へ打ち上げた…という物語の始まりだからだと思います。",
+      "timestamp": "2023-03-28T09:17:45.663818+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "引っ張りだこのアダム・サンドラー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ピクセルと言う意味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "NASA",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "地球外生命体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "1982年当時流行していたゲームの映像などを収録したメッセージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "友好目的",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "宇宙",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "打ち上げた…という物語の始まり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "352585_cast_name-0",
+        "352585_plot-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "コメディ要素が一番強ければ、興味があります。これはフィクションですよね？宇宙人が出てくるのでしょうか？",
+      "timestamp": "2023-03-28T09:19:26.326041+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "フィクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "宇宙人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "NASAは地球外生命体に向けて友好目的として宇宙へ打ち上げたのにも関わらず、エイリアンはそれを宣戦布告と誤解しえてしまいます。彼らはゲーム映像のキャラクターに扮し、恐るべき破壊力をもって地球侵略を開始するという物語です。なので宇宙人としては登場しませんが、ゲームのキャラクターに扮しているということです。",
+      "timestamp": "2023-03-28T09:21:29.490418+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "NASA",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "地球外生命体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "友好目的",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "エイリアン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "宣戦布告",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "彼ら",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ゲーム映像のキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "29",
+          "text": "恐るべき破壊力",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "地球侵略",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "開始するという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "宇宙人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ゲームのキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "扮しているということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "352585_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ゲームのキャラクターに扮するとは、紛らわしいですね、アクション要素があるのは、ゲームの中で戦うからでしょうか？",
+      "timestamp": "2023-03-28T09:22:49.959229+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "ゲームのキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "紛らわしいですね、アクション要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ゲームの中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "その通りです！ハリウッド映画らしいアクションもありますが、可愛いゲームのキャラクターに扮しているので、悪役感があまりないというか…それも面白いポイントだと思います。",
+      "timestamp": "2023-03-28T09:24:11.579173+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ハリウッド映画らしいアクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "可愛いゲームのキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "悪役感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "面白いポイント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "宇宙人の侵略なので、怖いはずが、ゲームのキャラクターに扮しているので、騙されてしまう人もいそうですね。エイリアンと戦うのは、軍人ではなくて、ゲームオタクということでしょうか？",
+      "timestamp": "2023-03-28T09:26:29.557890+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "宇宙人の侵略",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "怖いはず",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ゲームのキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "騙されてしまう人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "エイリアン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "軍人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "ゲームオタクということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "アメリカ大統領は自国の危機として、かつてアーケードゲーム世界大会チャンピオンだった人に協力を依頼します。\n敵はパックマンやドンキーコングに扮しています。",
+      "timestamp": "2023-03-28T09:28:11.624128+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "アメリカ大統領",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "自国の危機",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "アーケードゲーム世界大会チャンピオンだった人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "協力",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "敵",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "パックマンやドンキーコング",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "352585_plot-11"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "エイリアンは、地球人の戦意を弱めるために、笑いで攻撃してきたのですね。ドンキーコング、お腹に力が入らないかも。それで、地球人チームは勝利するのでしょうか？",
+      "timestamp": "2023-03-28T09:31:02.441781+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "エイリアン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "地球人の戦意を弱めるため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ドンキーコング、お腹",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "力",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "地球人チーム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "最後は観てのお楽しみとさせてくださいませ。\n機会があればご覧ください。\n本日はありがとうございました。",
+      "timestamp": "2023-03-28T09:31:43.580573+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "観てのお楽しみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "分かりました。おもしろそうな映画ですね。本日はありがとうございました！",
+      "timestamp": "2023-03-28T09:32:21.624857+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "おもしろそうな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

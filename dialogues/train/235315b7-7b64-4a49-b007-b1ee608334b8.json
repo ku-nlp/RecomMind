@@ -1,0 +1,1133 @@
+{
+  "dialog_id": "235315b7-7b64-4a49-b007-b1ee608334b8",
+  "created_timestamp": "2023-02-02T10:59:31.968935+09:00",
+  "archived_timestamp": "2023-02-02T11:40:36.130867+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-02-02T11:00:26.310293+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いします！\n映画はよくご覧になりますか？",
+      "timestamp": "2023-02-02T11:00:52.425900+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "はい、映画は好きです。最近SF小説にはまっていてブレードランナーを観ました。",
+      "timestamp": "2023-02-02T11:02:00.803311+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "SF小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ブレードランナー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "SF小説がお好きなのですね。\nあいにく、私はあまりSFを見ないのですが、すぐに思い浮かぶのは、「スパイダーマン」、「スター・ウォーズ」「ターミネーター」あたりです。",
+      "timestamp": "2023-02-02T11:05:48.594742+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "SF小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "SF",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「スパイダーマン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「スター・ウォーズ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「ターミネーター」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-02T11:03:14.018219+09:00",
+          "query": "",
+          "genres": "science-fiction",
+          "results": "10659,11830,11831,11832,13522,13523,150405,152697,153289,15902,159875,160134,161136,161376,161562,161592,162811,163028,16329,16912,1709,18114,18115,18116,18187,20674,20696,22113,22237,22238,22811,23099,234685,234686,235790,235792,235794,2361,239072,239389,239766,239767,239768,239783,239816,23987,240800,241372,24661,2752,2753,2755,29038,318674,318677,319069,319937,320063,320447,321599,321602,321603,321766,322041,322489,322931,324027,324544,325438,325630,325652,325865,326203,326247,326850,327000,327253,327495,327839,327925,328359,328996,329124,329131,329144,329231,329400,329614,329887,330415,330416,330434,330813,331380,331426,331508,331733,332425,332598,333193,333212,333331,333497,333520,333627,333700,333967,334089,334285,334339,334775,334777,334832,335402,335453,335567,335732,335765,335872,335900,336237,336307,336357,336755,337094,337257,337331,337607,337671,337855,338302,338323,338676,338678,339013,339088,339180,339354,339722,339967,340423,340758,341009,341090,341319,341436,341460,341532,341611,341641,341767,341959,342444,342687,343233,343343,343365,343391,343488,343546,343724,344074,344443,344500,344562,344613,344646,344722,344920,345075,345374,345620,345697,345712,346341,346556,346608,346944,347596,347597,347781,347810,347842,347925,348085,348088,348154,348170,348248,348495,349021,349124,349221,349260,349728,350752,350812,350843,350949,350977,351033,351163,351301,351361,351610,351660,351805,351838,351840,351841,352357,352382,352585,352769,352899,352900,353045,353046,353243,353277,353437,353452,353496,353505,353539,354182,354254,354576,354902,355057,355058,355095,355228,355424,355740,356084,356202,356251,356422,356503,357140,357423,357424,357979,358068,358130,358242,358499,358645,358781,358894,358993,359024,359122,359134,359315,359476,359500,359551,359635,360093,360428,360445,360776,360986,361167,361586,361759,361886,362179,362346,362464,362526,362706,362712,362741,362935,362951,363273,363360,363528,363668,364005,364327,364403,364528,364542,364985,365592,365756,365791,365978,366068,366075,366255,366465,366584,366738,367080,367262,367854,368153,368180,368833,368860,369043,369058,369333,369338,369671,370836,370964,371833,373111,373333,373905,373919,374337,374364,374768,375099,376782,377017,377031,377441,378799,378914,379306,51816,52312,54853,6608,83436,83437,83465,83886,83911,84126,84330,84618,85110,85186,86099,86183,89848,89993,9010,9184"
+        }
+      ],
+      "checked": [
+        "234686_title",
+        "11830_title",
+        "13522_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "私も最近まであまりSF映画は観ていませんでしたが、その3作はいくつか観たことがあります。ほかに興味があるのは、ホラーやファンタジー、歴史もの、コメディです。",
+      "timestamp": "2023-02-02T11:08:06.744904+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "SF映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "その3作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ほか",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ホラーやファンタジー、歴史もの、コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "「信長協奏曲」という映画はご存じですか？歴史ものですが、SFでもありコメディでもあります。漫画が原作で、2014年にドラマ化され、2016年に映画化もされました。",
+      "timestamp": "2023-02-02T11:11:07.234027+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "「信長協奏曲」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "歴史もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "SF",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "漫画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "2014年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "2016年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "映画化",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_title",
+        "353539_year"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "初めて聞きました。すごく複雑なストーリーですね！監督は有名な方ですか？",
+      "timestamp": "2023-02-02T11:12:06.637763+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "すごく複雑なストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "有名な方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "監督は松山博昭さんで、主にテレビドラマの演出、監督を行なっている方だそうです。最近ではドラマの「ミステリと言う勿れ」や「親愛なる僕へ殺意をこめて」などが代表作です。",
+      "timestamp": "2023-02-02T11:15:21.997059+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "松山博昭さんで、主にテレビドラマの演出、監督を行なっている方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「ミステリと言う勿れ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「親愛なる僕へ殺意をこめて」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "代表作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_director_name"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "「ミステリと言う勿れ」は宣伝を観たことがあります。「信長協奏曲」はどのようにSF要素が織り込まれているのですか？",
+      "timestamp": "2023-02-02T11:18:11.093120+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "「ミステリと言う勿れ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "宣伝",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "「信長協奏曲」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "SF要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "現代人の高校生サブローが、ひょうんなことから戦国時代にタイムスリップしてしまいます。\nそこで出会った本物の織田信長に、顔がそっくりだったことから、「自分の代わりに信長として生きてくれ」と頼まれ、信長として天下統一を目指していく、というストーリーです。",
+      "timestamp": "2023-02-02T11:20:33.771088+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "現代人の高校生サブローが、ひょうんなこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "戦国時代",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "36",
+          "text": "タイム",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "そこで出会った本物の織田信長に、顔がそっくりだったこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "38",
+          "text": "「自分の代わりに信長として生きてくれ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "信長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "天下統一",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "目指していく、というストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_plot-0"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "奇想天外なストーリーでおもしろそう！時代劇だと戦闘シーンみたいなアクションもあるんですか？",
+      "timestamp": "2023-02-02T11:25:31.265105+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "奇想天外なストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "時代劇",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "戦闘シーンみたいなアクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "はい、戦国時代なので、馬に乗って戦うシーンがたくさんあります。\n信長は先頭に立って進んでいきますが、現代人のサブローなので戦に慣れていませんが、素人なりにも突き進んでいくのもすごいですし、その分家来が命を賭けて信長を守るシーンは感動します。\nサブローは、本物の信長よりも心を開き、家来から信頼を得ているのです。",
+      "timestamp": "2023-02-02T11:30:19.929065+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "戦国時代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "馬",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "乗って戦うシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "先頭",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "現代人のサブロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "戦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "素人なり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "その分家来",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "命",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "賭けて信長を守るシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "サブロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "本物の信長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "家来",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "信頼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "戦をめぐる家来とのやりとりも見どころなんですね。いろいろ伺えば伺うほど、「主人公は現代に戻られるのか？」とか「信長本人はどこに行ったの？」とか、いろいろ疑問がわきます。エンディングも全く予想がつかないし。さっそく観てみたいと思います。",
+      "timestamp": "2023-02-02T11:34:17.510378+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "戦をめぐる家来とのやりとり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "伺えば伺うほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "「主人公は現代に戻られるのか？」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "「信長本人はどこに行ったの？」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "疑問",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "67",
+          "text": "エンディング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "予想",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "はい、ぜひ見て見て下さい。内容はあまり言わないでおきますね。\n勉強嫌いでのらりくらりと生きていたサブローが、歴史に興味を持ち、「平和な国を作りたい」と奔走する姿が魅力的です。",
+      "timestamp": "2023-02-02T11:38:14.133985+09:00",
+      "internal_states": [
+        {
+          "id": "69",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "70",
+          "text": "勉強",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "71",
+          "text": "のらりくらり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "72",
+          "text": "生きていたサブロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "73",
+          "text": "歴史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "74",
+          "text": "平和な国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "作りたい」と奔走する姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "主人公の成長も楽しみですね。SFx歴史xコメディ要素が含まれる、まさにツボな映画をおすすめしていただき、ありがとうございました！",
+      "timestamp": "2023-02-02T11:39:40.242693+09:00",
+      "internal_states": [
+        {
+          "id": "76",
+          "text": "主人公の成長",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "77",
+          "text": "SFx歴史xコメディ要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "ツボな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "こちらこそ、興味を持って聞いて下さってありがとうございました。ぜひお楽しみ下さい。",
+      "timestamp": "2023-02-02T11:40:18.948906+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "dialog_id": "5c62861b-661f-4576-a76a-4fed19393f8f",
+  "created_timestamp": "2023-01-30T11:56:25.560126+09:00",
+  "archived_timestamp": "2023-01-30T12:23:28.862613+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "016",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-01-30T12:00:52.884571+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-01-30T12:01:05.151132+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-01-30T12:01:47.649400+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "好んでみていたのは落ち着いた雰囲気の日常の延長みたいな映画ですが、ジャンルにとらわれず、過去に見逃している「名作」といわれるような映画を今からでも観ていきたいなと思っています。",
+      "timestamp": "2023-01-30T12:03:27.846805+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "落ち着いた雰囲気の日常の延長みたいな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "とらわれず、過去に見逃している「名作」といわれるような映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「ショーシャンクの空に」はご覧になったことはありますか？洋画です。",
+      "timestamp": "2023-01-30T12:04:54.689323+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "「ショーシャンクの空に」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T12:04:17.617182+09:00",
+          "query": "風と共に去りぬ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-30T12:04:24.348995+09:00",
+          "query": "名作",
+          "genres": "",
+          "results": "10909,18114,341090,349125,361463,364195,366134,366483,84618"
+        }
+      ],
+      "checked": [
+        "10909_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "みたことはありません。とてもよい映画のようですね。",
+      "timestamp": "2023-01-30T12:05:48.119074+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "よい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "脱獄映画の最高傑作で長時間映画だけど飽きません。",
+      "timestamp": "2023-01-30T12:06:19.178323+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "脱獄映画の最高",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "長時間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "10909_review-0",
+        "10909_review-2"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "脱獄映画ジャンルですか。そんなジャンル初めて意識しました。長時間といいますと、何分ぐらいなんですか。",
+      "timestamp": "2023-01-30T12:07:20.608174+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "脱獄映画ジャンル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "そんなジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "長時間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "142分です。耐えがたい不条理に立ち向かっていく主人公の不屈の精神が見どころです。",
+      "timestamp": "2023-01-30T12:09:17.007786+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "耐えがたい不条理に立ち向かっていく主人公の不屈の精神",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "10909_review-2"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "２時間半ぐらいですか。たしかに少し長めではありますね。主人公の不屈の精神とのこと、シリアスな映画という感じですか。",
+      "timestamp": "2023-01-30T12:11:17.269665+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "２時間半ぐらい",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "主人公の不屈の精神とのこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "シリアスな映画という感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "シリアスです。「名作」というキーワードから思い出した映画です。刑務所内の様子や囚人たちの生活、刑務官たちのルールや行動がリアルに感じ取れます。",
+      "timestamp": "2023-01-30T12:12:35.967822+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "「名作」というキーワードから思い出した映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "刑務所内の様子や囚人たちの生活、刑務官たちのルールや行動",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "10909_review-3"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "「名作」で真っ先に思い出さる映画とあれば、ぜひ観てみなくてはと思います。主人公の心理を追体験することになりそうで、ハラハラドキドキしそうですね。",
+      "timestamp": "2023-01-30T12:15:17.422724+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "「名作」で真っ先に思い出さる映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "主人公の心理",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "追",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "無実を訴えるも終身刑の判決が下り、劣悪なショーシャンク刑務所への服役が決まり、そこからのストーリーです。",
+      "timestamp": "2023-01-30T12:18:14.577124+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "無実",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "訴えるも終身刑の判決",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "劣悪なショーシャンク刑務所への服役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "そこからのストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど、ショーシャンクっていうのは刑務所の名前なんですね。どのようにして自由を手に入れるのか、気になります。",
+      "timestamp": "2023-01-30T12:20:08.352266+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ショーシャンク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "刑務所の名前",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "自由",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "シリアスなストーリーですが、最後には名作と呼ばれる理由がなんとなくわかるのではないでしょうか。機会があればご覧ください。",
+      "timestamp": "2023-01-30T12:21:20.716355+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "シリアスなストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "最後には名作と呼ばれる理由",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ラストがどういう展開になるか、気になります。そこへ至る変遷も含めて、面白そうですね。是非観てみたいと思います。今回、脱獄映画というジャンルの存在も教えていただきました。",
+      "timestamp": "2023-01-30T12:23:13.062882+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "どういう展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "そこへ至る変遷",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "脱獄映画というジャンルの存在",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

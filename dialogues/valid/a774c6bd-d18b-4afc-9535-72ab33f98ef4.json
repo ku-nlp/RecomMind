@@ -1,0 +1,637 @@
+{
+  "dialog_id": "a774c6bd-d18b-4afc-9535-72ab33f98ef4",
+  "created_timestamp": "2023-02-05T15:54:33.528815+09:00",
+  "archived_timestamp": "2023-02-05T16:16:30.599150+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-05T15:59:39.021454+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-05T16:00:00.139055+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-05T16:00:04.579621+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。ミュージカル映画じゃなかったら、どんなジャンルでも好きです。",
+      "timestamp": "2023-02-05T16:01:03.557008+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "いきなり歌いださなければ良いということですね。洋画と邦画ならどちらがお好きでしょうか？",
+      "timestamp": "2023-02-05T16:01:38.214069+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "歌いださなければ良いということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T16:00:17.241634+09:00",
+          "query": "クルエラ",
+          "genres": "",
+          "results": "375940"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというと、邦画が好きかもしれませんが、アジアの映画も興味を持っています。",
+      "timestamp": "2023-02-05T16:02:34.998730+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アジアの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "アジア映画はあまり観たことがないので、邦画でお勧めさせてください。「キサラギ」は観たことはありますか？",
+      "timestamp": "2023-02-05T16:03:29.817687+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "アジア映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "あまり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「キサラギ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T16:02:49.091846+09:00",
+          "query": "キサラギ",
+          "genres": "",
+          "results": "327204"
+        }
+      ],
+      "checked": [
+        "327204_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "見たことないです。ぜひ紹介していただきたいです。",
+      "timestamp": "2023-02-05T16:05:39.574317+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "互いに面識のない五人の男たちが集まります。アイドルのファンサイトを通じて知り合い、一周忌の為に集まったのですが、焼身自殺としたとされていたのが、他殺だったのではないかと言い始めるとことから始まります。",
+      "timestamp": "2023-02-05T16:07:34.071295+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "面識のない五人の男たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "アイドルのファンサイト",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "一周忌の為",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "焼身自殺",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "他殺",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "327204_plot-0",
+        "327204_plot-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なるほど。焼身自殺とされたのは、あるアイドルですね？どんなキャストが出ていますか？",
+      "timestamp": "2023-02-05T16:08:42.853229+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "焼身自殺",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "あるアイドル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "どんなキャスト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうなんです、アイドルが自殺し、その一周忌で集まります。俳優陣は小栗旬、ユースケ・サンタマリア、小出恵介、塚地武雅、香川照之です。大物ばかりですよね。",
+      "timestamp": "2023-02-05T16:10:18.171696+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "そうなんです、アイドル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "その一周忌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "俳優陣",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "小栗旬、ユースケ・サンタマリア、小出恵介、塚地武雅、香川照之",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "大物",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "327204_cast_name-0",
+        "327204_cast_name-1",
+        "327204_cast_name-2",
+        "327204_cast_name-3",
+        "327204_cast_name-4"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "本当ですね。演技派の俳優が揃っていますね。見たくなります。他にどんな見所がありますか？",
+      "timestamp": "2023-02-05T16:11:57.971336+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "演技派の俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "どんな見所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "死の真相に迫ろうとする男たちは、互いに対して不信の目を向け対立しながらも、それぞれが個人的に知り得た「断片的な情報」を持ち寄り、各々が推理を繰り広げるところです。コメディ要素もあるので飽きません。",
+      "timestamp": "2023-02-05T16:12:26.256005+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "死の真相に迫ろうとする男たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "不信の目",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「断片的な情報」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "持ち寄り、各々が推理を繰り広げるところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "327204_plot-4"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "サスペンス映画だけど、コメディ要素もあるのですね。ぜひ見てみたいと思います！怖いシーンが苦手ですが、この映画にあったりしますか？",
+      "timestamp": "2023-02-05T16:14:39.486479+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "サスペンス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "怖いシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "33",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "全くありません。全員にとって納得できる死の真相を見つけ出すまでの、密室での紆余曲折のストーリーなので、全て話だけでストーリーが進みます。もし機会があればご覧ください。",
+      "timestamp": "2023-02-05T16:15:55.319857+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "全員にとって納得できる死の真相を見つけ出すまでの、密室での紆余曲折のストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "327204_plot-5"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい！ご紹介ありがとうございます。",
+      "timestamp": "2023-02-05T16:16:26.288955+09:00",
+      "internal_states": []
+    }
+  ]
+}

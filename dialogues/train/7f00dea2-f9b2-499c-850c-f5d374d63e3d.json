@@ -1,0 +1,853 @@
+{
+  "dialog_id": "7f00dea2-f9b2-499c-850c-f5d374d63e3d",
+  "created_timestamp": "2023-02-24T14:55:45.060671+09:00",
+  "archived_timestamp": "2023-02-24T15:23:31.824231+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "049",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-24T14:59:49.715399+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちわ。こちらこそよろしく願い致します。",
+      "timestamp": "2023-02-24T15:00:34.970180+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "ジャンル、邦画、洋画、など、お好みを教えて頂けますか。",
+      "timestamp": "2023-02-24T15:00:40.493754+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル、邦画、洋画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "邦画、洋画問わず古い映画（2000年頃まで）ものが好きです。",
+      "timestamp": "2023-02-24T15:01:31.043418+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "古い映画（2000年頃まで）もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ジャンルで、逆にこれは苦手、といったものはありますか？",
+      "timestamp": "2023-02-24T15:02:26.682346+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "苦手、といったもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "アクションはほとんど見ないです。格闘や戦争ものなど",
+      "timestamp": "2023-02-24T15:03:11.612579+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "格闘や戦争もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "なるほど。個人的にほっこりする映画が好きなのですが1999年の、ノッティングヒルの恋人などはご覧になりましたか？",
+      "timestamp": "2023-02-24T15:05:46.311860+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ほっこりする映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "1999年の、ノッティングヒルの恋人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T15:05:11.024694+09:00",
+          "query": "ノッティング",
+          "genres": "",
+          "results": "85258"
+        }
+      ],
+      "checked": [
+        "85258_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "見ました！名前は忘れましたが、主演の男優は誰でしたっけ？",
+      "timestamp": "2023-02-24T15:07:03.703708+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "主演の男優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ヒュー・グラントとジュリア・ロバーツでした！では、もっと古いですが「アンタッチャブル」はどうでしょうか。1987年の作品です。",
+      "timestamp": "2023-02-24T15:09:05.517110+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ヒュー・グラント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「アンタッチャブル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "どうでしょうか。1987年の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T15:08:03.162507+09:00",
+          "query": "デイブ",
+          "genres": "",
+          "results": "321617,336887,336888,337607,365013,369195"
+        },
+        {
+          "timestamp": "2023-02-24T15:08:45.393193+09:00",
+          "query": "アンタッチャブル",
+          "genres": "",
+          "results": "1635"
+        }
+      ],
+      "checked": [
+        "1635_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ヒュー・グラントですね。彼が主演の映画はほっこり感が感じられるものが多いですね。「アンタッチャブル」も見ました。渋いメンバーが揃っていた記憶がありますが、どんな所が印象に残っていますか？",
+      "timestamp": "2023-02-24T15:13:11.815099+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "ヒュー・グラント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "主演の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "感が感じられるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「アンタッチャブル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "渋いメンバーが揃っていた記憶",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "どんな所",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "「ミッション：インポッシブル」と同じ監督だったことを最近知ってなるほど、と思ったことと、脇役の若かりし頃のアンディ・ガルシアが渋くてかっこよかったのを覚えています。よくテレビで放送されていたかと思うのですが、内容より、俳優さんの渋さに惹かれた思い出が大きいです。",
+      "timestamp": "2023-02-24T15:14:57.752300+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "「ミッション：インポッシブル」と同じ監督だったこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "知ってなるほど、と思ったこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "りし頃のアンディ・ガルシア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "俳優さんの渋さに惹かれた思い出",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "1635_director_other_title-0:50427",
+        "1635_cast_name-2"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "確かに渋さが印象に残りますね。アンディ・ガルシアという俳優は存じ上げませんが、その後どのような映画に出演されていますか？",
+      "timestamp": "2023-02-24T15:16:49.157762+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "渋さ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "アンディ・ガルシアという俳優",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "オーシャンズ11のシリーズや、マンマ・ミーア！ ヒア・ウィー・ゴーなどでも、渋みを活かした演技をされていますよ。でも、若いころの方がカッコいいです。アンタッチャブルではケビン・コスナーの相棒役でした！",
+      "timestamp": "2023-02-24T15:18:13.697937+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "渋みを活かした演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "若いころの方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "アンタッチャブル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ケビン・コスナーの相棒役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "1635_cast_name-0",
+        "1635_cast-2_other_title-2:234690",
+        "1635_cast-2_other_title-4:363202"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうでしたか。知名度の高い作品に出演されているんですね。またチェックしてみます。その他に好きな俳優さんはいらっしゃいますか？出演作と併せて教えてください。",
+      "timestamp": "2023-02-24T15:19:50.170129+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "知名度の高い作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "その他",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "出演作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "私はジェイソン・ボーンシリーズの、マット・デイモンが大好きです。1990年代だと、「グッド・ウィル・ハンティング／旅立ち」にも出ていました。特にカッコいいわけではないのですが、味がある顔立ちされています。",
+      "timestamp": "2023-02-24T15:21:20.949152+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ジェイソン・ボーンシリーズの、マット・デイモン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "1990年代",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "「グッド・ウィル・ハンティング／旅立ち」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "味がある顔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T15:20:17.381542+09:00",
+          "query": "ボーン",
+          "genres": "",
+          "results": "10911,162615,16651,234686,239779,318674,320073,320442,325627,326203,326536,328151,331863,334855,335594,336862,342005,346264,347722,350111,355735,355757,357070,357927,363669,366492,378066"
+        }
+      ],
+      "checked": [
+        "355735_title",
+        "355735_cast-0_other_title-16:83888"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "マット・デイモンですか。良い俳優さんですよね。",
+      "timestamp": "2023-02-24T15:22:10.383537+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "マット・デイモン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "良い俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "今日は久しぶりに1980年代の映画も見たくなりました。お付き合いどうもありがとうございました。",
+      "timestamp": "2023-02-24T15:22:30.717584+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "1980年代の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "雰囲気重視で興味を惹かれるタイプですか？",
+      "timestamp": "2023-02-24T15:22:42.267808+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "雰囲気重視で興味を惹かれるタイプ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "雰囲気です（笑）",
+      "timestamp": "2023-02-24T15:22:52.684948+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "雰囲気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "ご紹介頂いた作品も見てみます。今日はありがとうございました。",
+      "timestamp": "2023-02-24T15:23:22.625149+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "ご紹介頂いた作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "speaker": "recommender",
+      "text": "こちらこそ。",
+      "timestamp": "2023-02-24T15:23:28.445868+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

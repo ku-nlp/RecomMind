@@ -1,0 +1,1051 @@
+{
+  "dialog_id": "f0598f76-4459-4dff-9626-2f1e802d8c90",
+  "created_timestamp": "2023-02-20T20:09:21.995716+09:00",
+  "archived_timestamp": "2023-02-20T20:42:00.426960+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！お待たせしました。よろしくお願いします。",
+      "timestamp": "2023-02-20T20:11:40.517935+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。よろしくお願いいたします。でぃーろ",
+      "timestamp": "2023-02-20T20:11:52.757946+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "でぃーろ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-02-20T20:12:16.277402+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "その時の気分に合わせて色んなジャンルの映画を観ますが、マフィア映画やアクション、ホラーなどはほとんど観ません。",
+      "timestamp": "2023-02-20T20:13:49.534348+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "その時の気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "色んなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "マフィア映画やアクション、ホラー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "では明るいコメディとかヒューマン系ですか？めちゃくちゃ古いですけど、「恋人たちの予感」ってご覧になりましたか？今でもラブコメの王道ですが。",
+      "timestamp": "2023-02-20T20:15:16.116190+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "明るいコメディとかヒューマン系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "めちゃくちゃ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「恋人たちの予感」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ラブコメの王道",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T20:14:34.480589+09:00",
+          "query": "恋人たちの予感",
+          "genres": "",
+          "results": "7400"
+        }
+      ],
+      "checked": [
+        "7400_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい。むかし映画館で上映されていた時には見逃した作品ですが、オンラインの動画配信で観ました。なかなかおもしろかったです。",
+      "timestamp": "2023-02-20T20:16:59.412068+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "むかし映画館で上映されていた時には見逃した作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "オンラインの動画配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "こういう系統はお好きですか？　きっとメグ・ライアンの映画はご覧になっていそうなので、サンドラ・ブロックの「あなたが寝てる間に…」はご覧になりましたか？",
+      "timestamp": "2023-02-20T20:18:59.468901+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "こういう系統",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "メグ・ライアンの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "サンドラ・ブロック",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「あなたが寝てる間に…」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T20:17:39.017851+09:00",
+          "query": "あなたが寝てる",
+          "genres": "",
+          "results": "27724"
+        }
+      ],
+      "checked": [
+        "27724_title",
+        "27724_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "こういう系統の映画が観たい気分の時もあります。特に気分が落ち込みがちで、あまりシリアスな作品を観たい気分でないときには。「あなたが寝てる間に…」観たことはないです。コメディーですか？",
+      "timestamp": "2023-02-20T20:21:35.046419+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "こういう系統の映画が観たい気分の時",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "シリアスな作品を観たい気分でないとき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「あなたが寝てる間に…」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "コメディー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "はい。コメディです。主人公はさえない（ってもかわいいサンドラ・ブロックですが）独り者の女の子で駅で働いていて毎朝見かける行け文を勝手に王子様と呼んでいるたのですが、ある日、その王子様が線路に転落という事件があり、それを彼女が救出するのです。病院まで付き添って、軽く記憶喪失の王子様の婚約者と勘違いされるとこから話が進みます。",
+      "timestamp": "2023-02-20T20:24:04.460662+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "（ってもかわいいサンドラ・ブロックですが）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "者の女の子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "駅",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "働いていて毎朝見かける行け文",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "王子様",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "その王子様",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "線路",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "転落という事件",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "病院",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "軽く記憶喪失の王子様の婚約者と勘違いされるとこ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "サンドラ・ブロックがさえない独り者の女の子役なんですね。どんな風に演じているのか興味が沸きます。面白そうなストーリーですね。",
+      "timestamp": "2023-02-20T20:28:17.272100+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "サンドラ・ブロック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "者の女の子役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "面白そうなストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "行け文→イケメンです。すみません混乱させましたね、ここまでの誤字は（汗）\nとても楽しい映画でしたよ。彼女はこれとスピードで大出世したと思います。",
+      "timestamp": "2023-02-20T20:29:05.906485+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "文→イケメン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "混乱させましたね、ここまでの誤字",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "スピード",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "彼女がお母さん役で出演しているという『しあわせの隠れ場所』という作品も気になっていました。まだ観てないですが、どちらの演技も観てみたいです。",
+      "timestamp": "2023-02-20T20:30:40.586564+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "お母さん役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "出演しているという『しあわせの隠れ場所』という作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "どちらの演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "彼女ももう、お母さん役でも不思議がないお年ですよね。\nでも直近ではブレット・トレインにも出てましたが、なんかCGじゃないかと思うほど若くてかわいいままでした。その方がいい役だったからだとは思いますが。",
+      "timestamp": "2023-02-20T20:32:38.510965+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "お母さん役でも不思議がないお年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "直近",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ブレット・トレイン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "CGじゃないかと思うほど若くてかわいいまま",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "その方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "いい役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "27724_cast-0_other_title-4:381726"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "彼女が出ている作品を何作かまとめて観たくなってきました。\n彼女が王子様と呼んでいるイケメン役は誰が演じているのか気になります。",
+      "timestamp": "2023-02-20T20:36:35.698851+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "彼女が出ている作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "彼女が王子様と呼んでいるイケメン役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "「あなたが寝てる間に…」で私がとっても好きなのは最後はもちろんハッピーエンドですが、彼女が王子様の弟の方が気が合い、弟とくっつくのです。弟は王子様の黒髪濃いめのイケメン、ピーター・ギャラガーとは真逆感のあるビル・プルマン。めぐり会えたらでメグライアンの花粉症の彼氏役だった人です。ビル・プルマンが女の子をゲットする映画はこれが初めてだったと思います。なので余計に良かった良かったって気にさせられて。(笑)",
+      "timestamp": "2023-02-20T20:37:05.408345+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "「あなたが寝てる間に…」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "58",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "王子様の弟の方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "弟",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "王子様の黒髪濃いめのイケメン、ピーター・ギャラガーとは真逆感のあるビル・プルマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "めぐり会えたらでメグライアンの花粉症の彼氏役だった人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "ビル・プルマンが女の子をゲットする映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "27724_cast-0_other_title-7:27724"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "エンディングで王子様の弟の方とくっつくという展開、面白そうです。（若き頃の）ピーター・ギャラガーとビル・プルマンも出演している作品なのですね。楽しみです。面白そうな作品をご紹介いただきありがとうございました！",
+      "timestamp": "2023-02-20T20:41:06.104362+09:00",
+      "internal_states": [
+        {
+          "id": "64",
+          "text": "エンディング",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "王子様の弟の方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "くっつくという展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "67",
+          "text": "（若き頃の）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "ピーター・ギャラガー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "ビル・プルマンも出演している作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "面白そうな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "楽しいですからぜひ見てくださいね！こちらこそありがとうございました。",
+      "timestamp": "2023-02-20T20:41:37.723440+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

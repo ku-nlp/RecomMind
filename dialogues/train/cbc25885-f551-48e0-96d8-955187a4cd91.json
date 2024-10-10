@@ -1,0 +1,870 @@
+{
+  "dialog_id": "cbc25885-f551-48e0-96d8-955187a4cd91",
+  "created_timestamp": "2023-02-20T09:59:15.689535+09:00",
+  "archived_timestamp": "2023-02-20T10:20:19.424914+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-02-20T10:00:14.050394+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-02-20T10:00:28.143795+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-20T10:00:32.868398+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "はい。\n普段は、邦画が多いです。ジャンルは、コメディが多いのですが、その他のジャンルもいろいろ観てみたいです。\n何かお薦めはありますか？",
+      "timestamp": "2023-02-20T10:02:18.390192+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "その他のジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "お薦め",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。SFやアニメ、ホラーやミュージカルなど、今日ご覧になりたい気分などありませんか？",
+      "timestamp": "2023-02-20T10:03:57.935091+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "SFやアニメ、ホラーやミュージカル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "今日ご覧になりたい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ミュージカル、いいですね！\nよろしくお願いします。",
+      "timestamp": "2023-02-20T10:04:29.711607+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "昔のではなく、2015年にリメイクされたANNIE／アニーはご覧になったことはありますか？現代NYが舞台のミュージカル映画です。",
+      "timestamp": "2023-02-20T10:05:12.985681+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "2015年にリメイクされたANNIE／アニー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "現代NY",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "舞台のミュージカル映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T10:04:42.657870+09:00",
+          "query": "アニー",
+          "genres": "",
+          "results": "12124,163038,19758,22667,23290,233769,241899,25304,26638,320267,349742,351610,361586,365075,365276,366134,366945,375940,54734"
+        }
+      ],
+      "checked": [
+        "349742_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "昔のもリメイク版も観ていないです。\nぜひ、教えてください。",
+      "timestamp": "2023-02-20T10:06:04.459330+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "リメイク版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "アニーといえば、赤毛の白人の女の子なのですが、今回は黒人の女の子。里親になるスタックスもジェイミー・フォックスという黒人の俳優さんがやっています。10歳の少女アニーは、4歳の時に両親にレストランに置き去りにされ、現在は他の子供たちと共に落ちぶれた歌手ハニガンの営む孤児院で暮らしています。",
+      "timestamp": "2023-02-20T10:07:31.844229+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "アニー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "赤毛の白人の女の子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "黒人の女の子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "里親になるスタックス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ジェイミー・フォックスという黒人の俳優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "10歳の少女アニー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "4歳の時",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "両親",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "レストラン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "置き去り",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "現在",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "他の子供たちと共に落ちぶれた歌手ハニガンの営む孤児院",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349742_cast_name-0",
+        "349742_cast_name-4",
+        "349742_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そんなストーリーだったんですね。\ntomorrowはやはり歌われるんですか？",
+      "timestamp": "2023-02-20T10:08:57.307056+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "そんなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "tomorrow",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "Tomorrow歌っていますが、黒人の子の歌唱力が素晴らしくて聞き入ってしまいます。それだけでも見る価値あるかもしれないので、是非字幕版でご覧いただきたいです。孤児院のおかみさんのハニガンをキャメロン・ディアスが演じていて、やさぐれ具合がとても良い感じでした。",
+      "timestamp": "2023-02-20T10:10:04.489478+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "Tomorrow",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "黒人の子の歌唱力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "それだけでも見る価値",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "字幕版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "孤児院のおかみさんのハニガン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "キャメロン・ディアス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "やさぐれ具合",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "良い感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349742_plot-2",
+        "349742_plot-3",
+        "349742_plot-5"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "字幕版ですね。\nキャメロン・ディアスのやさぐれ感(笑)にとっても興味がわきました。\n歌声のすばらしいんですね。楽しみです。",
+      "timestamp": "2023-02-20T10:12:21.267574+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "字幕版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "キャメロン・ディアス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "やさぐれ感",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "衣装もカラフルですし、現代のNYの街の風景や、素敵なおうちの間取りを見ているのも楽しいです。ちょっと笑えるコメディ要素もあって、私は昔のアニーよりリメイク版の方が好きでした。",
+      "timestamp": "2023-02-20T10:13:37.307817+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "衣装",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "現代のNYの街の風景や、素敵なおうちの間取り",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "笑えるコメディ要素",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "昔のアニー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "リメイク版の方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "音楽だけじゃなくて、舞台になるNYの雰囲気も素敵なんですね。\n眼福ですね！\nありがとうございます。\n他にもおすすめがあれば教えていただけますか？",
+      "timestamp": "2023-02-20T10:15:50.928390+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "舞台になるNYの雰囲気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "眼福",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "去年映画館に観にいったSING／シング：ネクストステージが、アニメと侮るなかれ、とてもよかったです。U2のボノがライオン役で最後に歌うのですが、もうライブを見ているような気にさえなるほど、良かったです。これも何も考えずに楽しめるので、疲れているときなどにおススメかと。",
+      "timestamp": "2023-02-20T10:17:38.045311+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "去年映画館に観にいったSING／シング：ネクストステージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "U2のボノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "ライオン役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ライブを見ているような気にさえなるほど",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "疲れているとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T10:16:32.627232+09:00",
+          "query": "SING",
+          "genres": "",
+          "results": "355820,378013"
+        }
+      ],
+      "checked": [
+        "378013_title"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そちらも観ていないです。\nU2のボノだなんて、とっても贅沢ですね！！\nこちらも観ますね(聞きますね)。",
+      "timestamp": "2023-02-20T10:19:35.264802+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "U2のボノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "観ますね(聞きますね)",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "お時間のあるときに、ぜひご覧になって下さいね。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-02-20T10:19:44.021690+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "お時間のあるとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "素敵な作品をご紹介いただきありがとうございました。",
+      "timestamp": "2023-02-20T10:20:02.291629+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "素敵な作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

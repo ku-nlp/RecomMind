@@ -1,0 +1,971 @@
+{
+  "dialog_id": "c9980b49-cee4-490c-a81b-d989e5ebe618",
+  "created_timestamp": "2022-12-09T10:50:21.085735+09:00",
+  "archived_timestamp": "2022-12-09T11:26:43.433257+09:00",
+  "recommender": {
+    "name": "006",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "004",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 2
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "おはようございます。よろしくお願いいたします。",
+      "timestamp": "2022-12-09T10:52:59.617815+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "おはようございます。秋晴れの素敵な一日ですね。\n今日はお休みでしょうか。映画などみてリラックスされますか？",
+      "timestamp": "2022-12-09T10:53:33.704763+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "秋晴れの素敵な一日",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "お休みではないですけど、週末に備えて何かいい映画をご紹介いただけますか？",
+      "timestamp": "2022-12-09T10:56:00.602792+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "お休み",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "週末",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "何かいい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "週末用ですね。承知しました。普段は、どんな映画をご覧になっていますか？",
+      "timestamp": "2022-12-09T10:56:43.386205+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "週末用",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "そうですね、特にジャンルが決まってるわけではないですが、気分次第で、アクション映画だったり、感動もんだったり色々ですね",
+      "timestamp": "2022-12-09T10:59:14.333033+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "気分次第",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "アクション映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "感動もん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "なるほど。感動ものだったら、最強のふたりというフランス映画はいかがでしょう。ご覧になったでしょうか？",
+      "timestamp": "2022-12-09T11:00:10.834975+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "感動もの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "最強のふたりというフランス映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-09T10:57:21.067861+09:00",
+          "query": "最強のふたり",
+          "genres": "",
+          "results": "341701"
+        }
+      ],
+      "checked": [
+        "341701_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "いいえ、初めて聞きました。フランス映画興味ありますね。\nどんな映画ですか。",
+      "timestamp": "2022-12-09T11:01:10.171492+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "フランス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "体が動かなくなった富豪とその介護をする貧しい若者の交流を笑いを交えて描いているんです。実在の人のお話です。",
+      "timestamp": "2022-12-09T11:01:57.212360+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "体が動かなくなった富豪とその介護をする貧しい若者の交流",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "実在の人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "へぇー、実話ですか、見てみたいですね。介護のお話、だんだん他人事じゃなくなってきましたし(笑)",
+      "timestamp": "2022-12-09T11:03:53.948072+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "介護のお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "他人事",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "介護は、誰でもお世話になりますもんね。この映画に出てくる若者は、ものすごいストレートでやりたい放題です。富豪は人生を悲観しているところがあったけれど、若者に影響されてだんだん前向きになっていく．．超カンタンにまとめるとそんなストーリーです。ちょっとラブロマンスも入ったお話で、見た後爽快です。",
+      "timestamp": "2022-12-09T11:05:21.062222+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "介護",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "誰でもお世話になりますもん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "この映画に出てくる若者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ものすごいストレートでやりたい放題",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "富豪",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "人生を悲観しているところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "若者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "そんなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ラブロマンスも入ったお話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "見た後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "分かりやすいご説明です。富貧老若のところも面白そうですね。確かに年を取ってからはどうしてもマイナスなイメージが強くなりますよね。その時の心の持ち方について何かヒントが得られそうです。",
+      "timestamp": "2022-12-09T11:09:42.804435+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "富貧老若のところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "マイナスなイメージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "その時の心の持ち方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ヒント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "はい、映画って、エンタメだけじゃなくて、いい影響を与えますよね。「五体不満足」を書いた乙武洋匡さんってご存知ですか？",
+      "timestamp": "2022-12-09T11:11:15.047845+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "エンタメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "いい影響",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "「五体不満足」を書いた乙武洋匡さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "存じないです。どんな方ですか？",
+      "timestamp": "2022-12-09T11:11:54.805283+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "どんな方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "乙武さんは手も足もないんです。富豪ではない、そしてものすごく積極的に生きてらっしゃいます。",
+      "timestamp": "2022-12-09T11:13:32.359665+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "乙武さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "40",
+          "text": "足",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "富豪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "へぇー、周りの人にとっては太陽みたいな存在なんでしょうね。\nそしてその「五体不満足」はもしかしたら乙武さんご自身のことでしょうかね？",
+      "timestamp": "2022-12-09T11:15:38.020331+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "周りの人にとっては太陽みたいな存在",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "「五体不満足」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "乙武さんご自身のこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "そうです。乙武さんが五体不満足です。財産があったら、乙武さんは、本は書かなかったと思います。\n人間って、財産が十分にあると、やる気がなくなるんじゃないかと思いました。映画の中の富豪が人生を楽しむようになったのは、貧しい若者から、「貧しい人が持つエネルギー」をもらったんだと思います。",
+      "timestamp": "2022-12-09T11:17:42.592114+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "五体",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "46",
+          "text": "乙武さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "人間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "財産",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "やる気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "映画の中の富豪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "貧しい若者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "「貧しい人が持つエネルギー」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "なるほどです。\nそのエネルギーは財産だったんですね。\nこの本も読んでみたくなりました",
+      "timestamp": "2022-12-09T11:21:02.895106+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "そのエネルギー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "財産",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "この本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "はい。映画も是非。考えさせられる映画ではありますが、私はコメディだと思います。週末楽しめると思いますよ！",
+      "timestamp": "2022-12-09T11:21:48.676193+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "考えさせられる映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "週末",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "考えさせられる映画も大好きですよ。ちょうどよかったです。\nすてきなお話ありがとうございました。\n是非見てみたいと思います。",
+      "timestamp": "2022-12-09T11:23:11.918493+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "考えさせられる映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "すてきなお話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

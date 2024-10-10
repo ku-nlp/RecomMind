@@ -1,0 +1,983 @@
+{
+  "dialog_id": "a1189775-abfa-40d0-be68-046970e26f43",
+  "created_timestamp": "2023-03-13T09:53:29.166507+09:00",
+  "archived_timestamp": "2023-03-13T10:22:15.471921+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-03-13T09:59:44.093132+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-03-13T10:02:26.192691+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今日はどのような映画をご覧になりたいご気分でしょうか。",
+      "timestamp": "2023-03-13T10:02:31.879952+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "春休みが近いので、子供と楽しめる映画でなにかお勧めはあるでしょうか？",
+      "timestamp": "2023-03-13T10:03:00.629989+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "春休み",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "楽しめる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "最近ユニバーサルスタジオに行ったので、Singやミニオンズなどを観なおしているのですが、ご覧になったことはございますか？",
+      "timestamp": "2023-03-13T10:03:48.185276+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ユニバーサルスタジオ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "Singやミニオンズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ユニバーサル、いいですね！シングは好きで、１も２も見ました。",
+      "timestamp": "2023-03-13T10:04:15.802160+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ユニバーサル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "シング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "１",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "２",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ミニオンズの一番最初のはいかがでしょうか、2015年の作品です。",
+      "timestamp": "2023-03-13T10:04:57.721107+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "2015年の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-13T10:03:54.887548+09:00",
+          "query": "ザリガニ",
+          "genres": "",
+          "results": "323638"
+        },
+        {
+          "timestamp": "2023-03-13T10:04:01.464067+09:00",
+          "query": "ざりがに",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-13T10:04:40.925772+09:00",
+          "query": "ミニオンズ",
+          "genres": "",
+          "results": "351145"
+        }
+      ],
+      "checked": [
+        "351145_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "ミニオンズは、怪盗ブルーの分は記憶にありますが、最初のは\n見たかも知れませんが、記憶にないので笑\nぜひ見所を教えて頂けるとうれしいです。",
+      "timestamp": "2023-03-13T10:06:26.848447+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ミニオンズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "怪盗ブルーの分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "14",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "この作品で私はミニオンズに心をわしづかみにされたのですが、ミニオンたちの秘密や、グルーとの出会いなどが明らかになる作品です。海で暮らす単細胞生物だっ数々の悪党に仕えてきましたが、最強の主を求めて、NYにたどり着きます。",
+      "timestamp": "2023-03-13T10:08:38.367723+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ミニオンズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "わしづかみ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ミニオンたちの秘密や、グルーとの出会いなどが明らかになる作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "海で暮らす単細胞生物だっ数々の悪党",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "最強の主",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "NY",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "351145_review-4",
+        "351145_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ブルーではなく、グルーでしたね笑\nなるほど、ミニオンたちは何者？？と思っていたので、\nまずは最初の作品を見るのは重要ですね。\n\nところで、ミニオンの名前の由来って在るのでしょうか？\n小さい「ミニ」からきているのでしょうか？",
+      "timestamp": "2023-03-13T10:10:54.091909+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "ブルー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "グルーでしたね笑",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ミニオンたち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "何者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "最初の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ミニオンの名前の由来",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "「ミニ」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "minionは英語で「手先」とか「家来」の意味があるので、悪党の手下になることに生き甲斐を感じている彼らにぴったりの名前ですよね。",
+      "timestamp": "2023-03-13T10:12:09.067625+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "minion",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "英語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「手先」とか「家来」の意味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "悪党の手下になること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "甲斐を感じている彼らにぴったりの名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "351145_cast_name-0",
+        "351145_plot-4"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうだったんですね！\n悪党の手下になることに生き甲斐を感じる、ってある意味幸せですね。\n\n最強の主を求めてニューヨークに来たのは、\n全員でしたか？",
+      "timestamp": "2023-03-13T10:14:21.030687+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "悪党の手下になること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "生き甲斐",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ある意味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "最強の主",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ニューヨーク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "全員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "3匹（人？）だけですが、その後エリザベス女王の王冠を盗んで来るよう指示され、ロンドンに向かいますが、いろいろトラブルがあり、最終的にロンドンで全員のミニオンが集結します。仲間意識があって、可愛かったですよ。",
+      "timestamp": "2023-03-13T10:15:53.448241+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "3匹",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "エリザベス女王の王冠を盗んで来るよう",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "トラブル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ロンドン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "全員のミニオン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "仲間意識",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうだったんですね。\n確かに仲間意識が強そうです。\n最終的には、最強の主は見つかったのでしょうか？",
+      "timestamp": "2023-03-13T10:17:59.038374+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "仲間意識",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "最強の主",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "子供のころのグルーが、最後に王冠を盗んでいくのですが、それを見たミニオンたちが「この人が最高の悪党だ」といことで、目を輝かせているところで終わります。それで次回作につながる感じです。エリザベス女王もそっくりですし、ロンドンの町並みも再現されているので、旅行気分でぜひ、ご覧になってみてください。",
+      "timestamp": "2023-03-13T10:19:06.192849+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "子供のころのグルー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "王冠",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "それを見たミニオンたち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "「この人が最高の悪党だ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "それで次回作につながる感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "エリザベス女王",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ロンドンの町並み",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "旅行気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そういう繋がりだったんですね。\nグルーを見て、目を輝かせているミニオンたちを\n想像すると、クスッと笑えてきました。\n\nロンドンの町並みの再現も見てみたいです。\nぜひ春休みに見てみようと思います。\n\n今日は、素敵な解説をありがとうございました！",
+      "timestamp": "2023-03-13T10:22:03.089484+09:00",
+      "internal_states": [
+        {
+          "id": "59",
+          "text": "そういう繋がり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "グルー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "目を輝かせているミニオンたち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "ロンドンの町並みの再現",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "春休み",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "素敵な解説",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "今日はお付き合いありがとうございました。",
+      "timestamp": "2023-03-13T10:22:12.373207+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

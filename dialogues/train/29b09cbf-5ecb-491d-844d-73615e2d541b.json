@@ -1,0 +1,908 @@
+{
+  "dialog_id": "29b09cbf-5ecb-491d-844d-73615e2d541b",
+  "created_timestamp": "2023-02-12T21:21:48.503650+09:00",
+  "archived_timestamp": "2023-02-12T21:43:28.019861+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "006",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いします",
+      "timestamp": "2023-02-12T21:24:16.056898+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いします",
+      "timestamp": "2023-02-12T21:24:45.658795+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どういった映画がお好きですか？洋画派？日本映画派ですか？",
+      "timestamp": "2023-02-12T21:25:20.214394+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画派？日本映画派",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "どちらも好きですよ。でも、ヨーロッパ映画は避けます。何言ってるかちんぷんかんぷんで。韓国映画も嫌です。言語のはじける音が嫌いです。",
+      "timestamp": "2023-02-12T21:26:31.764429+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ヨーロッパ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "2",
+          "text": "韓国映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "言語のはじける音",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど！起承転結のはっきりしたハリウッド映画がお好きですか？と言いながら、私が思いっきり笑った日本映画の一つを紹介しようと思っています。「シコふんじゃった。」という周防正行監督の映画はご覧になりました？古いですが。",
+      "timestamp": "2023-02-12T21:28:47.023390+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "起承転結のはっきりしたハリウッド映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "笑った日本映画の一つ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「シコふんじゃった。」という周防正行監督の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-12T21:27:58.098057+09:00",
+          "query": "シコ",
+          "genres": "",
+          "results": "10909,13522,13523,151599,1702,1709,18114,20696,29041,322605,325136,326063,328975,329456,329623,333494,334516,335210,335567,336061,336448,338199,338677,339354,340335,344013,346480,348087,350824,352378,352899,354254,354473,354512,354522,354960,355434,359256,359476,360835,360948,361148,364528,365978,366852,367854,369058,371684,7547,7583,83437,86183"
+        },
+        {
+          "timestamp": "2023-02-12T21:28:05.559422+09:00",
+          "query": "シコふんじゃった",
+          "genres": "",
+          "results": "151599"
+        }
+      ],
+      "checked": [
+        "151599_title",
+        "151599_director_name"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "シコふんじゃったはみました。こういう系統は好きです。",
+      "timestamp": "2023-02-12T21:29:45.137461+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "シコ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "こういう系統",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ひたすら笑うための映画ですよね！笑える映画をではもうひとつ。「RED／レッド」はご覧になりましたか？こちらはアメリカ映画です。",
+      "timestamp": "2023-02-12T21:31:26.295576+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "笑うための映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "笑える映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ひとつ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「RED／レッド」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アメリカ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-12T21:30:56.387684+09:00",
+          "query": "RED",
+          "genres": "",
+          "results": "338115,346408,357404,366007,380179"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "RED見てないですし、聞いたこともないです。コメディなんですか",
+      "timestamp": "2023-02-12T21:31:56.104106+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "RED",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "はい。ブルース・ウィリス主演の引退した元スパイたち（老人）たちが暇を持て余して（？）大暴れする話です。ジョン・マルコヴィッチがええ味出してまして。そしてヘレン・ミレンがめちゃくちゃかっこいいのです。",
+      "timestamp": "2023-02-12T21:33:30.272337+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "ブルース・ウィリス主演の引退した元スパイたち（老人）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "17",
+          "text": "暇",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "持て余して（？）大暴れする話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ジョン・マルコヴィッチ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "20",
+          "text": "味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ヘレン・ミレン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "22",
+          "text": "めちゃくちゃ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "338115_cast_name-2",
+        "338115_cast_name-4"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ブルースウィリス以外の人は良く分かりませんが、アクションコメディ面白そうですね。",
+      "timestamp": "2023-02-12T21:34:19.256538+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ブルースウィリス以外の人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "アクションコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "元CIA、元KGB、元MI6のスパイたちが、みなフツーの日常には適応できず、結局現役スパイ以上に大活躍して悪を成敗、世界を守る話です。２作目までありますよ。",
+      "timestamp": "2023-02-12T21:36:15.800996+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "元CIA、元KGB、元MI6のスパイたち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "フツーの日常",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "現役スパイ以上",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "悪",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "成敗",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "世界を守る話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "２作目",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "大ヒットなんですね。REDというとワンピースの映画と思ってしまいました。邦画でもREDってあったように思います。\nREDというタイトルに意味があるんでしょうね。",
+      "timestamp": "2023-02-12T21:37:41.247892+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "大ヒット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ワンピースの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "RED",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "REDというタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "意味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "Retired Extremely Dangerousの頭文字です。この映画の場合は。引退した危ない奴リスト（←架空です）なのですよ。\nモーガン・フリーマンも出てました。ブルース・ウィリスが失語症で引退してしまったので、続きが出ないのが残念でなりません。",
+      "timestamp": "2023-02-12T21:39:13.130827+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "Retired　Extremely　Dangerousの頭文字",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "この映画の場合",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "奴リスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "モーガン・フリーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ブルース・ウィリス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "失語症",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "続き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "338115_cast_name-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど！　意味のあるタイトルですね。モーガンフリーマンは知ってます。ブルースウィリス引退したとは知りませんでした。",
+      "timestamp": "2023-02-12T21:40:10.712134+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "意味のあるタイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "モーガンフリーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ブルースウィリス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "去年ですかね。この映画の中でブルース・ウィリスとその老いらくの恋は個人的にはどうでも良かったんですが、彼がいないと続きも出ないのです！",
+      "timestamp": "2023-02-12T21:41:32.119618+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "この映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ブルース・ウィリスとその老いらくの恋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "続き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "それは残念ですね。では、１と２だけ楽しみます。",
+      "timestamp": "2023-02-12T21:42:14.505202+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "１",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "２",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ぜひ観てください。２では名優が色々とさらに出てきますが、１の方が圧倒的に面白いです。",
+      "timestamp": "2023-02-12T21:43:00.856726+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "２",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "名優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "色々",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "１の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "はい、是非見てみます。おすすめありがとうございました。",
+      "timestamp": "2023-02-12T21:43:24.653068+09:00",
+      "internal_states": []
+    }
+  ]
+}

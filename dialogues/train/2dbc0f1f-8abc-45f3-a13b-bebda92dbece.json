@@ -1,0 +1,728 @@
+{
+  "dialog_id": "2dbc0f1f-8abc-45f3-a13b-bebda92dbece",
+  "created_timestamp": "2023-01-25T12:54:15.701236+09:00",
+  "archived_timestamp": "2023-01-25T13:19:11.888034+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いします。",
+      "timestamp": "2023-01-25T13:00:42.227486+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。よろしくお願いいたします。",
+      "timestamp": "2023-01-25T13:00:47.222410+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近何か映画は観ましたか？",
+      "timestamp": "2023-01-25T13:01:02.388062+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画館には行っていませんが、テレビで「そしてバトンは渡された」でした？タイトルがあやふやですが、観ました。",
+      "timestamp": "2023-01-25T13:02:34.449183+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "そしてバトン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "永野芽郁主演の映画ですね。",
+      "timestamp": "2023-01-25T13:03:29.615756+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "永野芽郁主演の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T13:02:14.757919+09:00",
+          "query": "最強の二人",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T13:02:17.763245+09:00",
+          "query": "最強のふたり",
+          "genres": "",
+          "results": "341701"
+        },
+        {
+          "timestamp": "2023-01-25T13:02:54.264113+09:00",
+          "query": "そしてバトン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T13:03:00.753182+09:00",
+          "query": "そしてバトンは渡された",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T13:03:04.057060+09:00",
+          "query": "バトン",
+          "genres": "",
+          "results": "321945,329887,330912,348001,376704"
+        }
+      ],
+      "checked": [
+        "376704_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい。そうです。",
+      "timestamp": "2023-01-25T13:03:44.617611+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "私は先に小説を読んでしまったので、主人公のイメージが映画と本で違うので映画は観なかったのですが、楽しめましたか？",
+      "timestamp": "2023-01-25T13:05:40.729873+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "主人公のイメージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "376704_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どういう映画かもよく知らず、たまたま観たので、私はなかなかよい映画だったと思いました。",
+      "timestamp": "2023-01-25T13:06:48.474664+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "よい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "洋画より邦画の方がよく観ますか？",
+      "timestamp": "2023-01-25T13:07:09.831466+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "邦画の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "観るのは洋画のほうが多いですね。",
+      "timestamp": "2023-01-25T13:07:45.371718+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "洋画のほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "好きな俳優はいますか？",
+      "timestamp": "2023-01-25T13:07:57.784453+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "出演俳優も気にはなりますが、俳優にはこだわらずに、ストーリーが気になって観たりします。あとは、時間のある時にはわりといろいろなジャンルの映画を観るほうです。",
+      "timestamp": "2023-01-25T13:10:17.735550+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "出演俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "いろいろなジャンルの映画を観るほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "私は好きな俳優が出ている映画から見るほうですが、ストーリーがよかったと最近心に残っている映画に「はじまりのうた」というのがあります。ご存じですか？",
+      "timestamp": "2023-01-25T13:13:03.335763+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "好きな俳優が出ている映画から見るほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "よかったと最近心に残っている映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「はじまりのうた」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T13:09:09.788753+09:00",
+          "query": "キャットウーマン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T13:09:12.453225+09:00",
+          "query": "キャット",
+          "genres": "",
+          "results": "10248,234690,320917,344013,347290,367321,367638,367684,370964,378799"
+        },
+        {
+          "timestamp": "2023-01-25T13:12:42.275171+09:00",
+          "query": "はじまりの",
+          "genres": "",
+          "results": "343507,350077,357411,359120"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "いえ。タイトルも聞いたことがありません。どんな映画ですか？",
+      "timestamp": "2023-01-25T13:13:38.850750+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "キーラ・ナイトレイという女優さんが主演で、落ちぶれた音楽プロデューサに見いだされて、二人とも離婚、失恋という逆境にあるけれど、音楽を楽しんでいくうちに元気になる、というようなストーリーです。音楽もとてもいいです。",
+      "timestamp": "2023-01-25T13:16:02.198618+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "キーラ・ナイトレイという女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "落ちぶれた音楽プロデューサ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "二人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "離婚",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "失恋という逆境",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "音楽を楽しんでいくうち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "元気になる、というようなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "350077_title",
+        "350077_cast_name-0"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "キーラ・ナイトレイはわりと好きな俳優さんです。最後はハッピーエンドの映画なんですね？",
+      "timestamp": "2023-01-25T13:17:15.777665+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "キーラ・ナイトレイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ハッピーエンドの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "キーラナイトレイが好きなんですね！最後はほんとにほっこりとするハッピーエンドで幸せな気持ちになります。",
+      "timestamp": "2023-01-25T13:18:22.370025+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "キーラナイトレイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ほんとにほっこりとするハッピーエンドで幸せな気持ち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "そうなんですね。また一度チェックしてみます。どうもありがとうございました。",
+      "timestamp": "2023-01-25T13:18:55.778267+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ありがとうございました！",
+      "timestamp": "2023-01-25T13:19:04.698784+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

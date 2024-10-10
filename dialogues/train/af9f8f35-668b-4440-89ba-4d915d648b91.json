@@ -1,0 +1,932 @@
+{
+  "dialog_id": "af9f8f35-668b-4440-89ba-4d915d648b91",
+  "created_timestamp": "2023-03-25T13:59:31.823249+09:00",
+  "archived_timestamp": "2023-03-25T14:35:57.577122+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-03-25T14:01:12.072160+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-03-25T14:01:27.363778+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今週末が花見の時期ですが、ずっと雨のようです。早速ですが、今日はどんな映画をご覧になりたい気分でしょうか？",
+      "timestamp": "2023-03-25T14:02:34.399075+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "今週末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "花見の時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "雨",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "どんな映画をご覧になりたい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。何かワクワクするような楽しい映画でおすすめはありますか？",
+      "timestamp": "2023-03-25T14:03:06.585825+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "何かワクワクするような楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画と邦画、特定なお好みはございますか？",
+      "timestamp": "2023-03-25T14:06:07.661541+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "邦画、特定なお好み",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "邦画よりも、できれば洋画のほうがうれしいです。",
+      "timestamp": "2023-03-25T14:06:53.720617+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "洋画のほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "承知しました。お嫌いな要素はありますか？",
+      "timestamp": "2023-03-25T14:07:33.684286+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "お嫌いな要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "大量の血が流れるシーンは少し苦手です。",
+      "timestamp": "2023-03-25T14:08:22.802968+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "大量の血が流れるシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "「レディ・プレイヤー1」というSF映画はかなり気分を上げるのですが、ご覧になったことありますか？",
+      "timestamp": "2023-03-25T14:12:31.034084+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「レディ・プレイヤー1」というSF映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-25T14:10:09.391330+09:00",
+          "query": "レディ・プレイヤー1",
+          "genres": "",
+          "results": "362706"
+        }
+      ],
+      "checked": [
+        "362706_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "いいえ。その映画はまだ観ていません。\n森崎ウィンさんでした？が出演した映画ですよね？",
+      "timestamp": "2023-03-25T14:13:31.498093+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "森崎ウィンさんでした？が出演した映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "はい、森崎ウィンさん出ています。スティーヴン・スピルバーグがアーネスト・クラインの小説を映画化した、仮想ネットワークシステムの謎を探る高校生の活躍を描くSFアドベンチャーです。2045年を舞台に、仮想ネットワークシステム「オアシス」開発者の遺産争奪戦を描くのですが、主人公を『MUD マッド』『グランド・ジョー』などのタイ・シェリダンが演じ、共演は、オリヴィア・クック、マーク・ライランス、サイモン・ペッグ、T・J・ミラー、ベン・メンデルソーン、森崎ウィンらです。",
+      "timestamp": "2023-03-25T14:16:31.102500+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "森崎ウィンさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "スティーヴン・スピルバーグがアーネスト・クラインの小説を映画化した、仮想ネットワークシステムの謎を探る高校生の活躍を描くSFアドベンチャー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "2045年を舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "仮想ネットワークシステム「オアシス」開発者の遺産争奪戦",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "『MUD　マッド』『グランド・ジョー』などのタイ・シェリダン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "共演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "オリヴィア・クック、マーク・ライランス、サイモン・ペッグ、T・J・ミラー、ベン・メンデルソーン、森崎ウィンら",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "スピルバーグ監督というのも知っていましたが、まだ観ていませんでした。。。\n仮想ネットワークシステムの謎を探る高校生が主人公の映画なのですね？\n仮想ネットワークシステム開発者の遺産争奪戦というのは、ネット空間内で何か競争が行われるということですか？",
+      "timestamp": "2023-03-25T14:19:48.382904+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "スピルバーグ監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "仮想ネットワークシステムの謎を探る高校生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "主人公の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "仮想ネットワークシステム開発者の遺産争奪戦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ネット空間内",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "競争",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "行われるということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい、環境汚染や気候変動、政治の機能不全により世界は荒廃し、その為スラム街で暮らさざるを得ない状況に陥った地球上の人類の多くは、「オアシス」と言うVR世界に現実逃避し入り浸っていました。\n現在オアシス内では、創始者であるジェームズ・ハリデー亡き後公表された彼の遺言により、ゲーム内に隠された3つの鍵を手に入れた勝者にはオアシスの所有権と5000億ドル（日本円で約56兆円）相当のハリデーの遺産が授与される「アノラック・ゲーム」が開催されるのです。それを手に入れる競争になります。",
+      "timestamp": "2023-03-25T14:23:07.554601+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "環境汚染や気候変動、政治の機能不全",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "世界",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "その為スラム街で暮らさざるを得ない状況に陥った地球上の人類の多く",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「オアシス」と言うVR世界",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "現実",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "現在オアシス内では、創始者であるジェームズ・ハリデー亡き後公表された彼の遺言",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ゲーム内に隠された3つの鍵",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "手に入れた勝者",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "所有権",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "5000億ドル（日本円で約56兆円）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "「アノラック・ゲーム」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "手に入れる競争",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど。現実の世界が荒廃していて、その現実から逃避するために多くの人がゲームに夢中になっている世界が舞台なのですね。\nゲーム内に隠された3つの鍵を手に入れるためには、ゲーム内にいくつかのステージがあって、それをクリアしていかなければならないということでしょうか？それともバトル系のゲームで、出会った相手を倒していくパターンでしょうか？",
+      "timestamp": "2023-03-25T14:27:54.481373+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "現実の世界",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "その現実から逃避するために多くの人がゲームに夢中になっている世界",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ゲーム内に隠された3つの鍵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "手に入れるため",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ゲーム内",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "いくつかのステージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "クリアしていかなければならないということでしょうか？それともバトル系のゲームで、出会った相手を倒していくパターン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ハリデーにより隠された三つのイースター・エッグを探し、見つけたら中に鍵があるそうです。それでプレイヤーたちはエッグハンターとなりお互いと競うのですが、肉体的な戦いや爆弾の攻撃から逃げるなど、いろんな試練があるイメージです。詳しくは映画をご覧になって楽しんで頂けたらと思いますよ。",
+      "timestamp": "2023-03-25T14:32:44.218354+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "ハリデーにより隠された三つのイースター・エッグ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "鍵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "プレイヤーたち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "エッグハンター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "お互い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "肉体的な戦いや爆弾の攻撃",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "逃げるなど、いろんな試練があるイメージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "三つの鍵はイースター・エッグなんですね？おもしろいですね。\n肉体的な戦いがあるのですか？？？ゲーム内の仮想のバトルだけかと思っていました。。。\nそこが映画のわくわくポイントでしょうか？\nまた観てみたいと思います。\nどうもありがとうございました。",
+      "timestamp": "2023-03-25T14:35:40.219235+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "三つの鍵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "イースター・エッグ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "肉体的な戦い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ゲーム内の仮想のバトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "ポイント",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

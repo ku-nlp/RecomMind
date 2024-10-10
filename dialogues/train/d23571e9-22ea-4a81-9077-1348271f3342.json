@@ -1,0 +1,789 @@
+{
+  "dialog_id": "d23571e9-22ea-4a81-9077-1348271f3342",
+  "created_timestamp": "2023-03-14T12:56:59.220632+09:00",
+  "archived_timestamp": "2023-03-14T13:14:12.668445+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-03-14T13:00:12.444114+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-14T13:00:15.369384+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今日はどのような映画をご覧になりたいご気分でしょうか。",
+      "timestamp": "2023-03-14T13:00:27.669833+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ミステリーに興味があります！邦画や洋画は問いません。",
+      "timestamp": "2023-03-14T13:00:54.226996+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "邦画や洋画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "東野圭吾さん原作の映画などいかがでしょうか。「祈りの幕が下りる時」はご覧になったことはございますか？",
+      "timestamp": "2023-03-14T13:02:10.659380+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "東野圭吾さん原作の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「祈りの幕が下りる時」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T13:01:51.865507+09:00",
+          "query": "祈りの",
+          "genres": "",
+          "results": "2823,361110"
+        }
+      ],
+      "checked": [
+        "361110_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "観ました！松嶋菜々子さんの演技が素敵でしたね。泣ける映画ですね。",
+      "timestamp": "2023-03-14T13:02:45.435284+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "松嶋菜々子さんの演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "泣ける映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "あれば皆さんの演技力が素晴らしかったですよね。それでは、「ミスト」「プレステージ」などはいかがでしょうか。",
+      "timestamp": "2023-03-14T13:03:53.745616+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "皆さんの演技力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「ミスト」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「プレステージ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どちらも知りません。お好きな方を教えてください。",
+      "timestamp": "2023-03-14T13:04:11.180888+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "お好きな方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "では、2007年の「プレステージ」を紹介させてください。主演がヒュー・ジャックマンとクリスチャン・ベール、そして監督がクリストファー・ノーランという、個人的にとても好きな三人が出ている映画です。",
+      "timestamp": "2023-03-14T13:05:25.993042+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「プレステージ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ヒュー・ジャックマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "クリスチャン・ベール、そして監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "クリストファー・ノーラン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "好きな三人が出ている映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T13:04:19.130504+09:00",
+          "query": "プレステージ",
+          "genres": "",
+          "results": "326220"
+        }
+      ],
+      "checked": [
+        "326220_title",
+        "326220_year",
+        "326220_director_name",
+        "326220_cast_name-0",
+        "326220_cast_name-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "はい、3人とも私も好きです！どのような物語なんでしょうか？",
+      "timestamp": "2023-03-14T13:05:49.618254+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "3人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "どのような物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "舞台は19世紀末のロンドンで、二人のマジシャンのお話です。したが、ある日事故が起きます。若きアンジャーとボーデンは、ある奇術師の下で互いに修行していました。",
+      "timestamp": "2023-03-14T13:07:55.565502+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "19世紀末のロンドン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "二人のマジシャン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ある日事故",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "アンジャー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ボーデン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ある奇術師の下",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326220_plot-0",
+        "326220_plot-5"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "事故からどのように展開していくのでしょうか？",
+      "timestamp": "2023-03-14T13:08:27.490918+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "事故",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "すみません、途中で送ってしまいました。ある時、アンジャー（ジャックマン）の妻が水中脱出マジックに失敗し溺死するのですが、その原因はボーデン（ベール）が結んだロープでした。そこから二人の確執が生まれて、お互いどんどん際どいマジックをして集客を競うようになります。",
+      "timestamp": "2023-03-14T13:09:44.302767+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "アンジャー（ジャックマン）の妻",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "水中脱出マジック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "その原因",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ボーデン（ベール）が結んだロープ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "二人の確執",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "お互い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "際どいマジック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "集客",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "説明を聞けば、予告編は観たことがある気がします。\nどういうところが見どころですか？",
+      "timestamp": "2023-03-14T13:10:22.980127+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "説明",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "予告編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "観たことがある気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "どういうところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "プレステージ（偉業）という名の通り、お互いどんどん進化させていくマジックと、当時の町並みや衣装なんかも素敵です。最後にはノーラン監督ならではどんでん返しもあるので、観ていて飽きませんよ。",
+      "timestamp": "2023-03-14T13:12:29.666133+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "プレステージ（偉業）という名の通り",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "お互い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "進化させていくマジック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "当時の町並みや衣装",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ノーラン監督ならではどんでん返し",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "展開が面白そうですね。\n最後のどんでん返しが気になります。\n素敵な作品の紹介ありがとうございました。",
+      "timestamp": "2023-03-14T13:13:59.765920+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "最後のどんでん返し",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "素敵な作品の紹介",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "機会があればぜひ、ご覧になって下さいね、今日はありがとうございました。",
+      "timestamp": "2023-03-14T13:14:09.006513+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

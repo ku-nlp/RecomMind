@@ -1,0 +1,787 @@
+{
+  "dialog_id": "cb48c49b-117c-4a58-8495-2b5c8332b897",
+  "created_timestamp": "2022-12-23T10:11:45.739657+09:00",
+  "archived_timestamp": "2022-12-23T10:48:25.467611+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。今日は宜しくお願いします。",
+      "timestamp": "2022-12-23T10:12:47.217825+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2022-12-23T10:12:47.384883+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "何か最近お勧めの映画ってご存じですか",
+      "timestamp": "2022-12-23T10:13:21.694215+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "はい。映画を選ぶとき、何で選びますか？洋画、邦画、好きなジャンルや俳優さんなどあれば教えて下さい。",
+      "timestamp": "2022-12-23T10:15:15.045449+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "選ぶとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画、邦画、好きなジャンルや俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "洋画が好きなんですが、最近アニメの映画が気になっているのですが、見た方がいい映画ってありますか",
+      "timestamp": "2022-12-23T10:16:05.260362+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "最近アニメの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "見た方がいい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "そうですね。では、「シング」はご覧になりましたか？",
+      "timestamp": "2022-12-23T10:17:54.709034+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "「シング」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "355820_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "まったく知りませんね。どんな映画かしら。",
+      "timestamp": "2022-12-23T10:18:12.462702+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "たくさんの動物が出てくるストーリーです。舞台に見せられ、劇場主となったコアラが、経営不振の劇場を建て直す為に新た目玉として、賞金１０００ドルで歌のオーディションをすることになります。個性的な動物たちがオーディションを通過するのですが、すったもんだあり、最後にはハッピーエンドで終わります。",
+      "timestamp": "2022-12-23T10:25:49.658587+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "たくさんの動物が出てくるストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "見せられ、劇場主となったコアラが、経営不振の劇場を建て直す為",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "新た目玉",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "賞金１０００ドル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "歌のオーディション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "個性的な動物たち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "オーディション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T10:18:14.111682+09:00",
+          "query": "シング",
+          "genres": "",
+          "results": "11830,162855,234690,234857,235071,320442,321617,321698,322090,327689,332551,334288,335611,335612,336605,336736,339772,339986,340705,342627,343343,344300,348087,349125,349679,350341,351841,352899,352927,353946,354167,354239,355820,356251,356506,359641,360576,364404,364743,365075,366945,368253,369005,370087,370182,378013,84618,90294"
+        }
+      ],
+      "checked": [
+        "355820_plot-0",
+        "355820_plot-2"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "その映画はどちらでご覧になったのですか。映画館で観るのが好きなのですが、上映してるかしら。面白そうなストーリーですね。",
+      "timestamp": "2022-12-23T10:27:40.008029+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "面白そうなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "これは、2017の映画ですので、今はDVDかオンラインでの配信で観ることができます。2022年3月に第２弾としてシング:ネクストステージも上映していました。今は映画館で観ることはできません。",
+      "timestamp": "2022-12-23T10:30:45.458893+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "2017の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "DVD",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "21",
+          "text": "オンラインでの配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "22",
+          "text": "2022年3月に第２弾",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "シング:ネクストステージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T10:29:30.747118+09:00",
+          "query": "シング",
+          "genres": "",
+          "results": "11830,162855,234690,234857,235071,320442,321617,321698,322090,327689,332551,334288,335611,335612,336605,336736,339772,339986,340705,342627,343343,344300,348087,349125,349679,350341,351841,352899,352927,353946,354167,354239,355820,356251,356506,359641,360576,364404,364743,365075,366945,368253,369005,370087,370182,378013,84618,90294"
+        },
+        {
+          "timestamp": "2022-12-23T10:29:43.752321+09:00",
+          "query": "シング",
+          "genres": "",
+          "results": "11830,162855,234690,234857,235071,320442,321617,321698,322090,327689,332551,334288,335611,335612,336605,336736,339772,339986,340705,342627,343343,344300,348087,349125,349679,350341,351841,352899,352927,353946,354167,354239,355820,356251,356506,359641,360576,364404,364743,365075,366945,368253,369005,370087,370182,378013,84618,90294"
+        }
+      ],
+      "checked": [
+        "355820_year",
+        "378013_title",
+        "378013_year"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "残念ですね。まず第１弾から観た方がいいですか。それともネクストステージを観てもわかるかしら。動物というところにも興味を引かれます。",
+      "timestamp": "2022-12-23T10:32:17.788853+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "第１弾から観た方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ネクストステージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "動物というところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "第１弾から観ることをおすすめします！\n\n人生を変える為にオーディションにのぞむそれぞれの動物がとても個性的なのと、有名な洋楽も聞くことができます。",
+      "timestamp": "2022-12-23T10:36:12.777070+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "第１弾から観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "人生を変える為にオーディションにのぞむそれぞれの動物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "有名な洋楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "音楽も楽しめるのは、楽しみが増えますね。観た後にどんな気持ちになりましたか。",
+      "timestamp": "2022-12-23T10:36:58.935353+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "楽しみ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "どんな気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "それぞれの個性を輝かせる音楽の力の素晴らしさと、同じ夢を持つ仲間どうしの絆の深さを感じました。",
+      "timestamp": "2022-12-23T10:41:42.076978+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "それぞれの個性を輝かせる音楽の力の素晴らしさ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "同じ夢を持つ仲間どうしの絆の深さ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "人生が少し変りそうですね。年寄りが観ても気持ちが若返りそう。自分の気分が上がりましたか。",
+      "timestamp": "2022-12-23T10:43:36.548986+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "年寄り",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "自分の気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "そうですね。好きなことに対して諦めなければきっとどこかで花開くという希望が持てました！そして、ストーリーは終始コミカルなので、あっという間に時間が経ちますよ。",
+      "timestamp": "2022-12-23T10:46:40.854317+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "好きなこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "花開くという希望",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "終始",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "あっという間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "益々興味が沸きました。いい作品をお勧め頂き、有り難う。",
+      "timestamp": "2022-12-23T10:47:16.283749+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "いい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "こちらこそ、楽しい時間をありがとうございました。",
+      "timestamp": "2022-12-23T10:48:16.853930+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

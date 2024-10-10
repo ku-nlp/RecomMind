@@ -1,0 +1,768 @@
+{
+  "dialog_id": "2f7edef5-e670-4f84-9f3b-112c29d3f0f8",
+  "created_timestamp": "2023-03-22T16:54:59.080972+09:00",
+  "archived_timestamp": "2023-03-22T17:13:38.628494+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "051",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-22T16:56:31.592943+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願い致します。",
+      "timestamp": "2023-03-22T16:56:41.709791+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが普段はよく映画は観ますか？\nどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-03-22T16:56:49.273780+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ほとんど見ないので、おすすめ映画があれば教えて頂きたいです。",
+      "timestamp": "2023-03-22T16:57:11.908555+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "おすすめ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「魔女がいっぱい」がご覧になりましたか？\n2020年の洋画です。",
+      "timestamp": "2023-03-22T16:58:16.159606+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「魔女がいっぱい」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "2020年の洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-22T16:57:35.360539+09:00",
+          "query": "魔女がい",
+          "genres": "",
+          "results": "374516"
+        }
+      ],
+      "checked": [
+        "374516_title",
+        "374516_year"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いいえ。タイトルを聞いたことも見たこともありません。\nどういった内容でしょうか？",
+      "timestamp": "2023-03-22T16:58:44.972579+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "タイトルを聞いたこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "どういった内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ジャンルでいうとアドベンチャー、コメディ、ファンタジーです。\nご興味ありますでしょか？",
+      "timestamp": "2023-03-22T16:59:30.706394+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "アドベンチャー、コメディ、ファンタジー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "374516_genre-0",
+        "374516_genre-1",
+        "374516_genre-2"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "あります！\nとてもワクワクするジャンルですね。\n子ども向けですか？",
+      "timestamp": "2023-03-22T17:00:27.747877+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ワクワクするジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "子ども向け",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "大人でも楽しめる作品だと思います。\nとある豪華ホテルに美女の集団が現れます。普段は人間のふりをして暮らしながら時折こっそり魔法をかけている彼女たち。その中心にいるのは、最も美しく恐ろしい大魔女でした。大魔女は集まった仲間に、とてつもない秘密の計画を明かします。その邪悪な企みを偶然知ってしまった少年は、姿をネズミに変えられながらもなんとか計画を阻止しようと必死に奮闘するという物語です。",
+      "timestamp": "2023-03-22T17:01:29.002200+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "大人でも楽しめる作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "とある豪華ホテル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "美女の集団",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "人間のふり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "14",
+          "text": "魔法をかけている彼女たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "その中心",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "美しく恐ろしい大魔女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "大魔女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "集まった仲間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "とてつもない秘密の計画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "その邪悪な企み",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "知ってしまった少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ネズミ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "計画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "必死に奮闘するという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ファンタジー性があって、面白そうです。\n見てみたくなりました。\n\n他におすすめ映画はありますか？",
+      "timestamp": "2023-03-22T17:03:12.756462+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ファンタジー性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "おすすめ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "本作品はアン・ハサウェイが主演なのですが、彼女の代表作の「プラダを着た悪魔」は観ましたか？",
+      "timestamp": "2023-03-22T17:05:21.389211+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "本作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "31",
+          "text": "彼女の代表作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "「プラダを着た悪魔」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "374516_cast_name-0",
+        "374516_cast-0_other_title-7:325271"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "タイトルは聞いたことありますが、見たことはありません。",
+      "timestamp": "2023-03-22T17:05:35.022242+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ジャーナリストを目指してニューヨークにやってきたアンディが主人公です。オシャレに興味のない彼女ですが、世界中の女性が憧れるファッション誌の編集部の仕事を手にしてしまいます。そして、彼女のボス、世界中の女性の憧れである一流雑誌の編集長は、理不尽な要求と、膨大な仕事を突きつける悪魔のような女性だったという設定です。",
+      "timestamp": "2023-03-22T17:06:45.888090+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "ジャーナリスト",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "目指してニューヨークにやってきたアンディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "オシャレに興味のない彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "世界中の女性が憧れるファッション誌の編集部の仕事",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "彼女のボス、世界中の女性の憧れである一流雑誌の編集長",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "理不尽な要求",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "膨大な仕事を突きつける悪魔のような女性だったという設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-22T17:06:32.509364+09:00",
+          "query": "プラダを着た悪魔",
+          "genres": "",
+          "results": "325271"
+        }
+      ],
+      "checked": [
+        "325271_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なかなか面白そうですね。身近にもいそうな上司だから親近感がわきそうです。\n最終的にはハッピーエンドですか？",
+      "timestamp": "2023-03-22T17:08:29.504780+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "身近にもいそうな上司",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "親近感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "最終的にはハッピーエンド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい、ハッピーエンドなので、気兼ねなく観れる作品です。\nぜひ機会があればご覧ください。\nありがとうございました。",
+      "timestamp": "2023-03-22T17:13:07.335513+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "気兼ねなく観れる作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "良かったです！いろいろ紹介してくださりありがとうございました！！",
+      "timestamp": "2023-03-22T17:13:25.518951+09:00",
+      "internal_states": []
+    }
+  ]
+}

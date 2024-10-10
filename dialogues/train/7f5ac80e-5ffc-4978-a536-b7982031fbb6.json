@@ -1,0 +1,853 @@
+{
+  "dialog_id": "7f5ac80e-5ffc-4978-a536-b7982031fbb6",
+  "created_timestamp": "2023-03-11T17:55:16.922231+09:00",
+  "archived_timestamp": "2023-03-11T18:22:49.312483+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-11T18:00:46.152762+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！こちらこそよろしくお願いします。\nさっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-03-11T18:01:03.795078+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "今は気軽に観れる映画が知りたいです。。B級映画も興味があります。",
+      "timestamp": "2023-03-11T18:01:56.124569+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "気軽に観れる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "B級映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "気軽に見えるというか、笑わずにいられない映画として、「バーン・アフター・リーディング」はご覧になりましたか？2009年のコーエン兄弟監督作品です。",
+      "timestamp": "2023-03-11T18:04:11.038570+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "笑わずにいられない映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「バーン・アフター・リーディング」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "2009年のコーエン兄弟監督作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-11T18:02:37.292881+09:00",
+          "query": "バーン",
+          "genres": "",
+          "results": "11893,13693,15072,159811,160134,20373,21943,239390,239766,239767,239813,25599,28680,321448,324026,326504,327707,328724,329107,329144,330813,331863,335925,336307,337245,337734,338090,339180,339722,340288,340512,340856,341641,343546,344562,346630,347542,347842,348826,349742,349750,350752,353277,354473,355057,355740,356582,358340,359024,359637,360861,361665,362179,363106,364079,365009,365276,366075,366365,367982,369671,371810,6354,7547,84307,85186"
+        },
+        {
+          "timestamp": "2023-03-11T18:02:54.443823+09:00",
+          "query": "リーディング",
+          "genres": "",
+          "results": "159869,331863"
+        }
+      ],
+      "checked": [
+        "331863_title",
+        "331863_year"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ブラッドピットが出演している作品でしたっけ？見た覚えがあります。豪華キャストでしたよね？",
+      "timestamp": "2023-03-11T18:05:12.724351+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ブラッドピットが出演している作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "見た覚え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "豪華キャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "そうです！確かにジョージ・クルーニーを筆頭に豪華キャストでした！個人的にはとジョン・マルコヴィッチとフランシス・マクドーマンドが思い切りツボにはまりました。もうご覧になってしたら別の映画ご紹介の方がいいですよね？",
+      "timestamp": "2023-03-11T18:07:13.575254+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ジョージ・クルーニーを筆頭",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "豪華キャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ジョン・マルコヴィッチ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "フランシス・マクドーマンド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "思い切りツボ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "別の映画ご紹介の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "331863_cast_name-0",
+        "331863_cast_name-1",
+        "331863_cast_name-3"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "ジョージクルーニーも出演していましたね！\nこういう映画大好きなので、もし他にもあれば教えてください！",
+      "timestamp": "2023-03-11T18:07:49.345579+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "ジョージクルーニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "こういう映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "ジョージ・クルーニーはコーエン兄弟の映画の常連でして、この映画の後の「ヘイル、シーザー！」にも出ています。これも映画館でのたうちながら観ました（笑）。こちらはご覧になりましたか？",
+      "timestamp": "2023-03-11T18:09:53.433796+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "ジョージ・クルーニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "コーエン兄弟の映画の常連",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "この映画の後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「ヘイル、シーザー！」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "331863_cast_name-0",
+        "331863_cast-0_other_title-10:355570",
+        "331863_cast-4_other_title-9:355570"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "コーエン兄弟の映画はいつも面白いですよね。「ヘイル、シーザー！」は知らないので、教えてください。",
+      "timestamp": "2023-03-11T18:10:27.096300+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "コーエン兄弟の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "「ヘイル、シーザー！」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "はい。「ヘイル、シーザー！」の舞台は50年代でして、テレビが台頭する中での映画製作がテーマです。ジョージ・クルーニーは大物役者でして、コーエン兄弟あるあるですが、誘拐されてしまいます。",
+      "timestamp": "2023-03-11T18:13:48.413605+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "「ヘイル、シーザー！」の舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "50年代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "テレビが台頭する中での映画製作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "テーマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ジョージ・クルーニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "大物役者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "コーエン兄弟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-11T18:10:13.114217+09:00",
+          "query": "ヘイル",
+          "genres": "",
+          "results": "319522,324946,329623,344125,354455,355570"
+        }
+      ],
+      "checked": [
+        "355570_title",
+        "355570_cast_name-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "確かにあるあるですね！コーエン兄弟ってだけでも観たくなりましたが、50年代が舞台なのは興味深いですね。",
+      "timestamp": "2023-03-11T18:15:20.865975+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "コーエン兄弟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "50年代が舞台なの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そう、50年代のどろどろしたショービズが笑いに変わっています。冷戦中なのでエキストラにソ連のスパイが紛れていたり。\n西部劇のスターで運動神経だけを買われて、セリフは馬の名前を呼ぶ以外やったことがなかった若い俳優に恋愛ものを演じさせろと命じられた監督が奮闘していたり。",
+      "timestamp": "2023-03-11T18:17:53.160699+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "50年代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "したショービズ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "冷戦中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "エキストラ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ソ連のスパイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "西部劇のスター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "運動神経",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "セリフ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "馬の名前を呼ぶ以外やったことがなかった若い俳優",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "恋愛もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "演じさせろと命じられた監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "誰の映画か知らなくてもこの説明を聞けばコーエン兄弟だと察しがつきそうなほどですね。",
+      "timestamp": "2023-03-11T18:18:58.679723+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "誰の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "この説明",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "コーエン兄弟だと察しがつきそうなほど",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "ホントですね！こちらも常連に加えて、スカヨハとか豪華キャストでして、意外なキャストは映画監督役のレイフ・ファインズでした。いやこの人こんな映画にも出るのかと。大真面目に笑いをとってました。",
+      "timestamp": "2023-03-11T18:20:57.918174+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "常連",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "スカヨハとか豪華キャスト",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "意外なキャスト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "映画監督役のレイフ・ファインズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "この人こんな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "355570_cast_name-3",
+        "355570_cast_name-5"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "ヴォルデモート役の役者ですよね、シリアスな役しか観たことなかったです。\n面白そうな映画の紹介ありがとうございました。観てみます！",
+      "timestamp": "2023-03-11T18:21:54.877102+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "ヴォルデモート役の役者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "シリアスな役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "面白そうな映画の紹介",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひとも！チャニング・テイタムも中々見ものでしたし。こちらこそありがとうございました。",
+      "timestamp": "2023-03-11T18:22:43.211147+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "355570_cast_name-8"
+      ]
+    }
+  ]
+}

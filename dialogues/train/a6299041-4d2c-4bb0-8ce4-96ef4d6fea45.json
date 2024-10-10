@@ -1,0 +1,842 @@
+{
+  "dialog_id": "a6299041-4d2c-4bb0-8ce4-96ef4d6fea45",
+  "created_timestamp": "2023-01-30T12:59:26.968529+09:00",
+  "archived_timestamp": "2023-01-30T13:20:39.385812+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-01-30T13:00:11.523685+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。こちらこそよろしくお願いします。",
+      "timestamp": "2023-01-30T13:00:36.172466+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-01-30T13:00:51.834263+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。ホラー映画意外はわりといろいろなジャンルの映画を観ます。",
+      "timestamp": "2023-01-30T13:01:25.536653+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ホラー映画意外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画や洋画のお好みや、お好きな俳優さんなどはおられますか？",
+      "timestamp": "2023-01-30T13:02:01.543845+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画や洋画のお好みや、お好きな俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというと邦画よりも洋画を観ることのほうが多いですね。",
+      "timestamp": "2023-01-30T13:02:37.238218+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "洋画を観ることのほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "では、先日観た映画を紹介させて頂いてよろしいでしょうか。2009年公開の私の中のあなたというアメリカ映画です。ご覧になったことはありますか？",
+      "timestamp": "2023-01-30T13:04:19.381972+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "観た映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "2009年公開の私の中のあなたというアメリカ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T13:03:52.115184+09:00",
+          "query": "私の中",
+          "genres": "",
+          "results": "334300"
+        }
+      ],
+      "checked": [
+        "334300_title",
+        "334300_year"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "その映画は知っています。何か他に号泣するような映画はありますか？泣くとストレス解消になると聞いたことがあります。",
+      "timestamp": "2023-01-30T13:05:23.812871+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "何か他",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "号泣するような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ストレス解消",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "先日号泣したのは、邦画になりますが「祈りの幕が下りる時」という映画です。東野圭吾原作の映画ですが、こちらはご覧になられましたか？",
+      "timestamp": "2023-01-30T13:07:01.687971+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「祈りの幕が下りる時」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "東野圭吾原作の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T13:06:28.113492+09:00",
+          "query": "祈りの",
+          "genres": "",
+          "results": "2823,361110"
+        }
+      ],
+      "checked": [
+        "361110_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "いえ。その映画は観ていません。邦画ですね？どのようなストーリーですか？",
+      "timestamp": "2023-01-30T13:07:33.145698+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ある日、殺人事件が起きます。殺された40代の女性の関係性をたどっていくと、主役である刑事役の阿部寛さんの亡くなったお母さんとの関係性が浮かび上がります。",
+      "timestamp": "2023-01-30T13:09:27.794487+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "殺人事件",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "殺された40代の女性の関係性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "主役である刑事役の阿部寛さんの亡くなったお母さんとの関係性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "361110_plot-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "阿部寛さん主演ですか？原作者も東野圭吾ということで、おもしろそうですね。でもなぜ号泣するのですか？",
+      "timestamp": "2023-01-30T13:11:04.299431+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "阿部寛さん主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "原作者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "東野圭吾ということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "松嶋菜々子さん演じる有名な演出家が、事件にかかわっているのですが、その松嶋さんの壮絶な子供時代と、娘を守るために自分の人生を犠牲にした父親との深い愛と切なさに、涙が止まらなくなりました。父親役が小日向文世さんなのですが、切ない演技がうまいのと、子役の子の演技がうまくて、入り込んでしまいました。",
+      "timestamp": "2023-01-30T13:13:02.750351+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "松嶋菜々子さん演じる有名な演出家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "事件",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "その松嶋さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "子供時代",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "娘を守るために自分の人生を犠牲にした父親",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "愛",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "切なさ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "涙",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "父親役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "小日向文世さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "切ない演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "子役の子の演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "361110_cast_name-1",
+        "361110_cast_name-14"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "松嶋菜々子さんや小日向文世さんも出演しているんですね。なかなか豪華な俳優陣ですね、号泣するのはその二人が演じる親子関係や愛情の深さということですね？その流れだと、最後は悲しい結末という感じですね？",
+      "timestamp": "2023-01-30T13:15:49.666125+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "松嶋菜々子さんや小日向文世さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "豪華な俳優陣",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "その二人が演じる親子関係や愛情の深さということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "その流れ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "悲しい結末という感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "最初は淡々と事件解決に向けての捜索のシーンが続きますが、松嶋さんの回想シーンからが、もうずっと泣いていました。そうです、最後は悲しい結末なんですが、親子の愛をとてもうまく表現された映画だなと思いました。演技力もあるのかもしれませんが。",
+      "timestamp": "2023-01-30T13:17:18.300280+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "事件解決に向けての捜索のシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "松嶋さんの回想シーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "泣いていました。そうです、最後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "悲しい結末",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "親子の愛",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "うまく表現された映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "演技力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "なるほど、回想シーンとして悲しい過去？が語られ、そこから号泣が始まるんですね？刑事ものでありながら、親子愛が軸となったストーリーということですね？父親役が小日向文世さんというのもはまっていそうな感じですね！また観てみようと思います。",
+      "timestamp": "2023-01-30T13:20:03.683830+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "回想シーンとして悲しい過去",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "号泣",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "刑事ものでありながら、親子愛が軸となったストーリーということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "父親役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "小日向文世さんというのもはまっていそうな感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "機会があればぜひご覧になって下さい。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-01-30T13:20:18.033073+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-01-30T13:20:30.119574+09:00",
+      "internal_states": []
+    }
+  ]
+}

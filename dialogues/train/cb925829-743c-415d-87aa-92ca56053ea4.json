@@ -1,0 +1,930 @@
+{
+  "dialog_id": "cb925829-743c-415d-87aa-92ca56053ea4",
+  "created_timestamp": "2023-02-21T10:56:58.597272+09:00",
+  "archived_timestamp": "2023-02-21T11:29:47.543234+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "023",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-02-21T10:59:47.393159+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。初めまして。どうぞよろしくお願いいたします。",
+      "timestamp": "2023-02-21T10:59:58.421806+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-21T11:00:04.481988+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "コメディやラブコメ等の笑えるものが好きなのですが、結構お勧めいただいたので、次は歴史物がいいかなと思っています。",
+      "timestamp": "2023-02-21T11:01:28.260153+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディやラブコメ等の笑えるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "次",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "歴史物",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。邦画、洋画でお好みはございますか？",
+      "timestamp": "2023-02-21T11:02:12.591797+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというと洋画の方が好きですが、歴史物なら日本のものもいいと思います。",
+      "timestamp": "2023-02-21T11:03:05.272037+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "歴史物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "日本のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "2007年の300 ＜スリーハンドレッド＞はご覧になられましたか？紀元前480年、スパルタの国の話なのですが、古すぎますかね（笑）",
+      "timestamp": "2023-02-21T11:05:27.288872+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "2007年の300",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "紀元前480年、スパルタの国の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-21T11:04:37.386012+09:00",
+          "query": "300",
+          "genres": "",
+          "results": "16912,20486,238972,241600,324328,326664,327079,330288,331398,331727,332362,340606,342238,343546,344500,349750,350752,350949,354182,357226,357979,358130,358205,360444,362951,364327,85042"
+        }
+      ],
+      "checked": [
+        "327079_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "見たことがないです。確かにちょっと昔すぎるかもしれません（笑）もう少し後のものでお勧めのものはありますか？",
+      "timestamp": "2023-02-21T11:07:44.571575+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "昔すぎるかもしれません（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "後のもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "お勧めのもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "戦争の話にはなりますが、「戦場のピアニスト」はいかがでしょうか。主役のエイドリアン・ブロディが、吹き替え無しでピアノを弾くのですが、小さいころに少しだけやっていただけ、と言っていたのにショパンなどをさらりと弾いているんです。すごい役者さんです。",
+      "timestamp": "2023-02-21T11:09:31.056423+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "戦争の話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「戦場のピアニスト」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "主役のエイドリアン・ブロディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "吹き替え無し",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ピアノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "小さいころ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ショパン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "すごい役者さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-21T11:08:23.600325+09:00",
+          "query": "戦場の",
+          "genres": "",
+          "results": "12926,163178,20373,239348,240096,324253,325097,340426,348085,358186,369783,84307"
+        }
+      ],
+      "checked": [
+        "239348_title",
+        "239348_cast_name-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "それは見たことがあります。お父さんがユダヤ人、お母さんがドイツ人の友人と一緒に見たので考えさせられるものがありました。\nピアノ演奏のシーンが美しかったですね。\n戦争を描いたものでも残虐なシーンではなくて、そのようなヒューマンドラマ的なものがいいです。「ライフイズビューティフル」のような。",
+      "timestamp": "2023-02-21T11:12:58.656804+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "お父さんがユダヤ人、お母さんがドイツ人の友人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "考えさせられるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ピアノ演奏のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "戦争を描いたものでも残虐なシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "そのようなヒューマンドラマ的なもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「ライフイズビューティフル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "あの映画も良かったですよね。ちょっと角度を変えて、「この世界の片隅に」という、戦時中もたくましく生きる広島の一般の人々の話をアニメ化した映画はいかがですか？小規模公開から口コミで噂が拡がり拡大公開されたと、話題になった映画です。",
+      "timestamp": "2023-02-21T11:15:55.070126+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "あの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "角度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "変えて、「この世界の片隅に」という、戦時中もたくましく生きる広島の一般の人々の話をアニメ化した映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "小規模公開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "口コミ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "噂",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "拡大公開されたと、話題になった映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-21T11:13:26.763158+09:00",
+          "query": "この世界",
+          "genres": "",
+          "results": "148866,148901,233769,324199,329809,330178,330914,333379,334516,335440,335453,336755,337450,343761,346099,346100,346630,348641,351464,354239,354944,357140,357342,358306,361595,362348,364079,365020,366465,366607,367006,367262,367707,367867,370020,371973,374583,378066,85186"
+        }
+      ],
+      "checked": [
+        "348641_title",
+        "348641_review-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "その映画は話題になりましたよね。いい映画なんだと思いますが、私はまだ見ていません。どのようなところがお勧めですか？",
+      "timestamp": "2023-02-21T11:18:08.319138+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "いい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "どのようなところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "原作はマンガなのですが、戦時下、物資が徐々に不足する不自由さの中、日常を明るく乗り切っていく一般の人々の暮らしぶりにとても感心します。絵や色のタッチがとても柔らかなのと、主人公すずの吹替を女優ののんが担当されていますが、すずの少し抜けていながらも芯のある感じがとても合っていました。",
+      "timestamp": "2023-02-21T11:20:41.410359+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "マンガ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "戦時下、物資",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "不足する不自由さの中、日常を明るく乗り切っていく一般の人々の暮らしぶり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "絵や色のタッチ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "主人公すずの吹替",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "女優ののん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "芯のある感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "348641_review-2",
+        "348641_plot-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "絵や色がタッチが柔らかなのですね。それは少し安心してみることができますね。戦時下の日常を明るく乗り切っていく一般人の姿というのは現在のウクライナと重なります。私はウクライナに住んでいたことがあり友人達がウクライナにいますのできっと同じような場面があるのだろうと想像します。",
+      "timestamp": "2023-02-21T11:24:53.771862+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "絵や色",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "タッチ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "戦時下の日常を明るく乗り切っていく一般人の姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "現在のウクライナ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "友人達",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ウクライナ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "同じような場面",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "今ほど情報が無いので、呉から広島の原爆のきのこ雲を見た人たちの反応がリアルでした。何が起こったのか、全く分からない、という状態だったと思います。ウクライナのお友達の無事を祈ります。戦争をやってはいけないことを知るためにも、戦争の映画を見直す時期かもしれませんね。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-02-21T11:27:01.701508+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "情報",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "呉から広島の原爆のきのこ雲を見た人たちの反応",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "分からない、という状態",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ウクライナのお友達の無事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "戦争をやってはいけないことを知るためにも、戦争の映画を見直す時期",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ありがとうございます。確かに情報という意味では今とは全然違いますよね。\n戦争の映画は残酷なシーンなどがあり苦手だったのですが、今見なければいけないと感じています。そんな中でも絵等がソフトなものをご紹介いただきありがとうございました。是非見てみます！",
+      "timestamp": "2023-02-21T11:29:35.319433+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "情報という意味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "戦争の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "残酷なシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "60",
+          "text": "絵等がソフトなもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

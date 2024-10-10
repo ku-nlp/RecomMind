@@ -1,0 +1,714 @@
+{
+  "dialog_id": "0fc38580-af05-4058-9e87-983c3f70aa88",
+  "created_timestamp": "2023-03-24T11:20:16.675530+09:00",
+  "archived_timestamp": "2023-03-24T11:45:31.667133+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "050",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-03-24T11:26:33.446738+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。早速ですが普段はよく映画は観ますか？",
+      "timestamp": "2023-03-24T11:29:25.709207+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "はい、よく見ます。最近はネットフリックスのものを見ることが多いです。",
+      "timestamp": "2023-03-24T11:30:00.691520+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ネットフリックスのものを見ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "どのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-03-24T11:30:06.431915+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ジャンルはミステリーが好きです。洋画を見ることのほうが多いですね。",
+      "timestamp": "2023-03-24T11:31:06.413587+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "洋画を見ることのほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "邦画なのですが「22年目の告白－私が殺人犯です」はご覧になられましたか？",
+      "timestamp": "2023-03-24T11:32:54.315345+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「22年目の告白－私が殺人犯です」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T11:31:34.627000+09:00",
+          "query": "アムステルダム",
+          "genres": "",
+          "results": "235234,320917,346480,350659"
+        },
+        {
+          "timestamp": "2023-03-24T11:31:57.473848+09:00",
+          "query": "エノーラ",
+          "genres": "",
+          "results": "2361"
+        },
+        {
+          "timestamp": "2023-03-24T11:32:20.825237+09:00",
+          "query": "マーダー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-24T11:32:24.570172+09:00",
+          "query": "ミステリー",
+          "genres": "",
+          "results": "237362,237781,329546,341440,355349,358670,360432,85349"
+        }
+      ],
+      "checked": [
+        "358670_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "韓国のリメイク作品でしたか？\n気になりつつ、まだ見ていません。主演は誰でしょうか。",
+      "timestamp": "2023-03-24T11:33:52.191336+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "韓国のリメイク作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "はい。では紹介させてください。\n1995年に起きた連続殺人事件が時効を迎え、その犯人を名乗る男が告白本を出版します。派手な演出で表舞台に現れたその男は、当時から事件を追う刑事の執念、遺族らの憎悪を受けながら、社会全体を自身の思惑に巻き込んでいくという物語です。",
+      "timestamp": "2023-03-24T11:35:12.034546+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "1995年に起きた連続殺人事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "時効",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "その犯人を名乗る男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "告白本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "派手な演出で表舞台に現れたその男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "事件を追う刑事の執念、遺族らの憎悪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "社会全体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "自身の思惑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "巻き込んでいくという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "面白うそうですね！最初から犯人が分かっている、ということなのでしょうか。",
+      "timestamp": "2023-03-24T11:37:08.832374+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "犯人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "分かっている、ということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "主演は藤原竜也と伊藤英明です。\n最初から犯人が分かっているという設定なのですが、最後にどんでん返しがあります。\nそこが一番の見どころです。",
+      "timestamp": "2023-03-24T11:37:58.799219+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "藤原竜也",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "伊藤英明",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "犯人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "分かっているという設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "どんでん返し",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "一番の見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358670_cast_name-0",
+        "358670_cast_name-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "推薦者さまも騙された感じがありましたか？",
+      "timestamp": "2023-03-24T11:39:00.108790+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "推薦者さまも騙された感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "はい、「え！？」声が出るほど、驚きました。\nまたもう一つの見どころとして藤原竜也の演技です。気迫のシーンがいくつもありました。",
+      "timestamp": "2023-03-24T11:40:40.912874+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "「え！？」声が出るほど",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "一つの見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "藤原竜也の演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "気迫のシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "それはとても気になります！！\n藤原竜也さん、ミステリー系にもたくさん出られているイメージですがいつも上手だなぁと思うので引き込まれそうですね。",
+      "timestamp": "2023-03-24T11:42:13.985737+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "藤原竜也さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ミステリー系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "出られているイメージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "そうですよね、私もいつも引き込まれます。\nこの作品も楽しめると思いますよ。\n私は他にも仲村トオルの演技も素敵だと思いました。",
+      "timestamp": "2023-03-24T11:43:30.748383+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "仲村トオルの演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358670_cast_name-10"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "仲村トオルさんや伊藤英明さんまで、豪華な出演陣ですね。\nストーリーもとても気になりますし、キャストもよさそうなのでぜひ見たいと思います。\n本日はありがとうございました！",
+      "timestamp": "2023-03-24T11:45:10.299098+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "仲村トオルさんや伊藤英明さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "豪華な出演陣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "キャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ありがとうございました。機会があればご覧ください。",
+      "timestamp": "2023-03-24T11:45:29.544848+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

@@ -1,0 +1,994 @@
+{
+  "dialog_id": "9db0bc24-d5d2-4352-8dcd-a7659986c9e1",
+  "created_timestamp": "2023-02-19T15:56:51.984511+09:00",
+  "archived_timestamp": "2023-02-19T16:35:07.330066+09:00",
+  "recommender": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "026",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちわ、よろしくお願い致します。",
+      "timestamp": "2023-02-19T16:01:02.704973+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いします！",
+      "timestamp": "2023-02-19T16:02:07.449086+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "映画はお好きですか？",
+      "timestamp": "2023-02-19T16:02:26.527487+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は好きですが、時間をかけてみるため、時折見る感じです＞",
+      "timestamp": "2023-02-19T16:03:01.765302+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "時間をかけてみるため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "映画はゆっくり見たいですよね。\nどんな映画を観たいでしょうか？",
+      "timestamp": "2023-02-19T16:03:59.010306+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "では今日は景色のきれいな映画はご存じですか？",
+      "timestamp": "2023-02-19T16:04:42.435497+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "景色のきれいな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "メリル・ストリープが出ていたマンマ・ミーア！はご覧になりました？",
+      "timestamp": "2023-02-19T16:06:21.727470+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "メリル・ストリープが出ていたマンマ・ミーア",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T16:05:37.493692+09:00",
+          "query": "マンマ・ミーア！",
+          "genres": "",
+          "results": "331238,363202"
+        }
+      ],
+      "checked": [
+        "331238_title",
+        "331238_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "マンマ・ミーアはよく舞台でもやっていますが、ミュージカルがもひとつ苦手なので見ていません。ですが、メリルストリープは大好きなので、ご紹介いただけますか？",
+      "timestamp": "2023-02-19T16:09:07.865069+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "マンマ・ミーア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ひとつ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "メリルストリープ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "実は私もミュージカルに苦手意識を持っているのですが、「マンマ・ミーア！」では、ABBAの名曲を使っていることもあってか個人的に楽しめました。\nまた舞台が、ギリシャ・エーゲ海の架空の島という設定のため景色がそれは素晴らしくそこも見どころだと思います。",
+      "timestamp": "2023-02-19T16:12:28.595640+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "苦手意識",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「マンマ・ミーア！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ABBAの名曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ギリシャ・エーゲ海の架空の島という設定のため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "景色",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "331238_title",
+        "331238_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そうなのですね！ABBAの曲も好きですし、エーゲ海かもしれない映像が流れるのは見てみたくなります。大まかなストーリーを教えてください。",
+      "timestamp": "2023-02-19T16:14:13.465542+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ABBAの曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "エーゲ海かもしれない映像",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "大まかなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "エーゲ海に浮かぶ島で、小さなホテルを営む女性がメリル・ストリープなのですが、その娘は結婚式を控え、かねてからの夢、\n会ったことのない父親とヴァージン・ロードを歩く事を実現しようとします。\n母の日記から父親候補を絞り込んだ彼女は、3人の男性を結婚式に招待。\nそして資産家、冒険家、銀行員が島を訪れ、母はかつての恋人と再会し、、。というストーリーです。",
+      "timestamp": "2023-02-19T16:18:44.790586+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "エーゲ海に浮かぶ島",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "小さなホテルを営む女性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "メリル・ストリープ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "その娘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "結婚式",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "かねてからの夢",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "会ったことのない父親",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ヴァージン・ロードを歩く事",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "母の日記から父親候補を絞り込んだ彼女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "3人の男性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "結婚式",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "招待",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "資産家、冒険家、銀行員",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "島",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "母",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "かつての恋人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "再会し、、。というストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "331238_cast_name-0",
+        "331238_plot-0",
+        "331238_plot-1",
+        "331238_plot-5",
+        "331238_plot-6"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そういったストーリーなのですね。つまり３人のうち、本当のお父さんははっきりしていないということなのですね。なかなかモテるお母さんだったのですね。メリルストリープなら頷けます。",
+      "timestamp": "2023-02-19T16:23:45.127181+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "そういったストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "３人のうち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "本当のお父さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "はっきりしていないということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "モテるお母さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "メリルストリープ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうなのです。",
+      "timestamp": "2023-02-19T16:24:50.404027+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "331238_cast_name-1",
+        "331238_cast_name-2",
+        "331238_cast_name-3"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "映画をみられたから、舞台も見てみたくなられましたか？",
+      "timestamp": "2023-02-19T16:26:56.154242+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね、でも映画でも十分歌が楽しめて結構満足感がありました！\n\n３人の父親候補を演じているのが、\nピアース・ブロスナン\nコリン・ファース\nステラン・スカルスガルドと豪華でそこも見ごたえがありました。\n\n娘の婚約者が、父親探しに夢中になっている彼女に対して、「父親を探すのではなく、自分を探せ」と言うシーンがあるのですが、若いのに一番しっかりしているなあと印象に残っています。",
+      "timestamp": "2023-02-19T16:29:10.628434+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "十分歌",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "満足感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "３人の父親候補",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "ステラン・スカルスガルド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "娘の婚約者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "父親探しに夢中になっている彼女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "「父親を探すのではなく、自分を探せ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "331238_cast_name-1",
+        "331238_cast_name-2",
+        "331238_cast_name-3"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "父親候補者に素敵な方が揃っているようですね。フィアンセが彼女の行動に少し心配になることも気持ちとしてわかりますね。景色、俳優さん、ストーリーで思わず映像が目に浮かぶようです。ご紹介くださって、どうもありがとうございました。",
+      "timestamp": "2023-02-19T16:33:45.987064+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "父親候補者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "素敵な方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "フィアンセ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "彼女の行動",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "61",
+          "text": "心配になること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "62",
+          "text": "気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "63",
+          "text": "景色、俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "はい、観終わった後は、色々あっても、くよくよしてても仕方ない！とハッピーな気分になれると思います。今日は有難うございました！",
+      "timestamp": "2023-02-19T16:35:02.758121+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

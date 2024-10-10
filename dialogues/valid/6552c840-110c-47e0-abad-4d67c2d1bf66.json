@@ -1,0 +1,812 @@
+{
+  "dialog_id": "6552c840-110c-47e0-abad-4d67c2d1bf66",
+  "created_timestamp": "2023-02-01T09:14:13.066899+09:00",
+  "archived_timestamp": "2023-02-01T09:36:45.433394+09:00",
+  "recommender": {
+    "name": "035",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "100",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。\nよろしくお願いします。",
+      "timestamp": "2023-02-01T09:14:35.636667+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-01T09:14:46.902911+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、普段はどんな映画をよくみますか？",
+      "timestamp": "2023-02-01T09:14:55.474488+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ミュージカル映画は良く観るのですが、ほのぼのとした映画でお勧めのものは何かありますか",
+      "timestamp": "2023-02-01T09:16:00.266310+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ほのぼのとした映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "お勧めのもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画と邦画ではどちらがお好きですか？",
+      "timestamp": "2023-02-01T09:16:05.621316+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "洋画の方が好きですが、邦画でもいいのがあったら観たいです。",
+      "timestamp": "2023-02-01T09:16:44.630200+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "アメリカの映画で「Disney's　クリスマス・キャロル」はご存知ですか？",
+      "timestamp": "2023-02-01T09:18:34.482275+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "アメリカの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「Disney's　クリスマス・キャロル」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-01T09:16:29.189611+09:00",
+          "query": "ほのぼの",
+          "genres": "family",
+          "results": "339701"
+        },
+        {
+          "timestamp": "2023-02-01T09:17:13.452809+09:00",
+          "query": "洋画",
+          "genres": "family",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-01T09:17:15.472797+09:00",
+          "query": "洋画",
+          "genres": "family",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-01T09:17:17.365238+09:00",
+          "query": "洋画",
+          "genres": "family",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-01T09:17:18.352833+09:00",
+          "query": "洋画",
+          "genres": "family",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-01T09:17:24.346821+09:00",
+          "query": "",
+          "genres": "family",
+          "results": "150435,152271,159561,159811,159875,162761,162856,20735,21356,236089,236590,237101,237362,241078,241897,28621,28627,318678,319257,321736,321839,321932,322086,322281,322404,322704,322771,323098,323222,323636,323686,324260,324261,324408,325317,326008,326246,326247,326362,326442,326445,326551,326660,326664,326905,327496,327529,327770,328367,328448,328493,328626,328724,329124,329418,329464,329546,329604,329606,329736,329809,329970,330039,330487,331366,332068,332361,332425,332670,332672,332753,332848,333194,333261,333331,333712,333833,333957,333976,334288,334304,335255,335426,335440,335605,335655,335712,335766,335850,336170,336292,336605,336703,336808,338017,338048,338075,339701,339775,339818,339986,340427,340606,341531,341770,342051,343345,343456,343761,344380,345366,346960,347371,347372,348091,348264,349443,349726,349728,349920,350111,350897,351369,352692,353496,353538,353612,353664,354523,354988,355316,356423,356582,358499,358645,358954,359120,359899,360962,360986,361373,361801,362195,362714,362962,363528,363644,363762,363978,364123,364183,365085,365489,365791,366015,366134,366550,366607,367144,367321,367823,369058,369413,369619,370020,370565,370836,371076,371105,372796,374449,374768,375074,375327,381859,6207,8508"
+        }
+      ],
+      "checked": [
+        "333976_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いえ、観たことがないです。どんな映画ですか？",
+      "timestamp": "2023-02-01T09:19:00.457803+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "チャールズ・ディケンズ原作で、ケチで冷酷無慈悲な男のもとに、死んだ元仕事仲間が亡霊になってあらわれる映画です。",
+      "timestamp": "2023-02-01T09:20:27.968477+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "チャールズ・ディケンズ原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ケチで冷酷無慈悲な男のもと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "死んだ元仕事仲間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "亡霊",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "なってあらわれる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "333976_original"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なるほど、その無慈悲な男に少し復讐するような感じですか？ディズニーなので明るい感じの映画ですね？",
+      "timestamp": "2023-02-01T09:22:15.994139+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "その無慈悲な男",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "復讐するような感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "明るい感じの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "その亡霊は、生前、会計事務所に篭って人生を無駄にした自分の愚かさを嘆き、犯した罪の分だけ重く長くなった鎖に囚われた自らの姿を指して、このままでは「お前も同じ運命を辿る」と忠告をし、三人の精霊を主人公のもとに遣わせて、人生の本当の価値に気づかせる内容で、心温まる映画です。",
+      "timestamp": "2023-02-01T09:23:59.830120+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "その亡霊",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "生前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "20",
+          "text": "会計事務所",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "21",
+          "text": "篭って人生を無駄にした自分の愚かさ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "犯した罪の分だけ重く長くなった鎖に囚われた自らの姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「お前も同じ運命を辿る」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "忠告",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "25",
+          "text": "三人の精霊",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "主人公のもと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "人生の本当の価値に気づかせる内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "心温まる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ディズニーらしい映画ですね。ほんわかできそうな映画なので、是非観てみたいと思います。",
+      "timestamp": "2023-02-01T09:27:31.320822+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ディズニーらしい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ほんわかできそうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "もともと古いクリスマスの古典映画をロバート・ゼメキス監督がリメイクし、ジムキャリーが主演です。",
+      "timestamp": "2023-02-01T09:28:00.083600+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "古いクリスマスの古典映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ロバート・ゼメキス監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ジムキャリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "リメイク映画なんですね。ジムキャリーは有名な俳優さんですが、他には誰が出演されていらっしゃいますか？",
+      "timestamp": "2023-02-01T09:29:02.323928+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "リメイク映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ジムキャリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "有名な俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "他にはゲイリー・オールドマンやコリン・ファースなど、名俳優揃いです。",
+      "timestamp": "2023-02-01T09:29:56.288375+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ゲイリー・オールドマンやコリン・ファース",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "名俳優揃い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "なるほど、ゲイリー・オールドマンはかなりのベテラン俳優さんですね。",
+      "timestamp": "2023-02-01T09:32:56.718779+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ゲイリー・オールドマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "かなりのベテラン俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "はい、怪優とも言われていますね。\nコリン・ファースは「ブリジット・ジョーンズの日記」「英国王のスピーチ」「キングスマン」で重要な役を演じたとてもエレガントな俳優です。",
+      "timestamp": "2023-02-01T09:35:09.145071+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "怪優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "コリン・ファース",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "「ブリジット・ジョーンズの日記」「英国王のスピーチ」「キングスマン」で重要な役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "エレガントな俳優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "コリン・ファースもいろんな映画に出演されているのですね。楽しそうな映画を推薦していただきありがとうございました。",
+      "timestamp": "2023-02-01T09:36:42.188782+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "コリン・ファース",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "いろんな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "楽しそうな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

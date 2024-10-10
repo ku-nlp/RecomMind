@@ -1,0 +1,1119 @@
+{
+  "dialog_id": "65ede753-7889-488b-9314-d1075c138005",
+  "created_timestamp": "2023-02-23T13:30:14.728129+09:00",
+  "archived_timestamp": "2023-02-23T14:04:24.788915+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-02-23T13:34:30.929140+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、宜しくお願い致します。",
+      "timestamp": "2023-02-23T13:34:41.580907+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-02-23T13:35:02.846511+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ホラー映画やR指定以外なら、興味があれば観ます。明るく楽しいコメディか、シリアスな内容なら、感動できる作品が好きです。",
+      "timestamp": "2023-02-23T13:37:03.272833+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ホラー映画やR指定以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "1",
+          "text": "明るく楽しいコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "シリアスな内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "感動できる作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "明るく楽しいコメディで感動できるものとして、「シコふんじゃった。」はどうでしょうか？　１９９２年の映画なので結構古いですが、ご存じですか？",
+      "timestamp": "2023-02-23T13:38:58.737595+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "明るく楽しいコメディで感動できるもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「シコふんじゃった。」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "１９９２年の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-23T13:37:23.958689+09:00",
+          "query": "シコ",
+          "genres": "",
+          "results": "10909,13522,13523,151599,1702,1709,18114,20696,29041,322605,325136,326063,328975,329456,329623,333494,334516,335210,335567,336061,336448,338199,338677,339354,340335,344013,346480,348087,350824,352378,352899,354254,354473,354512,354522,354960,355434,359256,359476,360835,360948,361148,364528,365978,366852,367854,369058,371684,7547,7583,83437,86183"
+        },
+        {
+          "timestamp": "2023-02-23T13:38:04.316073+09:00",
+          "query": "シコふんじゃった",
+          "genres": "",
+          "results": "151599"
+        }
+      ],
+      "checked": [
+        "151599_title",
+        "151599_year"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "知らないです。どのような話ですか？お相撲さんが出てくるのでしょうか？",
+      "timestamp": "2023-02-23T13:39:28.705411+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どのような話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "お相撲さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい。時代がバブリーな頃なので、チャラい大学生（本木雅弘）が単位と引き換えに廃部寸前ｎ相撲部に入部させられる話です。",
+      "timestamp": "2023-02-23T13:40:40.756946+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "時代がバブリーな頃",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "チャラい大学生（本木雅弘）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "単位",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "引き換えに廃部寸前ｎ相撲部に入部させられる話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "本木君がお相撲さんになるのですか？稽古シーンも登場するのでしょうか？",
+      "timestamp": "2023-02-23T13:42:00.789784+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "本木君",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "お相撲さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "稽古シーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "はい。若く美しい、本木雅弘のふんどし姿です。この相撲部にリクルートされる他の人たちも皆、それはないだろーと思うダメダメさんたちばかりなのですが、皆ええ味出してまして。この映画の素晴らしい所は全編ドタバタの笑い満載でありながら、実は弱い人たちを励まし、元気づけてるところなのです。",
+      "timestamp": "2023-02-23T13:43:42.088331+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "若く美しい、本木雅弘のふんどし姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "この相撲部にリクルートされる他の人たち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ないだろーと思うダメダメさんたち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ええ味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "この映画の素晴らしい所",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "全編ドタバタの笑い満載",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "弱い人たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "励まし、元気づけてるところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そうなんですね。どのような名言（迷言）が出てきますか？",
+      "timestamp": "2023-02-23T13:45:30.916843+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "どのような名言（迷言）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "名言（迷言）で一番笑ったのは、緊張すると下痢してしまう相撲部員（竹中直人）がそれを治すため、ヒーリングセラピーのよなテープを聴いているのですが、（リラックスするために）「一番楽しかったこと言ってください」とのテープの声に「吉原、アメリカンチアガール」と答えたところでしょうか。竹中さんはコメディ俳優としても凄すぎますね。画面の隅でいつも笑いを取って行くのですよ。",
+      "timestamp": "2023-02-23T13:48:54.393645+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "名言（迷言）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "緊張すると下痢してしまう相撲部員（竹中直人）がそれを治すため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ヒーリングセラピーのよなテープ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "（リラックスするために）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「一番楽しかったこと言ってください」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "竹中さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "コメディ俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "画面の隅",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_cast_name-0",
+        "151599_cast_name-3"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "すごすぎますね！おもしろそうな映画のようです。中盤以降は、登場人物達もやる気を出して、スポコン物語になっていくのでしょうか？",
+      "timestamp": "2023-02-23T13:51:28.475448+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "おもしろそうな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "中盤以降",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "登場人物達もやる気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "スポコン物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "確かにスポコンですが、尋常でないダメダメさんたちのスポコンなのでかなり奇想天外かも。おデブの女の子が好きな少年のために相撲部にマネージャーとして入部してまして、その少年が骨折してしまい人数がたりない！って時にその女の子が男装？して土俵に上がるのです。相撲部のために。その姿はマドンナの清水美砂を完全に喰ってしまいました。",
+      "timestamp": "2023-02-23T13:54:36.465353+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "確かにスポコン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "尋常でないダメダメさんたちのスポコン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "奇想天外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "おデブの女の子が好きな少年のため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "マネージャー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "その少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "人数",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "その女の子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "男装",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "土俵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "相撲部のため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "その姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "マドンナの清水美砂",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "151599_cast_name-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "まわし一枚しかないのですが、上半身は晒を巻いたのでしょうか？体当たり演技ですね！",
+      "timestamp": "2023-02-23T13:57:12.557935+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "まわし一枚",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "上半身",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "晒",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "体当たり演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい。ちゃんとさらし巻いてましたよ。でも例えば宮沢りえちゃんのふんどし姿がかつて話題になりましたが（すごい昔ですがご存じですか？）体系いだけはお相撲さん並みの女の子がそういう格好をするというのはめちゃくちゃ勇気がいることで、そこが凄すぎるのですよね。",
+      "timestamp": "2023-02-23T13:58:57.857720+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "さらし",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "宮沢りえちゃんのふんどし姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "すごい昔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "？）体系いだけはお相撲さん並みの女の子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "そういう格好",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "めちゃくちゃ勇気がいること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "愛のなせる業ですね。。宮沢りえのふんどし姿は知りません。彼女は細いので、相撲をするのは危険ではないかと。。それで、その女の子の想いは、好きな男の子に届くのでしょうか？",
+      "timestamp": "2023-02-23T14:01:26.554089+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "愛のなせる業",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "62",
+          "text": "宮沢りえのふんどし姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "63",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "相撲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "65",
+          "text": "その女の子の想い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "好きな男の子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ちゃんと届くのですよ。皆最後にはそれぞれの道を見つけて人生を歩んでいくようになるのです。チャラい大学生は「もう楽してズルするのはやめだ」と宇一年留年することにして相撲部で頑張るのです。",
+      "timestamp": "2023-02-23T14:02:58.586162+09:00",
+      "internal_states": [
+        {
+          "id": "67",
+          "text": "それぞれの道",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "チャラい大学生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "70",
+          "text": "「もう楽してズルするのはやめだ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "71",
+          "text": "宇一年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "72",
+          "text": "相撲部",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ただ笑えるというだけではなく、登場人物が全員成長していくのですね。観たくなってきました。今日はおもしろそうな映画を紹介してくださり、有難うございました！",
+      "timestamp": "2023-02-23T14:04:19.689540+09:00",
+      "internal_states": [
+        {
+          "id": "73",
+          "text": "登場人物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "74",
+          "text": "全員",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "75",
+          "text": "おもしろそうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

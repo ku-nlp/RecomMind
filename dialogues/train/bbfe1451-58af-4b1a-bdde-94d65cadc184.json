@@ -1,0 +1,863 @@
+{
+  "dialog_id": "bbfe1451-58af-4b1a-bdde-94d65cadc184",
+  "created_timestamp": "2023-02-03T14:58:10.776911+09:00",
+  "archived_timestamp": "2023-02-03T15:15:48.246866+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-03T15:00:15.428834+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願いします。",
+      "timestamp": "2023-02-03T15:00:24.554158+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-03T15:00:35.531077+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "探偵ものかしら。古くはイギリスの探偵小説からアニメの名探偵コナンが好みです。",
+      "timestamp": "2023-02-03T15:01:34.926944+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "探偵もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "イギリスの探偵小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "アニメの名探偵コナン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "アニメもお好きなんですね。ちょっとコナンとは異なりますが、2019年の名探偵ピカチュウはご覧になったことはありますか？実写版というか、CGを駆使した映画です。",
+      "timestamp": "2023-02-03T15:02:54.864870+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "コナン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "2019年の名探偵ピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "実写版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "CGを駆使した映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T15:02:09.768857+09:00",
+          "query": "名探偵",
+          "genres": "",
+          "results": "162761,163032,237362,324260,324357,326664,329546,330914,332756,335766,338607,340799,341440,344381,346346,347764,350825,354676,358936,362613,366341,366398,369949,370745,380305"
+        }
+      ],
+      "checked": [
+        "366341_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いえ、全く見たことはありませんね。",
+      "timestamp": "2023-02-03T15:03:33.687429+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "まったく興味がなかったのですが、息子にせがまれて観にいき、意外に面白かったのでお勧めさせてください。\n主演のピカチュウの声がライアン・レイノルズ、刑事役で渡辺謙さんも出演されています。",
+      "timestamp": "2023-02-03T15:05:05.128163+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "主演のピカチュウの声",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ライアン・レイノルズ、刑事役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "渡辺謙さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "366341_cast_name-0",
+        "366341_cast_name-6"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そんな有名な方が出演だなんて、知りませんでした。どんな内容ですか。",
+      "timestamp": "2023-02-03T15:05:47.729507+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "そんな有名な方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "長い間会っていなかった父ハリーが事故で亡くなったという連絡を受け、人間とポケモンが共存する街・ライムシティを訪れた21歳のティムが主人公です。その父の部屋で、一匹のピカチュウに会い、父は実は生きていると知り、ピカチュウと共に父の失踪の謎を解いていくのですが、CGのピカチュウが、毛並みが分かるぐらいふさふさのリアルなんです。",
+      "timestamp": "2023-02-03T15:07:28.903568+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "長い間会っていなかった父ハリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "事故",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "亡くなったという連絡",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "受け、人間とポケモンが共存する街・ライムシティを訪れた21歳のティム",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "その父の部屋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "一匹のピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "父",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "父の失踪の謎",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "CGのピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "毛並みが分かるぐらい",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "366341_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "わあ、リアルなピカチュウを見るのも魅力ですね。映像や音楽は楽しめましたか。",
+      "timestamp": "2023-02-03T15:08:48.122761+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "わあ、リアルなピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "魅力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "映像や音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ポケモンに詳しくない私でも、何の違和感もなく観ることができました。映像は本当にポケモンの世界が存在していると思ってしまうほどリアルです。ところどころ日本っぽい街並みもあって、日本のアニメへのリスペクトを感じました。音楽はあまり覚えていませんが（笑）。",
+      "timestamp": "2023-02-03T15:09:44.831449+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ポケモン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "何の違和感",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ポケモンの世界",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "存在していると思ってしまうほど",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "日本っぽい街並み",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "日本のアニメへのリスペクト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ＣＧを使用した映画ってそういえば、まだ馴染みがありませんよね。不思議な感じがします。是非、見たいです。",
+      "timestamp": "2023-02-03T15:11:29.176930+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "ＣＧを使用した映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "馴染み",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "不思議な感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ライアン・レイノルズのピカチュウが本当に面白いので、是非字幕で見て欲しいのですが、日本語版の渡辺謙さんの吹き替えは、渡辺謙さんご本人がされていて、ちょっと面白かったです。どんな気分でしょうね、自分の吹き替えを自分でするって。",
+      "timestamp": "2023-02-03T15:11:46.214553+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ライアン・レイノルズのピカチュウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "字幕",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "日本語版の渡辺謙さんの吹き替え",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "渡辺謙さんご本人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "自分の吹き替え",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "366341_cast_name-0",
+        "366341_cast_name-6"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "わあ、何だか奇妙ですね。ちょっと想像しただけで、顔がほころんできました。今でもどこかで鑑賞できるのかしら。",
+      "timestamp": "2023-02-03T15:13:15.558267+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "わあ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "顔",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "私はDVDを買ったのですが、その後アマゾンプライムで配信されていたので、ちょっと悔しかったです。大人でも楽しめる世界観と、豪華キャストなので、是非ご覧になってみてください。",
+      "timestamp": "2023-02-03T15:14:16.926363+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "DVD",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "大人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "世界観",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "豪華キャスト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうですね。ちょっと探してみます。最近は、配信が主流かしら。いい作品をお勧め頂きまして有り難うございました。",
+      "timestamp": "2023-02-03T15:15:29.033402+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "主流",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "いい作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-02-03T15:15:44.604481+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

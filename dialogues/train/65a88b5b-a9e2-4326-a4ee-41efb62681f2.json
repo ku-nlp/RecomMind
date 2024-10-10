@@ -1,0 +1,893 @@
+{
+  "dialog_id": "65a88b5b-a9e2-4326-a4ee-41efb62681f2",
+  "created_timestamp": "2023-02-09T13:59:29.330662+09:00",
+  "archived_timestamp": "2023-02-09T14:18:40.490245+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 2,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-09T13:59:45.218844+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。こちらこそよろしくお願いいたします。",
+      "timestamp": "2023-02-09T14:00:05.656016+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-09T14:00:09.724232+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は好きで、ホラー映画以外はわりといろいろなジャンルの映画を観ます。",
+      "timestamp": "2023-02-09T14:00:47.880987+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ホラー映画以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画はご覧になりますか？小説が元の映画などいかがでしょうか。",
+      "timestamp": "2023-02-09T14:01:35.587801+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "小説",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "元の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "邦画よりも洋画を観ることのほうが多いですが、どのような映画ですか？今日は明るい気分になれる映画が観たい気分です。",
+      "timestamp": "2023-02-09T14:02:39.452845+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "洋画を観ることのほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "明るい気分になれる映画が観たい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "明るい気分の洋画ですね。少し前の1999年の映画ですが、「ノッティングヒルの恋人」はご覧になったことはありますか？",
+      "timestamp": "2023-02-09T14:04:00.482860+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "明るい気分の洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "前の1999年の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「ノッティングヒルの恋人」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T14:02:26.912634+09:00",
+          "query": "祈りの",
+          "genres": "",
+          "results": "2823,361110"
+        },
+        {
+          "timestamp": "2023-02-09T14:03:29.176639+09:00",
+          "query": "ノッティングヒル",
+          "genres": "",
+          "results": "85258"
+        }
+      ],
+      "checked": [
+        "85258_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい。その映画は好きで、何度か観ています。",
+      "timestamp": "2023-02-09T14:04:24.109715+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ご覧になられていましたか。私はヒュー・グラントが好きなので、彼の映画で別の映画「ラブ・アクチュアリー」はいかがでしょうか。",
+      "timestamp": "2023-02-09T14:05:22.233707+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "ヒュー・グラント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "彼の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "別の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「ラブ・アクチュアリー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T14:05:06.363939+09:00",
+          "query": "ラブアクチュアリー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T14:05:10.143438+09:00",
+          "query": "アクチュアリー",
+          "genres": "",
+          "results": "318646"
+        }
+      ],
+      "checked": [
+        "318646_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "「ラブ・アクチュアリー」も観たことがありますが、嫌いではありませんが、評判ほどは好きではないかもしれません。出演陣はなかなかよいキャスティングだとは思うのですが。",
+      "timestamp": "2023-02-09T14:06:57.781010+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "「ラブ・アクチュアリー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "18",
+          "text": "評判ほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "出演陣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "よいキャスティング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうですか、なかなかおススメ出来なくてすみません。では、2015年のリメイクバージョンの「ANNIE／アニー」はご覧になりましたか？",
+      "timestamp": "2023-02-09T14:07:59.838622+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "2015年のリメイクバージョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "「ANNIE／アニー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T14:07:39.457432+09:00",
+          "query": "アニー",
+          "genres": "",
+          "results": "12124,163038,19758,22667,23290,233769,241899,26638,320267,349742,351610,361586,365075,365276,366134,366945,375940,54734"
+        }
+      ],
+      "checked": [
+        "349742_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "すいません。その映画も観ています。ミュージカル映画はあまり頻繫には観ませんが、この作品は舞台でもよく上演されているの作品なので、大外れはないと思って観ました。",
+      "timestamp": "2023-02-09T14:09:37.691960+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "頻繫",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "大外れ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "映画良くご覧になられているんですね、申し訳ありません。では、昨年の映画「SING／シング：ネクストステージ」はいかがでしょうか？U2のボノが実際に歌を披露した作品です。",
+      "timestamp": "2023-02-09T14:11:11.422477+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ご覧になられているんですね、申し訳",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "昨年の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「SING／シング：ネクストステージ」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "U2のボノが実際に歌を披露した作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T14:10:06.899104+09:00",
+          "query": "SING",
+          "genres": "",
+          "results": "355820,378013"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ディズニー・アニメの作品ですよね。テレビで放送されているのを観ましたが、映画情報はチェックしていたわけではなかったので、U2のボノが実際に歌っているとは知りませんでした。どの役ですか？",
+      "timestamp": "2023-02-09T14:13:14.992478+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "ディズニー・アニメの作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "映画情報",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "U2のボノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "どの役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ディズニーではなく、ミニオンズなどの作品をつくっているユニバーサルの映画だったかと思います。ボノは、昔有名だった歌手ですが、妻の死をきっかけに引きこもってしまっている役です。しかし、ＳＩＮＧのオリジナルメンバーたちに誘われ、舞台に復活します。そのシーンで実際にＵ２の歌を歌うのですが、まるでライブを見ている気分になりました。",
+      "timestamp": "2023-02-09T14:15:15.834309+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ミニオンズなどの作品をつくっているユニバーサルの映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ボノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "有名だった歌手",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "妻の死をきっかけに引きこもってしまっている役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ＳＩＮＧのオリジナルメンバーたち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "そのシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "Ｕ２の歌",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ライブを見ている気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ユニバーサルの作品でしたか。なるほど。この作品で新たに登場したキャラクターの歌手役だったんですね。ほかのキャラクターもなかなかよい歌声で、楽しい作品ですよね。それにしても、ボノがアニメに出演していたとは意外でした！教えていただいて、どうもありがとうございました。",
+      "timestamp": "2023-02-09T14:18:24.859943+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "ユニバーサルの作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "この作品で新たに登場したキャラクターの歌手役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ほかのキャラクター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "よい歌声で、楽しい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "ボノ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "動物としてはライオンの役ですが、ボノに見えてくるから不思議です。何も考えず音楽と映像を楽しみたいときにおススメですので、機会があればぜひご覧になって下さい。今日はありがとうございました。",
+      "timestamp": "2023-02-09T14:18:33.115633+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "dialog_id": "01d8944b-c194-4f63-ba78-232a00557e72",
+  "created_timestamp": "2023-02-09T12:59:56.914690+09:00",
+  "archived_timestamp": "2023-02-09T13:17:42.109304+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 3,
+      "recommendation_success": 2,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-09T13:00:16.522430+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-02-09T13:00:47.220569+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-09T13:00:56.326867+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は好きで、ホラー映画以外はわりといろいろなジャンルの映画を観ます。",
+      "timestamp": "2023-02-09T13:01:34.850310+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ホラー映画以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画、邦画、アニメなど、特に好んでみられるものはありますか？",
+      "timestamp": "2023-02-09T13:02:07.061053+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画、邦画、アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "好んでみられるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "そうですね。その選択では、洋画を観ることが多いですね。",
+      "timestamp": "2023-02-09T13:02:55.074648+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "その選択",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画を観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ホラー以外ですね。昔の映画のリメイク版など、ご紹介してもよろしいですか？",
+      "timestamp": "2023-02-09T13:03:51.671627+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "昔の映画のリメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "リメイク版はオリジナルがヒットした作品ですよね。どのジャンルの映画ですか？",
+      "timestamp": "2023-02-09T13:04:46.607907+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "リメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "オリジナルがヒットした作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "どのジャンルの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ジャンルはアクション、ドラマ、ファミリーで、2010年のベスト・キッドなどいかがでしょうか。昔のカラテバージョンではなく、中国に移住した黒人の少年の話です。",
+      "timestamp": "2023-02-09T13:05:43.149328+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アクション、ドラマ、ファミリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "2010年のベスト・キッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "昔のカラテバージョン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "中国に移住した黒人の少年の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T13:03:57.054653+09:00",
+          "query": "ベストキッド",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T13:04:14.449119+09:00",
+          "query": "キッド",
+          "genres": "",
+          "results": "22238,234692,236424,239767,24136,319506,324260,326362,327081,331364,334837,335766,336292,341437,346346,350825,353612,359721,365472,366398,366464,379889,51832,842,85193"
+        }
+      ],
+      "checked": [
+        "336292_title",
+        "336292_genre-0",
+        "336292_genre-1",
+        "336292_genre-2"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "その映画は、どちらかというと今一つかなと思い、観ていないですね。どんなストーリーですか？",
+      "timestamp": "2023-02-09T13:07:01.816120+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "今一つ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "母親の転勤によって、中国にすむことになったアメリカ人少年を、ウィルスミスの息子ジェイデン・スミスが演じています。私も最初興味が無かったのですが、そのジェイデン・スミスの演技力が意外にも高く、そしてカンフーの演技も吹き替え無しで本人がやっていて、最初と最後では体つきも顔つきも違ってきています。俳優さんってすごいですよね、まだ中学生ぐらいの頃でした。",
+      "timestamp": "2023-02-09T13:08:38.302647+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "母親の転勤によって、中国にすむことになったアメリカ人少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ウィルスミスの息子ジェイデン・スミス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "最初興味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "そのジェイデン・スミスの演技力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "カンフーの演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "替え無し",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "本人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "体つき",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "顔つき",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "中学生ぐらいの頃",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうでした！ウィル・スミスの息子さんが主演の映画で話題でしたね。リメイク版は今一つの出来になっていることがありますが、作品してよい出来なのですね？他に何かおすすめはありますか？",
+      "timestamp": "2023-02-09T13:10:50.289721+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "ウィル・スミスの息子さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "主演の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "リメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "今一つの出来",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "作品してよい出来",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "昔の作品と比較しても、リメイク版の邦画良かったですよ。\n他の勧めとしては、最近見た映画で「コンテイジョン」という映画が面白課ttあです。2011年の映画ですが、コウモリ由来の謎のウイルスに世界が襲われるという、まるで予知のような話で驚きました。",
+      "timestamp": "2023-02-09T13:12:29.956053+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "昔の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "リメイク版の邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "他の勧め",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "最近見た映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "「コンテイジョン」という映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "43",
+          "text": "面白課tt",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "2011年の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "45",
+          "text": "コウモリ由来の謎のウイルス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "46",
+          "text": "世界",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "予知のような話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T13:11:37.891289+09:00",
+          "query": "コンテイジョン",
+          "genres": "",
+          "results": "340856"
+        }
+      ],
+      "checked": [
+        "340856_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ベスト・キッドはリメイク版のほうがおすすめなんですね？またチェックしてみます。その映画は知っていますが、今はコロナがあり、正直なところ、ウィルス、パンデミックなどのストーリーは、少しお腹いっぱいという感じです。",
+      "timestamp": "2023-02-09T13:15:20.108382+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "ベスト・キッド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "リメイク版のほう",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "51",
+          "text": "コロナ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "52",
+          "text": "正直なところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ウィルス、パンデミックなどのストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "54",
+          "text": "お腹いっぱいという感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね、本当に今の世の中を見ている感じでした。でも出演者が、マット・デイモン、ジュード・ロウなど、非常に豪華で、観ながら感心すらしました。コロナが落ち着いたころ、機会があればぜひご覧になって下さいね。今日はありがとうございました。",
+      "timestamp": "2023-02-09T13:16:23.714846+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "そうですね、本当に今の世の中を見ている感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "出演者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "マット・デイモン、ジュード・ロウ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "感心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "コロナが落ち着いたころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうですね。出演陣は豪華ですね！今はベスト・キッドのような映画のほうがよいかもしれません。教えていただいてどうもありがとうございました。",
+      "timestamp": "2023-02-09T13:17:35.772968+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "出演陣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ベスト・キッドのような映画のほう",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

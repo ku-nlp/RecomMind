@@ -1,0 +1,1248 @@
+{
+  "dialog_id": "eb497905-25de-4084-bf8b-55df16b83d4d",
+  "created_timestamp": "2023-02-09T09:57:52.933887+09:00",
+  "archived_timestamp": "2023-02-09T10:50:16.268707+09:00",
+  "recommender": {
+    "name": "042",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いします。",
+      "timestamp": "2023-02-09T09:59:41.329731+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそよろしくお願いします！\n映画はよくご覧になりますか？",
+      "timestamp": "2023-02-09T10:00:19.710442+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "はい、映画は好きです。最近ではファントム・スレッドを観ました。",
+      "timestamp": "2023-02-09T10:01:44.567710+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ファントム・スレッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "配信でご覧になるのでしょうか？配信だと、観たいと思った映画をいつでも観られるのがいいですよね！ドラマ系の映画がお好きですか？その他のジャンルも色々ご覧になるのですか？",
+      "timestamp": "2023-02-09T10:04:36.957554+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "観たいと思った映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ドラマ系の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "お好きですか？その他のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "色々",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T10:02:12.995932+09:00",
+          "query": "ファントム・スレッド",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "そうなんです！配信の方が安いですし。ドラマやミステリーが好きです。",
+      "timestamp": "2023-02-09T10:10:40.263422+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "配信の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ドラマやミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "私もドラマやミステリー好きです。ときどきワクワクのアクションやSFも楽しみますが。ドラマ物は穏やかな展開で感動を生むもの、それとも少し劇的なものがお好きですか？ミステリーでは「ダ・ヴィンチコード」のようなものは観られましたか？",
+      "timestamp": "2023-02-09T10:15:21.072961+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ドラマやミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ワクワクのアクションやSF",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ドラマ物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "穏やかな展開で感動を生むもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "劇的なもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「ダ・ヴィンチコード」のようなもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T10:11:06.632571+09:00",
+          "query": "ミス・マープル",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T10:11:08.593453+09:00",
+          "query": "ミス・マープル",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T10:11:23.672584+09:00",
+          "query": "ダ・ビンチ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T10:11:25.346221+09:00",
+          "query": "ダ・ビンチ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T10:11:32.829497+09:00",
+          "query": "ダ・ヴィンチ",
+          "genres": "",
+          "results": "322729,332388,338942"
+        },
+        {
+          "timestamp": "2023-02-09T10:11:47.321379+09:00",
+          "query": "ダ・ヴィンチ",
+          "genres": "mystery",
+          "results": "322729,332388"
+        },
+        {
+          "timestamp": "2023-02-09T10:11:51.922323+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,1964,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,375074,377436,380305,51452,83681,85126,87762"
+        },
+        {
+          "timestamp": "2023-02-09T10:12:34.673234+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,1964,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,375074,377436,380305,51452,83681,85126,87762"
+        }
+      ],
+      "checked": [
+        "322729_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "ドラマは穏やかなものも感動的なものも好きです。「ダ・ヴィンチコード」は観たことがないのですが、興味があります。大ヒットしましたね。",
+      "timestamp": "2023-02-09T10:17:18.118077+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "穏やかなもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "感動的なもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「ダ・ヴィンチコード」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "感動的なドラマだと、「ショーシャンクの空に」などお勧めですが、ご覧になりましたか？\n「ダ・ヴィンチ・コード」はかなり話題になりましたね！本がとても売れたので実写化は難しいかと思われましたが、内容は変更した部分があったものの、うまく作られていました。トム・ハンクスが意外と大学教授のイメージに合っていましたよ",
+      "timestamp": "2023-02-09T10:21:18.556566+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "感動的なドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "「ショーシャンクの空に」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「ダ・ヴィンチ・コード」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "実写化",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "変更した部分があったもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "トム・ハンクス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "意外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "大学教授のイメージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T10:17:36.973426+09:00",
+          "query": "ダ・ヴィンチコード",
+          "genres": "mystery",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T10:17:43.942421+09:00",
+          "query": "ダ・ヴィンチ",
+          "genres": "mystery",
+          "results": "322729,332388"
+        },
+        {
+          "timestamp": "2023-02-09T10:18:35.721432+09:00",
+          "query": "ショーシャンクの空に",
+          "genres": "",
+          "results": "10909"
+        },
+        {
+          "timestamp": "2023-02-09T10:18:48.017749+09:00",
+          "query": "ダ・ヴィンチ・コード",
+          "genres": "",
+          "results": "322729,332388"
+        }
+      ],
+      "checked": [
+        "10909_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "「ショーシャンクの空には」は観たことがあります。「ダ・ヴィンチ・コード」は聖書の話だったような気がしますが、合っていますか？",
+      "timestamp": "2023-02-09T10:22:49.167386+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "「ショーシャンクの空には」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「ダ・ヴィンチ・コード」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "聖書の話だったような気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "はい、聖書がかなりかかわってきます。ワクワクしてとても面白いのですが、観た後にすべて理解できているかと言うと、難解な部分が残っているかもしれません。ミステリーとしてはかなりスケールが大きく、ミステリーが解き明かされた時の驚きがなんとも言えない印象をもたらします。「アメリ」の主演を務めオドメイ・トトゥが全く違う雰囲気のヒロインで出ています。内容は気の抜けない展開となっていますよ！",
+      "timestamp": "2023-02-09T10:26:55.574183+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "聖書",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "難解な部分",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "スケール",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "大きく、ミステリーが解き明かされた時の驚き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "言えない印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "「アメリ」の主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "オドメイ・トトゥ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "違う雰囲気のヒロイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "気の抜けない展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "そうでした、「アメリ」の女優さんも出ていましたね！スケールが大きいミステリーってことは、見ごたえがありそうですね。この映画は確か続編があったと思いますが、一作目の「ダ・ヴィンチ・コード」だけ観ても話は一応完結しているのですか？",
+      "timestamp": "2023-02-09T10:30:20.825572+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "そうでした、「アメリ」の女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "スケールが大きいミステリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "確か続編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "一作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "「ダ・ヴィンチ・コード」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "確かに一般のミステリーよりも規模が大きいミステリー、と言う感じがあります。「ダ・ヴィンチコード」だけ見ても面白いと思いますよ！完結感はあるとは言えませんが、そこが良いのかもしれません。\nまた、ミステリーの始まりとなる殺人がルーブル美術館内で、レオナルドダビンチの作品を模して行われているところからかなり引き込まれます。パリの街並みも大いに楽しめますよ！",
+      "timestamp": "2023-02-09T10:34:32.145332+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "確かに一般のミステリーよりも規模が大きいミステリー、と言う感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "「ダ・ヴィンチコード」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "完結感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ミステリーの始まりとなる殺人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "ルーブル美術館内",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "レオナルドダビンチの作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "模して行われているところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "パリの街並み",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "一作目だけ観ても楽しめるんですね。ヨーロッパの街並みや美術館が好きなので是非観てみたいと思います！ストーリーが複雑そうなので、先に原作を読もうかなと思います。",
+      "timestamp": "2023-02-09T10:40:46.594178+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "一作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "ヨーロッパの街並みや美術館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "うーんと‥お知らせしておきたいことがあります（笑）原作は、かなり難解です（笑）この映画の評判としてよく言われるのが、「原作は難解だったが、映画はついて行けた！」と言うものです。少し内容を変えてあることもありますが、映画の方が分かりやすいのは確かです（笑）でも、原作から映画、も良いかもしれません！私はその順番で観ました。キリスト教の知識が十分でない私には原作は確かに難解でしたが（笑）\n是非両方を楽しまれてくださいね！",
+      "timestamp": "2023-02-09T10:44:37.555989+09:00",
+      "internal_states": [
+        {
+          "id": "67",
+          "text": "うーんと‥お知らせしておきたいことがあります（笑）原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "難解です（笑）この映画の評判",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "「原作は難解だったが、映画はついて行けた！」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "71",
+          "text": "映画の方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "72",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "73",
+          "text": "その順番",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "74",
+          "text": "キリスト教の知識",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "76",
+          "text": "両方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "原作が難解と伺って、ますます楽しみになりました。では、映画を先に観てから本に挑戦しようかな。面白そうな映画を見逃していたので、おすすめしていただいてよかったです！丁寧にご説明いただき、どうもありがとうございました。",
+      "timestamp": "2023-02-09T10:49:19.940883+09:00",
+      "internal_states": [
+        {
+          "id": "77",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "難解",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "80",
+          "text": "先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "81",
+          "text": "本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "82",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "こちらこそ楽しかったです。ぜひお楽しみください！今日はありがとうございました！",
+      "timestamp": "2023-02-09T10:50:10.369223+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

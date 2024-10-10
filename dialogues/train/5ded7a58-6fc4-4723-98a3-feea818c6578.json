@@ -1,0 +1,835 @@
+{
+  "dialog_id": "5ded7a58-6fc4-4723-98a3-feea818c6578",
+  "created_timestamp": "2023-02-23T17:03:29.845099+09:00",
+  "archived_timestamp": "2023-02-23T17:27:48.739090+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願い致します。",
+      "timestamp": "2023-02-23T17:04:42.191232+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。本日は宜しくお願いします。",
+      "timestamp": "2023-02-23T17:04:46.343639+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、お好きな映画のジャンルはありますか？",
+      "timestamp": "2023-02-23T17:05:01.205570+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お好きな映画のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "楽しめるコメディ映画がいいです。",
+      "timestamp": "2023-02-23T17:05:30.347989+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "楽しめるコメディ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "コメディですね！私も好きなジャンルです。ラブコメとか、ドタバタコメディ（変わった登場人物が繰り広げる騒動）、特にこだわりはありますか？",
+      "timestamp": "2023-02-23T17:06:45.554467+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "私も好きなジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "コメディ（変わった登場人物が繰り広げる騒動）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "こだわり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "特にこだわりはありませんが、どちらかと言うとドタバタかしら。",
+      "timestamp": "2023-02-23T17:07:11.904717+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "こだわり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ドタバタというと、、「翔んで埼玉」とかご覧になりましたか？ありえないほど振り切れています。",
+      "timestamp": "2023-02-23T17:08:09.369453+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "「翔んで埼玉」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ありえないほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-23T17:07:33.550308+09:00",
+          "query": "翔んで埼玉",
+          "genres": "",
+          "results": "365245"
+        }
+      ],
+      "checked": [
+        "365245_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "タイトルだけは聞いたことがあります。どのようなストーリーでしょうか。",
+      "timestamp": "2023-02-23T17:08:41.928142+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "魔夜峰央による日本の漫画作品です。ストーリーは。こんな感じです。「東京都民からひどい差別を受ける埼玉県民は、東京へ入るのにも通行手形が必要で、手形がなければ即強制送還という屈辱の日々を送っていた。東京の名門校・白鵬堂学院でも、都知事の息子で生徒会長の壇ノ浦百美 (ももみ)により埼玉県人は容赦ない迫害にあう。」",
+      "timestamp": "2023-02-23T17:10:10.265948+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "魔夜峰央による日本の漫画作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "こんな感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「東京都民からひどい差別を受ける埼玉県民は、東京へ入るのにも通行手形が必要で、手形がなければ即強制送還という屈辱の日々を送っていた。東京の名門校・白鵬堂学院でも、都知事の息子で生徒会長の壇ノ浦百美　(ももみ)により埼玉県人は容赦ない迫害にあう。」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "365245_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なかなか面白そうな内容ですね。主人公の風貌など、どんな映像でしょうか。",
+      "timestamp": "2023-02-23T17:10:58.382639+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "面白そうな内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "主人公の風貌",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "どんな映像",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "パタリロ！と違って、イケメン俳優がたくさん出演しています！男性陣は、GACKT（ビジュアルなりきってました）、伊勢谷友介（本人がぶっ飛んでいますが）、京本正樹が出ています。女性では二階堂ふみが出ていますが、男性役だったと思います。",
+      "timestamp": "2023-02-23T17:13:32.610006+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "パタリロ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "イケメン俳優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "男性陣",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "GACKT（ビジュアルなりきってました）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "伊勢谷友介（本人がぶっ飛んでいますが）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "二階堂ふみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "男性役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "俳優さん達のことをお聞きしても、ただただ笑えちゃう感じがしますが・・",
+      "timestamp": "2023-02-23T17:14:37.464846+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "俳優さん達のこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "笑えちゃう感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "伊勢谷友介と京本正樹のキスシーンもありました！ストーリーは振り切れています。魔夜峰央原作なので。。",
+      "timestamp": "2023-02-23T17:15:58.991694+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "伊勢谷友介と京本正樹のキスシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "魔夜峰央原作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "まあ、ぶっ飛んでますね。きちんと結末がありますか。振り切れているとは、想像がつかない。",
+      "timestamp": "2023-02-23T17:18:09.319855+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "結末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "想像",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "埼玉自虐ストーリーです。映画に出てくる埼玉は、ド貧民の住む土地のような風景です。それで、埼玉ジェスチャーもあるのです！文字で表現できないのが残念ですが。。これがまた笑えます！",
+      "timestamp": "2023-02-23T17:20:28.012329+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "埼玉自虐ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "映画に出てくる埼玉",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ド貧民の住む土地のような風景",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "埼玉ジェスチャー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "文字",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "何も考えずに笑えそうです。ストレス発散には、ちょうど良い映画ですね。随分前の作品でしょうか。まだ鑑賞できるかしら。",
+      "timestamp": "2023-02-23T17:21:47.136116+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "ストレス発散",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "随分前の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ちょうど４年前です。ネットだと鑑賞できるかもしれません。千葉と埼玉の戦いいが圧巻です！その後、日本埼玉化計画から、「世界埼玉化計画」の野望が明らかになります（笑）。何も考えずに、笑えます。",
+      "timestamp": "2023-02-23T17:25:42.434779+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "４年前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ネット",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "千葉と埼玉の戦",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "圧巻",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "日本埼玉化計画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "「世界埼玉化計画」の野望",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "365245_year"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "なかなか面白い野望ですね。笑える、いい作品をお勧めいただき、有り難うございました。",
+      "timestamp": "2023-02-23T17:26:31.217696+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "面白い野望",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "笑える、いい作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、有難うございました！",
+      "timestamp": "2023-02-23T17:26:41.388840+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "今から、探してみます。",
+      "timestamp": "2023-02-23T17:27:19.582521+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "20",
+      "speaker": "recommender",
+      "text": "ぜひ楽しんでみてください！",
+      "timestamp": "2023-02-23T17:27:43.159082+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

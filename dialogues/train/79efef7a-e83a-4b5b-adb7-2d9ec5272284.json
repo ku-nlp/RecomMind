@@ -1,0 +1,895 @@
+{
+  "dialog_id": "79efef7a-e83a-4b5b-adb7-2d9ec5272284",
+  "created_timestamp": "2023-02-16T18:00:01.238845+09:00",
+  "archived_timestamp": "2023-02-16T18:29:20.415856+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いします。",
+      "timestamp": "2023-02-16T18:01:51.223622+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願い致します。",
+      "timestamp": "2023-02-16T18:02:20.936695+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-02-16T18:02:31.720581+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ヨーロッパが好きなので、ヨーロッパの映画もしくはヨーロッパが舞台の映画を知りたいです。",
+      "timestamp": "2023-02-16T18:03:48.792215+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ヨーロッパ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ヨーロッパの映画もしくはヨーロッパ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "舞台の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ヨーロッパ映画ですね。私はフランス語勉強してる関係でフランス映画をついつい観てしまいます。フランス映画はお好きですか？",
+      "timestamp": "2023-02-16T18:04:47.876119+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ヨーロッパ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "フランス語勉強してる関係",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "フランス映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-16T18:03:01.517426+09:00",
+          "query": "コンフィデンシャル",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-16T18:03:09.779420+09:00",
+          "query": "ゲット",
+          "genres": "",
+          "results": "11457,239348,24136,242063,328207,329859,330473,331380,338302,340611,347420,351032,353046,353627,355740,356150,361132,361302,366008,368153,373788,381457"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "フランス映画、好きなんですが。たまに解釈が難しいものがある気がします。\nお勧めありますか？",
+      "timestamp": "2023-02-16T18:06:15.443415+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "フランス映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "たまに解釈が難しいものがある気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "あ、では笑える映画ということでコメディ映画をご紹介しますね。「シンク・オア・スイム　イチかバチか俺たちの夢」ってご存じですか？実話に基づいた負け犬復活みたいな元気が出る映画ですが。",
+      "timestamp": "2023-02-16T18:08:09.679558+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "では笑える映画ということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「シンク・オア・スイム　イチかバチか俺たちの夢」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "実話に基づいた負け犬復活みたいな元気が出る映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-16T18:05:20.469537+09:00",
+          "query": "シャーロット",
+          "genres": "",
+          "results": "15997,319160,325317,330134,335255,349124,354092,356041,357070,358010,359126,362220,364341,373905"
+        },
+        {
+          "timestamp": "2023-02-16T18:07:04.270416+09:00",
+          "query": "シンクオア",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-16T18:07:15.357438+09:00",
+          "query": "シンク・オア・スイム",
+          "genres": "",
+          "results": "367687"
+        }
+      ],
+      "checked": [
+        "367687_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "「シンク・オア・スイム　イチかバチか俺たちの夢」見たことないのですが。\nもし出来たら、ロマンス系の映画を見たいです。何かありますか？",
+      "timestamp": "2023-02-16T18:10:01.784922+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「シンク・オア・スイム　イチかバチか俺たちの夢」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ロマンス系の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "では「パリの恋人たち」にしましょうか。ジョニー・デップの娘のリリー＝ローズ・デップも出演しています。",
+      "timestamp": "2023-02-16T18:11:28.148236+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "「パリの恋人たち」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ジョニー・デップの娘のリリー＝ローズ・デップ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-16T18:10:27.441626+09:00",
+          "query": "パリの恋人たち",
+          "genres": "",
+          "results": "369693"
+        }
+      ],
+      "checked": [
+        "369693_title",
+        "369693_cast_name-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "はい、お願いします！",
+      "timestamp": "2023-02-16T18:11:37.890348+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "主役はめちゃ濃いイケメンのルイ・ガレル（フィリップガレル監督の息子です）ありがちな大人の恋の話ですが、原題がL'homme Fidèleで、誠実な男…と言うだけあってストーカーじみた若い女の子に振り回されながらも結局は子持ちの（おそらく年上の）女性のもとへ参じる話です。やはりファッションと風景がいいですね。",
+      "timestamp": "2023-02-16T18:16:20.404030+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "めちゃ濃いイケメンのルイ・ガレル（フィリップガレル監督の息子です）ありがちな大人の恋の話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "原題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "L'homme Fidèle",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "誠実な男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "言うだけあってストーカーじみた若い女の子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "（おそらく年上の）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ファッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369693_director_name"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ファッションと風景を楽しめるの良いですね。\nパリの街並身が見られるのでしょうか？\nリリー＝ローズ・デップの演技はまだ見たことがなく、一度彼女の映画を見てみたかったので見てみたいと思います。",
+      "timestamp": "2023-02-16T18:19:45.678603+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "ファッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "パリの街並身",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "リリー＝ローズ・デップの演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "彼女の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "彼女はプラネタリウムと言う映画でナタリー・ポートマンとも姉妹役でした。お母さんがヴァネッサ・パラディだからフランス語もぺらぺらなんですよね。",
+      "timestamp": "2023-02-16T18:21:20.215068+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "プラネタリウムと言う映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ナタリー・ポートマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "姉妹役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "お母さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ヴァネッサ・パラディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "フランス語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうですよね、顔もそっくりですね。ヴァネッサ・パラディは好きな女優さんの一人です。",
+      "timestamp": "2023-02-16T18:23:06.753858+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ヴァネッサ・パラディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "好きな女優さんの一人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "きれいな人ですよね。彼女とカトリーヌ・ドヌーヴだけはエージェント物語というドラマで自分自身を演じるのは嫌と出演を断ってしまったのが残念でした。",
+      "timestamp": "2023-02-16T18:24:29.528965+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "きれいな人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "カトリーヌ・ドヌーヴ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "エージェント物語というドラマ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "自分自身",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "嫌",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなのですか。でもフランス人っぽい気がしますね。",
+      "timestamp": "2023-02-16T18:25:22.504796+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "フランス人っぽい気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "そういうのを断るのがですか？でも結構色々な方が出ていて私は楽しみにしてました。",
+      "timestamp": "2023-02-16T18:26:16.200414+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "色々な方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "そちらも気になりますね。まずは「パリの恋人たち」見てみます。",
+      "timestamp": "2023-02-16T18:27:10.460479+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "「パリの恋人たち」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "はい。音楽も私的には良かったと思います。イタリアのオペラ？がテーマ曲でした。是非観てみてください。",
+      "timestamp": "2023-02-16T18:27:53.236823+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "イタリアのオペラ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "テーマ曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "分かりました、今日はありがとうございました！",
+      "timestamp": "2023-02-16T18:29:15.681492+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "分かりました、今日",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

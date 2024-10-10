@@ -1,0 +1,913 @@
+{
+  "dialog_id": "ae9f87e5-346e-4904-8059-ad8f95e3906f",
+  "created_timestamp": "2023-02-17T11:55:47.555482+09:00",
+  "archived_timestamp": "2023-02-17T12:32:28.740181+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "今日はよろしくお願いします！",
+      "timestamp": "2023-02-17T11:58:12.569981+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-17T11:58:42.179579+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "映画はよくご覧になりますか？",
+      "timestamp": "2023-02-17T11:59:24.574198+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "昔はよく観ていましたが、最近は忙しく、時々時間のある時にオンライン配信で観ていますが週に1～2本程度です。",
+      "timestamp": "2023-02-17T12:00:12.802001+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "オンライン配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "週に1～2本程度",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうですか。\n私も最近はオンライン配信をよく利用しています。\n先日、「私の中のあなた」という映画を見たのですが、ラブコメのイメージが強かったキャメロン・ディアスが娘の命を助けるために必死な母親を演じていて、とても感動しました。",
+      "timestamp": "2023-02-17T12:03:23.914348+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "オンライン配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「私の中のあなた」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ラブコメのイメージが強かったキャメロン・ディアス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "娘の命を助けるため",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "必死な母親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-17T12:01:36.560525+09:00",
+          "query": "私の中の",
+          "genres": "",
+          "results": "334300"
+        }
+      ],
+      "checked": [
+        "334300_title",
+        "334300_cast_name-0"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ではこの作品はラブコメではないのですね？どのようなストーリーなんでしょうか。",
+      "timestamp": "2023-02-17T12:06:33.383801+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい、ラブコメではなく、ヒューマンドラマです。\n娘であるケイトは２歳のときに急性前骨髄球性白血病を患い、家族の中で彼女に臓器提供できる人は誰もいません。そこで、両親は、ドナーを必要とするケイトのために遺伝子操作を行なったデザイナーベビーである妹（アナ）を産んだのです。\nその後、アナが１３歳になったおきに臓器提供を求められますが、それを拒否し、弁護士を雇い両親に対して訴訟を起こします。",
+      "timestamp": "2023-02-17T12:12:02.101801+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "娘であるケイト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "２歳のとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "急性前骨髄球性白血病",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "患い、家族の中で彼女に臓器提供できる人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "両親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ドナーを必要とするケイトのために遺伝子操作を行なったデザイナーベビーである妹（アナ）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "アナが１３歳になったおき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "臓器提供",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "弁護士",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "両親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "訴訟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "334300_genre-0",
+        "334300_plot-0",
+        "334300_plot-2"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "すごいストーリーですね。\n妹の気持ちに同情したり感情移入してしまいそうになりますが、母親の気持ちも複雑かと。姉の臓器ドナーとするためだけに子供を産んだ母親役をキャメロン・ディアスが演じているのですね。",
+      "timestamp": "2023-02-17T12:16:12.209999+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "すごいストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "妹の気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "感情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "母親の気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "複雑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "姉の臓器ドナーとするためだけに子供を産んだ母親役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "キャメロン・ディアス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "はい、そうなんです。\n長女の命を救うために自分の時間やすべてを捧げている、献身的なお母さんです。\n妹や兄の視点から、家族がどう見えているか、という描写もあり、それぞれの立場がよく伝わってきます。",
+      "timestamp": "2023-02-17T12:19:31.596489+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "長女の命を救うために自分の時間やすべてを捧げている、献身的なお母さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "妹や兄の視点",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "どう見えているか、という描写",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "それぞれの立場",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "それぞれの立場や視点での心理描写が見どころの作品のようですね。実話に基づいているんでしょうか。",
+      "timestamp": "2023-02-17T12:21:03.998899+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "それぞれの立場や視点での心理描写",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "見どころの作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "実話だそうです。私も今知りました！\n1991年カリフォルニアのある夫婦が行なったとのことだそうで、このことがタイム誌に載ると、市民や医師の間から「倫理に反する」といった論争が起こり、家族に対する厳しい批判もあったそうです。",
+      "timestamp": "2023-02-17T12:25:41.128033+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "1991年カリフォルニアのある夫婦が行なったとのこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "このこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "タイム誌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "市民や医師の間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "「倫理に反する」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "家族に対する厳しい批判",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "実話ではありえないような話だと思いましたが、なんと、実話なのですね！実際の判決や論争の内容にも興味がありますが、それを先に知ってしまうと作品を観る楽しみがなくなりそうですね。",
+      "timestamp": "2023-02-17T12:27:35.836253+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "実話ではありえないような話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "実際の判決や論争の内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "知ってしまうと作品を観る楽しみ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね。ぜひ見て見て下さい。\nそして、もう一つの見所は、最後にモンタナの大自然が出てくるシーンです。とても壮大ですよ。",
+      "timestamp": "2023-02-17T12:29:01.312206+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "一つの見所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "最後にモンタナの大自然が出てくるシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "壮大なモンタナの大自然、映画館の大スクリーンで観たいです。\n実話の方も気になりますが、まずはフィクションとして作品を楽しみたいと思います。",
+      "timestamp": "2023-02-17T12:30:29.009691+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "壮大なモンタナの大自然、映画館の大スクリーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "実話の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "フィクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね、映画館で見たい作品です。\n今日は楽しいお時間をありがとうございました！",
+      "timestamp": "2023-02-17T12:31:35.083176+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "そうですね、映画館で見たい作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "楽しいお時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "テーマも興味深く、演技や壮大な大自然のシーンなども楽しめそうです。ご紹介いただきありがとうございました！",
+      "timestamp": "2023-02-17T12:32:16.562655+09:00",
+      "internal_states": [
+        {
+          "id": "59",
+          "text": "テーマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "演技や壮大な大自然のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

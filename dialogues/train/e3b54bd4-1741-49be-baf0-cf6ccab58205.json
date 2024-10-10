@@ -1,0 +1,931 @@
+{
+  "dialog_id": "e3b54bd4-1741-49be-baf0-cf6ccab58205",
+  "created_timestamp": "2023-03-07T12:59:21.043572+09:00",
+  "archived_timestamp": "2023-03-07T13:18:21.676822+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。本日は宜しくお願いします。",
+      "timestamp": "2023-03-07T13:00:15.357425+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは、本日はどうぞよろしくお願い致します。お好きな映画のジャンルを教えて頂けますか。",
+      "timestamp": "2023-03-07T13:00:32.393051+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お好きな映画のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "昔懐かしいアメリカのヒーローが登場する映画が観たくなりまして、詳しいでしょうか。",
+      "timestamp": "2023-03-07T13:01:31.696891+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "懐かしいアメリカのヒーローが登場する映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "良いですね！2008年の、「アイアンマン」はご覧になったことはございますか？それか、「スパイダーマン」はどうでしょうか。",
+      "timestamp": "2023-03-07T13:03:02.920918+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「アイアンマン」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「スパイダーマン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-07T13:01:44.873696+09:00",
+          "query": "スパイダーマン",
+          "genres": "",
+          "results": "234686,319039,325627,340403,345678,347722,359026,361806,366007,366491,366852,378066"
+        },
+        {
+          "timestamp": "2023-03-07T13:02:29.089696+09:00",
+          "query": "アイアンマン",
+          "genres": "",
+          "results": "330416,335567,341611,344443,359026,361806,366491,366852"
+        }
+      ],
+      "checked": [
+        "330416_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "アイアンマンは記憶にありませんね。スパイダーマンは少し観た記憶があります。",
+      "timestamp": "2023-03-07T13:03:43.894515+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "アイアンマン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "スパイダーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "観た記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "スパイダーマンはいくつか種類があるので、そのどれかをご覧になったのかもしれませんね。では、アイアンマンをご紹介させてください。全く期待せずに見たのですが、とにかく主演のロバート・ダウニー・ジュニアがカッコいいんです。彼がどのようにアイアンマンになっていくかの最初のお話です。",
+      "timestamp": "2023-03-07T13:04:52.171289+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "スパイダーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "種類",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "主演のロバート・ダウニー・ジュニア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "アイアンマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "330416_title",
+        "330416_cast_name-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "まあ、イケメンが登場ですね。強い男に惹かれます。",
+      "timestamp": "2023-03-07T13:05:32.724800+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "イケメン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "登場",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "強い男",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "大企業の社長であるトニー・スタークは、自身が開発したミサイルのプレゼンテーションの為に、アフガニスタンにるアメリカ空軍を訪問します。しかしそこで、テロリストの攻撃を受けます。そのトニー役をロバート・ダウニー・ジュニアが演じています。",
+      "timestamp": "2023-03-07T13:06:32.070203+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "大企業の社長であるトニー・スターク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "自身が開発したミサイルのプレゼンテーションの為",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "アフガニスタンにるアメリカ空軍",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "テロリストの攻撃",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "そのトニー役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ロバート・ダウニー・ジュニア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "330416_cast_name-0"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "なんだか現実的ですね。彼の風貌はどんな風でしょうか。",
+      "timestamp": "2023-03-07T13:07:17.644611+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "彼の風貌",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "トニーは金持ち風をふかして、高いスーツにサングラス姿です。最初は嫌なやつ・・と思ってしまうのですが、その後考え方も変わり、かっこよくなっていきます。身なりはずっと成金スタイルですが。",
+      "timestamp": "2023-03-07T13:08:40.481656+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "トニー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "金持ち風",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "高いスーツ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "サングラス姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "嫌なやつ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "考え方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "身なり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "成金スタイル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "成金スタイルもいいじゃないですか。お茶目な奴。特別な撮影、大がかりなセットか　それともアニメチックな感じかな。",
+      "timestamp": "2023-03-07T13:11:27.792306+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "成金スタイル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "お茶目な奴",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "特別な撮影、大がかりなセットか　それともアニメチックな感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "大がかりなセットですね、アフガニスタンのシーンは実際の砂漠で撮影されていました。アイアンスーツも、洞窟にある材料で何とか作っていくのですが、それを帰国後に開発して、あの赤いアイアンスーツなります。",
+      "timestamp": "2023-03-07T13:13:01.190933+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "大がかりなセットですね、アフガニスタンのシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "実際の砂漠",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "アイアンスーツも、洞窟にある材料",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "帰国後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "あの赤いアイアンスーツ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "330416_cast_name-0",
+        "330416_cast_name-3"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "衣装やセット、背景も見所ですね。女性も登場するのですか。",
+      "timestamp": "2023-03-07T13:13:49.003291+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "衣装やセット、背景",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "彼の秘書役に、グウィネス・パルトローが出演しています。もう15年ほど前の映画なので二人ともまだ若く、美男美女だなーと、そこも楽しめますよ。",
+      "timestamp": "2023-03-07T13:14:39.428793+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "彼の秘書役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "グウィネス・パルトロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "15年ほど前の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "二人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "美男美女だなー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "気になる配役です。アメリカらしい映画ですね。観た後の感想はいかがでしたか。",
+      "timestamp": "2023-03-07T13:15:37.857560+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "気になる配役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "アメリカらしい映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "観た後の感想",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "爽快！って感じですね。コロナの引きこもりのときにまとめて観たのですが、とても楽しめたシリーズです。アベンジャーズでもアイアンマンがメインキャラで登場していますので、機会があればぜひ、こつこつと観てみて下さい。今日はありがとうございました！",
+      "timestamp": "2023-03-07T13:16:42.344467+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "爽快",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "コロナの引きこもりのとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "楽しめたシリーズ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "アベンジャーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "アイアンマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "メインキャラ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "そうですね。こつこつと観ることが楽しみ。楽しみが増えました。有り難うございました。",
+      "timestamp": "2023-03-07T13:17:36.564257+09:00",
+      "internal_states": [
+        {
+          "id": "59",
+          "text": "観ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "楽しみ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

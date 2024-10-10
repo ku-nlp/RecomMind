@@ -1,0 +1,966 @@
+{
+  "dialog_id": "8e4f574c-167a-4e83-b26c-459dce1570fd",
+  "created_timestamp": "2023-02-04T20:04:39.152557+09:00",
+  "archived_timestamp": "2023-02-04T20:34:50.090592+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "039",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "遅くなりすみません。よろしくお願いします。",
+      "timestamp": "2023-02-04T20:05:29.745704+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "遅かったですね。7分遅刻です。時間守ってください。",
+      "timestamp": "2023-02-04T20:07:20.389561+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "7分遅刻",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "いえ、遅刻は5分です。ですが申し訳ありません。",
+      "timestamp": "2023-02-04T20:08:02.093217+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "遅刻",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "5分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T20:06:24.209260+09:00",
+          "query": "",
+          "genres": "adventure",
+          "results": "10911,11830,11831,11832,149868,159811,159815,160256,162813,162818,162856,163027,17252,2154,2155,2156,2278,233956,234444,234686,235078,235790,237942,238972,239813,240096,240346,240710,240799,241003,241078,241897,241899,242029,28621,28627,319039,319068,319257,321200,321232,321448,321602,321603,321736,321945,322086,322404,322704,322736,322769,323157,323222,323636,323818,323917,324027,324246,324286,324734,325032,325097,325441,325627,326008,326035,326246,326247,326362,326442,326445,326503,326536,326662,326744,326905,327034,327079,327081,327496,327707,327770,328224,328367,328545,328622,328626,328724,329342,329400,329418,329464,329594,329605,329606,329623,329809,329887,329970,330039,330415,330487,330507,330551,330573,330764,330871,330914,331364,331398,332068,332361,332388,332425,332753,332848,333194,333261,333331,333497,333700,333833,333957,333967,334089,334142,334288,334516,334624,335196,335426,335565,335568,335596,335605,335655,335872,335983,336061,336142,336170,336307,336703,336755,336827,336888,337245,337331,337450,337581,337723,338017,338048,338303,338382,338510,338546,338676,338677,338942,339180,339678,339722,339775,340606,340799,340877,341293,341319,341436,341437,341440,341644,341645,342051,342818,343413,343488,343498,343507,343546,343731,343761,344013,344380,344473,344500,344613,345366,345374,346540,346556,346662,346960,347290,347371,347372,347535,347722,347738,347764,347810,348088,348154,348170,348260,348495,348867,349189,349437,349443,349726,349728,349761,349882,350275,350818,350824,350825,350921,350977,351033,351163,351301,351372,351419,351610,351841,352157,352166,352385,352612,352692,353277,353390,353437,353496,353538,353539,353612,353664,353896,354205,354239,354289,354676,354700,354988,355057,355080,355095,355316,355434,355740,355752,355757,355761,356057,356251,356422,356423,356582,357342,357411,357823,358010,358186,358425,358645,358653,358936,358954,358961,359024,359120,359405,359505,359622,359641,359816,359876,359899,360074,360445,360497,360620,360777,360839,360948,360986,361068,361373,361665,361726,361806,361870,361886,361998,362179,362346,362613,362706,362712,362714,362741,362951,363106,363223,363273,363360,363405,363668,363669,363717,363762,364079,364313,364528,364938,365009,365085,365472,365489,365755,365756,365791,365978,365988,366007,366075,366134,366341,366398,366464,366491,366505,366607,366737,366852,366945,367080,367173,367239,367321,367886,368180,368191,368860,369013,369014,369058,369413,369783,369903,369976,370448,370458,370460,370565,370794,370849,370964,371076,371105,371239,371810,373905,374449,374516,374768,374882,375099,375940,376383,376504,376781,377017,377031,377441,377743,378066,380179,380322,380731,380889,382432,6207,85042,85110,86066"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "予約時間は20:00ですよね",
+      "timestamp": "2023-02-04T20:09:09.625989+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "予約時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "20:00",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうです。映画のお話ですが、このまま続けられますか？",
+      "timestamp": "2023-02-04T20:11:08.930971+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "20時から会話始めれるように5分前から入室して、待機しています\n5分遅刻の時点で、こちらは10分無人の部屋にいました\nバイトなのですから、時間守って頂きたいです\n\n推薦者様はどのようなジャンルの映画がお好きなんですか？\n私は一日1－2本映画見てます\n今日は「エクスペンダブルス」を見て、今は「メンインブラック」見てます\nスカパーで映画チャンネルをずっと流している感じです",
+      "timestamp": "2023-02-04T20:12:02.258285+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "会話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "5分前",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "5分遅刻の時点",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "10分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "無人の部屋",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "バイト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "推薦者様",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "一日1－2本映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「エクスペンダブルス」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「メンインブラック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "スカパー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "映画チャンネル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "流している感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "私は邦画が好きですね。演出があまりなくともストーリーや人間模様、社会問題などに関わっていると興味深く観れます。",
+      "timestamp": "2023-02-04T20:13:51.738340+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "演出",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ストーリーや人間模様、社会問題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どんな俳優さんがお好きなんですか？\n邦画はあまりみないので、ご紹介頂けるとありがたいです",
+      "timestamp": "2023-02-04T20:14:22.539651+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうですね、少し前に話題になった万引き家族はご存じでしょうか？",
+      "timestamp": "2023-02-04T20:16:54.198113+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "前に話題になった万引き家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T20:16:33.288364+09:00",
+          "query": "万引き",
+          "genres": "",
+          "results": "234828,320084,334147,336898,351817,354941,354943,359685,363357,51832"
+        }
+      ],
+      "checked": [
+        "363357_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "映画のタイトルは「」で入れないと、反映されないですよ\nマニュアル熟読されてますか？\n\nはい、見ました\n全員寄せ集めの家族なんですよね。。。\n結構衝撃的でした",
+      "timestamp": "2023-02-04T20:18:09.055582+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "映画のタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "マニュアル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "全員寄せ集めの家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ですね！最後がハッピーエンドにならない終わり方もよかっと思います。問題提起をされたまま、答えはいかようにも考えられるというかんじがしました。",
+      "timestamp": "2023-02-04T20:19:54.838950+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "最後がハッピーエンドにならない終わり方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "問題提起",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "答え",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "いかようにも考えられるというかんじ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "「誰も知らない」も衝撃でしたよね\n最近だと「パラサイト 半地下の家族」とか\n定期的に家族系って流行りますよね",
+      "timestamp": "2023-02-04T20:23:54.668232+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "衝撃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「パラサイト　半地下の家族」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "家族系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "やっぱり普遍的なテーマだからでしょうか？家族の問題に絡まれて社会の問題も描きやすいですしね。",
+      "timestamp": "2023-02-04T20:25:41.194127+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "普遍的なテーマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "家族の問題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "社会の問題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "「そして父になる」もよかったですね\n血よりも環境なのか！！！！！！って衝撃たるや",
+      "timestamp": "2023-02-04T20:26:59.260279+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "そして父",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "血",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "環境",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "衝撃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね。「そして父になる」は観たことがないのですが、赤子の取り違えから始まるストーリーでしたよね？",
+      "timestamp": "2023-02-04T20:29:28.119141+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "そして父",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "赤子の取り違えから始まるストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうです、２家族を軸として、\n血なのか、環境なのか、が問われてました",
+      "timestamp": "2023-02-04T20:30:19.146619+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "そうです、２家族",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "軸",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "血",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "環境",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "映画の結論では環境である、という答えだったのですね。興味深いですね。現実に実験するわけにはいきませんが、制作側が「環境」という答えに到るその検証に興味がありますね。",
+      "timestamp": "2023-02-04T20:32:49.766364+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "映画の結論",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "環境である、という答え",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "現実",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "制作側が「環境」という答えに到るその検証",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "「万引き家族」もそうですよね\n血より、環境！\n\n映画談義したくてこのバイト引き受けたので\nどんどんいろんな方といろんな映画について語りたいです！\n私は今日一日中ログインしている予定なので\nよかったらこのあとルームIDフリーにログインしてみてください！\nまた話しましょう！\n\n「万引き家族」のご紹介ありがとうございました！",
+      "timestamp": "2023-02-04T20:33:59.702203+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "「万引き家族」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "血",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "環境",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "このバイト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "いろんな方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "いろんな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "今日一日中ログインしている予定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "このあと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ルームID",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "62",
+          "text": "「万引き家族」のご紹介",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-02-04T20:34:47.828212+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

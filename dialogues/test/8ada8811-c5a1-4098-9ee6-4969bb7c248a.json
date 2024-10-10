@@ -1,0 +1,1029 @@
+{
+  "dialog_id": "8ada8811-c5a1-4098-9ee6-4969bb7c248a",
+  "created_timestamp": "2023-03-24T20:33:14.506164+09:00",
+  "archived_timestamp": "2023-03-24T21:02:57.674064+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-24T20:37:28.226773+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-03-24T20:37:43.457722+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが普段はよく映画は観ますか？\nどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-03-24T20:37:58.153256+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は大好きです。観たい映画があれば、映画館に行って観ることが多いです。ヒューマンドラマが一番好きですが、ホラーや暴力映画でなければ、大体何でも観ます。",
+      "timestamp": "2023-03-24T20:39:03.124765+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "観たい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "行って観ること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ホラーや暴力映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ではヒューマンドラマということで「それでもボクはやってない」はご存知でしょうか？邦画です。",
+      "timestamp": "2023-03-24T20:40:02.235855+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ヒューマンドラマということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「それでもボクはやってない」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T20:39:35.076102+09:00",
+          "query": "それでも",
+          "genres": "",
+          "results": "11933,12902,12926,13239,152763,159561,160256,161592,162566,162856,163028,163178,16812,20876,233769,235065,235067,235232,236089,236636,237383,238972,240096,319796,323987,324027,324328,325423,325646,326035,326527,327838,327992,328448,329886,329970,330042,330507,331826,332756,334089,334187,336736,336887,336888,338017,339088,340288,340426,341767,341770,344381,344429,344443,345056,346394,346639,347024,347290,347686,347764,348154,348578,348641,349221,349516,349750,350111,350309,350752,350870,351464,352647,353489,354167,355278,356343,357342,357346,358653,358894,359052,360445,360632,360839,362181,362220,362671,363119,363978,365007,365020,365489,367684,367707,367854,368191,369005,369014,369058,370397,371833,371867,372048,374516,375048,379025,54734,7583,83911,84618,9010,90357"
+        }
+      ],
+      "checked": [
+        "325423_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "知っています！ドラマもありましたでしょうか？映画は１回観たかもしれませんが、２度観するかもしれません。",
+      "timestamp": "2023-03-24T20:41:16.594639+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "１回",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "２度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ドラマは知りませんでした！\n私は日本の司法制度が抱えている問題点や矛盾などが、リアリティー溢れるタッチで再現されていて考えさせられました。",
+      "timestamp": "2023-03-24T20:42:02.166482+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "日本の司法制度が抱えている問題点や矛盾",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "リアリティー溢れるタッチ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "ドラマは、勘違いかもしれません。。年末に松潤が主演していた、ドラマから映画になった作品も、見逃したものの、内容的には興味がありました。言いがかりであっても、女性が「痴漢です！」と言えば、ほぼ100％有罪にされてしまうんですよね。男性にとっては、通勤電車が大変です。",
+      "timestamp": "2023-03-24T20:45:31.090706+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "勘違い",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "年末に松潤が主演していた、ドラマから映画になった作品も、見逃したもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "言いがかり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「痴漢です！」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "100％",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "有罪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "男性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "通勤電車",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "誰にでも起こりうることということで、非常に怖いですね。\nハッピーエンドで終わる映画が多い中、こういう理不尽な最後で尚且つこの後、主人公がどうなったのか分らない終わり方なのがすごく考えさせれる作品だと思いました。結末まで知っていても観たいですね。",
+      "timestamp": "2023-03-24T20:47:37.049201+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "誰にでも起こりうることということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ハッピーエンドで終わる映画が多い中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "尚",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "この後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "30",
+          "text": "どうなったのか分らない終わり方なの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "31",
+          "text": "すごく考えさせれる作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "結末",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T20:44:42.835696+09:00",
+          "query": "アリー",
+          "genres": "",
+          "results": "15577,159869,160166,163028,1709,20726,22811,234828,236576,239900,241078,318646,320083,320424,321617,324293,327066,328550,329147,329418,329805,330434,330947,331366,334016,335550,335800,336605,338115,339107,340403,340799,340856,342687,342725,346339,346393,346394,346408,347722,348266,348610,349124,349189,349344,349444,350870,352156,352612,353612,353946,354167,354702,355316,355424,355757,356506,356582,357070,357933,359060,359063,359126,359876,360660,360839,361498,362220,362951,364404,364566,364767,365402,366068,366365,366409,367006,367638,367775,368153,369976,370322,370652,370745,54739,85113,85197"
+        },
+        {
+          "timestamp": "2023-03-24T20:44:52.959636+09:00",
+          "query": "スター誕生",
+          "genres": "",
+          "results": "364566"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "女性から男性に対するセクハラも痴漢も、ありますからね。。この映画は観たとしても、ずいぶん前のことだと思うので、２度観するポイントがあれば、教えてください。",
+      "timestamp": "2023-03-24T20:49:09.918556+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "男性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "セクハラ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "痴漢",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ずいぶん前のこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "２度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "観するポイント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "映画を見ているというよりは、ニュース番組のドキュメンタリーを見ているような感覚になると思います。映画の画の撮り方にも注目すると面白いかもしれません。",
+      "timestamp": "2023-03-24T20:51:44.528561+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ニュース番組のドキュメンタリーを見ているような感覚",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "映画の画の撮り方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "それは斬新な視点ですね！前回は、主人公がどうなってしまうのだろうか？とハラハラドキドキしながら観ていました。あと、注目すべき俳優さんと演技があれば、ご紹介ください。",
+      "timestamp": "2023-03-24T20:53:53.071701+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "斬新な視点",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "前回",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "俳優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "主演は加瀬亮さんですね。\n絶望的なシーンの演技は気迫がありました。\nまた終わり方は賛否両論がありますね。",
+      "timestamp": "2023-03-24T20:54:59.608206+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "加瀬亮さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "絶望的なシーンの演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "気迫",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "54",
+          "text": "終わり方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "賛否両論",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T20:54:07.126094+09:00",
+          "query": "それでも",
+          "genres": "",
+          "results": "11933,12902,12926,13239,152763,159561,160256,161592,162566,162856,163028,163178,16812,20876,233769,235065,235067,235232,236089,236636,237383,238972,240096,319796,323987,324027,324328,325423,325646,326035,326527,327838,327992,328448,329886,329970,330042,330507,331826,332756,334089,334187,336736,336887,336888,338017,339088,340288,340426,341767,341770,344381,344429,344443,345056,346394,346639,347024,347290,347686,347764,348154,348578,348641,349221,349516,349750,350111,350309,350752,350870,351464,352647,353489,354167,355278,356343,357342,357346,358653,358894,359052,360445,360632,360839,362181,362220,362671,363119,363978,365007,365020,365489,367684,367707,367854,368191,369005,369014,369058,370397,371833,371867,372048,374516,375048,379025,54734,7583,83911,84618,9010,90357"
+        }
+      ],
+      "checked": [
+        "325423_cast_name-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "連続ドラマではなく、スペシャルドラマがありました！個人的には冤罪が認められてほしかったです。その他の男性の俳優さんたちは、いかがでしょうか？実力派俳優がたくさん出演しています。",
+      "timestamp": "2023-03-24T20:58:30.021154+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "連続ドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "スペシャルドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "冤罪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "59",
+          "text": "その他の男性の俳優さんたち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "実力派俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そういう現実があるのかと絶望しました。\n脇役で今は超人気俳優の山本耕史が出演されていますね。\nあとは最近は見ない瀬戸朝香も出演しています。\nぜひ機会があれば再度ご覧ください。",
+      "timestamp": "2023-03-24T21:00:02.271505+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "そういう現実",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "63",
+          "text": "脇役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "超人気俳優の山本耕史",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "65",
+          "text": "見ない瀬戸朝香",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "再度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "325423_cast_name-1",
+        "325423_cast_name-3"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "久しぶりに良い映画を思い出して、２度観したくなりました！今日はありがとうございました！",
+      "timestamp": "2023-03-24T21:02:54.589803+09:00",
+      "internal_states": [
+        {
+          "id": "67",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "２度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

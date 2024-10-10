@@ -1,0 +1,983 @@
+{
+  "dialog_id": "9f6748ce-7084-45ed-b1ac-24b362e6f7f5",
+  "created_timestamp": "2023-02-03T11:56:55.682145+09:00",
+  "archived_timestamp": "2023-02-03T12:34:25.102553+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "014",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！今日はよろしくお願いします。",
+      "timestamp": "2023-02-03T11:57:11.434399+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "宜しくお願いいたします。",
+      "timestamp": "2023-02-03T11:57:22.988561+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "映画はよくご覧になられますか？好きなジャンルや俳優さんなどがおられたら、教えて下さい。",
+      "timestamp": "2023-02-03T11:57:55.083974+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画館に行くのは2ヵ月に1度程度です。自宅でも観ることはありますが、家族とチャンネル権の取り合いでなかなかまわってきません。ジャンルは問いませんが、脚本がしっかりしている作品が好みです。好きな俳優さんは、洋画でしたら、ベタですけどウィル・スミスが一番好きです。",
+      "timestamp": "2023-02-03T12:02:36.944878+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "2ヵ月",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "1度程度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "自宅",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "家族とチャンネル権の取り合い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "脚本がしっかりしている作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ウィル・スミス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。２か月に１回でも映画館に行っておられるのですね！いいですね。最近はアマゾンの配信サービスばかり利用していて、なかなか映画館に行けないので羨ましいです。\nウィル・スミス、私も好きです。\n脚本がしっかりしている、と言われて思いついたのが韓国映画の「パラサイト」ですが、ご存じですか？",
+      "timestamp": "2023-02-03T12:07:29.715590+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "２か月に１回",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "アマゾンの配信サービス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ウィル・スミス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "脚本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "韓国映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「パラサイト」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T12:05:23.307402+09:00",
+          "query": "ウィル",
+          "genres": "",
+          "results": "11893,162615,162818,20486,21943,22667,235794,236645,237035,23987,240346,240710,241003,2969,319263,319294,320063,321232,322736,323067,323917,324029,324138,326247,326699,326744,327839,327925,328224,328271,328541,329144,329294,329419,330434,330573,331426,332425,332430,332569,332598,332670,333196,333627,334777,336061,336605,337734,338546,339967,340288,340856,341090,341460,341568,342725,343085,344573,344613,345712,346339,347290,347842,347925,348087,348154,348260,349124,349742,350366,351201,351805,352174,352585,352899,355448,355574,355751,355752,356251,356339,356582,357346,358954,359641,359876,361759,361806,362627,362935,363105,363106,363207,363347,363462,363762,364313,365472,366007,366491,366505,367775,368153,368450,369239,369351,369413,369522,369783,370087,370458,378116,51816,83465,83641,83888,9532"
+        },
+        {
+          "timestamp": "2023-02-03T12:05:39.290197+09:00",
+          "query": "スミス",
+          "genres": "",
+          "results": "1281,15577,161112,1635,2046,2257,235078,235794,237942,239766,239767,241897,320063,320267,321945,322086,322605,326201,326536,327066,327925,328367,328626,330434,330764,330798,332361,334208,336061,336292,336888,337854,338090,339772,341460,342051,342725,343488,344613,346944,350949,351201,351369,352378,354600,355448,357070,359126,359876,360632,362657,362712,366341,366505,368153,375940,378799,51816,83465,84618"
+        }
+      ],
+      "checked": [
+        "368576_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "題名だけ聞いたことがあるような気がします。韓国映画はまったく詳しくないので教えていただけますか？",
+      "timestamp": "2023-02-03T12:08:28.171723+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "題名だけ聞いたことがあるような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "韓国映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい！\nソウルの半地下のアパートに暮らしているキム一家が、息子が裕福なキム家で家庭教師を始めたことをきっかけに、家族全員で巧みにキム家に入り込む、というストーリーです。",
+      "timestamp": "2023-02-03T12:12:02.766826+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ソウルの半地下のアパート",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "キム一家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "裕福なキム家で家庭教師を始めたことをきっかけ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "家族全員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "キム家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "入り込む、というストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T12:08:52.951055+09:00",
+          "query": "パラサイト",
+          "genres": "",
+          "results": "347596,347597,368576,85113"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "なんか、めっちゃ怖いですねｗ",
+      "timestamp": "2023-02-03T12:12:41.256603+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "確かに、ホラーとサスペンスの要素があります。\nただ、キム家の全員がなぜか憎めないキャラクターで、やっていることはずる賢いことなのですが、ごと笑えるのもこの作品の魅力です。",
+      "timestamp": "2023-02-03T12:14:04.805258+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ホラーとサスペンスの要素",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "キム家の全員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "憎めないキャラクターで、やっていること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ずる賢いこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ごと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "この作品の魅力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "笑える系ですか！入り込まれる側の家族のことを想像してちょっとゾッとしたのですが、犯罪ものではないのですね。",
+      "timestamp": "2023-02-03T12:16:03.164140+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "笑える系ですか！入り込まれる側の家族のこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "犯罪もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "うーん、冷静に見れば犯罪だと思います(笑)\n身分を偽り姉が家庭教師として雇われるようにしたり、もともといた運転手をだまして父親が運転手として雇われるようにしたりと、本当に巧みなんです。",
+      "timestamp": "2023-02-03T12:19:37.162536+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "犯罪",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "身分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "姉",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "家庭教師",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "いた運転手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "父親",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "運転手",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど。貧困から脱出するために、一家で知恵を絞って這い上がっていくサクセスストーリー（？）ですね！",
+      "timestamp": "2023-02-03T12:21:53.912202+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "貧困から脱出するため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "一家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "知恵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "サクセスストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい、前半は。\n後半にはぼろが出て来たりと急展開があり、\nここはまさにホラーとサスペンスの要素満載です。",
+      "timestamp": "2023-02-03T12:23:34.225999+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "前半",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ぼろ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "急展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "ホラーとサスペンスの要素満載",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ばれるー！みたいな？（笑）詐欺師の裏側とかトリックが見える感じですね。\n作品としてはハッピーエンドなのですか？それを言ってしまうとネタバレになってしまいますか？",
+      "timestamp": "2023-02-03T12:26:36.517267+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "（笑）詐欺師の裏側とかトリック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "見える感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "うーん、正直ハッピーエンドとは言えません。\nただ、家族のその後の展開にびっくり、という結末です。\n最後までハラハラドキドキで目が離せません。",
+      "timestamp": "2023-02-03T12:28:32.951793+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "家族のその後の展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "びっくり、という結末",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "観た後すっきりすると言うより、もやっとする感じですかね？",
+      "timestamp": "2023-02-03T12:29:29.811202+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "もやっとする感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "確かにすっきりはしませんが、こんな結末かー！それもありなのかな、といった心境です。\nすみません、なかなか表現しづらくて。",
+      "timestamp": "2023-02-03T12:32:12.799821+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "こんな結末",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ありなのかな、といった心境",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "なるほど。いろんな視座で考えさせられる作品なのですね。とても独特で挑戦的な印象を受けます。\nぜひ一度観てみようと思います。ご紹介くださりありがとうございました。",
+      "timestamp": "2023-02-03T12:33:52.550477+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "いろんな視座で考えさせられる作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "独特で挑戦的な印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、興味を持って聞いて下さりありがとうございました！",
+      "timestamp": "2023-02-03T12:34:21.772010+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

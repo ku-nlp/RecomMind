@@ -1,0 +1,1106 @@
+{
+  "dialog_id": "73037734-d9d5-4829-8963-1a8fd846fa81",
+  "created_timestamp": "2023-02-11T14:58:48.029431+09:00",
+  "archived_timestamp": "2023-02-11T15:36:02.344508+09:00",
+  "recommender": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "026",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちわ、よろしくお願いします。",
+      "timestamp": "2023-02-11T15:00:03.440607+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、よろしくお願いします。",
+      "timestamp": "2023-02-11T15:00:10.816239+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段映画はよく見ますか？",
+      "timestamp": "2023-02-11T15:00:36.781026+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "時折みています。昔はヒッチコックが好きでよく見ていました。ホラーというと恐怖が先行するイメージの映画が多いですが、ヒッチコックのようなホラーは何かご存じですか？",
+      "timestamp": "2023-02-11T15:02:24.984691+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ヒッチコック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "恐怖が先行するイメージの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ヒッチコックのようなホラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "M・ナイト・シャマラン監督の「サイン」は見たことありますでしょうか？",
+      "timestamp": "2023-02-11T15:07:05.843347+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "M・ナイト・シャマラン監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「サイン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-11T15:02:52.018003+09:00",
+          "query": "",
+          "genres": "horror",
+          "results": "10248,10511,11169,13346,159318,159810,160137,161376,161560,161562,161563,161840,162813,16329,18074,19207,2132,234051,234685,236424,236576,237781,239813,239816,23987,239980,240108,241146,241372,241741,241898,25570,2752,2823,29041,318590,318642,318678,318699,319069,319768,320447,321011,321099,321733,322250,322251,322747,323212,323470,323849,324033,324197,324246,324293,324357,324406,324946,325401,325467,325995,326008,326294,326850,327802,327839,327924,328191,328314,328315,328541,328550,328754,328807,328996,329144,329774,329805,329970,329978,330085,330227,330573,331426,331732,331823,332281,333518,333965,334088,334197,334266,334820,334865,334880,335126,335210,335257,335440,335935,336052,336357,336520,336862,337000,337094,337511,337607,337855,338758,339377,339379,339740,339772,340288,340466,341375,341474,341610,342687,342697,342725,342785,343391,344055,344605,344643,344691,345159,345356,346339,346607,347428,347596,347597,348769,348867,349047,349217,349677,3503,350818,350895,352224,352367,352951,353045,353046,353189,353463,353595,353643,354512,354522,354702,355059,355085,355619,355704,355718,356339,356477,357070,357137,357140,357312,357424,357980,358526,358926,359023,359055,359180,359289,359315,359506,359635,360199,360497,360632,360835,361302,361325,361609,361754,362348,362775,363376,363764,364005,364788,365276,365936,365979,366945,367127,367261,367262,367339,367559,367693,367775,367875,368233,368323,368450,368576,368764,369195,369370,369381,369522,369671,370087,370322,370915,370986,371342,371462,371795,372807,373285,373333,373788,374719,375745,377436,377442,377510,377732,378147,379306,54739,630,85014,85042,85113,87884,87887,9010"
+        },
+        {
+          "timestamp": "2023-02-11T15:05:39.512750+09:00",
+          "query": "シャマラン",
+          "genres": "",
+          "results": "237781,319653,324329,329767,336142,344613,353463,359506,366068,377442,85349"
+        }
+      ],
+      "checked": [
+        "237781_title",
+        "237781_director_name"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "監督も映画も初めて聞きます。教えていただけますか？",
+      "timestamp": "2023-02-11T15:07:51.990141+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "信仰に篤い牧師は、最愛の妻を突然の事故で亡くします。\nその際に、ある霊的な現象が起きたことで彼は神に対して疑念を抱き、牧師を辞めてしまいます。\n農夫となり弟と2人の子供たちと共に平穏な日々を送っていたのですが、\nある日、農場のトウモロコシ畑に巨大なミステリー・サークルが出現し奇怪な現象が起こり始めるというストーリーです。",
+      "timestamp": "2023-02-11T15:11:43.706068+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "信仰",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "篤い牧師",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "最愛の妻",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "突然の事故",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "その際に、ある霊的な現象が起きたこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "神",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "疑念",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "牧師",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "農夫",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "弟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "2人の子供たちと共に平穏な日々",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "農場のトウモロコシ畑",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "巨大なミステリー・サークル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "奇怪な現象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "起こり始めるというストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "237781_plot-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "霊的なメッセージと神にまつわるお話は興味があります。宇宙も絡んでいて壮大なお話ですね。奇怪な出来事はその後も続くのですか？",
+      "timestamp": "2023-02-11T15:15:11.238486+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "メッセージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "神にまつわるお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "宇宙",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "奇怪な出来事",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうですね、やがて世界各地にサインが出現していきます。おっしゃる通り宇宙も関わってくる壮大な物語ですが、ミステリーとSFホラーと言えますが、そのサインに込められたメッセージに主人公である牧師が気づき、、という感じです。",
+      "timestamp": "2023-02-11T15:18:44.807675+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "世界各地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "サイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "おっしゃる通り宇宙も関わってくる壮大な物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ミステリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "SFホラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "そのサインに込められたメッセージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "主人公である牧師",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "気づき、、という感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "最初の段階で神に疑念を抱くというとことは何でしょう？でも聞いたら映画を見るまで我慢したほうがよさそうですね。見ている時に、途中でそのメッセージに気づかれましたか？",
+      "timestamp": "2023-02-11T15:21:32.829462+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "最初の段階",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "神",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "疑念",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "見るまで我慢したほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "見ている時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "そのメッセージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうですね、なぜ彼の妻が突然の事故で亡くなったのかがサインと関わっているのですが。。あとはぜひ映画をご覧になっていただきたいです。\nホラー映画の不気味な怖さもありながら、家族愛や信仰心をテーマに扱ったヒューマンドラマともいえると思います。",
+      "timestamp": "2023-02-11T15:25:08.602012+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "彼の妻",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "突然の事故",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "サイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "ホラー映画の不気味な怖さ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "家族愛や信仰心をテーマに扱ったヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "237781_genre-2",
+        "237781_plot-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "家族愛や信仰心にまで触れる映画はなかなかありませんね。その映画は何か賞はとりましたか？",
+      "timestamp": "2023-02-11T15:27:38.455536+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "家族愛や信仰心",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "触れる映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "賞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "この映画は特に賞をと獲得してはいないようです。M・ナイト・シャマランは、シックスセンスで「アカデミー賞」監督賞にノミネートされていますが、まだ受賞歴はないですね。",
+      "timestamp": "2023-02-11T15:31:36.589604+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "賞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "M・ナイト・シャマラン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "シックスセンス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "「アカデミー賞」監督",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "受賞歴",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "237781_director_name",
+        "237781_director_other_title-4:85349"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "シックスセンスの監督なのですね。その監督の映画はほかにどのような作品を撮っていますか？",
+      "timestamp": "2023-02-11T15:32:41.719687+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "シックスセンスの監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "その監督の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "ほか",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "どのような作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ミスター・ガラス\nレディ・イン・ザ・ウォーター\nハプニング\nなど多くの映画を生み出しています。\nもしサインをご覧になって気に入っていただけたら、他の作品もお好きかもしれません。",
+      "timestamp": "2023-02-11T15:34:50.186504+09:00",
+      "internal_states": [
+        {
+          "id": "67",
+          "text": "ミスター・ガラス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "レディ・イン・ザ・ウォーター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "ハプニング",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "など多くの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "71",
+          "text": "サイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "他の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "237781_director_other_title-0:366068",
+        "237781_director_other_title-2:324329",
+        "237781_director_other_title-4:85349",
+        "237781_director_other_title-6:329767",
+        "237781_director_other_title-9:237781"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "私にとってどんぴしゃりな映画でした。ぜひまずサインから拝見してみたいと思います。\n教えていただいて本当にどうもありがとうございました！",
+      "timestamp": "2023-02-11T15:35:22.842856+09:00",
+      "internal_states": [
+        {
+          "id": "73",
+          "text": "私にとってどんぴしゃりな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "サイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "良かったです。是非ご覧になってみてくださいね！ありがとうございました。",
+      "timestamp": "2023-02-11T15:35:59.076880+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

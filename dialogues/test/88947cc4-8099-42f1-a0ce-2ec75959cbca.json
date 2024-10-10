@@ -1,0 +1,694 @@
+{
+  "dialog_id": "88947cc4-8099-42f1-a0ce-2ec75959cbca",
+  "created_timestamp": "2023-01-25T09:56:26.143633+09:00",
+  "archived_timestamp": "2023-01-25T10:29:22.810693+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "100",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いします。",
+      "timestamp": "2023-01-25T09:58:48.922961+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いします！",
+      "timestamp": "2023-01-25T09:59:05.049523+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "ほのぼのとした、気分が明るくなるような映画でお勧めは何かありますか？",
+      "timestamp": "2023-01-25T09:59:44.433176+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ほのぼのとした、気分が明るくなるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "洋画でのお勧めでいいですか？",
+      "timestamp": "2023-01-25T10:00:28.748474+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画でのお勧め",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T09:59:41.594768+09:00",
+          "query": "冬",
+          "genres": "",
+          "results": "10248,150435,153289,16912,23987,26638,324286,325798,327271,329293,329400,329464,333212,333529,334304,338607,341641,341770,344585,344686,346540,346639,346960,348087,349217,349882,350870,353452,353489,353538,354205,354960,355741,356308,356423,358365,358645,358727,359024,359809,361463,361686,362606,362725,363119,363357,363978,364295,364754,364985,367144,368191,370087,371833,373111,375099,6608,86183,89848,9184,9889"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "はい、洋画も大好きです！",
+      "timestamp": "2023-01-25T10:00:43.407244+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ほのぼのというのは違うのですが、個人的にワクワクしてとても元気になると思う映画が「オーシャンズ８」です。観たことはありますか？",
+      "timestamp": "2023-01-25T10:03:42.680792+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "元気になると思う映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「オーシャンズ８」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T10:00:38.975379+09:00",
+          "query": "ほのぼの",
+          "genres": "",
+          "results": "339701,349516"
+        },
+        {
+          "timestamp": "2023-01-25T10:00:50.784373+09:00",
+          "query": "楽しい",
+          "genres": "",
+          "results": "11169,148866,18114,23378,235794,236590,321945,324406,325467,325622,325768,327689,329400,330764,333212,335210,336170,339013,339701,341460,341643,344125,344381,345366,348610,349571,350416,352092,352927,353452,353896,354523,354798,356423,357346,359120,362181,364123,365245,366134,373111,381457,84896,8508"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "確かサンドラ・ブラックが出ている映画ですよね？観たいと思っていたのに見逃した映画です！\nハラハラドキドキするような感じでしょうか？",
+      "timestamp": "2023-01-25T10:06:25.516755+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "サンドラ・ブラックが出ている映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "思っていたのに見逃した映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ドキドキするような感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "それほどハラハラドキドキという感じではなくて、サンドラ・ブロックとかアンハサウェイなどの8人の女性がとってもおしゃれでユーモアにあふれていて、音楽も楽しめる映画です。衣装を観ているだけでも楽しいです。",
+      "timestamp": "2023-01-25T10:09:07.245960+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ドキドキという感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "サンドラ・ブロックとかアンハサウェイなどの8人の女性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ユーモア",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "あふれていて、音楽も楽しめる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "衣装",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T10:03:49.162579+09:00",
+          "query": "犬",
+          "genres": "",
+          "results": "159561,159811,18114,20324,22238,234828,235078,235794,236645,237101,237781,237942,23987,240800,241897,28621,320267,322208,323470,324791,326216,327496,327925,327928,327992,328448,328493,329604,329887,331732,332362,332670,332848,333261,333965,334300,335850,336307,336887,336888,338319,338676,339678,340799,341445,341474,342687,342745,342793,343456,345863,346264,346339,346639,347372,347428,348085,349009,349437,349742,3503,350501,351529,352299,353152,353489,353664,354031,354569,354843,355704,355740,357312,357968,358340,359479,359637,359685,359816,360777,360962,361302,361595,3617,361801,361886,362464,362741,362951,364183,365201,365786,365936,366550,366945,367638,367823,367982,368136,368738,369158,369195,369370,370555,370565,371442,373593,374768,375940,377732,6098,86066,90294,9532"
+        },
+        {
+          "timestamp": "2023-01-25T10:05:33.491996+09:00",
+          "query": "明るい",
+          "genres": "",
+          "results": "16482,18115,326294,327271,349742,349761,350977,354239,354523,359126,365791,375327,84338"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "なるほど、女優陣が豪華なんですね。ミュージカル映画も好きでして、音楽が楽しめる映画というのも素敵です。是非観てみようと思います。",
+      "timestamp": "2023-01-25T10:12:27.944769+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "女優陣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "音楽が楽しめる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "私はこの映画で大ファンになったのですが女優のケイト・ブランシェットはご存じですか？ぜひ彼女にも注目してください。",
+      "timestamp": "2023-01-25T10:14:57.101290+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "大ファン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "女優のケイト・ブランシェット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "ケイト・ブランシェットは知っています！エリザベスという映画に出ている女優さんですよね。\nどのような役柄で出てらっしゃいますか？",
+      "timestamp": "2023-01-25T10:16:48.075325+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "ケイト・ブランシェット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "エリザベスという映画に出ている女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "どのような役柄",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "8人のまとめ役で、衣装も言動もすごくクールなのに、ちょっとしたしぐさがおちゃめで、セリフもユーモアがきいていたりするので、何度も見直してみるとおもしろいですよ。",
+      "timestamp": "2023-01-25T10:20:46.324979+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "8人のまとめ役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "衣装",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "言動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ちょっとしたしぐさ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "セリフ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ユーモア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T10:16:43.466529+09:00",
+          "query": "オーシャンズ８",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T10:16:45.168347+09:00",
+          "query": "オーシャンズ",
+          "genres": "",
+          "results": "234690,320917,327386,334978,363392"
+        }
+      ],
+      "checked": [
+        "363392_title",
+        "363392_cast_name-0",
+        "363392_cast_name-1",
+        "363392_cast_name-2"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "ピッタリな役柄ですね。ますます観たくなってきました。何回観ても楽しい映画っていいですね。\n他にも素敵な俳優さんはいらっしゃいましたか？",
+      "timestamp": "2023-01-25T10:23:29.127808+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ピッタリな役柄",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "楽しい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "素敵な俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "ミュージシャンのリアーナとか、ブラピの映画「ファイティングクラブ」に出ていた女優さんとか、全員がほんとに魅力的でこの映画は何度みたかわかりません。",
+      "timestamp": "2023-01-25T10:26:32.351445+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "ミュージシャンのリアーナとか、ブラピの映画「ファイティングクラブ」に出ていた女優さんとか、全員",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "とても豪華な俳優さんたちが出ているのですね。必ず観ようと思います。\nいい映画を推薦していただきありがとうございました。",
+      "timestamp": "2023-01-25T10:27:22.154685+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "豪華な俳優さんたち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "いい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "この女優さんたちがでている他の映画も興味深いですよね。",
+      "timestamp": "2023-01-25T10:28:05.612590+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "この女優さんたちがでている他の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "はい、サンドラ・ブロックもケイト・ブランシェットも有名な俳優さんで素敵ですよね。",
+      "timestamp": "2023-01-25T10:29:14.310021+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "サンドラ・ブロック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ケイト・ブランシェットも有名な俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

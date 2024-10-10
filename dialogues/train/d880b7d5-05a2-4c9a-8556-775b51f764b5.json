@@ -1,0 +1,936 @@
+{
+  "dialog_id": "d880b7d5-05a2-4c9a-8556-775b51f764b5",
+  "created_timestamp": "2023-01-25T14:57:10.008628+09:00",
+  "archived_timestamp": "2023-01-25T15:31:46.886466+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いします。",
+      "timestamp": "2023-01-25T14:57:54.251569+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いいたします。",
+      "timestamp": "2023-01-25T14:58:02.257799+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近何か映画を観ましたか？",
+      "timestamp": "2023-01-25T14:58:16.639319+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "最近は、ヘルドッグスという邦画を映画館で見ました。\nお勧めはありますか？",
+      "timestamp": "2023-01-25T14:59:49.064423+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ヘルドッグスという邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画の方が好みですか？",
+      "timestamp": "2023-01-25T15:00:43.277340+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい。どちらかというと邦画が好きですが、洋画も興味があるので教えてください。",
+      "timestamp": "2023-01-25T15:01:37.581658+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「ヘルドッグス」（岡田准一主演の映画ですよね）は私はみてないのですが、アクション系の映画がよければ、カーアクションありで結構過激ですが、「ベイビードライバー」という映画が面白かったです。",
+      "timestamp": "2023-01-25T15:04:23.476939+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "「ヘルドッグス」（岡田准一主演の映画ですよね）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "アクション系の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "カーアクションあり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「ベイビードライバー」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "それは見たことがないです。どういったストーリーですか？洋画ですか？",
+      "timestamp": "2023-01-25T15:05:48.411684+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "どういったストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "主役はアンセル・エルゴートという俳優で、大人しく優しい青年が強盗集団の凄腕のドライバーとして雇われているのですが、常にヘッドフォンで音楽を聴いている役柄なので、映画でも結構クールな感じの音楽がずっと流れていて映画の世界に引き込まれました。",
+      "timestamp": "2023-01-25T15:09:20.846141+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アンセル・エルゴートという俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "大人しく優しい青年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "強盗集団の凄腕のドライバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ヘッドフォンで音楽を聴いている役柄",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "クールな感じの音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "映画の世界",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T15:04:39.904326+09:00",
+          "query": "ベイビードライバー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T15:04:42.077446+09:00",
+          "query": "ベイビー",
+          "genres": "",
+          "results": "321698,336630,355228,359505,360593,360861,361801,367262"
+        }
+      ],
+      "checked": [
+        "360861_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "カーアクションだと『動』のイメージがつきますが、演出や劇中歌などでまた違った世界観があるっていう感じでしょうか。\nとても興味深いです。\nよろしければ、他にもジャンル問わず教えてください。",
+      "timestamp": "2023-01-25T15:13:46.126814+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "カーアクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "『動』のイメージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "演出や劇中歌などでまた違った世界観",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "あるっていう感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうですね、音楽によってずいぶん映画の印象が変わりますよね。\n最近見た映画の中ですごく印象的だったのは「RRR」というインド映画です。3時間に及ぶかなりエネルギーの高い映画なので、観る方もエネルギーがいるかもしれません。\nあとは、エンターテイメント性の高い映画でしたらサンドラブロック主演の「オーシャンズ8」がお勧めです。",
+      "timestamp": "2023-01-25T15:17:52.097801+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "そうですね、音楽",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "映画の印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "最近見た映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「RRR」というインド映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "3時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "エネルギーの高い映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "観る方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "エネルギー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "エンターテイメント性の高い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "サンドラブロック主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「オーシャンズ8」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T15:17:40.903488+09:00",
+          "query": "オーシャンズ８",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T15:17:43.302204+09:00",
+          "query": "オーシャンズ",
+          "genres": "",
+          "results": "234690,320917,327386,334978,363392"
+        }
+      ],
+      "checked": [
+        "363392_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "３時間！それは長いですね笑\nオーシャンズ8が気になります。見どころはどういったところですか？\n好きなシーンなどはありますか？",
+      "timestamp": "2023-01-25T15:20:51.169160+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "長いですね笑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "オーシャンズ8",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "どういったところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "好きなシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "オーシャンズ８は、8人の女性が宝石泥棒をはたらくのですが、舞台がニューヨークのメトロポリタン美術館で開かれるファッションの祭典なので、衣装がおしゃれだし、女子トークもシャレていて楽しいです。",
+      "timestamp": "2023-01-25T15:23:47.314805+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "オーシャンズ８",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "8人の女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "宝石泥棒",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "舞台がニューヨークのメトロポリタン美術館で開かれるファッションの祭典",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "衣装",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "女子トーク",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "シャレ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T15:18:15.675071+09:00",
+          "query": "RRR",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T15:18:22.409848+09:00",
+          "query": "サンドラブロック",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-25T15:18:24.519450+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,20324,2046,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,369783,369976,381726"
+        }
+      ],
+      "checked": [
+        "363392_cast_name-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ロケ地も素敵ですね。ハラハラドキドキしながら楽しめそうです。\nそういえば、オーシャンズ11を見たことを思い出したんですが、同じシリーズですか？",
+      "timestamp": "2023-01-25T15:27:26.594596+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "ロケ地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "オーシャンズ11を見たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "同じシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "オーシャンズシリーズのジョージクルーニーがやっているダニーオーシャンの妹がサンドラブロックで、泥棒一家という設定にはなっていますが、ストーリーは別物なので、他のシリーズを観ていなくて楽しめます！\n是非ご覧になってみてください。",
+      "timestamp": "2023-01-25T15:29:45.975038+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "オーシャンズシリーズのジョージクルーニーがやっているダニーオーシャンの妹",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "サンドラブロック",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "泥棒一家という設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "55",
+          "text": "別物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "他のシリーズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363392_title",
+        "363392_cast_name-0"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。ぜひ、見てみますね。\n今日はたくさんご紹介いただきありがとうございました。",
+      "timestamp": "2023-01-25T15:31:18.188403+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました！",
+      "timestamp": "2023-01-25T15:31:30.481683+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-01-25T15:30:03.516209+09:00",
+          "query": "オーシャンズ",
+          "genres": "",
+          "results": "234690,320917,327386,334978,363392"
+        }
+      ],
+      "checked": [
+        "234690_title",
+        "234690_cast_name-0"
+      ]
+    }
+  ]
+}

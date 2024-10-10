@@ -1,0 +1,955 @@
+{
+  "dialog_id": "38186440-3fb0-485d-946d-c9fb425a72c9",
+  "created_timestamp": "2023-03-27T16:02:05.379131+09:00",
+  "archived_timestamp": "2023-03-27T16:34:37.085800+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "031",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 1,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-03-27T16:08:32.562536+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-27T16:08:47.610402+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今日はどのような映画をご覧になりたいご気分でしょうか。",
+      "timestamp": "2023-03-27T16:08:59.023055+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。和むような映画や楽しい映画がいいなと思います。",
+      "timestamp": "2023-03-27T16:09:31.269452+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "和むような映画や楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "例えばアニメはご覧になりますか？邦画、洋画など特にお好みはございますか？",
+      "timestamp": "2023-03-27T16:10:19.643550+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "アニメは少ないですが見ます。どちらかというと邦画より洋画の方を好んで見ます。",
+      "timestamp": "2023-03-27T16:12:06.910241+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ユニバーサル系列のペットという映画はご覧になられましたか？ミニオンズなどのアニメ映画と同じ製作会社です。飼い主の帰宅を待っている間にペットたちがどう過ごしているのかが垣間見れるアニメ映画です。または、「ピーターラビット」も面白かったですが、いかがでしょう。",
+      "timestamp": "2023-03-27T16:14:25.877242+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ユニバーサル系列のペットという映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ミニオンズなどのアニメ映画と同じ製作会社",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "飼い主の帰宅を待っている間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ペットたち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "どう過ごしているのかが垣間見れるアニメ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「ピーターラビット」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-27T16:13:57.739894+09:00",
+          "query": "ピーター",
+          "genres": "",
+          "results": "10911,1159,11830,13346,159869,161112,161562,162566,162818,1702,1709,20109,2046,20696,21109,21356,22113,234444,234686,238972,241897,241899,24562,27724,2823,28627,29038,318646,319039,319068,319294,321200,321603,321822,321945,323067,323331,323799,325627,325867,326203,326246,329124,329859,329925,330434,330764,332669,333193,333518,333828,334777,334832,334855,335600,336887,337503,338678,339053,340403,340512,341532,341569,341641,341644,341645,343731,344500,346944,347358,347542,347722,348170,349437,350659,350926,352585,352612,353463,353538,355057,355704,355740,356506,357279,358077,359026,359126,359256,359505,359716,361391,361806,362181,362468,362627,363106,365075,365276,365598,366007,366075,366491,366852,369005,369903,373697,373859,376383,378013,378066,4450,51452,54664,84338"
+        },
+        {
+          "timestamp": "2023-03-27T16:14:03.202766+09:00",
+          "query": "ピーターラビット",
+          "genres": "",
+          "results": "325867,363106"
+        }
+      ],
+      "checked": [
+        "353664_title",
+        "363106_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "両方とも見ています。。どちらもキャラクターも面白いし映像も素晴らしかったですよね！",
+      "timestamp": "2023-03-27T16:15:56.412420+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "両方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "キャラクター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "それでは、実写とアニメが合体した「魔法にかけられて」というディズニー映画か、2001年の「ショコラ」や、邦画ですが「かもめ食堂」などは、いかがでしょう。後半2作は、食べものの描写が丁寧なので、観ていて楽しくなります。",
+      "timestamp": "2023-03-27T16:18:17.321968+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「魔法にかけられて」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "2001年の「ショコラ」や、邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「かもめ食堂」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "後半2作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "食べものの描写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-27T16:17:08.043327+09:00",
+          "query": "魔法にかけ",
+          "genres": "",
+          "results": "328581"
+        },
+        {
+          "timestamp": "2023-03-27T16:17:35.966054+09:00",
+          "query": "ショコラ",
+          "genres": "",
+          "results": "162817"
+        }
+      ],
+      "checked": [
+        "328581_title",
+        "162817_title",
+        "323638_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "「ショコラ」はどんな映画でしょうか？",
+      "timestamp": "2023-03-27T16:19:49.457057+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "「ショコラ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "1959年フランスのある村に一組の親子が北風とともにやってきて、南米から受け継がれるチョコレートの効能を広めるため、チョコレート店を開店するお話です。ちょっと不思議な雰囲気の話です。若かりし頃のジョニー・デップも出演しています。",
+      "timestamp": "2023-03-27T16:21:09.964545+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "1959年フランスのある村",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "一組の親子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "北風",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "やってきて、南米から受け継がれるチョコレートの効能を広めるため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "チョコレート店",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "不思議な雰囲気の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "りし頃のジョニー・デップ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "162817_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "北風と共にやってくるとはファンタジーのようですね。タイトルとジョニー・デップが出演しているのだけ知っていました。見たらチョコレートが食べたくなりそうです（笑）ジョニー・デップが南米から来る役ですか？",
+      "timestamp": "2023-03-27T16:24:14.589398+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "北風",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ファンタジー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ジョニー・デップ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "チョコレート",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "食べたくなりそうです（笑）ジョニー・デップが南米から来る役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ジョニー・デップは、その村にやってくるジプシー団の一人で、主役の女性と恋に落ちます。最近は奇抜なメイクと特徴ある喋り方をしているジョニーデップしか観たことないですが、ノーメイクで素の演技の彼が本当にカッコいいです・・。",
+      "timestamp": "2023-03-27T16:25:41.660004+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "ジョニー・デップ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "その村にやってくるジプシー団の一人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "恋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "奇抜なメイク",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "特徴ある喋り方をしているジョニーデップ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ノーメイク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "素の演技の彼",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そう言われてみればなんとなくジプシーっぽい風貌かもしれません。今となっては素の演技が見れる限られた映画の一つかもしれませんね。",
+      "timestamp": "2023-03-27T16:29:23.215202+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "ジプシーっぽい風貌",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "46",
+          "text": "素の演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "見れる限られた映画の一つ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "周囲の好奇の目が向けられる中、ヴィアンヌは、一人一人の希望にぴったりと合うチョコレートを差し出し、その不思議なチョコレートの作用から村人達を惹きつけていくのですが、どのチョコレートもとっても美味しそうで。とくにココアが・・。\n観ながらミロを入れてしまいました。",
+      "timestamp": "2023-03-27T16:31:05.890204+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "周囲の好奇の目が向けられる中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ヴィアンヌ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "一人一人の希望にぴったりと合うチョコレート",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "51",
+          "text": "その不思議なチョコレートの作用",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "村人達",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "どのチョコレート",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "ココア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ミロ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ヴィアンヌは主人公の女性の名前ですね。ココアがすごく美味しそうなんですね。ミロ、懐かしいです（笑）ココアはうちにあるので、見る前に私も準備しておこうかと思います。今日はありがとうございました。",
+      "timestamp": "2023-03-27T16:34:17.891169+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "ヴィアンヌ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "57",
+          "text": "主人公の女性の名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "58",
+          "text": "ココア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "59",
+          "text": "ミロ、懐かしいです（笑）ココア",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "うち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "見る前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "今日はお付き合いありがとうございました。",
+      "timestamp": "2023-03-27T16:34:32.390615+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

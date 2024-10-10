@@ -1,0 +1,729 @@
+{
+  "dialog_id": "d2b09684-9e69-4906-b186-20bbeeaf9e82",
+  "created_timestamp": "2023-03-08T19:54:43.038593+09:00",
+  "archived_timestamp": "2023-03-08T20:16:00.187695+09:00",
+  "recommender": {
+    "name": "006",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "033",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 2
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-03-08T19:57:37.387735+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-03-08T19:57:45.342171+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段、映画をよくご覧になりますか？\nどんな系の映画がお好きです？\nあるいは、避けたいものってあります？",
+      "timestamp": "2023-03-08T19:57:52.281258+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段、映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "どんな系の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "避けたいもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、悲しい映画や救われない映画はあまり見ないかもしれません。感動で泣ける映画が好きです。それと強いて言えば邦画はみないですかね。",
+      "timestamp": "2023-03-08T19:58:49.415797+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "そうですね、悲しい映画や救われない映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "感動で泣ける映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "感動で泣ける邦画ですね。幸せになるとか、何か達成したとか、そういうことでしょうか。",
+      "timestamp": "2023-03-08T19:59:49.774580+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "感動で泣ける邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "そういうこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい、そうです！それで洋画がいいです。",
+      "timestamp": "2023-03-08T20:00:33.398360+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "あ、間違えました。邦画はご覧にならないんですね。",
+      "timestamp": "2023-03-08T20:01:02.547869+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T20:00:39.067541+09:00",
+          "query": "壬生義士伝",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい、邦画は見ないです！",
+      "timestamp": "2023-03-08T20:01:22.125931+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "「スラムドッグ＄ミリオネア」はご覧いなりましたか　貧しい青年の幸運を描く映画です",
+      "timestamp": "2023-03-08T20:02:42.494311+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「スラムドッグ＄ミリオネア」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ご覧いなりましたか　貧しい青年の幸運を描く映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T20:01:46.972754+09:00",
+          "query": "スラムドッグ＄ミリオネア",
+          "genres": "",
+          "results": "332328"
+        }
+      ],
+      "checked": [
+        "332328_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "おお、タイトルは知っていますが見たことないです。あれは感動系なのですか！ぜひ教えてください。",
+      "timestamp": "2023-03-08T20:04:00.863209+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "感動系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "クイズミリオネアっていう莫大な賞金をもらえるクイズ番組に青年が出るんです。どんどん答えていくんですが、その答えが偶然貧しい生活の中で知った言葉だったりできごとだったりするっていう物語です。",
+      "timestamp": "2023-03-08T20:05:29.872965+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "クイズミリオネアっていう莫大な賞金をもらえるクイズ番組",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "青年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "その答え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "貧しい生活の中で知った言葉",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "できごとだったりするっていう物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほどタイトルに納得な粗筋ですね。オリジナルのタイトルも邦題と同じなのでしょうか。",
+      "timestamp": "2023-03-08T20:08:22.515145+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "納得な粗筋",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "オリジナルのタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "邦題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね。イギリスの映画で、Slumdog Millionaireです。でも原作はインドの外交官が書かれて、タイトルは、Q&Aだったように思います。舞台もインドです",
+      "timestamp": "2023-03-08T20:10:55.241789+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "イギリスの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "Slumdog Millionaire",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "インドの外交官",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "インド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "原作のタイトルもありがとうございます！映画はだいぶ分かりやすくなっているんですね。",
+      "timestamp": "2023-03-08T20:12:03.990489+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "原作のタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "小説と比べてということですね？\nそうだと思いますよ。映画は貧しさをとことん描くので、どんどん成功していくことに感動しますし、うれしくなると思います。",
+      "timestamp": "2023-03-08T20:13:29.936484+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "比べてということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "貧しさ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "成功していくこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい、原作小説と比べてという事です。大変な境遇の人が成功していくのを見るのは気持ちがいいですよね。楽しく見れそうです！",
+      "timestamp": "2023-03-08T20:15:15.900322+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "原作小説",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "比べてという事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "大変な境遇の人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "肺、お時間あるとき是非見てみてください。\nおつきあいありがとうございました",
+      "timestamp": "2023-03-08T20:15:36.173759+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "肺、お時間あるとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "こちらこそ、面白そうな映画をご紹介いただきありがとうございました。",
+      "timestamp": "2023-03-08T20:15:56.001628+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    }
+  ]
+}

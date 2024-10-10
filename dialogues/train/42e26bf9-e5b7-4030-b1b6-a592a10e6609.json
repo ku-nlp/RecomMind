@@ -1,0 +1,908 @@
+{
+  "dialog_id": "42e26bf9-e5b7-4030-b1b6-a592a10e6609",
+  "created_timestamp": "2023-02-13T09:58:29.865949+09:00",
+  "archived_timestamp": "2023-02-13T10:32:55.763200+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 1,
+      "recommendation_success": 1,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-13T10:00:16.040211+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-13T10:00:28.824119+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-13T10:00:31.427469+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "基本的に面白い映画なら、どんなジャンルも好きで見ます。",
+      "timestamp": "2023-02-13T10:01:30.936641+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "基本的に面白い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画や映画でも、特にこだわりはありませんか？明るい感じが良いか、ドラマ系が良いか、なども教えて頂けますか。",
+      "timestamp": "2023-02-13T10:02:46.659251+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画や映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "こだわり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "明るい感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ドラマ系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというと洋画のほうがよく見ます。\n内容は暗いストーリーより明るいほうが好みです。",
+      "timestamp": "2023-02-13T10:04:30.226277+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "洋画のほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "暗いストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "明るいほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "少し前の、2015年マイ・インターンはご覧になったことはありますか？ロバート・デ・ニーロが良い味を出していたので良かったのですが。",
+      "timestamp": "2023-02-13T10:06:06.650740+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "前の、2015年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "マイ・インターン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "良い味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T10:05:24.551370+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title",
+        "353403_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "タイトルは聞いたことがありますが、内容は知らないです。あらすじを教えてもらえますか？",
+      "timestamp": "2023-02-13T10:07:11.350862+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "アン・ハサウェイ演じる女社長のジュールズが、シニア・インターン制度で採用された老人ベンを、渋々採用するところから始まります。その老人がロバート・デ・ニーロで、どんな役もこなすなーと感心します。",
+      "timestamp": "2023-02-13T10:08:31.757285+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "アン・ハサウェイ演じる女社長のジュールズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "17",
+          "text": "シニア・インターン制度で採用された老人ベン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "18",
+          "text": "採用するところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "その老人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "どんな役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_cast_name-1",
+        "353403_review-0",
+        "353403_plot-0",
+        "353403_plot-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ロバート・デ・ニーロは大好きなんですが、アン・ハサフェイが苦手なんです。他に似たような映画でお勧めはありますか？",
+      "timestamp": "2023-02-13T10:11:01.089372+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "ロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "アン・ハサフェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "似たような映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうでしたか、すみません。\n逆にどんな女優さんや俳優さんがお好きですか？",
+      "timestamp": "2023-02-13T10:11:51.380967+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "どんな女優さんや俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_plot-2",
+        "353403_plot-7"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "俳優だとロバート・ダウニー・Jr.が大好きです。",
+      "timestamp": "2023-02-13T10:13:55.240348+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ロバート・ダウニー・Jr",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "私も大好きです。ベタですが、アイアンマンはいかがですか？",
+      "timestamp": "2023-02-13T10:15:01.419538+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "アイアンマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T10:14:06.520113+09:00",
+          "query": "アイアンマン",
+          "genres": "",
+          "results": "330416,335567,341611,344443,359026,361806,366491,366852"
+        },
+        {
+          "timestamp": "2023-02-13T10:14:30.126929+09:00",
+          "query": "チャーリー",
+          "genres": "",
+          "results": "15997,20373,235078,237272,240346,25274,319160,321598,321733,327707,327925,330004,332430,336520,338843,339088,339986,341641,342793,344562,347290,349920,350275,350825,350927,351033,353152,354522,354960,355316,358727,360074,360777,362179,362181,365009,365276,367638,370460,981"
+        },
+        {
+          "timestamp": "2023-02-13T10:14:37.690040+09:00",
+          "query": "アイアンマン",
+          "genres": "",
+          "results": "330416,335567,341611,344443,359026,361806,366491,366852"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "すごく嬉しいです！\nアイアンマンのシリーズは全部見ましたが、どれが1番お好きですか？",
+      "timestamp": "2023-02-13T10:16:57.838861+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "アイアンマンのシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "1番",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "アイアンマンが主役のものはもちろん全てカッコいいのですが、個人的に「スパイダーマン：ファー・フロム・ホーム」が好きでした。主役ではないのに、あの存在感。トニーの秘書のハッピーの愛おしさなどが面白かったです。",
+      "timestamp": "2023-02-13T10:19:35.342374+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "アイアンマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "主役のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「スパイダーマン：ファー・フロム・ホーム」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "あの存在感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "トニーの秘書のハッピーの愛おしさ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "『スパイダーマン：ファー・フロム・ホーム』のどのシーンでロバートは出てましたか？\nあと、トニーの秘書はハッピーではなくペッパーです。",
+      "timestamp": "2023-02-13T10:22:51.737317+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "『スパイダーマン：ファー・フロム・ホーム』のどのシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ロバート",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "トニーの秘書",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ハッピーではなくペッパー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "「スパイダーマン：ファー・フロム・ホーム」はシリーズではなくそのままのタイトルでした。「スパイダーマンホームカミング」の続編だったかと。ハッピーって、あの太った運転手はトニーの秘書ではなかったですか。すみません。悪役にジェイク・ジレンホールがれているのですが、彼もすごくカッコいいのに、今回は憎たらしい役ででています。",
+      "timestamp": "2023-02-13T10:26:13.430931+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "「スパイダーマン：ファー・フロム・ホーム」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "シリーズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "そのままのタイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "「スパイダーマンホームカミング」の続編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ハッピー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "あの太った運転手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "トニーの秘書",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "悪役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ジェイク・ジレンホール",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "憎たらしい役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "366852_cast_name-2",
+        "366852_cast_name-10"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "『スパイダーマン：ファー・フロム・ホーム』はスパイダーマンのシリーズの１つで『スパイダーマンホームカミング』続編というのはあっています。ロバートは出ていなかったと思いますが、スパイダーマンのシリーズも、もう一度観てみます。今日はありがとうございました。",
+      "timestamp": "2023-02-13T10:32:51.438963+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "『スパイダーマン：ファー・フロム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "スパイダーマンのシリーズの１つ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "『スパイダーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ロバート",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "スパイダーマンのシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

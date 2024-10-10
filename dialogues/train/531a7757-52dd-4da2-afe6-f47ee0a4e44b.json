@@ -1,0 +1,932 @@
+{
+  "dialog_id": "531a7757-52dd-4da2-afe6-f47ee0a4e44b",
+  "created_timestamp": "2023-02-03T13:57:04.298064+09:00",
+  "archived_timestamp": "2023-02-03T14:31:56.776855+09:00",
+  "recommender": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。はじめまして。よろしくお願いいたします。",
+      "timestamp": "2023-02-03T13:59:32.481894+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。今日は宜しくお願いします。",
+      "timestamp": "2023-02-03T13:59:38.623788+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段はどういうジャンルの映画をご覧になることが多いですか？",
+      "timestamp": "2023-02-03T14:00:35.798794+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どういうジャンルの映画をご覧になること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "どちらかと言うと楽しい映画ですね。気持ち悪くなるような映画は見たくないですね。どころで、インド映画で、お勧めがあれば教えて頂きたいです。",
+      "timestamp": "2023-02-03T14:01:36.213648+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "気持ち悪くなるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "どころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "インド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "インド映画ですか？そうですね。「スラムドッグ＄ミリオネア」という映画はご覧になったことはありますか？",
+      "timestamp": "2023-02-03T14:05:10.350919+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "インド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「スラムドッグ＄ミリオネア」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T14:01:57.638534+09:00",
+          "query": "インド映画",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-03T14:02:02.353828+09:00",
+          "query": "インド",
+          "genres": "",
+          "results": "12902,153473,15997,2155,237033,319768,320073,323917,328314,328315,332328,332430,334301,335925,340335,341611,343318,344013,345047,346264,348781,351033,351369,351838,351841,352585,353277,354455,355696,356503,357845,359023,359405,361372,361806,362712,362951,363117,363223,363978,366409,366491,369103,370448,370964,7631"
+        },
+        {
+          "timestamp": "2023-02-03T14:02:03.960244+09:00",
+          "query": "インド",
+          "genres": "",
+          "results": "12902,153473,15997,2155,237033,319768,320073,323917,328314,328315,332328,332430,334301,335925,340335,341611,343318,344013,345047,346264,348781,351033,351369,351838,351841,352585,353277,354455,355696,356503,357845,359023,359405,361372,361806,362712,362951,363117,363223,363978,366409,366491,369103,370448,370964,7631"
+        },
+        {
+          "timestamp": "2023-02-03T14:02:16.256649+09:00",
+          "query": "インド",
+          "genres": "comedy",
+          "results": "323917,332328,345047,348781,352585,354455,355696,356503,357845,366409"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いいえ、見たことはありません。どんなストーリーでしょうか。",
+      "timestamp": "2023-02-03T14:05:34.716570+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "貧しいスラム街で育った青年が高額賞金を得られるクイズ番組に出場するストーリーです。彼の少年時代のエピソードから、なぜクイズ番組に挑戦しようと思うようになったのかというストーリーとクイズに挑戦しているシーンが織り交ぜられながら話が展開していきます。",
+      "timestamp": "2023-02-03T14:10:10.890993+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "貧しいスラム街で育った青年が高額賞金を得られるクイズ番組に出場するストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "彼の少年時代のエピソード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "クイズ番組",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "クイズに挑戦しているシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "332328_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "面白そうな内容ですね。インドの生活様式が映像から伝わりますか。日本とは身につけている服からも異なりますものね。",
+      "timestamp": "2023-02-03T14:11:51.745344+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "面白そうな内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "インドの生活様式",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "日本とは身につけている服からも異なりますもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうですね。クイズ番組までのエピソードでは観光ガイドをしたり、ムンバイのレストランで働くシーンなど、いろいろと彼が苦労してきたシーンもあります。その彼の経験してきたさまざまなことがクイズ番組で出題された問題に解答することができることにもつながっていたりします。そういう意味では、人生に無駄なことなど何もないのだと思わせてくれるようなメッセージにもなっているのでしょうか。",
+      "timestamp": "2023-02-03T14:17:07.207873+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "クイズ番組までのエピソード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "観光ガイド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ムンバイのレストランで働くシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "いろいろと彼が苦労してきたシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "その彼の経験してきたさまざまなこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "クイズ番組で出題された問題に解答することができること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "そういう意味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "人生に無駄なこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ないのだと思わせてくれるようなメッセージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "332328_plot-26"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "いいメッセージですね。彼のエピソードだけでなく、出題されたクイズにも興味が沸いています。　ほかにも、面白いインド映画はご存じですか。",
+      "timestamp": "2023-02-03T14:18:27.050252+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "いいメッセージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "彼のエピソード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "出題されたクイズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ほかにも、面白いインド映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうですね。インドが舞台になった映画というのはいかがでしょうか？ハリソン・フォード主演の「インディ・ジョーンズ/魔宮の伝説」はご覧になったことはありますか？",
+      "timestamp": "2023-02-03T14:21:32.762279+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "インドが舞台になった映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ハリソン・フォード主演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "「インディ・ジョーンズ/魔宮の伝説」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T14:18:52.731574+09:00",
+          "query": "インド",
+          "genres": "comedy",
+          "results": "323917,332328,345047,348781,352585,354455,355696,356503,357845,366409"
+        },
+        {
+          "timestamp": "2023-02-03T14:19:08.298372+09:00",
+          "query": "インド",
+          "genres": "action",
+          "results": "15997,2155,320073,323917,328314,328315,340335,341611,346264,351033,351838,352585,353277,354455,359405,361806,362712,362951,363223,366409,366491,370448,370964"
+        }
+      ],
+      "checked": [
+        "2155_title",
+        "2155_cast_name-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "タイトルだけは知っていますが、インドが舞台なのですか。",
+      "timestamp": "2023-02-03T14:22:01.109969+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "インド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうなんです！ハリソン・フォード演じる考古学者は上海にいましたが、ギャングに追われ逃げる途中にインドにたどり着きます。そこで子供のいない村にたどり着き、地元の老人たちから「救世主」だと言われ、あるマハラジャが支配する宮殿にさらわれた子供たちを救い出しにいくのです。そこでインディ・ジョーンズらしい冒険が繰り広げられるというストーリーです。",
+      "timestamp": "2023-02-03T14:26:42.393018+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "ハリソン・フォード演じる考古学者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "上海",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ギャング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "追われ逃げる途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "インド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "そこで子供のいない村",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "地元の老人たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "「救世主」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "あるマハラジャが支配する宮殿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "さらわれた子供たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "インディ・ジョーンズらしい冒険",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "繰り広げられるというストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "2155_plot-2",
+        "2155_plot-4"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "映画らしい映画って感じかしら。ストーリーに引き込まれそうですね。インドの景色も見られるし、是非見たいですね。",
+      "timestamp": "2023-02-03T14:28:12.854742+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "映画らしい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "インドの景色",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい。マハラジャの宮殿はいかにも冒険もの、という感じに大げさに作られていたりしますが、そこはインディ・ジョーンズの冒険を楽しむ舞台なので多めに見ていただければよいのではないでしょうか？スリルとちょっとした笑いも楽しめる冒険ストーリーなので、気分転換にいかがでしょうか？",
+      "timestamp": "2023-02-03T14:30:47.393244+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "マハラジャの宮殿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "冒険もの、という感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "インディ・ジョーンズの冒険を楽しむ舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "スリル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "ちょっとした笑いも楽しめる冒険ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "気分転換",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "是非、鑑賞したいです。いい作品ををお勧め頂きまして有り難うございました。",
+      "timestamp": "2023-02-03T14:31:31.536355+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "いい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-02-03T14:31:47.472368+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "dialog_id": "ae845086-8811-4e8a-9e9c-b5631e3909bc",
+  "created_timestamp": "2023-02-04T17:59:40.178987+09:00",
+  "archived_timestamp": "2023-02-04T18:23:13.849288+09:00",
+  "recommender": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "035",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは、よろしくお願いいたします。",
+      "timestamp": "2023-02-04T18:00:24.135520+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんんちわ、宜しくお願いします。\n早速ですが、今の気分的にはどんな映画が見たいなどありますか？",
+      "timestamp": "2023-02-04T18:00:57.264032+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "こんんちわ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "そうですね、人の優しさがすごく感動的で泣ける映画のオススメは何かありますか？",
+      "timestamp": "2023-02-04T18:01:41.284049+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "そうですね、人の優しさ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "感動的で泣ける映画のオススメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "あります！洋画になりますが良いですか？",
+      "timestamp": "2023-02-04T18:02:30.640027+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "はい！ぜひお願いいたします。",
+      "timestamp": "2023-02-04T18:03:03.814008+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "「マグノリアの花たち」\nもともとは、戯曲でオフ・ブロードウェイで上演されていたそうなのですが。\n映画は、1989年に公開されています。",
+      "timestamp": "2023-02-04T18:05:29.607278+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "「マグノリアの花たち」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "戯曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "オフ・ブロードウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "1989年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-04T18:02:52.065083+09:00",
+          "query": "マグノリア",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-04T18:03:06.950564+09:00",
+          "query": "",
+          "genres": "family",
+          "results": "150435,152271,159561,159811,159875,162761,162856,20735,21356,236089,236590,237101,237362,241078,241897,28621,28627,318678,319257,321736,321839,321932,322086,322281,322404,322704,322771,323098,323222,323636,323686,324260,324261,324398,324408,325317,326008,326246,326247,326362,326442,326445,326551,326660,326664,326905,327496,327529,327770,328367,328448,328493,328626,328724,329124,329418,329464,329546,329604,329606,329736,329809,329970,330039,330487,331366,332068,332361,332425,332670,332672,332753,332848,333194,333261,333331,333712,333833,333957,333976,334288,334304,335255,335426,335440,335605,335655,335712,335766,335850,336170,336292,336605,336703,336808,337854,338017,338048,338075,339701,339775,339818,339986,340427,340606,341531,341770,342051,343345,343456,343761,344380,345366,346960,347371,347372,348091,348264,349443,349726,349728,349920,350111,350897,351369,352692,353496,353538,353612,353664,354523,354988,355316,356423,356582,358499,358645,358954,359120,359899,360962,360986,361373,361801,362195,362714,362962,363528,363644,363762,363978,364123,364183,365085,365489,365791,366015,366134,366550,366607,367144,367321,367823,369058,369413,369619,370020,370565,370836,371076,371105,371973,372796,374449,374768,375074,375327,381859,495,6207,8508"
+        },
+        {
+          "timestamp": "2023-02-04T18:03:08.244107+09:00",
+          "query": "",
+          "genres": "family",
+          "results": "150435,152271,159561,159811,159875,162761,162856,20735,21356,236089,236590,237101,237362,241078,241897,28621,28627,318678,319257,321736,321839,321932,322086,322281,322404,322704,322771,323098,323222,323636,323686,324260,324261,324398,324408,325317,326008,326246,326247,326362,326442,326445,326551,326660,326664,326905,327496,327529,327770,328367,328448,328493,328626,328724,329124,329418,329464,329546,329604,329606,329736,329809,329970,330039,330487,331366,332068,332361,332425,332670,332672,332753,332848,333194,333261,333331,333712,333833,333957,333976,334288,334304,335255,335426,335440,335605,335655,335712,335766,335850,336170,336292,336605,336703,336808,337854,338017,338048,338075,339701,339775,339818,339986,340427,340606,341531,341770,342051,343345,343456,343761,344380,345366,346960,347371,347372,348091,348264,349443,349726,349728,349920,350111,350897,351369,352692,353496,353538,353612,353664,354523,354988,355316,356423,356582,358499,358645,358954,359120,359899,360962,360986,361373,361801,362195,362714,362962,363528,363644,363762,363978,364123,364183,365085,365489,365791,366015,366134,366550,366607,367144,367321,367823,369058,369413,369619,370020,370565,370836,371076,371105,371973,372796,374449,374768,375074,375327,381859,495,6207,8508"
+        }
+      ],
+      "checked": [
+        "22020_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "そうなんですね、前世知らない映画です。どんなお話ですか？",
+      "timestamp": "2023-02-04T18:06:01.116920+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "そうなんですね、前世知らない映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "舞台はルイジアナ州の田舎町。\n6年の女性たちの心の交流と友情を描いたヒューマンドラマという感じでしょうか。\nこう書いてしまうと、ふーん、面白いのかな？と思ってしまうかも知れませんが、主演の　サリー・フィールド　と当時多分新人女優だった　ジュリア・ロバーツ　を初め6人の女性たちがたくましく、でも底抜けに明るく生きている生き様に共感したり、憧れたり。そして思いっきり笑ってしまうシーンもふんだんにあるのですが、涙無くしては見られないそんな映画です。",
+      "timestamp": "2023-02-04T18:09:52.829288+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ルイジアナ州の田舎町",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "6年の女性たちの心",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "交流",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "友情を描いたヒューマンドラマという感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "サリー・フィールド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "新人女優だった　ジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "初め6人の女性たち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "たくましく、でも底抜けに明るく生きている生き様",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "笑ってしまうシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "涙無くしては見られないそんな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "若い頃のジュリアロバーツですか！\n壮大な映画っぽいですね、普段あまり観ないジャンルですが、なんだか観てみようかなと思いました。\n他にはどんな俳優が出演していますか？",
+      "timestamp": "2023-02-04T18:11:39.736419+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "若い頃のジュリアロバーツ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "壮大な映画っぽいですね、普段",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "観ないジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "被推薦者様がお若い方でしたら、全然ピンとこないかもしれませんが、結構主役級が他にもいます。",
+      "timestamp": "2023-02-04T18:12:40.439659+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "被推薦者様",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "お若い方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "主役級",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "例えばどんな俳優さんですか？",
+      "timestamp": "2023-02-04T18:14:05.878525+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "すみません途中で送信してしまいました。\nドリー・パートン\nシャーリー・マクレーン\nダリル・ハンナ\nオリビア・デュカキス\nが6人の女性を演じています。\nちなみに、サリ・フィールド　と　ジュリア・ロバーツが母娘役なのですが、これが本当に良い親子なんです！",
+      "timestamp": "2023-02-04T18:15:21.341737+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ドリー・パートン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "シャーリー・マクレーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "6人の女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "サリ・フィールド　と　ジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "母娘役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "これが本当に良い親子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "そうそうたるメンバーですね、これは断然観たくなります！",
+      "timestamp": "2023-02-04T18:16:34.003313+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "そうそうたるメンバー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "人の優しさがすごく感動的で泣ける映画　ということでしたので、ピッタリかと思います！私は大好き過ぎてもう5回くらい見ていますが、元気が出ないようなときなど見返すと、映画の終わりには、頑張らねば！という気になることができます。",
+      "timestamp": "2023-02-04T18:18:55.967982+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "人の優しさ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "感動的で泣ける映画　ということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "5回",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "元気が出ないようなとき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "映画の終わり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "頑張らねば！という気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "えー！それは期待値上がります！絶対観ます笑",
+      "timestamp": "2023-02-04T18:20:20.885266+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "期待値",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "観ます笑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "はい、自信をもってオススメできると思っております。あらすじを詳しく言えないのが歯がゆいですが、本当に文字通り笑って泣ける映画！という感じです。6人それぞれが本当に個性豊かで素敵な女性なのも見どころです。",
+      "timestamp": "2023-02-04T18:21:53.554644+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "自信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "笑って泣ける映画！という感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "6人それぞれが本当に個性豊かで素敵な女性なの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "今は完全に「よし、観ようモード」です笑\n全然知らない映画をオススメいただき、とても嬉しかったです！ありがとうございました。",
+      "timestamp": "2023-02-04T18:22:29.576473+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "完全に「よし、観ようモード」です笑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "そういっていただけて嬉しいです！ぜひご覧になって元気もらってください！有難うございました。",
+      "timestamp": "2023-02-04T18:22:58.398325+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

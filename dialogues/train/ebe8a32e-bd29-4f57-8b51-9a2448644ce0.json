@@ -1,0 +1,808 @@
+{
+  "dialog_id": "ebe8a32e-bd29-4f57-8b51-9a2448644ce0",
+  "created_timestamp": "2023-03-14T20:59:29.142783+09:00",
+  "archived_timestamp": "2023-03-14T21:19:21.149247+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 3,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-14T21:02:22.981412+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは！こちらこそよろしくお願いいたします。\nさっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-03-14T21:02:37.759342+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "今日は気軽に見られる映画が知りたいです。洋画の方が好ましいです。",
+      "timestamp": "2023-03-14T21:03:26.091073+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "気軽に見られる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "「ベイビー・ドライバー」はご覧になりましたか？テンポがあって爽快なアクション映画です。",
+      "timestamp": "2023-03-14T21:04:32.528015+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「ベイビー・ドライバー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "テンポ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "あって爽快なアクション映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T21:03:38.211585+09:00",
+          "query": "ベイビー・ドライバー",
+          "genres": "",
+          "results": "360861"
+        }
+      ],
+      "checked": [
+        "360861_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "鑑賞したことあります。思っていたよりすごく良くてお気に入りの映画です。",
+      "timestamp": "2023-03-14T21:04:57.552415+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "鑑賞したこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "お気に入りの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "私もこれ好きです！もうご存じなのですね（笑）気楽に見られる映画、そうですね。少し古いですけど「あなたが寝てる間に…」はご存じですか？まだ駆け出しのころのサンドラ・ブロック主演のラブコメです。",
+      "timestamp": "2023-03-14T21:07:03.882950+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ご存じなのですね（笑）気楽に見られる映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「あなたが寝てる間に…」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "駆け出しのころのサンドラ・ブロック主演のラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T21:06:03.517339+09:00",
+          "query": "あなたが寝てる",
+          "genres": "",
+          "results": "27724"
+        }
+      ],
+      "checked": [
+        "27724_title",
+        "27724_cast_name-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "それも見たことありました。映画の好みが似ているんですかね。ベイビー・ドライバーのように爽快感のある映画は他にご存じないですか？",
+      "timestamp": "2023-03-14T21:08:07.300394+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "それも見たこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ベイビー・ドライバーのように爽快感のある映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "最近のだったらもうご存じかなーと思って先程留まったのですが、「キングスマン」はご覧になりました？",
+      "timestamp": "2023-03-14T21:09:19.976353+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ご存じかなー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "先程",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「キングスマン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T21:08:44.492992+09:00",
+          "query": "キングスマン",
+          "genres": "",
+          "results": "353152,360777,369783"
+        }
+      ],
+      "checked": [
+        "353152_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "それも観ました！\n似ていますね！\nではキングスマンシリーズの中でどの作品が好きですか？",
+      "timestamp": "2023-03-14T21:10:18.698154+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "キングスマンシリーズの中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "私はやっぱり一番最初のですね。教会ファイトシーンを大画面で見たくて17回映画館に行きました(笑)。その次はファースト・エージェントかな？別枠でシリーズにしてくれないかなと思ってます。",
+      "timestamp": "2023-03-14T21:11:41.489533+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "教会ファイトシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "大画面",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "17回映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "その次",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ファースト・エージェント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "別枠",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "シリーズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_director_other_title-2:353152",
+        "353152_director_other_title-5:369783"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "えー！そんなに観たんですか！？\n教会のファイトシーンのどこが見所何でしょうか？",
+      "timestamp": "2023-03-14T21:13:01.956520+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "教会のファイトシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "私はコリンファースの舞のような武闘がとてもお気に入りで。あんな感じのが必ず後の映画でも出ますが、あの教会のが私は一番好きです。",
+      "timestamp": "2023-03-14T21:14:11.400392+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "コリンファースの舞のような武闘",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "お気に入り",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "あんな感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "後の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "あの教会",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T21:12:54.983839+09:00",
+          "query": "トゥルー",
+          "genres": "",
+          "results": "15759,15761,334089,338090,368764,83886,84338"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "そんなにお気に入りなら、また観てみたいと思います。\nこの映画までコリンファースってアクションのイメージなかったです。",
+      "timestamp": "2023-03-14T21:15:07.848457+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "お気に入り",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "コリンファース",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "アクションのイメージ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "あの映画くらいですよ。スパイ役はあってもアクションは他も観たことないような気がします。\n\nそれで、爽快感のある映画に戻って。。。\n「トゥルーライズ」か「トゥルー・ロマンス」どっちもご存じだったりします？",
+      "timestamp": "2023-03-14T21:16:23.664237+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "あの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "スパイ役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "他も観たことないような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "爽快感のある映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "「トゥルーライズ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "「トゥルー・ロマンス」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-14T21:14:58.558215+09:00",
+          "query": "トゥルー",
+          "genres": "",
+          "results": "15759,15761,334089,338090,368764,83886,84338"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "はい、両方観ましたよ。特にトゥルーロマンスは印象に残っています。",
+      "timestamp": "2023-03-14T21:17:12.613776+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "両方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "トゥルーロマンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "あの映画は映画好きにとってはより楽しい映画ですよね！",
+      "timestamp": "2023-03-14T21:18:04.988043+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "あの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "楽しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "はい、画の見せ方が特徴的ですよね。本日はお話できて楽しかったです。\nありがとうございました！",
+      "timestamp": "2023-03-14T21:18:58.994590+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "画の見せ方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

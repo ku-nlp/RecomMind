@@ -1,0 +1,1375 @@
+{
+  "dialog_id": "9a925784-f335-49bb-8544-c33aaf0c7696",
+  "created_timestamp": "2023-01-31T14:59:43.679519+09:00",
+  "archived_timestamp": "2023-01-31T15:42:50.041617+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "020",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 1,
+      "recommendation_success": 1,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いします。",
+      "timestamp": "2023-01-31T15:00:10.883875+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いいたします。",
+      "timestamp": "2023-01-31T15:00:18.936916+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "興味のある映画のジャンルはありますか？\n好きな俳優はいますか？",
+      "timestamp": "2023-01-31T15:00:44.518386+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "興味のある映画のジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "はい、ホラースプラッタ系以外ならなんでも見ますが、特に好きなのがダンスや歌のある映画や、ファッション、音楽、仕事がテーマに絡んでくる映画が好きです。好きな俳優は演技力がすごい大竹しのぶさんです。以前はたまに彼女の舞台を見に行っていました。",
+      "timestamp": "2023-01-31T15:03:23.150213+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ホラースプラッタ系以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ダンスや歌のある映画や、ファッション、音楽、仕事がテーマに絡んでくる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "演技力がすごい大竹しのぶさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "彼女の舞台",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうなんですね！\n大竹しのぶさんの舞台を実際に観たらすごい迫力でしょうね。\nアカデミー賞受賞作のミュージカル映画「ラ・ラ・ランド」、アンハサウェイの「プラダを着た悪魔」や「オーシャンズ８」は女優たちのファッションはもちろん、音楽も楽しめました。メジャーではないですがキーラナイトレイ主演の「はじまりのうた」は音楽がとてもよかったです。どれか興味ありそうですか？",
+      "timestamp": "2023-01-31T15:09:15.875293+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "大竹しのぶさんの舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "すごい迫力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "アカデミー賞受賞作のミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「ラ・ラ・ランド」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「プラダを着た悪魔」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「オーシャンズ８」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ファッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "メジャー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "キーラナイトレイ主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「はじまりのうた」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "わー、たくさんありがとうございます。ララランド、プラダを着た悪魔、オーシャンズ８は見たことがあり、好きだったのでおすすめで考えていただいた方向でずばりだなあとびっくりです。「はじまりのうた」だけ見たことがないので興味深々です。どんな映画なのでしょうか。",
+      "timestamp": "2023-01-31T15:11:05.436420+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "ララランド、プラダを着た悪魔、オーシャンズ８",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "おすすめで考えていただいた方向",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "19",
+          "text": "びっくり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「はじまりのうた」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "興味深々",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "おしゃれな映画をたくさん楽しまれているのですね！\n「はじまりのうた」は2015年の映画で、映像全体としてはトーンが少し暗めだなという印象ですが、自作の歌を歌う日々で歌手の恋人と別れたばかりのグレタと、落ちぶれた中年プロデューサのダンが出会い、グレタの歌に感動して、一緒に手作りで音楽を作っていくストーリです。グレタの歌が全体的にとても心地よかったりせつなかったり楽しかったりしてずっと聞いていられました。",
+      "timestamp": "2023-01-31T15:18:09.375653+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "おしゃれな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「はじまりのうた」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "2015年の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "25",
+          "text": "映像全体",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "トーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "暗めだなという印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "自作の歌を歌う日々で歌手の恋人と別れたばかりのグレタ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "落ちぶれた中年プロデューサのダン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "一緒に手作りで音楽を作っていくストーリ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "グレタの歌",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T15:10:49.398931+09:00",
+          "query": "ラ・ラ・ランド",
+          "genres": "",
+          "results": "358727"
+        },
+        {
+          "timestamp": "2023-01-31T15:11:29.685003+09:00",
+          "query": "はじまりのうた",
+          "genres": "",
+          "results": "350077"
+        }
+      ],
+      "checked": [
+        "350077_cast_name-0",
+        "350077_plot-0",
+        "350077_plot-3"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "グレタは実際にデビューしている歌手でしょうか？",
+      "timestamp": "2023-01-31T15:18:39.536137+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "グレタ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "実際にデビューしている歌手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "グレタ役のキーラ・ナイトレイは歌手活動はしてないと思いますが、マルーン5（アメリカのバンドですがご存じですか？）ボーカリストのアダム・レヴィーンが別れた恋人役で出演していて映画の中でも実際に歌っています。",
+      "timestamp": "2023-01-31T15:22:40.559161+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "グレタ役のキーラ・ナイトレイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "歌手活動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "36",
+          "text": "マルーン5",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "アメリカのバンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "？）ボーカリストのアダム・レヴィーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "別れた恋人役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "40",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "350077_cast_name-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "マルーン５、知っています！sugarがヒットしていましたよね。本人が審査員を務めていたオーディション番組も見ていましたので気になります。なんと、主人公は歌手役だけれど歌手ではないのですね。歌がうまいと言うイメージではありませんでしたが、それぞれの歌っている様子も気になります。映画の中ではオリジナル曲を歌っているのでしょうか。",
+      "timestamp": "2023-01-31T15:24:33.243501+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "マルーン５",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "sugar",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "本人が審査員を務めていたオーディション番組",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "歌手役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "歌手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "うまいと言うイメージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "それぞれの歌っている様子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "51",
+          "text": "オリジナル曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうです、Sugerいいですね。\nアダムが歌う主題歌「ロスト・スターズ」はアカデミー賞にノミネートされてますが、それ以外はオリジナルだと思います。\n大竹しのぶさんもそうですが、アンハサウェイもミュージカル映画「レ・ミゼラブル」で披露した歌がとてもうまくて、一流女優さんは歌もうまいものなのだと驚いた記憶があります。",
+      "timestamp": "2023-01-31T15:29:14.082828+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "そうです、Suger",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "アダムが歌う主題歌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "「ロスト・スターズ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "55",
+          "text": "アカデミー賞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "大竹しのぶさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "アンハサウェイもミュージカル映画「レ・ミゼラブル」で披露した歌",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "一流女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "60",
+          "text": "歌もうまいものなのだと驚いた記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "350077_cast_name-3"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "本当ですね。演技力ではなく歌唱力もあると怖いもの無しですね…。\nレ・ミゼラブルは確か元ネタはオペラでしたかと思うのですが、こちらは歌謡曲ではありませんよね…アンハサウェイはオペラまで歌いこなしているのでしょうか？ますます恐ろしい…。",
+      "timestamp": "2023-01-31T15:32:14.898924+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "演技力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "歌唱力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "怖いもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "64",
+          "text": "無し",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "レ・ミゼラブル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "確か元ネタ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "67",
+          "text": "歌謡曲ではありませんよね…アンハサウェイ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "オペラ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "アンハサウェイの舞台挨拶などの動画を観ると、ものすごくユーモアにあふれているし途中で歌をうたったりしているし、恐ろしいすぎます！！！\nレ・ミゼラブルで共演のヒュージャックマンもミュージカル映画「グレーテストショーマン」で歌もうまいし素敵でした。",
+      "timestamp": "2023-01-31T15:35:10.093951+09:00",
+      "internal_states": [
+        {
+          "id": "69",
+          "text": "アンハサウェイの舞台挨拶などの動画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "ユーモア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "レ・ミゼラブル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "共演のヒュージャックマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "76",
+          "text": "「グレーテストショーマン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "77",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T15:29:43.595020+09:00",
+          "query": "レ・ミゼラブル",
+          "genres": "",
+          "results": "342984"
+        }
+      ],
+      "checked": [
+        "342984_title",
+        "342984_cast_name-2"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ミュージカル映画や舞台映画、好きなので歌える俳優さんたちには尊敬しかないです。\nアンハサウェイ、スタントで影武者が歌っていると言うこともないのですね。ヒュー・ジャックマンもですか。元々歌手で演技を始める人もいますよね。多才な人が揃っていますね。さすがハリウッド。日本でも歌える俳優さんや女優さんってどれくらいいるんでしょうね。",
+      "timestamp": "2023-01-31T15:37:21.486521+09:00",
+      "internal_states": [
+        {
+          "id": "78",
+          "text": "ミュージカル映画や舞台映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "歌える俳優さんたち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "80",
+          "text": "尊敬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "81",
+          "text": "アンハサウェイ、スタント",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "82",
+          "text": "影武者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "83",
+          "text": "ヒュー・ジャックマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "84",
+          "text": "歌手で演技を始める人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "85",
+          "text": "多才な人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "86",
+          "text": "ハリウッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "87",
+          "text": "日本でも歌える俳優さんや女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね。日本のミュージカル映画はこれといえるものが言えないのですが、宝塚出身の女優さんとか上白石姉妹とかで舞台や映画を観たいですね。",
+      "timestamp": "2023-01-31T15:41:26.878772+09:00",
+      "internal_states": [
+        {
+          "id": "88",
+          "text": "日本のミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "89",
+          "text": "これといえるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "90",
+          "text": "宝塚出身の女優さんとか上白石姉妹",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "91",
+          "text": "舞台や映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T15:35:25.350982+09:00",
+          "query": "グレーテスト",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-31T15:35:31.744788+09:00",
+          "query": "グレイテスト",
+          "genres": "",
+          "results": "361326"
+        }
+      ],
+      "checked": [
+        "361326_title",
+        "361326_cast_name-0"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "確かに、宝塚の女優さんは確かな実力がありそうです。色々ミュージカル映画も探して、また改めて見てみたくなりました。素敵な映画を教えていただきまして、本日はどうもありがとうございました。",
+      "timestamp": "2023-01-31T15:42:18.727165+09:00",
+      "internal_states": [
+        {
+          "id": "92",
+          "text": "宝塚の女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "93",
+          "text": "確かな実力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "94",
+          "text": "色々ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "95",
+          "text": "素敵な映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "長時間になってしまいました。\nおしゃれな映画楽しんでくださいね。",
+      "timestamp": "2023-01-31T15:42:31.285183+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

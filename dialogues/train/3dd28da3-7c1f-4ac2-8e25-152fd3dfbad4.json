@@ -1,0 +1,886 @@
+{
+  "dialog_id": "3dd28da3-7c1f-4ac2-8e25-152fd3dfbad4",
+  "created_timestamp": "2023-03-01T19:58:01.461347+09:00",
+  "archived_timestamp": "2023-03-01T20:36:43.591297+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "033",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-03-01T19:59:44.491688+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-03-01T19:59:48.443545+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "風が春めいてきましたね。今はどんな映画をご覧になりたいでしょうか？",
+      "timestamp": "2023-03-01T20:00:22.332997+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、あまり見ないSFな気分です。",
+      "timestamp": "2023-03-01T20:00:51.605656+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "見ないSFな気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画と邦画、どちらがお好きでしょうか？それともどちらもお好きでしょうか？",
+      "timestamp": "2023-03-01T20:01:24.015005+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "洋画の方が好きです。",
+      "timestamp": "2023-03-01T20:01:57.526305+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「地球が静止する日」という映画はご覧になったことはありますか？",
+      "timestamp": "2023-03-01T20:05:15.770632+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「地球が静止する日」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-01T20:02:41.080304+09:00",
+          "query": "",
+          "genres": "science-fiction",
+          "results": "10659,11830,11831,11832,13522,13523,150405,152697,153289,15902,159875,160134,161136,161376,161562,161592,162811,163028,16329,16912,1709,18114,18115,18116,18187,20674,20696,22113,22237,22238,22811,23099,234685,234686,235790,235792,235794,2361,239072,239389,239766,239767,239768,239783,239816,23987,240800,241372,24661,2752,2753,2755,29038,318531,318674,318677,319069,319937,320063,320447,321599,321602,321603,321766,322041,322489,322931,324027,324544,325438,325630,325652,325865,326203,326247,326850,327000,327253,327495,327839,327925,328359,328996,329124,329131,329144,329231,329400,329614,329887,330415,330416,330434,330813,331380,331426,331508,331733,332425,332598,333193,333212,333331,333497,333520,333627,333700,333967,334089,334285,334339,334775,334777,334832,335402,335453,335567,335732,335765,335872,335900,336237,336307,336357,336755,337094,337257,337331,337607,337671,337855,338302,338323,338676,338678,339013,339088,339180,339354,339722,339967,340423,340758,341009,341090,341319,341436,341460,341532,341611,341641,341767,341959,342444,342687,343233,343343,343365,343391,343488,343546,343724,344074,344443,344500,344562,344613,344646,344722,344920,345075,345374,345620,345697,345712,346341,346556,346608,346944,347596,347597,347781,347810,347842,347925,348085,348088,348154,348170,348248,348495,349021,349124,349221,349260,349728,350752,350812,350843,350949,350977,351033,351163,351301,351361,351610,351660,351805,351838,351840,351841,352357,352382,352585,352769,352899,352900,353045,353046,353243,353277,353437,353452,353496,353505,353539,354182,354254,354576,354902,355057,355058,355095,355228,355424,355740,356084,356202,356251,356422,356503,357140,357423,357424,357979,358068,358130,358242,358499,358645,358781,358894,358993,359024,359122,359134,359315,359476,359500,359551,359635,360093,360428,360445,360776,360986,361167,361586,361759,361886,362179,362346,362464,362526,362706,362712,362741,362935,362951,363273,363360,363528,363668,364005,364327,364403,364528,364542,364985,365592,365756,365791,365978,366068,366075,366255,366465,366584,366738,367080,367262,367854,368153,368180,368833,368860,369043,369058,369333,369338,369671,370836,370964,371833,373111,373333,373905,373919,374337,374364,374768,375099,376782,377017,377031,377441,378799,378914,379306,51816,52312,54853,6608,83436,83437,83465,83886,83911,84126,84330,84618,85110,85186,86099,86183,89848,89993,9010,9184"
+        },
+        {
+          "timestamp": "2023-03-01T20:04:51.019372+09:00",
+          "query": "地球が静止する日",
+          "genres": "science-fiction",
+          "results": "330813"
+        }
+      ],
+      "checked": [
+        "330813_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いえ見たことがないです。何年公開の映画か教えていただけますか。",
+      "timestamp": "2023-03-01T20:06:52.341375+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "何年公開の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "この作品は、2008年のSF映画で、1951年公開の『地球の静止する日』のリメイク作品です。",
+      "timestamp": "2023-03-01T20:08:29.654526+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "2008年のSF映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "1951年公開の『地球の静止する日』のリメイク作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ほお、SFでリメイク作品なのですか！とても興味深いです。比較的新しいのに全然知りませんでした。あらすじを教えてください。",
+      "timestamp": "2023-03-01T20:09:24.913466+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ほお、SF",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "リメイク作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "任務遂行のために、宇宙からの使者クラトゥ（キアヌ・リーヴス）が地球へとやってきて、クラトゥの謎を解き明かすべく政府や科学者はやっきになる中、今訪れんとする危機に気付いたのはヘレン（ジェニファー・コネリー）と息子（ジェイデン・スミス）だけだったというストーリーです。",
+      "timestamp": "2023-03-01T20:16:24.138519+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "任務遂行のため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "宇宙からの使者クラトゥ（キアヌ・リーヴス）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "地球",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "クラトゥの謎",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "政府や科学者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "やっきになる中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "今訪れんとする危機",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ヘレン（ジェニファー・コネリー）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "息子（ジェイデン・スミス）だけだったというストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "330813_plot-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "キアヌが宇宙人なのですか！ネタバレにならない程度で構いませんがクラトゥは何の目的で地球に来たのでしょうか。",
+      "timestamp": "2023-03-01T20:19:00.831609+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "キアヌ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "宇宙人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ネタバレにならない程度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "クラトゥ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "何の目的",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "地球",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね。映画の中でクラトゥが人間たちを助けに来たのではなく、地球を人間たちから助けに来たというシーンがあります。",
+      "timestamp": "2023-03-01T20:23:15.154256+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "クラトゥ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "地球",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "人間たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "来たというシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど、宇宙人来訪で騒いでる場合じゃないんじゃ…と気づくのが先に教えていただいた二人なのですね。クラトゥの衣装はSFっぽい服装なのでしょうか。",
+      "timestamp": "2023-03-01T20:24:59.609070+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "宇宙人来訪で騒いでる場合",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "先に教えていただいた二人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "クラトゥの衣装",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "SFっぽい服装",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "記憶が曖昧かもしれませんが、確か、宇宙から来た球体の中に一体のヒューマノイド形生命体があって、科学者がその生命体の体にメスを入れると、灰色の有機物質の皮が剥がれ落ち、その下から人間男性そっくりの本体が姿を現したのがクラトゥで、その後のシーンはほぼ人間と変わらない感じでした。",
+      "timestamp": "2023-03-01T20:30:11.406834+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "宇宙から来た球体の中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "一体のヒューマノイド形生命体",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "科学者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "その生命体の体",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "メス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "灰色の有機物質の皮",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "その下",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "人間男性そっくりの本体",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "クラトゥ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "その後のシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "人間と変わらない感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "面白い設定ですね！ちょっとそのシーンはグロテスクそうですが(笑)サブキャストで注目すべき俳優さんはどんな方がいらっしゃいますか？",
+      "timestamp": "2023-03-01T20:31:57.934669+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "面白い設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "そのシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "(笑)サブキャストで注目すべき俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "どんな方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "同じ科学者のカール・バーンハート教授を演じるイギリスのコメディアン俳優のジョン・クリーズが渋い演技をしているので、割と好きです。良かったら是非見てみてください。",
+      "timestamp": "2023-03-01T20:35:13.116055+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "同じ科学者のカール・バーンハート教授を演じるイギリスのコメディアン俳優のジョン・クリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "渋い演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ありがとうございます。ぜひ見てみますね。面白そうな映画を教えていただきありがとうございました。",
+      "timestamp": "2023-03-01T20:36:05.995721+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    }
+  ]
+}

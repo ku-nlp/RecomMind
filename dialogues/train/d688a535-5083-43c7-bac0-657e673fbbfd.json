@@ -1,0 +1,812 @@
+{
+  "dialog_id": "d688a535-5083-43c7-bac0-657e673fbbfd",
+  "created_timestamp": "2023-03-22T18:59:33.823844+09:00",
+  "archived_timestamp": "2023-03-22T19:40:07.343408+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いします！",
+      "timestamp": "2023-03-22T19:01:25.977969+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。よろしくお願いします！",
+      "timestamp": "2023-03-22T19:01:47.487971+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "わたしはよくラブコメとかかわいいかんじの映画を観るのですが、そういうのはお好きですか？",
+      "timestamp": "2023-03-22T19:02:38.295024+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ラブコメとかかわいいかんじの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "恋愛ものはどちらかと言うと苦手です。「君の膵臓をたべたい」みたいに恋愛以外の要素が強ければ大丈夫ですが。",
+      "timestamp": "2023-03-22T19:05:37.148471+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "恋愛もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "2",
+          "text": "「君の膵臓をたべたい」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "恋愛以外の要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "好きな映画はどういうのを観てますか？",
+      "timestamp": "2023-03-22T19:06:24.576059+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-03-22T19:05:30.278691+09:00",
+          "query": "アバウト",
+          "genres": "",
+          "results": "239390,349124"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというとミステリーやアクションの要素が強いコメディー映画が好きですね。最近だと、ザ・ロストシティとか、面白かったです。でも、邦画やアニメもよく見ますよ。",
+      "timestamp": "2023-03-22T19:09:46.085197+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ミステリーやアクションの要素が強いコメディー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ザ・ロストシティ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "邦画やアニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "コメディとはちょっと違いますが、グランドイリュージョンは知ってますか？ミッションインポッシブルみたいな映画です。",
+      "timestamp": "2023-03-22T19:12:29.720883+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "グランドイリュージョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ミッションインポッシブルみたいな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-22T19:06:48.885677+09:00",
+          "query": "",
+          "genres": "war",
+          "results": "11457,12902,12926,13693,13908,142154,14978,150405,150436,161716,163178,19370,20373,20625,236401,236636,237035,237220,239348,24012,241600,24779,319506,319796,320059,321938,322114,323478,323799,323822,324253,324328,324537,324563,324782,325100,325152,326623,327271,327713,327994,328445,328495,328955,329129,329886,332362,332706,332860,333030,333332,333858,335594,335798,336109,336110,337960,337962,338137,338279,340426,340493,340496,344170,344301,346152,346336,346914,347542,348641,349021,349750,350555,350823,350926,351838,352873,354254,354569,357995,358077,359061,361132,362605,365020,366009,366076,367693,368780,369351,370266,370458,370890,373859,6098,83886,84307,86099,89848,9848"
+        },
+        {
+          "timestamp": "2023-03-22T19:11:02.253083+09:00",
+          "query": "プリズンエスケープ ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-22T19:11:14.944357+09:00",
+          "query": "プリズン",
+          "genres": "",
+          "results": "353896,360564"
+        },
+        {
+          "timestamp": "2023-03-22T19:12:22.190865+09:00",
+          "query": "グランド",
+          "genres": "",
+          "results": "1484,162615,234690,28671,323067,328495,329147,330569,331364,333627,334624,336827,339054,346052,348087,351464,356150,357070,359023,360074,360620,362261,363978,365099,366483,369103,369903,370087,374516,376704,378066,85197,9532"
+        }
+      ],
+      "checked": [
+        "346052_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "グランドイリュージョンは名前は聞いたことがありますが、見た事はありません。マジシャンが盗みをはたらく感じの映画ですかね？",
+      "timestamp": "2023-03-22T19:14:03.416423+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "グランドイリュージョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "マジシャンが盗みをはたらく感じの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうです！フォースメンという4人の天才マジシャンがラスベガスでショーを行っている最中に、パリの銀行を強盗します。そのトリックを暴くためにFBIが捜査に乗り出します。",
+      "timestamp": "2023-03-22T19:17:05.098176+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "フォースメンという4人の天才マジシャン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ラスベガスでショーを行っている最中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "パリの銀行",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "そのトリックを暴くため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "FBI",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "捜査",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "面白そうですね。ちなみに、ラブコメとかかわいいかんじの映画の中で、恋愛以外の要素も強いおすすめ作品とか、ありますでしょうか？恋愛ものだけど、すごく考えさせられる映画など。「付き合えたね、良かったね」という展開以外の映画がありましたら、教えていただけると嬉しいです。",
+      "timestamp": "2023-03-22T19:22:48.575578+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ラブコメとかかわいいかんじの映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "恋愛以外の要素も強いおすすめ作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "恋愛もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "すごく考えさせられる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「付き合えたね、良かったね」という展開以外の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "恋愛映画をみるときはそういうのを求めてみないからいろいろ考えましたが、アバウト・タイムとかでしょうか。主人公がタイムトラベル能力があることを知り、人生を変えようとするんです。",
+      "timestamp": "2023-03-22T19:29:26.589749+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "恋愛映画をみるとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "アバウト・タイム",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "タイムトラベル能力があること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-22T19:19:19.776698+09:00",
+          "query": "マライア",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-22T19:19:21.079943+09:00",
+          "query": "マライア",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-22T19:20:11.036068+09:00",
+          "query": "リゲイン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-22T19:20:14.200463+09:00",
+          "query": "リゲイン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-22T19:21:44.592758+09:00",
+          "query": "大怪獣",
+          "genres": "",
+          "results": "334285,361332,365978,377743"
+        },
+        {
+          "timestamp": "2023-03-22T19:28:15.977261+09:00",
+          "query": "アバウト",
+          "genres": "",
+          "results": "239390,349124"
+        }
+      ],
+      "checked": [
+        "349124_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "SFの要素があるんですね。面白そうですね。どんなストーリーなんですか？",
+      "timestamp": "2023-03-22T19:31:14.442878+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "SFの要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ティムは21歳の誕生日に父から、一家に生まれた男はみんなタイムトラベラーだということを知らされ、恋人をゲットするためにタイムトラベルをするようになるんです。でもタイムトラベルにも制限があって、ティムは後悔して最後はタイムトラベルを二度と使わなくなるのです。",
+      "timestamp": "2023-03-22T19:34:15.241533+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "21歳の誕生日に父から、一家に生まれた男",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "タイムトラベラーだということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "知らされ、恋人をゲットするため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "制限",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ティム",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "タイムトラベル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なかなか斬新なストーリー展開ですね。アメリカ映画なんですか？",
+      "timestamp": "2023-03-22T19:35:36.428008+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "斬新なストーリー展開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "アメリカ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "2013年のイギリス映画です。この映画をみると、いつものように、特別なことがない毎日がもしかしたらもう二度と来ない特別な日だったかもしれないと感じました。",
+      "timestamp": "2023-03-22T19:38:27.185112+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "2013年のイギリス映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "特別なことがない毎日",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "来ない特別な日",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。イギリス映画はあまり見たことがないので、興味があります。グランドイリュージョンと合わせて、ぜひ見てみたいと思います。ご紹介いただき、ありがとうございました。",
+      "timestamp": "2023-03-22T19:39:42.028122+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "イギリス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "あまり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "グランドイリュージョン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-03-22T19:40:01.176167+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

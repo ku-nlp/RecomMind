@@ -1,0 +1,831 @@
+{
+  "dialog_id": "997ab6dd-5272-4222-b55c-fcc1102c52bf",
+  "created_timestamp": "2023-01-31T14:56:27.165081+09:00",
+  "archived_timestamp": "2023-01-31T15:19:11.579181+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。本日は宜しくお願いします。",
+      "timestamp": "2023-01-31T14:57:59.502106+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！こちらこそよろしくお願いします。まず、どんな映画がお好きですか？",
+      "timestamp": "2023-01-31T14:58:28.042014+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "ファンタジーや宇宙や非現実的な夢の世界の物語が好きです。",
+      "timestamp": "2023-01-31T14:59:25.788860+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ファンタジーや宇宙や非現実的な夢の世界の物語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "「DUNE/デューン 砂の惑星」はご覧になりました？",
+      "timestamp": "2023-01-31T15:00:20.541675+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "「DUNE/デューン　砂の惑星」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T14:59:52.115709+09:00",
+          "query": "砂の惑星",
+          "genres": "",
+          "results": "373905"
+        }
+      ],
+      "checked": [
+        "373905_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "いいえ、知りません。どんな内容ですか。",
+      "timestamp": "2023-01-31T15:00:37.687861+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "古い映画のリメイクなんですが、未来もの、他の惑星にスパイス（これが砂です）の供給のために戦う話です。　映像美が半端でないのですよ。ドゥニ・ヴィルヌーヴというカナダ人の監督の作品なのですが。",
+      "timestamp": "2023-01-31T15:02:52.836887+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "古い映画のリメイク",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "未来もの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "他の惑星",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "スパイス（これが砂です）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "映像美",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ドゥニ・ヴィルヌーヴというカナダ人の監督の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "373905_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "へえー、映像美が素敵なのですね。興味が沸きます。俳優さんたちは、どんな感じですか。",
+      "timestamp": "2023-01-31T15:04:03.886850+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "映像美",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "俳優さんたち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "ティモシー・シャラメ、レベッカ・ファーガソン、オスカー・アイザックなど、美男美女が総出です。でもやはり、ドゥニ・ヴィルヌーヴの映像美、広大なスペース感に圧倒されます。",
+      "timestamp": "2023-01-31T15:05:30.538422+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ティモシー・シャラメ、レベッカ・ファーガソン、オスカー・アイザック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "美男美女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "総出",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ドゥニ・ヴィルヌーヴの映像美、広大なスペース感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "373905_director_name",
+        "373905_cast_name-0",
+        "373905_cast_name-1",
+        "373905_cast_name-2"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "大きな画面で見た方がいいですね。イケメンに美女は、鑑賞に値しますね。",
+      "timestamp": "2023-01-31T15:06:32.489149+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "大きな画面で見た方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "イケメン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "美女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "鑑賞",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "もちろんです！ドゥニ・ヴィルヌーヴ監督は最近のSF映画では、突出して素晴らしい映像美を見せてると思います。\nあと、ガジェットといいますか、近未来の生活まわり品が面白いです。",
+      "timestamp": "2023-01-31T15:08:23.198322+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "ドゥニ・ヴィルヌーヴ監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "最近のSF映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "突出して素晴らしい映像美",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ガジェット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "近未来の生活まわり品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "373905_director_name"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "わあ、生活の道具をみるのも面白そうですね。どころで、カナダの監督ですが、原作は英語ですかそれともフランス語でしょうか。",
+      "timestamp": "2023-01-31T15:09:46.044216+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "わあ、生活の道具",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "カナダの監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "英語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "フランス語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "映画は英語です。たぶん原作も英語だと思います。ティモシー・シャラメはフランス語も話す美少年ですが。",
+      "timestamp": "2023-01-31T15:11:03.451038+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "英語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ティモシー・シャラメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "フランス語も話す美少年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "ああ、そうですか。英語での言葉も楽しめる要因だと思います。その点はどうでしょうか。",
+      "timestamp": "2023-01-31T15:12:17.158962+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "英語での言葉も楽しめる要因",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "その点",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "すみません、映画は全編英語です。監督の近作はほとんど英語ですね。\n「ブレードランナー 2049」とかも",
+      "timestamp": "2023-01-31T15:13:47.976561+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "全編英語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "監督の近作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "英語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "「ブレードランナー　2049」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうですか。英語の勉強もできますね。音楽も素敵でしたか。",
+      "timestamp": "2023-01-31T15:14:51.842490+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "英語の勉強",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "そうですね。何しろ、広大な映像美に合わせて美しいです。どういうのでしょうか、とてつもない広大さ感を表現数rのがお上手な監督とでも言いましょうか。",
+      "timestamp": "2023-01-31T15:16:08.525114+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "広大な映像美",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "とてつもない広大さ感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "表現数rのがお上手な監督",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "名監督なのですね。それは見る価値がありそうです。素敵な作品をお勧め頂きまして有り難う。",
+      "timestamp": "2023-01-31T15:17:13.149914+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "名監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "見る価値",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "素敵な作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "絶対ソンはしないのでぜひ大画面で見てください。圧倒されますよ。\nありがとうございました。",
+      "timestamp": "2023-01-31T15:18:02.365117+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "ソン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "大画面",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "はい、その映画を探してみます。",
+      "timestamp": "2023-01-31T15:18:37.132932+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "speaker": "recommender",
+      "text": "ぜひとも！今日はありがとうございました！",
+      "timestamp": "2023-01-31T15:19:01.481533+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

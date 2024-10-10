@@ -1,0 +1,985 @@
+{
+  "dialog_id": "123adc49-e692-4ed0-8ace-07ab62391d28",
+  "created_timestamp": "2023-02-19T10:57:01.923567+09:00",
+  "archived_timestamp": "2023-02-19T11:28:26.316704+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "040",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-19T11:00:40.808382+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。今日は宜しくお願いいたします。",
+      "timestamp": "2023-02-19T11:00:54.524287+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いいたします。早速ですが、お好きな映画のジャンルはありますか？",
+      "timestamp": "2023-02-19T11:02:11.973038+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お好きな映画のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "好きな映画のジャンルは、 SFやアクション、サスペンスなどを観ることが多いです。でも最近は勧められてヒューマンドラマなども観ていてとてもどのジャンルも人から勧めていただいたものは面白いなと感じています。",
+      "timestamp": "2023-02-19T11:03:48.190947+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "好きな映画のジャンルは、　SFやアクション、サスペンスなどを観ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "どのジャンルも人から勧めていただいたもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうなんですね。アクション映画ですと、有名どころで「００７」シリーズや、トム・クルーズの映画はご覧になりましたか？",
+      "timestamp": "2023-02-19T11:04:59.385032+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "アクション映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "有名",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「００７」シリーズや、トム・クルーズの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "007シリーズはダニエルクレイグさんがボンドになってからは観ているのですが、それ以前はあまり観ていないのです。トムクルーズの映画は観ているもの、観ていないものがあるのですが、トップガンとトップガンマーヴェリックは観ました。とても面白かったです。",
+      "timestamp": "2023-02-19T11:06:55.892891+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "007シリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ダニエルクレイグさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ボンド",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "それ以前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "トムクルーズの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "観ているもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "観ていないもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "トップガンマーヴェリック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ご覧になっていましたか！キングズマンシリーズは、いかかでしょうか？",
+      "timestamp": "2023-02-19T11:07:36.778091+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "キングズマンシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:06:56.118788+09:00",
+          "query": "ワンダー",
+          "genres": "",
+          "results": "152271,334516,344429,353277,355434,358186,362671,363462,366737,370794"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "キングスマンシリーズは、最近勧めていただき、初めて2015年に作られた１作目だけを観たところなんです。007とはまた異なっているイギリスの雰囲気で、おしゃれで面白かったです！",
+      "timestamp": "2023-02-19T11:10:30.021210+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "キングスマンシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "2015年に作られた１作目だけを観たところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "007",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "異なっているイギリスの雰囲気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ダンスを踊るように戦っているんですね。。それでは、２と３を両方お勧めしたいところですが、時系列上からあえて「キングスマン：ファースト・エージェント」をお勧めいたします！後半はものすごい（というか、ありえない）アクションシーンの連続で、見ごたえがありました！",
+      "timestamp": "2023-02-19T11:12:50.034128+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "ダンス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "２",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "３を両方お勧めしたいところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "時系列上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「キングスマン：ファースト・エージェント」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "後半",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "（というか、ありえない）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:11:31.455557+09:00",
+          "query": "キングズマン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-19T11:11:40.849774+09:00",
+          "query": "キングスマン",
+          "genres": "",
+          "results": "353152,360777,369783"
+        }
+      ],
+      "checked": [
+        "369783_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "キングスマン：ファースト・エージェントというと、３作目に当たるのでしょうか？　ストーリーが遡って展開する感じでしょうか。",
+      "timestamp": "2023-02-19T11:15:18.615030+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "キングスマン：ファースト・エージェント",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ストーリーが遡って展開する感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "３作目ですが、時系列的には、一番昔の時点のお話となります。この作品ですが、アクションとコメディーが融合した作品だと思って見に行ったところ、ヒューマン・ドラマの要素が、意外に強かったです。父親と息子の確執と愛情、世代間ギャップによるものの考え方の違いとか描かれていました。ヒューマンドラマとしても、感動しました。",
+      "timestamp": "2023-02-19T11:17:24.680612+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "昔の時点のお話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "コメディーが融合した作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "思って見に行ったところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ヒューマン・ドラマの要素",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "父親と息子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "確執",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "愛情、世代間ギャップによるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "考え方の違い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど、３作目はヒューマンドラマの要素が強いのですね。また１作目とは異なる雰囲気でとても楽しめそうです！",
+      "timestamp": "2023-02-19T11:18:28.131238+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ヒューマンドラマの要素",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "１作目とは異なる雰囲気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "私個人の印象になりますが。。１作目をご覧になっているとのことですので、鑑賞の順番としては、次に２作目をご覧になり、３作目はその後にとっておいた方が良いかもしれません。",
+      "timestamp": "2023-02-19T11:20:47.720002+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "私個人の印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "１作目をご覧になっているとのこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "鑑賞の順番",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "２作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "51",
+          "text": "その後にとっておいた方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなんですね。時系列的には、３作目が一番昔のお話ではあるけれど、２→３と順番に見て行った方が良い感じなのですね。３のお話を伺うととても面白そうですが、楽しみにとっておくことにします。",
+      "timestamp": "2023-02-19T11:23:25.291628+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "３作目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "２→３",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "順番に見て行った方が良い感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "55",
+          "text": "３のお話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ジェマ・アータートンという女優さんだったと思うのですが、脇役として良い味を出していました。",
+      "timestamp": "2023-02-19T11:24:37.138855+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "ジェマ・アータートンという女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "脇役として良い味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369783_title"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "スパイ映画では女優さんのアクションやかっこいい姿を観るのも楽しみの一つです。ジェマ・アータートンを注目して見ていこうと思います。キングスマン２、３とこれから観るのがますます楽しみになりました。ありがとうございます！",
+      "timestamp": "2023-02-19T11:27:09.076582+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "スパイ映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "女優さんのアクションやかっこいい姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "楽しみの一つ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ジェマ・アータートン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "キングスマン２、３",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "４作目もできると聞きました。楽しみですね！今日はありがとうございました！",
+      "timestamp": "2023-02-19T11:27:43.943889+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "４作目",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ありがとうございました！",
+      "timestamp": "2023-02-19T11:27:53.906425+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました！",
+      "timestamp": "2023-02-19T11:28:04.638342+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

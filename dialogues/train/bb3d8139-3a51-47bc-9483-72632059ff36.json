@@ -1,0 +1,894 @@
+{
+  "dialog_id": "bb3d8139-3a51-47bc-9483-72632059ff36",
+  "created_timestamp": "2023-02-24T11:59:21.152294+09:00",
+  "archived_timestamp": "2023-02-24T12:41:14.988727+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは\nよろしくお願いします",
+      "timestamp": "2023-02-24T12:01:24.416160+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願いします。",
+      "timestamp": "2023-02-24T12:01:33.457687+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どのような映画のジャンルがお好きですか？",
+      "timestamp": "2023-02-24T12:02:03.673521+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画のジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "洋画のコメディがみたいのですが、ご存じですか。",
+      "timestamp": "2023-02-24T12:02:29.860326+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画のコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "コメディの洋画といえば、「Mr.ビーン」が思い出されましたが、ちょっと古すぎかもしれないので...\n好きな俳優さんはいますか？",
+      "timestamp": "2023-02-24T12:05:37.086210+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "コメディの洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「Mr.ビーン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "その映画は、まだ観ていないと思うので、教えてくださいますか。",
+      "timestamp": "2023-02-24T12:06:25.170230+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "イギリスのテレビシリーズとして放送されていてローワン・アトキンソンという俳優がMr.ビーン役なんですが、顔がとっても独特でまた表情がすごく面白くて、何にも考えずに笑える映画です。",
+      "timestamp": "2023-02-24T12:13:34.527345+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "イギリスのテレビシリーズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ローワン・アトキンソンという俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "Mr.ビーン役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "顔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "表情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "考えずに笑える映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:08:33.423863+09:00",
+          "query": "ブライダルウォーズ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:08:35.431486+09:00",
+          "query": "ブライダル",
+          "genres": "",
+          "results": "358936,363978"
+        },
+        {
+          "timestamp": "2023-02-24T12:10:32.677969+09:00",
+          "query": "Mr.ビーン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:10:37.477790+09:00",
+          "query": "ビーン",
+          "genres": "",
+          "results": "13522,234444,2753,319068,324033,345356,348495,353437,355109,368233,51226"
+        },
+        {
+          "timestamp": "2023-02-24T12:10:51.312137+09:00",
+          "query": "コメディ",
+          "genres": "",
+          "results": "20324,21943,322489,324021,332598,333367,336078,341643,344472,349046,352092,356055,360430,363764,368253,7400,83465"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "たくさんシリーズ作品があるのですか。主人公の風貌や性格は、どんな風でしょうか。",
+      "timestamp": "2023-02-24T12:15:11.519689+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "シリーズ作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "主人公の風貌や性格",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうですね、シリーズになっています\n見た目は、眉毛が太くてややつながっていて、目がぐりぐりしてて、なのに紳士な服装やしぐさがミスマッチな感じで存在そのものがユニークです",
+      "timestamp": "2023-02-24T12:20:32.192187+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "そうですね、シリーズ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "見た目",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "眉毛",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "なのに紳士な服装やしぐさがミスマッチな感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "存在そのもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:13:50.422033+09:00",
+          "query": "永遠に美しく",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:13:59.454584+09:00",
+          "query": "インターシップ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:14:01.203029+09:00",
+          "query": "インターシップ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:15:08.706501+09:00",
+          "query": "オーウェン・ウィルソン",
+          "genres": "",
+          "results": "237035,324138,332670,333196,338546,341568,348087,350366,359641,363462"
+        },
+        {
+          "timestamp": "2023-02-24T12:17:07.821124+09:00",
+          "query": "メン・イン・キャット",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "面白いおじさんが主人公なんですね。そんなおじさんが登場したら、なんでも笑えそうですね。彼のエピソードは、日常生活の出来事かしら。それとも何か独特な職業ですか。",
+      "timestamp": "2023-02-24T12:22:31.681339+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "面白いおじさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "そんなおじさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "彼のエピソード",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "日常生活の出来事",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "それとも何か独特な職業",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "職業とか本名とか、いろいろ謎な設定です\n今改めて思えば、確かになんでそういうことが気にならなかったのだろうかと疑問ですが、そんなことが気にならないぐらい彼の存在が強烈だったのだと思います",
+      "timestamp": "2023-02-24T12:27:02.502227+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "職業とか本名",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "謎な設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "そういうこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "疑問ですが、そんなことが気にならないぐらい",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "彼の存在",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:22:18.560193+09:00",
+          "query": "メリル",
+          "genres": "",
+          "results": "14978,237781,26638,325271,331238,350605,358011,362501,363202,365402,84338"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "謎のおじさんなのですね。それもまた面白いシナリオですね。古い映画とのことでしたが、音楽は、どんな風でしょうか。",
+      "timestamp": "2023-02-24T12:28:52.438174+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "謎のおじさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "面白いシナリオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "古い映画とのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "テレビシリーズが1990～1995年頃、一番新しい映画が2007年です。\n音楽はあまり覚えていないのですが、割とノリのいい感じの曲も多かったように思います。今思えばイギリスのバンドの曲とか多かったのでしょうか。改めて音楽に注目して観てみるのもよいなと思いました。",
+      "timestamp": "2023-02-24T12:34:59.678418+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "テレビシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "1990～1995年頃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "新しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "2007年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ノリのいい感じの曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "イギリスのバンドの曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:28:05.391830+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,162615,20324,2046,27724,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,366826,369783,369976,381726"
+        },
+        {
+          "timestamp": "2023-02-24T12:28:07.611214+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,162615,20324,2046,27724,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,366826,369783,369976,381726"
+        },
+        {
+          "timestamp": "2023-02-24T12:29:00.416746+09:00",
+          "query": "デンジャラス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T12:29:04.764259+09:00",
+          "query": "ビューティ",
+          "genres": "",
+          "results": "148866,159869,237033,330487,337723,354603,361755,84896"
+        }
+      ],
+      "checked": [
+        "329195_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "イギリスの音楽も楽しめそう。比較的新しい作品もありそうですね。レンタルビデオか配信でも観られるかしら。ご存じですか。",
+      "timestamp": "2023-02-24T12:36:34.201608+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "イギリスの音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "新しい作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "レンタルビデオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "アマゾンプライムではいろいろ観れます\n\nもっと新しい作品を紹介できればよかったのですが、興味を持って聞いていただいてありがとうございました！",
+      "timestamp": "2023-02-24T12:39:39.669002+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "新しい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:35:40.696105+09:00",
+          "query": "コメディ",
+          "genres": "",
+          "results": "20324,21943,322489,324021,332598,333367,336078,341643,344472,349046,352092,356055,360430,363764,368253,7400,83465"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそ、懐かしい作品の情報をお知らせ頂き、有り難うございました。",
+      "timestamp": "2023-02-24T12:40:14.956787+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "懐かしい作品の情報",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "映画で楽しい時間すごしたいですね\n失礼します",
+      "timestamp": "2023-02-24T12:40:48.371100+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "映画で楽しい時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T12:39:59.057061+09:00",
+          "query": "ローワン・アトキンソン",
+          "genres": "",
+          "results": "318646"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "本日は有り難うございました。",
+      "timestamp": "2023-02-24T12:41:03.890347+09:00",
+      "internal_states": []
+    }
+  ]
+}

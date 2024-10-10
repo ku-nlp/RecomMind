@@ -1,0 +1,1025 @@
+{
+  "dialog_id": "0f7cb801-0891-424e-9019-631cba154478",
+  "created_timestamp": "2023-02-09T11:58:55.694345+09:00",
+  "archived_timestamp": "2023-02-09T12:42:36.990744+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いします。",
+      "timestamp": "2023-02-09T12:00:24.846171+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-09T12:00:49.252681+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近何か映画を観ましたか？\n興味のあるジャンル、または観たことがないけどみてみたいと思う映画のジャンルはありますか？",
+      "timestamp": "2023-02-09T12:01:35.188662+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "みてみたいと思う映画のジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "久しぶりにドキュメンタリーが観てみたい気分です。",
+      "timestamp": "2023-02-09T12:02:17.570434+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "久しぶりにドキュメンタリーが観てみたい気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ドキュメンタリー映画に興味がおありなんですね。\nマイケルジャクソンとかフレディマーキュリーなどの音楽家の映画がありますが、ご覧になったことはありますか？",
+      "timestamp": "2023-02-09T12:04:50.477083+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ドキュメンタリー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "おあり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "マイケルジャクソンとかフレディマーキュリーなどの音楽家の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい。どちらも1作ずつは観たことがあります。フレディマーキュリー、大好きです。",
+      "timestamp": "2023-02-09T12:05:39.373629+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "1作ずつ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "フレディマーキュリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうなんですね！",
+      "timestamp": "2023-02-09T12:05:46.276262+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "ミュージシャンやダンサーに関するドキュメンタリーや史実や自伝に基づいた映画はよく観ます。\nフィクション部分があって史実と違ってそうなシーンがあったりもしますが、それはそれで面白いかと。あまりシリアスな内容の作品を観たい気分ではないですが、音楽家以外のテーマでも何でも構いません。",
+      "timestamp": "2023-02-09T12:14:13.178550+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ミュージシャンやダンサーに関するドキュメンタリーや史実や自伝に基づいた映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "フィクション部分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "史実",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "違ってそうなシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "シリアスな内容の作品を観たい気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "音楽家以外のテーマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "すみません、先ほどは途中で送ってしまいました。\nドキュメンタリー映画ではないのですが、最近の映画で、世界最強のテニスプレイヤーと称されるビーナス＆セリーナ・ウィリアムズ姉妹を世界チャンピオンに育てあげたテニス未経験の父親の実話を基に描いたものがありましたが、興味ありそうですか？",
+      "timestamp": "2023-02-09T12:18:11.163434+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "先ほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ドキュメンタリー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "最近の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "世界最強のテニスプレイヤー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "称されるビーナス＆セリーナ・ウィリアムズ姉妹を世界チャンピオンに育てあげたテニス未経験の父親の実話を基に描いたもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T12:13:46.475114+09:00",
+          "query": "ロックンロール・サーカス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T12:13:52.851104+09:00",
+          "query": "ドキュメンタリー",
+          "genres": "",
+          "results": "159318,324029,327025,356113,363105,366031"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "はい。昔テニスをしていましたが、プロのテニスの選手に詳しいわけではないので、ビーナス＆セリーナ・ウィリアムズ姉妹のことは知りませんでしたが興味があります。是非ご紹介ください。実話に基づいたフィクションなのですね？",
+      "timestamp": "2023-02-09T12:21:41.371303+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "テニス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "プロのテニスの選手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ビーナス＆セリーナ・ウィリアムズ姉妹のこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "実話に基づいたフィクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "テニスをされていたのですね！\nそうです、事実に基づいたストーリで、ウィル・スミスが父親役の2022年公開のアメリカ映画です。\n原題は“King Richard”なので、この父親が主役の話です。\n厳しい環境下において子どもに英才教育をする親の姿というものに考えされられることもあります。",
+      "timestamp": "2023-02-09T12:27:00.587050+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "テニス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "そうです、事実に基づいたストーリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ウィル・スミス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "父親役の2022年公開のアメリカ映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "原題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "“King　Richard”",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "この父親",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "主役の話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "厳しい環境下において子どもに英才教育をする親の姿というもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T12:20:15.672334+09:00",
+          "query": "ウィル・スミス",
+          "genres": "",
+          "results": "235794,320063,327925,330434,341460,344613,351201,355448,366505,368153,51816,83465"
+        }
+      ],
+      "checked": [
+        "379429_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "おそらくプレイしている場面も出てきますよね？ドキュメンタリーでないとすれば映画の中で実際にプレイしているのでは本人ではないと思いますが、\nプロ級のすごい選手でないと役柄を演じることはできないと思いますので、どんな役者さんが演じているのか興味があります。",
+      "timestamp": "2023-02-09T12:29:04.326794+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "プレイしている場面",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ドキュメンタリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "本人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "プロ級のすごい選手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "役柄",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "どんな役者さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "姉妹役を演じたサナイヤ・シドニーとデミ・シングルトンテニスの厳しいトレーニングプログラムを受け、撮影に臨んだとうことですが、映画で観られるテニスプレーは迫力があります。実際にセリーナ姉妹にもあったようです。\n私もテニスをしているのですが、試合のシーンだけでも大変見ごたえがあります。",
+      "timestamp": "2023-02-09T12:34:04.686356+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "姉妹役を演じたサナイヤ・シドニー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "デミ・シングルトンテニスの厳しいトレーニングプログラム",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "受け、撮影に臨んだとうこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "観られるテニスプレー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "迫力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "セリーナ姉妹",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "テニス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "試合のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "大変見ごたえ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "それは楽しみです。主役は父親の方で、厳しい環境下において子どもに英才教育をする親の姿が描かれているとのことですが、厳しい環境下というのは貧しさや人種差別ですか？それとも他の要因もあるのでしょうか。",
+      "timestamp": "2023-02-09T12:36:06.138877+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "父親の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "厳しい環境下において子どもに英才教育をする親の姿が描かれているとのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "厳しい環境下",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "貧しさや人種差別",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "他の要因",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね。\n治安の悪い区域で貧しさや治安の悪さの中で、父親は娘を暴力や偏見から守ろうとするあまり、暴君的な態度になりがちなところを妻にとがめられるという家庭の不和も描かれています。それらをすべて克服して娘たちを一流に育てる精神力には引き込まれます。\nぜひ一度ご覧ください！",
+      "timestamp": "2023-02-09T12:41:19.586491+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "治安の悪い区域",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "57",
+          "text": "貧しさや治安の悪さの中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "父親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "娘を暴力や偏見から守ろうとするあまり、暴君的な態度になりがちなところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "妻",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "とがめられるという家庭の不和",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "62",
+          "text": "ら",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "63",
+          "text": "克服して娘たちを一流に育てる精神力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "テニスシーンだけでなく、父と娘たちの心の葛藤や人々との交流など見どころがたくさんあり楽しめそうです。\nご紹介いただかないと見逃してしまうところでした。ご紹介いただきありがとうございます。",
+      "timestamp": "2023-02-09T12:42:07.630566+09:00",
+      "internal_states": [
+        {
+          "id": "64",
+          "text": "テニスシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "父と娘たちの心の葛藤や人々との交流",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "たくさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "ご紹介いただかないと見逃してしまうところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、興味を持って聞いていただいてありがとうございました！",
+      "timestamp": "2023-02-09T12:42:27.586999+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

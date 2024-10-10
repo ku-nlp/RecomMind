@@ -1,0 +1,802 @@
+{
+  "dialog_id": "cb83d3e8-be77-4c6a-83ec-8e4d1e4ad74c",
+  "created_timestamp": "2023-03-24T13:03:43.492544+09:00",
+  "archived_timestamp": "2023-03-24T13:48:33.138546+09:00",
+  "recommender": {
+    "name": "050",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "004",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "本日はよろしくおねがいいたします！",
+      "timestamp": "2023-03-24T13:12:54.597987+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、ネット環境の不調で長らく\n待たせてしまい大変申し訳ございませんでした。",
+      "timestamp": "2023-03-24T13:13:23.906488+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ネット環境",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "いえいえ、大丈夫ですよ！\n最近何か映画はご覧になられましたか？",
+      "timestamp": "2023-03-24T13:14:24.150803+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T13:13:16.058863+09:00",
+          "query": "エターナル",
+          "genres": "",
+          "results": "319767,336824,367080,376782"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ありがとうございます。\n最近観たのはドラマにはまってしまい、映画はほとんど観れてないです。\nなにかおすすめのがございますか？",
+      "timestamp": "2023-03-24T13:15:59.694941+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "この季節なので、出会いと別れがあったり心機一転できるような気持ちになるものをおすすめできたらいいなと思いますがいかがでしょうか？",
+      "timestamp": "2023-03-24T13:18:25.802759+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "この季節",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "出会い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "別れ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "あったり心機一転できるような気持ちになるもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T13:17:37.449396+09:00",
+          "query": "君に届け",
+          "genres": "",
+          "results": "336633"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いいですね、是非お願いいたします。",
+      "timestamp": "2023-03-24T13:21:03.618080+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "大好きな映画で、２０１５年製作のマイインターンという映画があります。出演はロバートデニーロ、アンハサウェイです。ご存じでしょうか。",
+      "timestamp": "2023-03-24T13:22:24.438888+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "大好きな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "２０１５年製作のマイインターンという映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ロバートデニーロ、アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T13:19:24.681722+09:00",
+          "query": "マイインターン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-24T13:19:35.989729+09:00",
+          "query": "マイ",
+          "genres": "",
+          "results": "11991,1281,13239,13522,13523,14978,151599,15902,159318,159812,161716,162811,162856,16329,16812,17046,1709,18114,18115,18116,18187,20324,20782,21943,22113,2257,23099,23378,235078,235792,236089,2361,236556,236590,236636,237033,237383,237942,239779,239783,24012,240123,240843,241146,24136,241897,25289,25304,25895,26638,2753,28698,318519,318531,318642,318646,318678,319257,320059,320267,321232,321598,321603,321617,321945,322041,322250,322251,323067,323212,323225,324026,324197,324199,324246,324286,324328,324444,324734,325032,325097,325310,325622,325652,326063,326203,326220,326504,326536,327000,327204,327713,327719,327838,327926,327928,327992,328191,328314,328445,328550,329400,329516,329522,329605,329614,329805,329978,330134,330227,330434,330551,330560,330764,331823,332153,332362,332753,332848,333193,333240,333332,333529,333700,333858,334235,334285,334301,334304,334766,334777,334832,334913,335381,335434,335565,335567,335798,335925,336142,336237,336605,336754,336887,336888,337245,337331,337503,337607,338323,338494,338546,338677,338678,339180,339772,340426,340466,340496,340512,340611,340799,341375,341568,341569,341611,341641,342363,342444,343085,343345,343546,343647,344381,344429,345215,345356,345366,345554,346052,346339,346341,346480,346639,346662,347241,347358,347542,347686,347864,347931,348035,348088,348170,348248,349221,349344,349437,349444,349726,349750,350453,350531,350843,350927,350977,351033,351145,351419,352174,352382,352769,352899,353046,353152,353403,353437,353612,354167,354254,354289,354345,354455,354522,354700,354702,354902,354960,354963,354988,355060,355061,355228,355740,355751,355820,356055,356150,356582,357279,357823,357845,358010,358130,358242,358727,358781,358946,358993,358996,359023,359024,359026,359315,359505,360198,360620,361325,361326,361356,361372,361373,361391,361665,361801,361806,361841,362526,362606,362712,362717,362962,363105,363106,363762,363764,363978,364079,364403,364404,364528,364743,364877,364938,364985,365013,365402,365471,365978,365979,366007,366031,366075,366365,366409,366491,366965,367006,368180,368191,368253,368764,369005,369013,369221,369949,370322,370448,370964,371795,371833,373111,373697,374583,377441,377442,380731,381726,382432,4450,51226,51461,52338,54664,54853,6207,6354,7931,83416,83641,83681,83886,84046,84338,84618,84698,86183,9889"
+        },
+        {
+          "timestamp": "2023-03-24T13:19:50.608648+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "アマプラの一覧にあって、表紙のお二人に気になっていつか観てみたいな思いましたけど、まだ観れていないです。\nおすすめならぜひ聞かせてください",
+      "timestamp": "2023-03-24T13:25:01.887905+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "アマプラの一覧",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "表紙のお二人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "シニアインターンで雇われる高齢男性と、子育てしながら社長を務める女性のお話です。\n元々高齢男性を雇うことに否定的でしたが、時間を共に過ごしてお互いに成長しあえる関係になります。何歳になってもチャレンジすることの大切さがとても感じられる、前向きになれる作品です。",
+      "timestamp": "2023-03-24T13:27:39.870894+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "シニアインターンで雇われる高齢男性と、子育てしながら社長を務める女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "高齢男性を雇うこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "成長しあえる関係",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "なってもチャレンジすることの大切さ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "感じられる、前向きになれる作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "リタイヤ生活、子育てしながら会社勤め、2015年の作品とのことですけど、今でも向き合わないといけない課題ですね、\nいろんなヒントが秘めていそうで興味深いです。",
+      "timestamp": "2023-03-24T13:32:13.483610+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "リタイヤ生活",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "会社",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "2015年の作品とのこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "今でも向き合わないといけない課題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "いろんなヒント",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "老若男女問わず、どのベクトルから見ても刺さるような気がします。何歳になっても学んで謙虚に生きる姿にきっと感動できると思います！\n性別や年齢に関係なく築ける２人の絆にも憧れます。",
+      "timestamp": "2023-03-24T13:35:03.713620+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "老若男女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "どのベクトル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "見ても刺さるような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "なっても学んで謙虚に生きる姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "性別や年齢に関係なく築ける２人の絆",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "何歳になっても学んで謙虚に生きる姿、憧れですよね。\n会社でお互いに成長しあえる関係が築けるのはまたすてきですよね。\nキャスターもどちらも素敵ですし、\n映画の中できっといろんないい意味の衝突がありそうですけど、\nどうでしたらか？",
+      "timestamp": "2023-03-24T13:41:15.098681+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "なっても学んで謙虚に生きる姿、憧れ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "会社",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "成長しあえる関係",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "キャスター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "いろんないい意味の衝突",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですよね！\n最初は全く正反対、というか男性をお荷物のようにしか感じていないのですが、やはり人生経験がある分たくさん助けてもらったりしていくんです。その中で偏見を捨てて素直に尊敬していくのですが、その流れも自然な感じで自分にも置き換えられるヒントがたくさん詰まっていると思います。お時間ございましたら、ぜひご覧ください",
+      "timestamp": "2023-03-24T13:44:12.294111+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "男性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "お荷物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "人生経験がある分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "その中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "偏見",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "その流れ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "自然な感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "自分にも置き換えられるヒント",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "いまお話を聞いてるだけどもものすごく参考になれそうな感じがしました。\n早速この週末にでも観てみたいと思います。",
+      "timestamp": "2023-03-24T13:46:59.989481+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ものすごく参考になれそうな感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "この週末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "気分が少し落ち込んでいる時とかもとても元気になれるので、おすすめです！\n本日はありがとうございました。",
+      "timestamp": "2023-03-24T13:47:50.096880+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "落ち込んでいる時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "好きになりそうな作品です。こちらこそありがとうございました。",
+      "timestamp": "2023-03-24T13:48:25.910338+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "好きになりそうな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+  "dialog_id": "4ec011be-8ea0-40a5-8c41-5a401fa80d59",
+  "created_timestamp": "2023-02-24T13:54:15.179844+09:00",
+  "archived_timestamp": "2023-02-24T14:30:31.748763+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "053",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-24T13:59:43.927658+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。こちらこそ宜しくお願いいたします。",
+      "timestamp": "2023-02-24T14:00:13.643406+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-24T14:00:25.059884+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "クリストファー・ノーラン監督のようなストーリーが複雑でみごたえのあるものが好みです。\nもしくはラストがハッピーエンドのものですかね。",
+      "timestamp": "2023-02-24T14:01:42.918899+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "クリストファー・ノーラン監督のようなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "複雑でみごたえのあるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ラスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ハッピーエンドのもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "私もクリストファー・ノーラン監督大好きです。特にバッドマンシリーズが好きですがご覧になられましたか？",
+      "timestamp": "2023-02-24T14:03:10.981607+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "クリストファー・ノーラン監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "バッドマンシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T14:02:04.769112+09:00",
+          "query": "ダーク",
+          "genres": "",
+          "results": "162566,239768,326905,329493,329604,329605,334943,337331,338678,339180,340611,341643,343507,344170,344500,346662,347428,349437,352551,355740,361595,362348,365201,366075,366491,367080,367201,367239,369221,376781"
+        },
+        {
+          "timestamp": "2023-02-24T14:02:34.497638+09:00",
+          "query": "プレステージ",
+          "genres": "",
+          "results": "326220"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ダークナイトですね！映画館へ足を運びました。シリアスでかっこよくてとても深くて、とにかく面白かったです。",
+      "timestamp": "2023-02-24T14:05:24.664244+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ダークナイト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "足",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ヒースレジャーが良かったですよね。プレステージはいかがでしょうか、2007年の作品です。",
+      "timestamp": "2023-02-24T14:06:13.205992+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ヒースレジャー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "プレステージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "2007年の作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "あの有名な病院爆破のアドリブシーンですね、いい俳優さんでした。\nプレステージも観ました！謎が明かされてくるとぞわぞわするストーリーでしたね。\nこういった系統で、ほかにおすすめはありますでしょうか？",
+      "timestamp": "2023-02-24T14:08:29.244808+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "あの有名な病院爆破のアドリブシーンですね、いい俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "プレステージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "謎",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "するストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "こういった系統",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ほか",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "2014年の「オール・ユー・ニード・イズ・キル」はいかがでしょうか。日本の小説をトム・クルーズがハリウッド大作に昇華させた映画です。",
+      "timestamp": "2023-02-24T14:10:51.233117+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "「オール・ユー・ニード・イズ・キル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "日本の小説をトム・クルーズがハリウッド大作に昇華させた映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T14:09:54.018685+09:00",
+          "query": "キル",
+          "genres": "",
+          "results": "15997,2132,2278,234686,241899,319039,322208,325318,325438,325627,334913,347686,348085,349437,349444,351145,352585,353092,354552,357070,360497,360660,361356,361665,367742,367854,369221,375940"
+        }
+      ],
+      "checked": [
+        "348085_title",
+        "348085_review-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "すみません・・・こちらも鑑賞済です。\nテンポよく進むストーリーが爽快で最後も気持ちの良いラストでしたね！\nではテンポ良い系統でもかまいませんので、他にもおすすめお願いいたします！",
+      "timestamp": "2023-02-24T14:14:50.671619+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "鑑賞済",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "テンポよく進むストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "気持ちの良いラスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "テンポ良い系統",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "すみません、好みが良く似ていますね・・。\nでは、ホラーかと思いきやちょっと笑える箇所もあった「ハッピー・デス・デイ」はいかがでしょうか。2019年の作品で、続編も出ました。",
+      "timestamp": "2023-02-24T14:17:08.579392+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "笑える箇所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「ハッピー・デス・デイ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "2019年の作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T14:15:53.914653+09:00",
+          "query": "ハッピーデス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T14:15:57.411882+09:00",
+          "query": "デス",
+          "genres": "",
+          "results": "11830,11831,11832,1281,14636,159869,161560,162057,162811,163038,235790,239768,241146,318642,321602,321945,323799,324197,324357,325401,325467,326294,326442,326662,328314,330008,331508,333700,333828,335196,335567,335568,336717,337331,338677,339817,340852,342363,343336,345215,348807,350752,350843,351301,352378,355228,355316,355448,355619,355752,355757,356251,358727,359716,360445,362501,363668,364195,365978,366009,367080,367261,367262,369381,369808,370266,370869,371442,373905,376781,377732,381726,51816,630,85042,86183"
+        },
+        {
+          "timestamp": "2023-02-24T14:15:59.676996+09:00",
+          "query": "デス",
+          "genres": "",
+          "results": "11830,11831,11832,1281,14636,159869,161560,162057,162811,163038,235790,239768,241146,318642,321602,321945,323799,324197,324357,325401,325467,326294,326442,326662,328314,330008,331508,333700,333828,335196,335567,335568,336717,337331,338677,339817,340852,342363,343336,345215,348807,350752,350843,351301,352378,355228,355316,355448,355619,355752,355757,356251,358727,359716,360445,362501,363668,364195,365978,366009,367080,367261,367262,369381,369808,370266,370869,371442,373905,376781,377732,381726,51816,630,85042,86183"
+        },
+        {
+          "timestamp": "2023-02-24T14:16:20.503235+09:00",
+          "query": "ハッピー",
+          "genres": "",
+          "results": "18114,326362,328495,330569,332388,336078,344013,344361,344443,347867,350870,351464,357423,359026,366852,367261,367262,378066,84618"
+        }
+      ],
+      "checked": [
+        "367261_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ですね、好みが似ています(笑\nこの作品は存じ上げません！\n有名な俳優さんは出演されていますか？",
+      "timestamp": "2023-02-24T14:18:43.997309+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "ですね、好みが似ています(笑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "有名な俳優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "それが誰も有名じゃないんです。でも主役のジェシカ・ローテという女優さんがとってもかわいかったです。ちょっと先ほどの「オールユーニードイズキル」に似ている内容で、タイムループ系のお話なのですが、主人公のその女の子が殺されると、9月18日に戻る、という内容です。",
+      "timestamp": "2023-02-24T14:19:50.924974+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "主役のジェシカ・ローテという女優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "34",
+          "text": "先ほどの「オールユーニードイズキル」に似ている内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "タイムループ系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "主人公のその女の子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "37",
+          "text": "9月18日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "戻る、という内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "おおお、有名所を使わない配役で面白いとは、興味深いです。\nタイムループのホラー、新しいですね！\nちなみにホラーの怖さ度はどのくらいでしょう、あまり怖いようだと最後まで観る自信がありません(笑",
+      "timestamp": "2023-02-24T14:22:10.342556+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "おおお、有名所を使わない配役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "タイムループのホラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ホラーの怖さ度",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "どのくらい",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "怖いようだと最後まで観る自信がありません(笑",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ホラーなんですけど、なぜか笑ってしまうんです。でも、笑えるところに行くまで、怖いシーンが数回でるかな・・。自分を殺した犯人を捜していくのですが、そのたびに殺されて、また同じ日に戻る、という謎のお話に、だんだんと引き込まれていきますよん。ちなみに続編も面白かったです。お時間と心の余裕のある時にぜひご覧になって下さい！",
+      "timestamp": "2023-02-24T14:24:09.729703+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "笑えるところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "怖いシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "数回",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "自分を殺した犯人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "そのたび",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "同じ日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "戻る、という謎のお話に、だんだんと引き込まれていきますよん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "お時間と心の余裕のある時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなのですね。ずっと怖いのでないならいけると、、、思います。\n笑いのセーブ(救済)ポイントがあるならきっと大丈夫。\n続編まで出ているということで、人気のある作品だったというのがうかがえて、かつ、推薦者様と似た好みなので安心して観れそうです。\n作品名をメモして観たいものリストに加えておきます！\n今日は楽しい会話をありがとうございました！",
+      "timestamp": "2023-02-24T14:30:21.528604+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "笑いのセーブ(救済)ポイント",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "出ているということで、人気のある作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "うかがえて、かつ、推薦者様と似た好み",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "58",
+          "text": "作品名",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "メモして観たいもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "リスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "楽しい会話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "今日はお付き合いありがとうございました。",
+      "timestamp": "2023-02-24T14:30:27.411506+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

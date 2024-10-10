@@ -1,0 +1,1010 @@
+{
+  "dialog_id": "410ff51c-572f-4b10-8b94-c9bba283e7e3",
+  "created_timestamp": "2023-02-10T15:26:58.701693+09:00",
+  "archived_timestamp": "2023-02-10T15:58:09.572785+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願い致します。",
+      "timestamp": "2023-02-10T15:33:31.928573+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願いします。",
+      "timestamp": "2023-02-10T15:33:38.984705+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "映画にご興味があると思いますが、お好きな分野とか、出演者などありますか？",
+      "timestamp": "2023-02-10T15:34:27.865738+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "お好きな分野とか、出演者",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "今、興味があるのは、女性の生き方、キャリアなどが描かれた洋画がみたいのですが、ご存じですか。",
+      "timestamp": "2023-02-10T15:35:26.734079+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "女性の生き方、キャリアなどが描かれた洋画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "実話に基づいた話だったり、内容がシリアスでも大丈夫でしょうか？",
+      "timestamp": "2023-02-10T15:36:55.369792+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "実話に基づいた話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-10T15:36:08.008999+09:00",
+          "query": "フレンズ",
+          "genres": "",
+          "results": "356343,366787"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "はい、是非お願いします。",
+      "timestamp": "2023-02-10T15:37:14.631589+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ビジネスウーマン系でしょうか？スポーツ選手でも大丈夫でしょうか？",
+      "timestamp": "2023-02-10T15:39:53.012240+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ビジネスウーマン系",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "スポーツ選手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "スポーツでもいいですね。",
+      "timestamp": "2023-02-10T15:40:30.866486+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "スポーツ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "お勧めしたい映画がリスト外だったので、再建策します。「ドリームプラン」は良い映画だと思ったのですが。少しお待ちください。",
+      "timestamp": "2023-02-10T15:41:52.013131+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "リスト外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「ドリームプラン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-10T15:40:55.108282+09:00",
+          "query": "ドリームプラン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-10T15:40:57.083583+09:00",
+          "query": "ドリームプラン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-10T15:41:24.597342+09:00",
+          "query": "ドリームプラン",
+          "genres": "documentary",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ドリームプランは知りません。でもスポーツの世界って知らないので、興味があります。",
+      "timestamp": "2023-02-10T15:43:05.259702+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ドリームプラン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "スポーツの世界",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "「ネクストドリーム／二人で叶える夢」うをご紹介したかったのですが、リスト外でした。。「ワンダー　君は太陽」はいかがでしょうか？女性の生き方を描いたドラマではありませんが、ジュリア・ロバーツが母親役を好演しています。",
+      "timestamp": "2023-02-10T15:47:23.666565+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "「ネクストドリーム／二人で叶える夢」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "リスト外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「ワンダー　君は太陽」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "女性の生き方を描いたドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "母親役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-10T15:42:02.321687+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        },
+        {
+          "timestamp": "2023-02-10T15:45:23.096582+09:00",
+          "query": "ネクストドリーム",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-10T15:45:47.779795+09:00",
+          "query": "ワンダー君は太陽",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-10T15:45:49.123773+09:00",
+          "query": "ワンダー君は太陽",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-10T15:45:54.088957+09:00",
+          "query": "ワンダー",
+          "genres": "",
+          "results": "152271,334516,344429,353277,355434,358186,362671,363462,366737,370794"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "有名な女優さんですね。是非、ちょっとストーリーを教えて下さい。",
+      "timestamp": "2023-02-10T15:48:22.968388+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "有名な女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "実話に基づく映画のようです。あらすじは、以下のとおりです。遺伝子疾患による風変わりな容貌を持つ少年。小学校5年生で初めて登校した彼は、偏見やいじめを受けるが、家族の深い愛情と勇気に支えられ、少しずつ困難を乗り越えていく。やがて周囲も彼の魅力に気づき、輝き始める学校生活。そして彼は、忘れ得ぬ修了式を迎える。",
+      "timestamp": "2023-02-10T15:50:21.827814+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "実話に基づく映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "以下のとおり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "遺伝子疾患による風変わりな容貌を持つ少年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "小学校5年生",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "登校した彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "偏見やいじめ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "愛情",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "勇気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "困難",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "周囲",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "彼の魅力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "気づき、輝き始める学校生活",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "忘れ得ぬ修了式",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363462_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "愛を感じる映画ですね。彼女が母親役とは、興味を惹かれます。",
+      "timestamp": "2023-02-10T15:52:44.772859+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "愛を感じる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "母親役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね。とても感動した映画です。ジュリア・ロバーツも、母親役を演じるようになったのだな、と感無量でした。「プリティウーマン」からは想像できない姿です。kジュリア・ロバーツ出演のキャリアウーマン系なら、「ペリカン文書」かもしれませんが。",
+      "timestamp": "2023-02-10T15:54:21.383874+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "感動した映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "母親役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "「プリティウーマン」からは想像できない姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "kジュリア・ロバーツ出演のキャリアウーマン系",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "「ペリカン文書」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "キャリアウーマンのイメージが強い彼女です。ペリカン文書は、どのようなストーリーでしょうか。",
+      "timestamp": "2023-02-10T15:55:34.313465+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "キャリアウーマンのイメージが強い彼女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ペリカン文書",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "一度に２作品は推薦できないみたいです。。あくまで一般論としてですが、以下のとおりです。『ペリカン文書』（ぺりかんぶんしょ、原題: The Pelican Brief）は、ジョン・グリシャムの同名原作小説をもとに1993年、アメリカで製作されたリーガル・サスペンスである。日本でのロードショーは1994年4月。\n\nこの映画で主演のジュリア・ロバーツは若い法学生を演じ、出世作の一つとなった。デンゼル・ワシントンはワシントン・ヘラルド紙の高名な敏腕記者を演じた。",
+      "timestamp": "2023-02-10T15:57:02.178875+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "２作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "一般論",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "以下のとおり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "（ぺりかんぶんしょ、原題:　The　Pelican　Brief）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ジョン・グリシャムの同名原作小説をもとに1993年、アメリカで製作されたリーガル・サスペンス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "日本でのロードショー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "1994年4月",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "主演のジュリア・ロバーツ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "若い法学生",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "出世作の一つ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "59",
+          "text": "デンゼル・ワシントン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "60",
+          "text": "ワシントン・ヘラルド紙の高名な敏腕記者",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "どちらもオススメ作品ですね。いい情報を有り難うございました。",
+      "timestamp": "2023-02-10T15:57:40.317585+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "オススメ作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "いい情報",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-02-10T15:57:59.074304+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "363462_title"
+      ]
+    }
+  ]
+}

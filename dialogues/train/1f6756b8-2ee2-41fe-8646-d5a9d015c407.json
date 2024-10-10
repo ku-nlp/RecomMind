@@ -1,0 +1,916 @@
+{
+  "dialog_id": "1f6756b8-2ee2-41fe-8646-d5a9d015c407",
+  "created_timestamp": "2023-03-01T17:57:42.880871+09:00",
+  "archived_timestamp": "2023-03-01T18:31:14.242830+09:00",
+  "recommender": {
+    "name": "049",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。本日は宜しくお願いします。",
+      "timestamp": "2023-03-01T18:04:00.747485+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "遅くなってしまい申し訳ありません。よろしくお願いいたします。",
+      "timestamp": "2023-03-01T18:04:08.096155+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "早速ですが、日本映画で戦争をテーマにした作品はご存じですか。",
+      "timestamp": "2023-03-01T18:04:50.589475+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "日本映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "戦争をテーマにした作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "「永遠の０」はいい映画ですね",
+      "timestamp": "2023-03-01T18:06:56.487684+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「永遠の０」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "いい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-01T18:05:26.056119+09:00",
+          "query": "203",
+          "genres": "",
+          "results": "239072,239389,240800,29038,320063,345712,352551,359122,362179,366465,368833,369903"
+        },
+        {
+          "timestamp": "2023-03-01T18:05:46.447454+09:00",
+          "query": "二百三",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T18:05:53.141820+09:00",
+          "query": "二百三",
+          "genres": "war",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T18:05:56.592374+09:00",
+          "query": "",
+          "genres": "war",
+          "results": "11457,12902,12926,13693,13908,142154,14978,150405,150436,161716,163178,19370,20373,20625,236401,236636,237035,237220,239348,24012,241600,24779,319506,319796,320059,321938,322114,323478,323799,323822,324253,324328,324537,324563,324782,325100,325152,326623,327271,327713,327994,328445,328495,328955,329129,329886,332362,332706,332860,333030,333332,333858,335594,335798,336109,336110,337960,337962,338137,338279,340426,340493,340496,344170,344301,346152,346336,346914,347542,348641,349021,349750,350555,350823,350926,351838,352873,354254,354569,357995,358077,359061,361132,362605,365020,366009,366076,367693,368780,369351,370266,370458,370890,373859,6098,83886,84307,86099,89848,9848"
+        }
+      ],
+      "checked": [
+        "346152_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ニュースで戦争の話題が多いもので、関心があるのですが、その映画は、まったく知りません。少しだけストーリーを教えてくださいますか。",
+      "timestamp": "2023-03-01T18:07:41.646738+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ニュース",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "戦争の話題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "多いもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "関心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "フリーライターの孫が神風特攻隊について調べるにあたり、複雑な関係にある実の祖父について調べていきます。その取材を通して、かつて日本軍・日本人とはどういうものだったのかを学んでいくという物語です。",
+      "timestamp": "2023-03-01T18:14:24.658352+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "フリーライターの孫",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "神風特攻隊",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "複雑な関係にある実の祖父",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "その取材",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "日本軍・日本人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "どういうもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "学んでいくという物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "なかなか勉強になりそうな映画ですね。実際のお話でしょうか。",
+      "timestamp": "2023-03-01T18:15:18.958797+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "勉強になりそうな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "実話かどうかはわかりませんが、類似の話は実際にいくつも証言がありますので、原作の百田尚樹氏が物語にしていると思われます。",
+      "timestamp": "2023-03-01T18:17:28.987433+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "類似の話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "証言",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "原作の百田尚樹氏",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "346152_original"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "日本人として知っておくべき事が多そうですね。映像や音楽は、どんな感じでしょうか。",
+      "timestamp": "2023-03-01T18:18:20.133070+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "日本人として知っておくべき事",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "映像や音楽",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "主題歌はサザンオールスターズの「蛍」。\n映像については、タイトルの「０」は零戦に由来するので空の場面が多いので、よく晴れた空が観られます。\n主演が岡田准一、井上真央・三浦春馬という実力派なので見応えがありますよ。",
+      "timestamp": "2023-03-01T18:20:41.826657+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "主題歌",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「蛍」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「０」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "零戦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "空の場面",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "よく晴れた空",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "岡田准一、井上真央・三浦春馬という実力派",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "見応え",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "346152_cast_name-0",
+        "346152_cast_name-1",
+        "346152_cast_name-2",
+        "346152_theme_song"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "有名な俳優さん達ばかりですね。比較的新しい映画でしょうか。",
+      "timestamp": "2023-03-01T18:21:30.842184+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "有名な俳優さん達",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "新しい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "2013年なのでちょうど10年前ですね。当時は書籍もよく売れて注目されていました。",
+      "timestamp": "2023-03-01T18:22:47.281889+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "10年前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "書籍",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "346152_year"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "原作者は著名な方。お話はハッピーエンドではなさそうですね。",
+      "timestamp": "2023-03-01T18:24:17.439023+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "原作者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "著名な方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "終わり方については、じんわりきます。\n祖父について調べる中で、現代を生きる孫は生き方について勉強させられて、自分自身を見つめ直していくことになります。",
+      "timestamp": "2023-03-01T18:27:05.042903+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "終わり方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "祖父について調べる中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "現代を生きる孫",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "生き方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "自分自身",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "戦争を経験していない者にとっては、人生の勉強になりますね。",
+      "timestamp": "2023-03-01T18:27:45.962079+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "戦争を経験していない者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "人生の勉強",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "はい。メッセージ性の強い作品ですね。\nそういう意味では、今現在ニュースでみる戦争というのは、世界中に衝撃を与えたということですね。",
+      "timestamp": "2023-03-01T18:29:35.816223+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "メッセージ性の強い作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "そういう意味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "今現在ニュースでみる戦争",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "世界中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "衝撃",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "与えたということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "観るに値する作品。いい作品をお勧めいただき、有り難うございました。是非、鑑賞したいと思います。",
+      "timestamp": "2023-03-01T18:30:31.091580+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "観るに値する作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "いい作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "参考になれば幸いです。\n本日はありがとうございました。",
+      "timestamp": "2023-03-01T18:31:07.048605+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

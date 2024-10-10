@@ -1,0 +1,1015 @@
+{
+  "dialog_id": "9a4664da-0c89-4f1a-ae00-7ce583f5ca9d",
+  "created_timestamp": "2023-03-08T15:53:32.185364+09:00",
+  "archived_timestamp": "2023-03-08T16:41:26.671282+09:00",
+  "recommender": {
+    "name": "050",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "053",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-03-08T15:55:03.070270+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-08T15:55:12.541921+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段どのように映画を見る際に選ばれていますか？",
+      "timestamp": "2023-03-08T15:56:19.773573+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段どのように映画を見る際",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "その時々でまちまちではありますが、ファンタジー、壮大なスケールのもの、テンポがよくて映像が綺麗そうなものを好んでよく観ていると思います。",
+      "timestamp": "2023-03-08T15:59:10.311282+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "壮大なスケールのもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "テンポ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "映像が綺麗そうなもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど！\nかなり前の作品になりますが、ブラッドピットが主演していたジョーブラックをよろしくはご覧になられたことはありますか？",
+      "timestamp": "2023-03-08T16:02:46.560660+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "前の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ブラッドピットが主演していたジョーブラック",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T16:00:48.740998+09:00",
+          "query": "ミッドナイトインパリ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-08T16:01:00.132024+09:00",
+          "query": "",
+          "genres": "fantasy",
+          "results": "11830,11831,11832,1484,148866,148901,149868,150435,151731,15544,159561,161559,162817,163027,16482,1709,17252,19132,19758,20109,2257,2278,23099,233769,23378,234444,235078,235790,236086,236590,237272,237942,238828,238972,239580,239980,240799,241078,241897,241899,24661,28627,318531,318642,319263,319681,320372,320647,321598,321602,321945,322404,322736,322814,323222,323818,324031,324138,324197,324286,324329,324398,324408,324826,324899,325097,325317,325325,325441,325622,325630,326220,326294,326442,326503,326536,326662,326699,326905,327080,327081,327529,327545,327707,327770,328545,328581,328622,328626,328681,328724,328736,329294,329418,329419,329604,329807,329809,330764,330871,330912,331366,332566,332672,333194,333196,333240,333522,333712,333833,333976,334095,334288,334516,334855,334878,335026,335196,335255,335440,335568,335596,335605,335800,335873,335983,336142,336170,336520,336630,336703,336808,336887,336888,337245,337581,337854,337959,338303,338644,338676,339053,339723,340427,340852,340877,341293,341319,341436,341437,341568,341643,341644,341645,341770,342280,342725,342745,342773,342793,342818,343318,343345,343507,343731,343761,344473,344585,345373,346264,346413,346540,346791,347372,347535,347865,348091,348264,348610,348826,349009,349022,349443,349677,349679,350111,350366,350605,350870,350897,351369,351372,351529,352612,352692,352873,353040,353813,353896,354239,354392,354523,354524,354603,354988,355058,355080,355316,355434,355734,355757,355761,356166,356582,357226,357342,357423,357980,357984,358425,358506,358653,358928,358954,358961,358994,359118,359126,359289,359479,359622,359729,359816,360074,360198,360432,360497,360948,360962,361111,361167,361183,361332,361356,361565,3617,361841,361886,362186,362348,362549,362741,363528,363669,363717,363809,363978,364123,364183,364878,364938,365064,365085,365402,365489,365929,366255,366264,366341,366464,366483,366505,366737,366859,367145,367239,367777,367823,367886,369014,369019,369413,369903,369911,370020,370110,370565,371105,371496,371810,371973,372796,374449,374516,375048,375099,376504,378116,380179,380251,380322,54734,7631,84617,85110,86066,89972,9889"
+        }
+      ],
+      "checked": [
+        "84617_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ブラッドピットも好きですが、その作品はまだ観ておりません。\n聞いた覚えはあるのですが。どのようなお話なのでしょうか。",
+      "timestamp": "2023-03-08T16:04:32.083661+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ブラッドピット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "その作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "聞いた覚え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ブラッドピットが死神の役で、とてもロマンチックなファンタジーなんです。\n死期の近い大富豪のもとに死神として地上にあらわれ、その大富豪に人間界を案内してもらいながら、知り合った女性と恋に落ちるお話です。",
+      "timestamp": "2023-03-08T16:08:31.448126+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ブラッドピット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "死神の役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ロマンチックなファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "死期の近い大富豪のもと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "死神",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "地上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "その大富豪",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "人間界",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "恋",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "死神と人間の恋愛を軸に展開されるファンタジーラブストーリーなのですね。\nかなり前とのことですがいつ頃ですか？\nブラピの若い頃のインタビューウィズバンアイアがかなり好きなので、そのあたりの年齢のものなら嬉しいです！",
+      "timestamp": "2023-03-08T16:12:48.795549+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "死神と人間の恋愛を軸に展開されるファンタジーラブストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "前とのこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ブラピの若い頃のインタビューウィズバンアイア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "そのあたりの年齢のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "１９９８年製作のものです。\nインタビュー～より少しあとの作品ですが、個人的にジョーブラックの時のブラピが１番好きです。\nインタビュー～のブラピも素敵ですよね。",
+      "timestamp": "2023-03-08T16:15:26.389972+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "１９９８年製作のもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "インタビュー～",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "あとの作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ジョーブラックの時のブラピ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "１番",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "インタビュー～のブラピ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T16:13:33.509655+09:00",
+          "query": "インタビュー",
+          "genres": "",
+          "results": "159318,163038,2132,235071,237383,321938,327025,328495,334913,339088,340856,341445,341531,350277,350309,350531,353463,354107,354167,355989,357055,357981,358670,359716,52312"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そうなのですね、それは楽しみです。\n若い時のブラピ、本当に綺麗ですよね！\nすっぽり映画を観れていない時期があったので見逃していた作品だと思います。\n他のキャスト、相手役の女性はどなたでしょうか。有名な俳優さんは出ていらっしゃいますか？",
+      "timestamp": "2023-03-08T16:20:30.298159+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "若い時のブラピ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "映画を観れていない時期",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "見逃していた作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "他のキャスト、相手役の女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "有名な俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "本当に、かっこいいを通り越して美しいという言葉がぴったりな感じがします。\n大富豪を演じているのはアンソニーホプキンスです。相手役はクレアフォーラニです。この方は私はこの映画でしか拝見していないのですが、とても美しく、２人のラブシーンは本当に美しかったのでぜひ見ていただきたいです。",
+      "timestamp": "2023-03-08T16:23:40.706813+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "美しいという言葉がぴったりな感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "大富豪",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "アンソニーホプキンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "相手役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "クレアフォーラニ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "この方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "２人のラブシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T16:18:11.850092+09:00",
+          "query": "ブラッドピット",
+          "genres": "",
+          "results": "330912"
+        },
+        {
+          "timestamp": "2023-03-08T16:20:04.283808+09:00",
+          "query": "アンソニーホプキンス",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "本当にそうです、美しいを具現化したような俳優さんの一人です。。。\nアンソニーホプキンスも出ているのですか、渋い配役の大御所いいですね。\n女優さんは私も存じ上げませんが、推薦者様がおっしゃるようにさぞ画面に映える綺麗な方なのでしょう。\nやはりおすすめはやはり2人のシーンですかね、ネタバレしない範囲で、他に印象に残った素敵なシーンはありますか？",
+      "timestamp": "2023-03-08T16:29:23.527196+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "本当にそうです、美しいを具現化したような俳優さんの一人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "アンソニーホプキンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "渋い配役の大御所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "推薦者様",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "画面に映える綺麗な方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "2人のシーンですかね、ネタバレしない範囲で、他に印象に残った素敵なシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "とても好きなセリフがあって、「心を開いていればいつか稲妻に打たれる」というものがあります。\nアンソニーホプキンス（父親）が娘にたいしていう言葉なのですが、娘はこれまでに恋に溺れたりしたことがないんです。反対に父親は奥さんと深く恋をして結婚していることもあって、死期が近い父親が娘にも自分のように恋をして、愛する人に出会ってほしいという気持ちが籠っています。",
+      "timestamp": "2023-03-08T16:34:47.334380+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "好きなセリフ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "「心を開いていればいつか稲妻に打たれる」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "アンソニーホプキンス（父親）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "たいしていう言葉",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "父親",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "奥さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "死期が近い父親",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "娘",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "恋をして、愛する人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "出会ってほしいという気持ち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "す、素敵、、、！！\n死期が近いからこそ大切な家族に伝えたい愛の言葉、重いですね。。。\n美しいブラピも楽しみですが、アンソニーの演技も楽しみになりました。\nこれは絶対に観ようと思います！",
+      "timestamp": "2023-03-08T16:37:47.217049+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "大切な家族に伝えたい愛の言葉",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "美しいブラピ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "アンソニーの演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "嬉しいです、ありがとうございます！\n本当に美しすぎるブラピと、演技が素晴らしいアンソニーホプキンスをぜひご堪能ください。",
+      "timestamp": "2023-03-08T16:39:30.531668+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "ブラピ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "演技が素晴らしいアンソニーホプキンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい、堪能して映画に浸りたいと思います。\n見逃していたとても素敵な作品を紹介いただいて、ありがとうございました！",
+      "timestamp": "2023-03-08T16:40:59.378204+09:00",
+      "internal_states": [
+        {
+          "id": "65",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "素敵な作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございました。\nそれでは失礼いたします。",
+      "timestamp": "2023-03-08T16:41:20.875589+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

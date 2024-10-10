@@ -1,0 +1,834 @@
+{
+  "dialog_id": "c587329a-10ef-40a2-bcba-e373a6715a2f",
+  "created_timestamp": "2023-01-30T14:56:37.228581+09:00",
+  "archived_timestamp": "2023-01-30T15:32:24.660044+09:00",
+  "recommender": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-01-30T14:58:12.070497+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いします。",
+      "timestamp": "2023-01-30T14:58:26.772204+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、映画はよくご覧になりますか？",
+      "timestamp": "2023-01-30T14:59:10.131360+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "年に5本ぐらいです。もっと見たいと思っているんですが、なかなか機会がなくて。。\n邦画、洋画問わず何かおすすめはありますか？",
+      "timestamp": "2023-01-30T15:00:15.884224+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "5本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "映画お好きなんですね。\nどのようなジャンルをよくご覧になりますか？",
+      "timestamp": "2023-01-30T15:01:15.792860+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ミステリー系が多いかもしれません。\n最近は、ドキュメンタリー映画も興味があります。",
+      "timestamp": "2023-01-30T15:02:54.187307+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ミステリー系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ドキュメンタリー映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ミステリー系が多くて、ドキュメンタリーもご興味あるんですね。\n\nちなみにドキュメンタリー系ので好きな映画はありますか？複数タイトルお答えいただいて大丈夫です。",
+      "timestamp": "2023-01-30T15:05:21.135374+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ミステリー系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ドキュメンタリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ドキュメンタリー系ので好きな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "複数タイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "見れていないんですが、『人生クライマー』に興味があります。\n登山家の方のストーリーです。\nご存知でしょうか？",
+      "timestamp": "2023-01-30T15:08:37.014232+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "登山家の方のストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "タイトルは聞いたことありますが、見てないです。登山家のドキュメンタリーはあまり見たことがないので私も興味あります。\n\nミステリー系のお好きな映画はありますか？",
+      "timestamp": "2023-01-30T15:12:35.301418+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "登山家のドキュメンタリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "あまり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ミステリー系のお好きな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T15:06:06.319648+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,375074,377436,380305,51452,83681,85126,87762"
+        },
+        {
+          "timestamp": "2023-01-30T15:10:46.704674+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "東野圭吾さん原作の『祈りの幕が下りる時』が好きです。\n原作を損なわれず、見事な演出でした。",
+      "timestamp": "2023-01-30T15:14:50.375259+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "東野圭吾さん原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "『祈りの幕",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "見事な演出",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "東野圭吾さんの作品は原作が素晴らしいだけに映画化は原作の雰囲気を大事にしてもらいたいですよね。\n\nそれなら、オススメは『ゆれる』という映画です。ご覧になったことありますか？",
+      "timestamp": "2023-01-30T15:17:34.652319+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "東野圭吾さんの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "映画化",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "原作の雰囲気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "オススメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "『ゆれる』という映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T15:13:51.821295+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,375074,377436,380305,51452,83681,85126,87762"
+        }
+      ],
+      "checked": [
+        "324256_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "いえ、見てないです。気になっていた作品です。\nどのようなストーリーですか？",
+      "timestamp": "2023-01-30T15:18:43.732478+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "気になっていた作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "あらすじは写真家の主人公が帰省して、兄と幼なじみの元恋人と渓谷に出かけるのですが、そこで彼女が吊橋から落下するのを目撃します。近くにいたのは兄だけで事件なのか事故なのか、というのがあらすじです。",
+      "timestamp": "2023-01-30T15:23:36.525655+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "写真家の主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "兄と幼なじみ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "元恋人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "渓谷",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "吊橋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "近く",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "兄",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "事故",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "シンプルな設定かもしれませんが、ゆえに登場人物の背景や心情などを味わいながら楽しめそうですね。\nこれはオリジナル作品ですか？\nもし、原作があるのなら先に読んでいたほうがいいでしょうか？",
+      "timestamp": "2023-01-30T15:26:36.389811+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "シンプルな設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "登場人物の背景や心情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "オリジナル作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "あるのなら先に読んでいたほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "西川美和監督のオリジナル作品です。静かな作品ですが心の揺れの表現が素晴らしいだけでなく、事件なのか事故なのか最後までハラハラします。監督自ら小説化されていますが、私は映画を見てから小説を読む方がいいかなと思います。",
+      "timestamp": "2023-01-30T15:31:33.381180+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "西川美和監督のオリジナル作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "静かな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "心の揺れの表現",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "事故",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "見てから小説を読む方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。\n『ゆれる』ますます興味がわきました。\n近いうちに見ますね！\nおすすめいただいて、ありがとうございました。",
+      "timestamp": "2023-01-30T15:32:08.411280+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "近いうち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました｡",
+      "timestamp": "2023-01-30T15:32:21.480936+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

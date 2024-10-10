@@ -1,0 +1,710 @@
+{
+  "dialog_id": "51224b92-e43c-4f50-b9a0-c6672bd84708",
+  "created_timestamp": "2023-02-16T12:55:37.488903+09:00",
+  "archived_timestamp": "2023-02-16T13:18:39.513020+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "040",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-16T13:00:06.410478+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。初めまして。宜しくお願いいたします。",
+      "timestamp": "2023-02-16T13:00:22.580872+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-16T13:00:34.734807+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "普段は、SFやアクション、サスペンス、ドラマなどを見ることが多いです。",
+      "timestamp": "2023-02-16T13:00:59.436176+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "SFやアクション、サスペンス、ドラマなどを見ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画、洋画で、お好みはございますか？",
+      "timestamp": "2023-02-16T13:01:26.494951+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "英語の練習のために、洋画を見ることが多いかもしれません。",
+      "timestamp": "2023-02-16T13:01:59.408742+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "英語の練習のため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "洋画を見ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "洋画で、クリストファー・ノーラン監督のものを良く観るのですが、ダークナイトやインセプション、プレステージなど、ご覧になられたことはございますか？",
+      "timestamp": "2023-02-16T13:03:12.649087+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "クリストファー・ノーラン監督のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ダークナイトやインセプション、プレステージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-16T13:02:14.125311+09:00",
+          "query": "プレステージ",
+          "genres": "",
+          "results": "326220"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "私もクリストファーノーラン監督はとても好きです。ダークナイト、インセプション、プレステージは観ているんです。実は先日はチャットでダークナイトを見直すことを勧めていただいて、早速観たのですが、やっぱりとても面白かったです。",
+      "timestamp": "2023-02-16T13:05:19.355415+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "クリストファーノーラン監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ダークナイト、インセプション、プレステージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "チャットでダークナイトを見直すこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ダークナイト、私も大好きです。バットマンシリーズは全部ご覧になられましたか？",
+      "timestamp": "2023-02-16T13:06:40.090924+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ダークナイト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "バットマンシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "バッドマンシリーズは全部は見ていないと思います。一番最初のバットマン、ダークナイト、ジョーカーという感じです。",
+      "timestamp": "2023-02-16T13:08:25.908331+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "バッドマンシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "最初のバットマン、ダークナイト、ジョーカーという感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ジョーカーを見てからダークナイトを観ると、まるで続いているかのような始まりですよね！ダークナイトの続きになる、2012年の「ダークナイト ライジングをご紹介しても良いですか？同じくクリストファー・ノーラン監督です。",
+      "timestamp": "2023-02-16T13:09:49.834968+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "ジョーカー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "続いているかのような始まり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ダークナイトの続きになる、2012年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ダークナイト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "同じくクリストファー・ノーラン監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-16T13:07:28.471427+09:00",
+          "query": "バットマン",
+          "genres": "",
+          "results": "18187,321232,329605,340611,347290,353277,361068,373697"
+        }
+      ],
+      "checked": [
+        "340611_title",
+        "340611_year",
+        "340611_director_name",
+        "321232_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ぜひお願いします。ありがとうございます。",
+      "timestamp": "2023-02-16T13:10:26.587384+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "「ダークナイト」で死亡したデントの犯した罪を被ったバットマンは姿を隠し、その正体であるウェイン産業会長ブルース・ウェインも再建された屋敷に閉じこもって人目から遠ざかっています。",
+      "timestamp": "2023-02-16T13:11:33.752668+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "「ダークナイト」で死亡したデントの犯した罪を被ったバットマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "姿",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "その正体であるウェイン産業会長ブルース・ウェイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "再建された屋敷",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "人目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど、ブルースウェインが屋敷に閉じこもって心を閉ざしている感じから始まるのですね。",
+      "timestamp": "2023-02-16T13:13:11.889116+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "ブルースウェイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "屋敷",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "閉じこもって心を閉ざしている感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "今回新たなキャラクターとして、キャットウーマンがでてきます。ブルースは母の形見である真珠のネックレスを彼女に盗まれます。これをアン・ハサウェイが演じているのですが、かなり身体を作り上げていて、とても綺麗でした。",
+      "timestamp": "2023-02-16T13:15:39.836252+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "新たなキャラクター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "キャットウーマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ブルース",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "母の形見である真珠のネックレス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "身体",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340611_cast_name-3"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "アンハサウェイもとても素敵な俳優さんですよね。キャットウーマンをどのように演じるか見てみたいです。早速観て見ようと思います！",
+      "timestamp": "2023-02-16T13:17:33.760832+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "素敵な俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "キャットウーマン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "安定のクリスチャン・ベールの憂いのあるバットマン、やっぱりカッコよかったです。ダークナイトをご覧になられた直後でしたら、さらに面白いと思うので、是非お時間のあるときにご覧になって下さい！今日はありがとうございました。",
+      "timestamp": "2023-02-16T13:17:39.248979+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "安定のクリスチャン・ベールの憂いのあるバットマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ダークナイトをご覧になられた直後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "お時間のあるとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340611_cast_name-0"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ダークナイトを見た後なので、タイムリーに素敵な映画をお勧めいただきありがとうございます。今日はありがとうございました！",
+      "timestamp": "2023-02-16T13:18:32.288746+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ダークナイトを見た後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "タイムリーに素敵な映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

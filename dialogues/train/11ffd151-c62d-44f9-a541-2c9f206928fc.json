@@ -1,0 +1,641 @@
+{
+  "dialog_id": "11ffd151-c62d-44f9-a541-2c9f206928fc",
+  "created_timestamp": "2022-12-23T10:15:06.191355+09:00",
+  "archived_timestamp": "2022-12-23T10:53:44.682252+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 2,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "004",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 2
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。どうぞよろしくお願い致します。",
+      "timestamp": "2022-12-23T10:21:45.593512+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、こちらこそよろしくお願いいたします。",
+      "timestamp": "2022-12-23T10:21:58.711910+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2022-12-23T10:22:55.185316+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、アクション映画、笑える映画、きれいな風景見れる映画とかですかね",
+      "timestamp": "2022-12-23T10:24:02.153210+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "そうですね、アクション映画、笑える映画、きれいな風景見れる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "きれいな風景といえば、個人的にハワイがすきなので、2005年6月18日の50回目のファースト・キスはご覧になったことはありますか？",
+      "timestamp": "2022-12-23T10:25:26.267005+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "きれいな風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "2005年6月18日の50回目のファースト・キス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T10:24:26.632803+09:00",
+          "query": "50",
+          "genres": "",
+          "results": "10909,11933,12124,13693,15072,152697,15544,161112,162813,18116,233956,234051,234685,235078,236424,237362,237942,239348,239389,239807,318674,319796,321822,323917,324138,324537,325647,326850,327992,328724,331364,331733,332286,332328,333193,333497,333520,334208,334913,335381,335925,336237,336448,336630,337960,338843,339230,340721,340856,342201,342444,345374,346630,347931,348091,348248,348415,349344,351330,351419,352648,352899,353092,353189,353896,354569,355058,355696,356636,357995,358189,359024,359061,359063,359405,359641,360428,360444,360962,361111,362181,362656,362706,362937,363021,365075,367684,367924,371795,371833,371867,374449,375099,377978,83465,84126,84307,84618"
+        }
+      ],
+      "checked": [
+        "321822_title",
+        "321822_year"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ありませんね、ハワイ舞台の映画ですか？",
+      "timestamp": "2022-12-23T10:26:38.911369+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ありませんね、ハワイ舞台の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうです。ジャンルはコメディと、ロマンス。ハワイの水族館で獣医師として働く男性と、短期記憶喪失障害(前向性健忘)を患う女性の物語です。",
+      "timestamp": "2022-12-23T10:28:20.137177+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ロマンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ハワイの水族館で獣医師として働く男性と、短期記憶喪失障害(前向性健忘)を患う女性の物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321822_genre-0",
+        "321822_genre-1",
+        "321822_plot-0",
+        "321822_plot-2"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "わぉ、ロマンスがすてきですね、きっとハワイの風景がいっぱい映ってるでしょうか？",
+      "timestamp": "2022-12-23T10:32:09.310462+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "わぉ、ロマンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ハワイの風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ハワイの東側の海の風景が美しくて見るたびに行きたくなります。ヒロインが、ETの子役だったドリュー・バリモアなんですが、ハワイの景色と、彼女の笑顔がよく合っていました。",
+      "timestamp": "2022-12-23T10:34:04.088487+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ハワイの東側の海の風景",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "美しくて見るたび",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ヒロイン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ETの子役だったドリュー・バリモア",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ハワイの景色",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "彼女の笑顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321822_cast_name-1",
+        "321822_cast-1_other_title-0:1709"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "へぇー、ハワイって人気の観光地だけあって、きっと自分の目でみるときれいな風景に感動されそうですね、",
+      "timestamp": "2022-12-23T10:40:00.680339+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "人気の観光地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "自分の目",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "きれいな風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "内容も、一日で全てを忘れてしまう女性に、毎日告白する男性。そのひたむきさに感動します。ハワイアン調の音楽も素敵です。",
+      "timestamp": "2022-12-23T10:41:27.807367+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "内容も、一日で全てを忘れてしまう女性に、毎日告白する男性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "そのひたむきさ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ハワイアン調の音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "毎日告白するんですか、確かに感動しますよね、ロマンスはハワイのイメージにピッタリです。\nまだハワイに訪れたことがないですので、この映画を見るとますます行きたくなるでしょうね",
+      "timestamp": "2022-12-23T10:47:44.936121+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "ロマンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ハワイのイメージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ハワイの良いところが盛りだくさんです。アダム・サンドラーが主演ですが、彼はコメディもとても上手ですが、泣かせる演技もできるんだな、と驚きました。笑いあり、涙ありの良い映画でした。",
+      "timestamp": "2022-12-23T10:48:25.346515+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "ハワイの良いところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "アダム・サンドラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "泣かせる演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "涙ありの良い映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321822_cast_name-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "アダム・サンドラーのギャップも見どころですね、\nぜひ見てみたいですね",
+      "timestamp": "2022-12-23T10:51:37.585916+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "アダム・サンドラーのギャップ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "大好きな俳優さんです。今日はお付き合いありがとうございました。機会があればぜひご覧になって下さいね。",
+      "timestamp": "2022-12-23T10:51:58.738615+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "大好きな俳優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそありがとうございました。是非見てみたいです。",
+      "timestamp": "2022-12-23T10:52:23.444429+09:00",
+      "internal_states": []
+    }
+  ]
+}

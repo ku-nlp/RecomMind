@@ -1,0 +1,893 @@
+{
+  "dialog_id": "61fcf289-67ea-4d10-bb8e-eb4619cbbe15",
+  "created_timestamp": "2023-03-20T14:57:21.970119+09:00",
+  "archived_timestamp": "2023-03-20T15:29:47.883033+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-03-20T14:59:30.785943+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-20T14:59:42.372322+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-03-20T14:59:49.072715+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "よく観ていたのは洋画のコメディですが、最近はあまり観ていません。邦画はあまり観ていませんが、興味がないわけではありません。最近ご覧になった映画でお勧めの映画はありますか？",
+      "timestamp": "2023-03-20T15:02:01.281956+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画のコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "最近ご覧になった映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "最近見た映画では、草彅君主演の「ミッドナイトスワン」と、マット・デイモンなど出演の「コンテイジョン」が良かったのですが、ご覧になったことはございますか？どちらともコメディ要素はないのですが（笑）",
+      "timestamp": "2023-03-20T15:03:41.980970+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "最近見た映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "草彅君主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「ミッドナイトスワン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "マット・デイモンなど出演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「コンテイジョン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-20T15:02:24.376889+09:00",
+          "query": "ミッドナイト",
+          "genres": "",
+          "results": "320372,341568,362936,372555,7298"
+        },
+        {
+          "timestamp": "2023-03-20T15:02:52.129600+09:00",
+          "query": "コンテイジョン",
+          "genres": "",
+          "results": "340856"
+        }
+      ],
+      "checked": [
+        "340856_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "「ミッドナイトスワン」は観たことはありませんが、知っています。「コンディション」は全く知らなかったです。どんなストーリーですか？",
+      "timestamp": "2023-03-20T15:05:12.174261+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "「ミッドナイトスワン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「コンディション」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「コンテイジョン」は、香港の出張からアメリカに戻ってきた女性（グウィネス・パルトロー）から広がる、コウモリ由来の未知のウイルスにより、翻弄される人々と社会のお話です。まるでコロナじゃないですか？でも2011年の映画なんです！監督は預言者か？と思いながら観てしまいました。それぐらいコロナ社会と類似した社会が描かれています。",
+      "timestamp": "2023-03-20T15:07:48.226911+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「コンテイジョン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "香港の出張からアメリカに戻ってきた女性（グウィネス・パルトロー）から広がる、コウモリ由来の未知のウイルス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "翻弄される人々",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "2011年の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "預言者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "コロナ社会",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "類似した社会",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340856_title",
+        "340856_year",
+        "340856_cast_name-4"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうなんですね。グウィネス・パルトローはどうなるのですか？",
+      "timestamp": "2023-03-20T15:10:31.084615+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "グウィネス・パルトロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "グウィネス・パルトローは最初の死亡者になります。その夫で、免疫力が優れていたため感染しなかった男性の役をマット・デイモン、国土安全保障省の職員にケイト・ウィンスレットなど、豪華俳優陣も観ていて迫力があります。",
+      "timestamp": "2023-03-20T15:12:33.294502+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "グウィネス・パルトロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "最初の死亡者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "その夫",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "免疫力が優れていたため感染しなかった男性の役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "マット・デイモン、国土安全保障省の職員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ケイト・ウィンスレット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "豪華俳優陣",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "迫力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340856_cast_name-1",
+        "340856_cast_name-5"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "夫役のマット・デイモンは、妻が亡くなった後何かアクションを起こすのですか？",
+      "timestamp": "2023-03-20T15:14:51.032052+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "夫役のマット・デイモン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "妻が亡くなった後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "特に大きなアクションではなく、ティーンの娘を守るために、外出禁止にしたり（彼氏に会わせない）、何とか食糧や薬を確保しようと翻弄します。家族を守りたい一人のお父さんとしての必死な演技に心奪われます。",
+      "timestamp": "2023-03-20T15:17:01.066928+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "大きなアクション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ティーンの娘を守るため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "外出禁止",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "（彼氏に会わせない）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "食糧や薬",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "37",
+          "text": "家族を守りたい一人のお父さんとしての必死な演技",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "娘がいるのですね。家族は娘一人だけですか？",
+      "timestamp": "2023-03-20T15:20:33.294834+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "娘一人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "妻の連れ子の６歳ぐらいの息子がいたのですが、妻からの感染ですぐに亡くなってしまいます。自分の娘だけでも、と必死になって守ります。",
+      "timestamp": "2023-03-20T15:22:06.145143+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "妻の連れ子の６歳ぐらいの息子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "妻からの感染",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "自分の娘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなんですね。お父さんの必死さが伝わってきますね。ケイト・ウィンスレットは、どんなシーンで登場するのですか？",
+      "timestamp": "2023-03-20T15:23:45.124860+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "お父さんの必死さ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ケイト・ウィンスレット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "どんなシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "国土安全保障省から、マット・デイモンたちの住むミネアポリスに派遣され、調査に当たる役です。そこで、自身も感染してしまい、あっという間に死んでしまいます。どんどん感染が広がっていく様子が本当にコロナと重なりました。",
+      "timestamp": "2023-03-20T15:26:20.769152+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "国土安全保障省",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "マット・デイモンたちの住むミネアポリス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "派遣され、調査に当たる役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "自身",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "あっという間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "感染が広がっていく様子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "コロナ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "調査に当たる人まで死んでしまうと、不安になりますよね。マット・デイモンが娘を守り切れるかどうかが見所の映画ですね。今日はありがとうございました。",
+      "timestamp": "2023-03-20T15:29:34.284461+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "調査に当たる人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "マット・デイモン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "娘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "見所の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "映画を観ながら不思議な感覚になれるので、機会があればぜひご覧になって下さいね。今日はお付き合いありがとうございました。",
+      "timestamp": "2023-03-20T15:29:44.806146+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

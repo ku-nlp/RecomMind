@@ -1,0 +1,681 @@
+{
+  "dialog_id": "1067b017-2a0e-433c-9041-dbd0a2ea4614",
+  "created_timestamp": "2023-03-12T17:59:33.097848+09:00",
+  "archived_timestamp": "2023-03-12T18:24:51.033122+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくおねがいいたします。",
+      "timestamp": "2023-03-12T18:01:39.309585+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願い致します。",
+      "timestamp": "2023-03-12T18:01:42.358787+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "風景が楽しめるような映画があれば知りたいのですが。",
+      "timestamp": "2023-03-12T18:04:31.172879+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "楽しめるような映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "自然な景色を見ると癒されますよね。アニメ映画より、実写の風景が良いでしょうか？",
+      "timestamp": "2023-03-12T18:05:56.304136+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "自然な景色",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "4",
+          "text": "実写の風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "はい、そうですね実写の方が好きです。",
+      "timestamp": "2023-03-12T18:06:22.732516+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "そうですね実写の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "2000年の「ザ・ビーチ」という映画はご覧になったことありますか？",
+      "timestamp": "2023-03-12T18:08:07.116664+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "2000年の「ザ・ビーチ」という映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T18:07:02.929720+09:00",
+          "query": "ザ・ビーチ",
+          "genres": "",
+          "results": "159815,318646"
+        }
+      ],
+      "checked": [
+        "159815_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "はい、あります。タイの島で撮影された映画ですよね。\nとてもきれいで行きたくなりました。\n風景の中でも自然ではなく街の風景などでも構いません。",
+      "timestamp": "2023-03-12T18:09:33.774313+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "タイの島で撮影された映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "風景の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "街の風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "そうですね、美しい島々やビーチがあったのを覚えています。ちなみに、映画でも登場する「マヤ・ベイ」は、今では人気の観光地となっていますよね。",
+      "timestamp": "2023-03-12T18:11:16.039044+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "そうですね、美しい島々やビーチ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「マヤ・ベイ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "13",
+          "text": "人気の観光地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "もはや有名になりすぎて、ちょっと今はあまり行きたくないかもしれません(笑）",
+      "timestamp": "2023-03-12T18:12:23.951639+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "そうですね（笑）「オーストラリア」という映画はご覧になったことありますか？",
+      "timestamp": "2023-03-12T18:13:34.683940+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "そうですね（笑）「オーストラリア」という映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T18:11:47.927436+09:00",
+          "query": "インディ・ジョーンズ最後の聖戦",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-12T18:12:14.442253+09:00",
+          "query": "オーストラリア",
+          "genres": "",
+          "results": "13693,22237,22238,239783,241078,319078,328546,331364,338127,351805,362179,366015,842"
+        }
+      ],
+      "checked": [
+        "331364_title"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "ニコール・キッドマンの映画ですよね？まだ見ていないです。",
+      "timestamp": "2023-03-12T18:14:41.053596+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "ニコール・キッドマンの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "はい！映画『ロミオ＆ジュリエット』『ムーラン・ルージュ』のバズ・ラーマン監督が、壮大なオーストラリアの自然を舞台に描く運命的な愛の物語です。",
+      "timestamp": "2023-03-12T18:16:27.174576+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "映画『ロミオ＆ジュリエット』『ムーラン・ルージュ』のバズ・ラーマン監督が、壮大なオーストラリアの自然を舞台に描く運命的な愛の物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "オーストラリアの自然、良いですね。日本から意外と近いのにまだ訪れたことが無く、一度行ってみたいと思っていました。\n具体的にはどのような愛の物語なのでしょうか？",
+      "timestamp": "2023-03-12T18:17:59.001112+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "オーストラリアの自然",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "日本",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "意外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "訪れたこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "具体的にはどのような愛の物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "第二次世界大戦を目前に控えたオーストラリアを訪れた英国貴族レディ・サラ・アシュレイ（ニコール・キッドマン）ですが、サラは死んだ夫が残した広大な土地と1,500頭の牛を相続し、土地を守るために粗暴な現地のカウボーイ（ヒュー・ジャックマン）と手を組み、遠く離れたダーウィンまで牛を引き連れて行かなければならなかったのです。反目しあう二人でしたが、長旅やアボリジニの孤児の少年との出会いを通し、徐々に惹（ひ）かれあっていくストーリーです。",
+      "timestamp": "2023-03-12T18:20:07.791047+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "第二次世界大戦を目前に控えたオーストラリアを訪れた英国貴族レディ・サラ・アシュレイ（ニコール・キッドマン）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "サラ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "死んだ夫",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "残した広大な土地と1,500頭の牛",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "相続し、土地を守るため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "粗暴な現地のカウボーイ（ヒュー・ジャックマン）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "遠く離れたダーウィン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "牛",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "反目しあう二人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "長旅やアボリジニの孤児の少年との出会い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "惹（ひ）かれあっていくストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "オーストラリアの歴史も垣間見ることができそうです。\nヒュー・ジャックマンもオーストラリア出身でしたっけ？見てみたいです。",
+      "timestamp": "2023-03-12T18:22:42.357389+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "オーストラリアの歴史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ヒュー・ジャックマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "オーストラリア出身",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "おっしゃる通りです。撮影をオーストラリアで行い、主要キャストをオーストラリア出身者で固める等、オーストラリアにこだわった作品なんです。良かったらぜひ見てみてくださいね！",
+      "timestamp": "2023-03-12T18:23:48.034753+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "撮影",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "行い、主要キャストをオーストラリア出身者で固める等、オーストラリアにこだわった作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "分かりました、探してみますね！",
+      "timestamp": "2023-03-12T18:24:22.582150+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-03-12T18:24:44.128508+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "ありがとうございました",
+      "timestamp": "2023-03-12T18:24:49.822606+09:00",
+      "internal_states": []
+    }
+  ]
+}

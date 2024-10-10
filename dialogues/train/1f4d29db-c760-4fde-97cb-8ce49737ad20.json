@@ -1,0 +1,768 @@
+{
+  "dialog_id": "1f4d29db-c760-4fde-97cb-8ce49737ad20",
+  "created_timestamp": "2023-02-27T13:59:07.137362+09:00",
+  "archived_timestamp": "2023-02-27T14:15:12.802142+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。本日はどうぞよろしくお願い致します。",
+      "timestamp": "2023-02-27T13:59:10.827035+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。宜しくお願いします。",
+      "timestamp": "2023-02-27T13:59:18.971964+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "ジャンル、邦画、洋画、など、お好みを教えて頂けますか。",
+      "timestamp": "2023-02-27T13:59:25.981747+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル、邦画、洋画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "洋画が好みです。ジャンルは、ホラー以外なら特に決めずに観ています。",
+      "timestamp": "2023-02-27T14:00:29.808635+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど、ホラー以外ですね。アメコミ系や、ラブコメ、ドラマ系、アニメなど、特に今日ご覧になりたい映画などもあれば教えて下さい。",
+      "timestamp": "2023-02-27T14:01:47.989093+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アメコミ系や、ラブコメ、ドラマ系、アニメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "今日ご覧になりたい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "アメコミ系ってどんな内容ですか。",
+      "timestamp": "2023-02-27T14:02:07.253012+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "アメコミ系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "スパイダーマンや、アイアンマン、バッドマン系の映画です。私は結構好きなのですが、好みが分かれるので・・",
+      "timestamp": "2023-02-27T14:02:43.951264+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "スパイダーマンや、アイアンマン、バッドマン系の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "童心に帰って観ることができそうですね。アメコミ系でオススメ作品はありますか。",
+      "timestamp": "2023-02-27T14:03:53.157811+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "童心",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "アメコミ系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "オススメ作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "私は2012年の「アメイジング・スパイダーマン」が好きです。スパイダーマンも俳優が変わって色々なシリーズが出ていますが、アンドリュー・ガーフィールドのスパイダーマンが一番合っているなと、個人的に思います。「ラ・ラ・ランド」のエマ・ストーンも出ていて、とても可愛いです。",
+      "timestamp": "2023-02-27T14:05:51.409916+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「アメイジング・スパイダーマン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "スパイダーマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "変わって色々なシリーズ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "アンドリュー・ガーフィールドのスパイダーマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「ラ・ラ・ランド」のエマ・ストーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T14:03:40.491892+09:00",
+          "query": "スパイダーマン",
+          "genres": "",
+          "results": "234686,319039,325627,340403,345678,347722,359026,361806,366007,366491,366852,378066"
+        }
+      ],
+      "checked": [
+        "340403_title",
+        "340403_year",
+        "340403_cast_name-0",
+        "340403_cast_name-1",
+        "340403_cast-1_other_title-8:358727"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ちょっとだけストーリーを教えてくださいますか。舞台はどちらかしら。",
+      "timestamp": "2023-02-27T14:06:33.268324+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "舞台はNYです。高校生のピーター・パーカーが主人公で、亡き父の研究者仲間だった博士の公開実習に参加したところ、謎の開発室で遺伝子組み換えされたクモに刺されてしまいます。これが全ての発端です。",
+      "timestamp": "2023-02-27T14:08:42.177023+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "NY",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "高校生のピーター・パーカー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "亡き父の研究者仲間だった博士の公開実習に参加したところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "謎の開発室",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "遺伝子組み換えされたクモ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "全ての発端",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340403_review-1",
+        "340403_review-2"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "展開が面白そうですね。正義が勝つっていう感じの作品ですか。",
+      "timestamp": "2023-02-27T14:09:44.626422+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "正義",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "勝つっていう感じの作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "最終的には正義が勝つのですが、スパイダーマンにでて来る悪役って、もともと人間だったパターンが多くて、その人たちの人間模様もあるからか、最後まで憎めないんですよね。主人公の心理的葛藤も見所す。",
+      "timestamp": "2023-02-27T14:11:13.297459+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "正義",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "スパイダーマン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "でて来る悪役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "人間だったパターン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "その人たちの人間模様",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "主人公の心理的葛藤",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "かっこ良いヒーロー見たさに鑑賞したいと思います。音楽の印象はどうでしょう。",
+      "timestamp": "2023-02-27T14:12:47.405469+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "かっこ良いヒーロー見たさ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "音楽の印象",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "スパイダーマンのテーマ、こちらの映画でも流れます。戦闘シーンなどにかかる音楽は映像ととても合っていたと思いました。戦闘シーンは圧巻です。あまり深く考えずに、映像を楽しみたいときに見るのにおススメですよ。ぜひ、ご覧になってみてください。",
+      "timestamp": "2023-02-27T14:13:55.789984+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "スパイダーマンのテーマ、こちらの映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "かかる音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "戦闘シーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "圧巻",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "楽しみたいとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい、音楽や映像も映画の楽しみです。いいアドバイスを有り難うございました。",
+      "timestamp": "2023-02-27T14:14:57.664622+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "音楽や映像",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "いいアドバイス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-02-27T14:15:09.203695+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

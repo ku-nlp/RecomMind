@@ -1,0 +1,631 @@
+{
+  "dialog_id": "8e8970db-326c-400b-8d7a-19a481af0fa8",
+  "created_timestamp": "2023-02-24T10:58:48.248228+09:00",
+  "archived_timestamp": "2023-02-24T11:28:00.523263+09:00",
+  "recommender": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-02-24T10:59:53.561353+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-02-24T11:00:14.492362+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、普段映画はよくご覧になりますか？",
+      "timestamp": "2023-02-24T11:00:50.903474+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "最近中学生の娘とアニメ系の映画をよく見ています。",
+      "timestamp": "2023-02-24T11:01:20.639481+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "中学生の娘",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "アニメ系の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうなんですね。\nアニメ映画はどんなジャンルのものを見ていますか？",
+      "timestamp": "2023-02-24T11:02:59.827997+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "どんなジャンルのもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ジブリ作品など日本の監督のアニメなどが多いです。",
+      "timestamp": "2023-02-24T11:06:12.781138+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ジブリ作品など日本の監督のアニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "今、どんな映画のジャンルを観たい気分ですか？",
+      "timestamp": "2023-02-24T11:06:46.856314+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "どんな映画のジャンルを観たい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "「シャーロックホームズ」のような謎解きが楽しめるジャンルを観たい気分です。",
+      "timestamp": "2023-02-24T11:07:57.505573+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "「シャーロックホームズ」のような謎解きが楽しめるジャンルを観たい気分",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "謎解きが楽しめる映画なら『ダ・ヴィンチ・コード』がおすすめです。ご覧になったことありますか？",
+      "timestamp": "2023-02-24T11:09:47.813710+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "謎解きが楽しめる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "『ダ・ヴィンチ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T11:08:15.778897+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,1964,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355570,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,375074,377436,380305,51452,83681,84047,85126,87762"
+        }
+      ],
+      "checked": [
+        "322729_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "『ダ・ヴィンチ・コード』は昔一度見たことがあって、最近久しぶりにまた見返しました。面白いですよね。",
+      "timestamp": "2023-02-24T11:11:56.396243+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "『ダ・ヴィンチ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "昔一度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "すごく面白いですよね。\n見返したくなるのも分かります。\n\n続編の『天使と悪魔』もおすすめですが、こちらもすでにご覧になってますか？",
+      "timestamp": "2023-02-24T11:13:40.571329+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T11:12:24.360636+09:00",
+          "query": "ヴィンチ",
+          "genres": "mystery",
+          "results": "322729,332388"
+        }
+      ],
+      "checked": [
+        "332388_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "続編があるんですね。それは知らなかったです。ぜひ見てみたいです。",
+      "timestamp": "2023-02-24T11:14:17.551024+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "1作目がお好きだったら、続編も楽しんでいただけると思います。\n\n続編はバチカン市国で起きた事件でラングドン教授が捜査を依頼され調べていくという内容です。",
+      "timestamp": "2023-02-24T11:17:43.695711+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "1作目",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "バチカン市国で起きた事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ラングドン教授",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "捜査",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "調べていくという内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "面白そうですね。主人公の名前を忘れてしまったのですが、「ラングドン教授」はトムハンクスが演じていた役でしょうか？",
+      "timestamp": "2023-02-24T11:20:54.057318+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "主人公の名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「ラングドン教授」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "トムハンクスが演じていた役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "その通りです。\n主役のラングドン教授はトム・ハンクスです。続編のストーリーで重要な役を演じているのはユアン・マクレガーです。",
+      "timestamp": "2023-02-24T11:23:49.537691+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "主役のラングドン教授",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "トム・ハンクス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "続編のストーリーで重要な役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ユアン・マクレガー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ありがとうございます。続編ではユアン・マクレガーが出ているんですね。続編はいつ頃作られたんでしょうか？",
+      "timestamp": "2023-02-24T11:25:15.114821+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "ユアン・マクレガー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "続編は2009年です。ちなみに1作目は2006年でした。",
+      "timestamp": "2023-02-24T11:26:14.929081+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "2009年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "1作目",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "2006年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "3年後に続編が出てたんですね。観るのが楽しみです。\nありがとうございました。",
+      "timestamp": "2023-02-24T11:27:51.111882+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "3年後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-02-24T11:27:57.503729+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

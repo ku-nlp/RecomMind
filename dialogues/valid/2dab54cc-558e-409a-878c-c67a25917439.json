@@ -1,0 +1,912 @@
+{
+  "dialog_id": "2dab54cc-558e-409a-878c-c67a25917439",
+  "created_timestamp": "2022-12-22T12:28:15.167512+09:00",
+  "archived_timestamp": "2022-12-22T13:15:19.905469+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いします。",
+      "timestamp": "2022-12-22T12:32:55.804340+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いします！最近映画はご覧になられましたか？",
+      "timestamp": "2022-12-22T12:33:37.639482+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "映画館では観ていないですが、時々オンライン配信で観ています。",
+      "timestamp": "2022-12-22T12:34:25.990275+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "オンライン配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "私もオンラインでよく観ます。最近邦画で感動した映画の中で、「ハウ」という映画があるのですが、ご存じですか？",
+      "timestamp": "2022-12-22T12:35:50.815198+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "オンライン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "最近邦画で感動した映画の中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「ハウ」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "いえ、知りませんでした。どんな映画ですか？",
+      "timestamp": "2022-12-22T12:36:15.560565+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "田中圭さん主演の愛犬との物語です。",
+      "timestamp": "2022-12-22T12:38:45.390465+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "田中圭さん主演の愛犬との物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-22T12:36:41.831035+09:00",
+          "query": "ハウ",
+          "genres": "",
+          "results": "1220,152697,162566,162761,19931,20486,20674,21553,23378,237035,239768,240799,241741,25570,319428,320267,321200,321232,321698,326032,326623,327204,328314,328315,329131,330134,333518,333627,333670,334089,334775,334913,335434,335785,335800,339013,339690,342444,344016,345215,345554,346480,347925,348170,349047,352378,355751,357070,357424,357933,358340,359061,359476,361148,361870,362346,365276,366341,367339,367638,367742,368450,369903,370397,370448,370964,372048,374768,375940,50427,51816,52312,84618,86183"
+        },
+        {
+          "timestamp": "2022-12-22T12:37:28.858354+09:00",
+          "query": "田中圭",
+          "genres": "",
+          "results": "327916,342769,344358,352647,362548,364767,366786,367875,376704,89778"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "愛犬と飼い主の関係を描いたヒューマンドラマですか？どんな場面で感動されたんですか？",
+      "timestamp": "2022-12-22T12:41:57.589199+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "愛犬と飼い主の関係を描いたヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "どんな場面",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "まず、愛犬は保護犬で前の飼い主から虐待を受けていて、ワンと鳴ないんです。それにもかかわらず、主人公だけでなく、誰にでもなついて、とても愛らしいのと、愛犬が途中でいなくなって、最後にやっと主人公に会えたときにも意外な展開がありました。",
+      "timestamp": "2022-12-22T12:47:10.512337+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "保護犬",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "前の飼い主",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "虐待",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ワン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "鳴",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "愛犬",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "主人公に会えたとき",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "意外な展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-22T12:40:12.190271+09:00",
+          "query": "総理大臣",
+          "genres": "",
+          "results": "336791,338644,351361,354182,358947,366076,367984,371593,375048"
+        },
+        {
+          "timestamp": "2022-12-22T12:41:15.070026+09:00",
+          "query": "総理",
+          "genres": "",
+          "results": "336791,338644,341713,351361,354182,358947,366076,367984,371593,375048"
+        },
+        {
+          "timestamp": "2022-12-22T12:41:34.649805+09:00",
+          "query": "総理",
+          "genres": "",
+          "results": "336791,338644,341713,351361,354182,358947,366076,367984,371593,375048"
+        },
+        {
+          "timestamp": "2022-12-22T12:41:56.334504+09:00",
+          "query": "総理",
+          "genres": "",
+          "results": "336791,338644,341713,351361,354182,358947,366076,367984,371593,375048"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "私は犬が大好きなので、ぜひ観てみたいと思います。私は作品が気に入ったら同じ監督の他の映画を観ることにしています。これまでに同じ監督の映画を観たことがあるかもしれませんが、監督の名前を教えていただけますか？",
+      "timestamp": "2022-12-22T12:50:48.525775+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "犬",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "同じ監督の他の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "同じ監督の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "監督の名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "監督は、犬童一心さんです。この監督の代表作には、「のぼうの城」とか「引っ越し大名」などがありますね。動物系ではないようですが。",
+      "timestamp": "2022-12-22T12:54:24.379482+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "犬童一心さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "この監督の代表作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「のぼうの城」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "「引っ越し大名」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "動物系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-22T12:48:52.526294+09:00",
+          "query": "田中圭",
+          "genres": "",
+          "results": "327916,342769,344358,352647,362548,364767,366786,367875,376704,89778"
+        },
+        {
+          "timestamp": "2022-12-22T12:52:21.048676+09:00",
+          "query": "犬童一心",
+          "genres": "",
+          "results": "326216,338319,349009,365786"
+        }
+      ],
+      "checked": [
+        "338319_title",
+        "338319_director_name",
+        "338319_director_other_title-2:365786"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "犬童一心監督の作品なのですね。「のぼうの城」も「引っ越し大名」も観たことがないですが、以前「メゾン・ド・ヒミコ」や「ジョゼと虎と魚たち」は観たことがあります。どちらもいい作品だったので、ますます観てみたくなりました。",
+      "timestamp": "2022-12-22T12:58:49.235959+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "犬童一心監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「のぼうの城」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "「引っ越し大名」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "「メゾン・ド・ヒミコ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "「ジョゼと虎と魚たち」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "どちらもいい作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "よかったです。監督で選ぶのもいいですね。私は出演している俳優さんで選ぶことが多いので。今回は、田中圭さんが出ているので、間違いないと思って選びました。",
+      "timestamp": "2022-12-22T13:00:45.368715+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "出演している俳優さんで選ぶこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "田中圭さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "間違い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "私は監督やストーリーで映画を選ぶことが多くあまり俳優で選ぶことは少ないですが、他にどんな俳優さんが出演されていますか？",
+      "timestamp": "2022-12-22T13:03:46.018164+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "監督やストーリーで映画を選ぶこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "俳優で選ぶこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "池田エライザさんが役所の同僚役として出ていました。二人のやりとりも魅力です。あと石田ゆり子さんがナレーションです。",
+      "timestamp": "2022-12-22T13:07:46.959584+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "池田エライザさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "役所の同僚役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "二人のやりとり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "魅力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "44",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "石田ゆり子さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ナレーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "あまり若手の俳優さんには詳しくないですが、二人のやりとりが魅力的とのこと。そこにも注目してみようと思います。この監督は好きで、ストーリーも興味深いので、ぜひ観てみたいと思います。推奨いただきありがとうございました。",
+      "timestamp": "2022-12-22T13:11:32.841265+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "若手の俳優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "二人のやりとり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "魅力的とのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "50",
+          "text": "この監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひ観てみて下さい。この作品は、一匹のワンちゃんがたくさんの人の人生に影響をあたえてくれるとても感動的な映画です。\n今日はありがとうございました。",
+      "timestamp": "2022-12-22T13:13:38.117104+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "一匹のワンちゃん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "たくさんの人の人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "影響",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "感動的な映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "こちらこそありがとうございました。",
+      "timestamp": "2022-12-22T13:15:13.263047+09:00",
+      "internal_states": []
+    }
+  ]
+}

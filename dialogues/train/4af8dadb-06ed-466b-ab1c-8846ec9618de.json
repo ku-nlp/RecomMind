@@ -1,0 +1,746 @@
+{
+  "dialog_id": "4af8dadb-06ed-466b-ab1c-8846ec9618de",
+  "created_timestamp": "2023-02-14T17:55:41.813784+09:00",
+  "archived_timestamp": "2023-02-14T18:22:21.836055+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくおねがします。",
+      "timestamp": "2023-02-14T18:00:39.847018+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。普段はよく映画は観ますか？どのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-14T18:01:04.384953+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "邦画のミステリーで面白いのを知りたいです。",
+      "timestamp": "2023-02-14T18:03:03.325705+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画のミステリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "真冬ですがあえて「真夏の方程式」はいかがでしょうか？ご覧になりましたか？",
+      "timestamp": "2023-02-14T18:04:00.206650+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "真冬",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「真夏の方程式」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T18:01:21.882279+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,162615,20324,2046,27724,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,366826,369783,369976,381726"
+        },
+        {
+          "timestamp": "2023-02-14T18:02:06.084702+09:00",
+          "query": "アダム・サンドラー",
+          "genres": "",
+          "results": "321822,325622,332672,352585"
+        },
+        {
+          "timestamp": "2023-02-14T18:03:31.763123+09:00",
+          "query": "真夏の",
+          "genres": "",
+          "results": "2046,332860,344361,346540"
+        }
+      ],
+      "checked": [
+        "344361_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "福山雅治のテレビドラマの映画ですかね？\nドラマを見たことがあるのですが、正直あまり好きになれなかったです。\n結構話題になっていたとは思うんですけど。",
+      "timestamp": "2023-02-14T18:07:29.555632+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "福山雅治のテレビドラマの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ガリレオ系はお好きではなかったですか。承知いたしました。では「22年目の告白－私が殺人犯です－」はいかがでしょうか？",
+      "timestamp": "2023-02-14T18:08:49.277988+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ガリレオ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「22年目の告白－私が殺人犯です－」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T18:08:36.263031+09:00",
+          "query": "22年目の告白 私が殺人犯です",
+          "genres": "",
+          "results": "358670"
+        }
+      ],
+      "checked": [
+        "358670_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "そうですね、どうもあのキャラ設定が苦手みたいです。\n「22年目の告白－私が殺人犯です－」見たことがないです。お願いします。",
+      "timestamp": "2023-02-14T18:09:57.395752+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "あのキャラ設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「22年目の告白－私が殺人犯です－」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "連続殺人事件が時効を迎え、その犯人を名乗る男が告白本を出版します。派手な演出で表舞台に現れたその男は、当時から事件を追う刑事の執念、遺族らの憎悪を受けながら、社会全体を自身の思惑に巻き込んでいくというストーリーです。",
+      "timestamp": "2023-02-14T18:10:34.319818+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "連続殺人事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "時効",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "迎え、その犯人を名乗る男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "告白本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "派手な演出で表舞台に現れたその男",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "事件を追う刑事の執念、遺族らの憎悪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "社会全体",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "自身の思惑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "巻き込んでいくというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358670_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "見ごたえがありそうですね。\nその告白本に、殺人の動機やどうやって事件を起こしたのか？などが記載されているのでしょうか？",
+      "timestamp": "2023-02-14T18:13:15.011219+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "その告白本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "殺人の動機",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "そうなんです、かなり詳細で犯人しか分からないことまで書かれています。その犯人でほんの著者役が藤原竜也さん、刑事役が伊藤英明さんです。",
+      "timestamp": "2023-02-14T18:14:38.947034+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "詳細で犯人しか分からないこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "その犯人でほんの著者役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "藤原竜也さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "刑事役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "伊藤英明さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358670_cast_name-0",
+        "358670_cast_name-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "ご覧になった感想はどんな感じですか？",
+      "timestamp": "2023-02-14T18:16:29.235647+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "ご覧になった感想",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "後半からラストにかけて驚かされ、感情が揺さぶられ、見終わったときの満足感がすごいです。後半部分から急展開があります。",
+      "timestamp": "2023-02-14T18:17:15.484156+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "ラスト",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "感情",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "揺さぶられ、見終わったときの満足感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "後半部分",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "急展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358670_review-0"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "なるほど、どんでん返し的な感じでしょうか。満足感が高いのは良いですね。見終わった後にモヤモヤが残るものもたまにありますが。\n見てみたいと思います。映画館でご覧になったのでしょうか？",
+      "timestamp": "2023-02-14T18:19:06.895965+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "どんでん返し的な感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "満足感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "見終わった後にモヤモヤが残るもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "39",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "アマゾンプライムで観ました。この映画は特に藤原竜也さんの演技が圧巻です。",
+      "timestamp": "2023-02-14T18:20:35.464909+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "アマゾンプライム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "藤原竜也さんの演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "圧巻",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "アマプラで観ることができるんですね。見てみますね。\nご紹介ありがとうございます。",
+      "timestamp": "2023-02-14T18:21:40.359250+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "アマプラ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ミステリー作品が好きな方にピッタリの映画ですので、ぜひご覧ください。ありがとうございました。",
+      "timestamp": "2023-02-14T18:22:17.957726+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "358670_review-1"
+      ]
+    }
+  ]
+}

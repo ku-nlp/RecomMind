@@ -1,0 +1,891 @@
+{
+  "dialog_id": "f49302d0-dc36-44cf-9e82-ce47d3b14c50",
+  "created_timestamp": "2023-02-13T16:56:12.974179+09:00",
+  "archived_timestamp": "2023-02-13T17:19:20.269118+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-13T16:59:01.542298+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。\n今日はよろしくお願いします。",
+      "timestamp": "2023-02-13T16:59:19.926520+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-13T16:59:29.368903+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "特にこれ！っていうのはないんですが、コメディや謎解きのようなものが好きです。\n邦画、洋画問わず何かおすすめはありますか？",
+      "timestamp": "2023-02-13T17:00:27.353529+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディや謎解きのようなもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "私の中で謎解きと言えば思い当たるのが「ナショナル・トレジャー」なのですが、観ましたか？",
+      "timestamp": "2023-02-13T17:01:25.010155+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "私の中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "謎解き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「ナショナル・トレジャー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T17:00:48.660089+09:00",
+          "query": "ナショナル・トレジャー",
+          "genres": "",
+          "results": "321200,328224"
+        }
+      ],
+      "checked": [
+        "321200_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "「ナショナル・トレジャー」は、タイトルも初めて聞きました。\nぜひ、教えていただけますか？",
+      "timestamp": "2023-02-13T17:02:04.414358+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「ナショナル・トレジャー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "歴史学者にして冒険家の男性が主人公です。家族代々の夢を継ぎ、独立戦争時代のアメリカで消えた伝説の秘宝を追い求めていました。最後の生存者が彼の先祖に残した唯一の手がかりを追い、相棒の天才ハッカーとその謎を探っていくというストーリーです。",
+      "timestamp": "2023-02-13T17:03:03.406590+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "歴史学者",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "冒険家の男性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "家族代々の夢",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "継ぎ、独立戦争時代のアメリカで消えた伝説の秘宝",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "最後の生存者が彼の先祖に残した唯一の手がかり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "天才ハッカー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "その謎",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "探っていくというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321200_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "面白そうですね！！その作品の見どころはどこですか？",
+      "timestamp": "2023-02-13T17:04:56.370911+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "その作品の見どころ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "謎解きのクオリティが非常に高く、かつそれを紐解いていく主人公にいちいち関心させられてしまいます。こういった秘密結社絡みのものは最終的に拍子抜けなパターンが多いですが、この作品はしっかりと財宝まで明かされるのでとても最後にスッキリします。",
+      "timestamp": "2023-02-13T17:06:17.086714+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "謎解きのクオリティ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "それを紐解いていく主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "こういった秘密結社絡みのもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "拍子抜けなパターン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "財宝",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "冒険家と天才ハッカーという、一見すると相まみれないタイプの二人だと感じたんですが、その高いクオリティの謎解きには、最高のバディになるんでしょうね。\nワクワクしますね。",
+      "timestamp": "2023-02-13T17:08:22.091580+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "冒険家",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "天才ハッカーという、一見すると相まみれないタイプの二人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "その高いクオリティの謎解きには、最高のバディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "アドベンチャー感だったり、アクションは「インディ・ジョーンズ」シリーズを彷彿とさせますが、史実の謎を巧妙に利用した設定、演出がストーリーに深みを持たせている点がすばらしい作品です。",
+      "timestamp": "2023-02-13T17:09:05.026246+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "アドベンチャー感",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「インディ・ジョーンズ」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "史実の謎を巧妙に利用した設定、演出がストーリーに深みを持たせている点がすばらしい作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうなんですね。今から見るのが楽しみです。ありがとうございます。\n\n他にもおすすめがあれば、教えていただけますか？",
+      "timestamp": "2023-02-13T17:09:49.853531+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "この映画と同じ俳優が出演している「グランド・ブダペスト・ホテル」は観ましたか？",
+      "timestamp": "2023-02-13T17:11:22.710758+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "この映画と同じ俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "「グランド・ブダペスト・ホテル」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T17:10:59.145235+09:00",
+          "query": "グランド・ブダペスト・ホテル",
+          "genres": "",
+          "results": "348087"
+        },
+        {
+          "timestamp": "2023-02-13T17:11:01.921078+09:00",
+          "query": "グランド・ブダペスト・ホテル",
+          "genres": "",
+          "results": "348087"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "その作品も知らなかったです笑\nどのようなストーリーですか？\n俳優さんのお名前も教えてください。",
+      "timestamp": "2023-02-13T17:12:20.777583+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "その作品も知らなかったです笑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "俳優さんのお名前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ヨーロッパ随一の超高級ホテルにてコンシェルジュが富豪の常連客が殺された事件であらぬ疑いをかけられます。そんな彼は、ベルボーイ見習いの少年ゼロと共に、ホテルで起きた殺人事件の解明に奔走するというストーリーです。主人公はレイフ・ファインズ、ハリーポッターの映画でヴォルデモートを演じていました。",
+      "timestamp": "2023-02-13T17:13:42.011682+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "ヨーロッパ随一の超高級ホテル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "コンシェルジュ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "富豪の常連客が殺された事件であらぬ疑い",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "そんな彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ベルボーイ見習いの少年ゼロと共に、ホテルで起きた殺人事件の解明",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "奔走するというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "レイフ・ファインズ、ハリーポッターの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ヴォルデモート",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "348087_title",
+        "348087_cast_name-0"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "超高級ホテルが舞台になるんでしょうか。装飾品なども素敵でしょうね。\nこちらも、自分が謎解きをする感覚で楽しめそうです。",
+      "timestamp": "2023-02-13T17:16:57.319946+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "超高級ホテル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "装飾品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "自分が謎解きをする感覚",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "そうなんです。独特のリズム感を持った作品です。サスペンス的なお話だし、人も死んでしまうけど、どこか上機嫌でハッピーな作品に感じてしまうのはリズム感、ポップなカラー、オシャレな世界観ゆえなのでしょう。ぜひご覧ください。",
+      "timestamp": "2023-02-13T17:17:34.172421+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "独特のリズム感を持った作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "サスペンス的なお話だし、人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "上機嫌でハッピーな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "リズム感、ポップなカラー、オシャレな世界観ゆえ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "テンポよくお話がすすんでいくんですね。\n素敵な世界観で目の保養にもなりそうです。\nありがとうございます。",
+      "timestamp": "2023-02-13T17:18:48.587289+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "テンポ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "素敵な世界観",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "目の保養",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "建造物や衣装も楽しんでいただけると思います。ありがとうございました。",
+      "timestamp": "2023-02-13T17:19:17.348076+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

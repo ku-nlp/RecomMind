@@ -1,0 +1,753 @@
+{
+  "dialog_id": "58757af5-4bb8-400a-9e10-57e429baa541",
+  "created_timestamp": "2023-02-03T20:47:36.242281+09:00",
+  "archived_timestamp": "2023-02-03T21:07:16.440940+09:00",
+  "recommender": {
+    "name": "036",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "039",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは、どうぞよろしくお願いします！",
+      "timestamp": "2023-02-03T20:49:16.595741+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "はじめまして\n初めて挑戦してみました\nよろしくお願いします",
+      "timestamp": "2023-02-03T20:49:54.566071+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "なるほど。どんな映画をお探しですか？好きな俳優やジャンルはありますか？",
+      "timestamp": "2023-02-03T20:50:15.948528+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "好きな俳優やジャンル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "トムクルーズ、ブラッドピット、ジョントラボルタ、ケヴィンベーコンとか好きです",
+      "timestamp": "2023-02-03T20:51:33.365698+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "トムクルーズ、ブラッドピット、ジョントラボルタ、ケヴィンベーコン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "トラボルタファンなら、もうパルプ・フィクションはご覧になっていますか？",
+      "timestamp": "2023-02-03T20:52:35.911558+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "トラボルタファン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "パルプ・フィクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T20:51:50.515193+09:00",
+          "query": "ブラッドビット",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-03T20:51:54.930467+09:00",
+          "query": "ブラッド",
+          "genres": "",
+          "results": "159307,159875,161560,162855,2132,234690,235078,237942,241897,24940,25599,28593,29038,319068,319257,320917,321945,322605,324328,325136,326034,326246,326536,327034,327386,328547,330764,330912,331366,331380,331863,332669,333367,333627,333858,334235,334285,336061,336888,340335,344170,344429,344974,346339,346480,346630,346643,347686,349437,349750,350823,350977,351805,352368,352378,353426,354963,355820,358099,359505,361302,361806,362501,362962,363405,364123,364566,365978,366365,366491,367638,368860,369221,371684,376383,381726,52338,7547,84617"
+        },
+        {
+          "timestamp": "2023-02-03T20:52:16.872222+09:00",
+          "query": "トラボルタ",
+          "genres": "",
+          "results": "18665,332848,8674"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "これ、初めてなんですけど同じ相手と今後話すことがあるかもしれないといわれたんですが、相手のID分からないので、識別できないですよね？",
+      "timestamp": "2023-02-03T20:52:43.201649+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "同じ相手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "今後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "相手のID",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "当方は同じ方だと認識できました。好きな俳優や見た作品が同じだったので。ですので推薦する作品を変えました。推薦者はわかるはずです。",
+      "timestamp": "2023-02-03T20:53:36.577113+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "当方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "同じ方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "好きな俳優や見た作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "推薦する作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "推薦者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうなんですね。これらの俳優さんの出てる映画は大抵見てると思います、パルプフィクションもみました。が、トラボルタ作品のなかですきなほうではないですｗ",
+      "timestamp": "2023-02-03T20:54:39.427091+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "これらの俳優さんの出てる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "見てると思います、パルプフィクションもみました。が、トラボルタ作品のなかですきなほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "では全く逆にオーシャンズ８はいかがですか？ブラピ版とは異なり全員女性のチームです。",
+      "timestamp": "2023-02-03T20:55:57.677900+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "オーシャンズ８",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ブラピ版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "全員女性のチーム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T20:55:35.129093+09:00",
+          "query": "ブラッド",
+          "genres": "",
+          "results": "159307,159875,161560,162855,2132,234690,235078,237942,241897,24940,25599,28593,29038,319068,319257,320917,321945,322605,324328,325136,326034,326246,326536,327034,327386,328547,330764,330912,331366,331380,331863,332669,333367,333627,333858,334235,334285,336061,336888,340335,344170,344429,344974,346339,346480,346630,346643,347686,349437,349750,350823,350977,351805,352368,352378,353426,354963,355820,358099,359505,361302,361806,362501,362962,363405,364123,364566,365978,366365,366491,367638,368860,369221,371684,376383,381726,52338,7547,84617"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "オーシャンズも全部好きです！見てます！",
+      "timestamp": "2023-02-03T20:56:24.156705+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "オーシャンズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "マリアンヌもご覧になってますよね",
+      "timestamp": "2023-02-03T20:56:49.003903+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "マリアンヌ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "自由の女神！ですね。推薦者様の好きな俳優の話をしていただいたほうがいいかもしれないです。こちらの好きな俳優の映画は見てると思いますので",
+      "timestamp": "2023-02-03T20:58:42.146444+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "自由の女神",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "推薦者様の好きな俳優の話をしていただいたほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "こちらの好きな俳優の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ガタカはいかがですか？",
+      "timestamp": "2023-02-03T20:59:42.209805+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "ガタカ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T20:57:08.127355+09:00",
+          "query": "マリアンヌ",
+          "genres": "",
+          "results": "327713,358099,358894"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "お！知らないです。だれが出ているんですか？",
+      "timestamp": "2023-02-03T21:00:31.278222+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "イーサン・ホークとユマ・サーマン、ジュード・ロウで、彼らが絶世期？の頃です。ジャンルで言うとSFにあたるかと。近未来の世界の美学がクールで引き込まれました。",
+      "timestamp": "2023-02-03T21:01:54.877290+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "イーサン・ホーク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ユマ・サーマン、ジュード・ロウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "彼ら",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "絶世期？の頃",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "SF",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "近未来の世界の美学",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T20:59:54.356236+09:00",
+          "query": "ガタカ",
+          "genres": "",
+          "results": "83911"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "宇宙に冒険に行く系ですか？宇宙での生活系ですか？宇宙での戦い系ですか？",
+      "timestamp": "2023-02-03T21:03:04.625991+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "宇宙に冒険に行く系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "宇宙での生活系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "宇宙での戦い系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "メインは宇宙に行く前ですね。DNAによって宇宙飛行士になれる人となれない人にわかれ、なんとかして宇宙船に乗ろうとします。監督はトゥルーマン・ショーの人ですが、もっと陰影のある美しさがあります。",
+      "timestamp": "2023-02-03T21:05:15.025249+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "メイン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "宇宙に行く前",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "DNA",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "宇宙飛行士になれる人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "なれない人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "宇宙船",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "トゥルーマン・ショーの人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "陰影のある美しさ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "83911_title"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "先日はブラピの宇宙モノ、アズアストラみました、ガタカ、機会があったら是非見てみますね！",
+      "timestamp": "2023-02-03T21:06:40.046048+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "ブラピの宇宙モノ、アズアストラみました、ガタカ、機会",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "宇宙オンリーとも違う感じです。機会がありましたらどうぞ！本日は有難うございました！",
+      "timestamp": "2023-02-03T21:07:09.342083+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "83911_title"
+      ]
+    }
+  ]
+}

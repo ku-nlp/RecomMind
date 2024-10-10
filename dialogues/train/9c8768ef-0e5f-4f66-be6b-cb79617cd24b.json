@@ -1,0 +1,776 @@
+{
+  "dialog_id": "9c8768ef-0e5f-4f66-be6b-cb79617cd24b",
+  "created_timestamp": "2023-03-02T11:57:14.272318+09:00",
+  "archived_timestamp": "2023-03-02T12:21:59.033613+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "004",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-03-02T11:59:48.713875+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "始めまして、こちらこそどうぞよろしくお願いします。",
+      "timestamp": "2023-03-02T12:01:00.806510+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今日はどんな映画をご覧になりたいご気分でしょうか？",
+      "timestamp": "2023-03-02T12:01:06.362686+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どんな映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、春の暖かい日ですので、いい風景が見れる映画があればいいなと思いますが、何かございますか？",
+      "timestamp": "2023-03-02T12:02:26.940523+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "そうですね、春の暖かい日",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "いい風景が見れる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ハワイなんかどうでしょうか。2005年の「50回目のファースト・キス」はご覧になったことはございますか？",
+      "timestamp": "2023-03-02T12:03:45.255318+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「50回目のファースト・キス」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T12:02:46.912535+09:00",
+          "query": "ブロークバック",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-02T12:02:49.618311+09:00",
+          "query": "ブローク",
+          "genres": "",
+          "results": "370087"
+        },
+        {
+          "timestamp": "2023-03-02T12:02:58.975969+09:00",
+          "query": "マウンテン",
+          "genres": "",
+          "results": "319506,333331,346540,347810,357933"
+        },
+        {
+          "timestamp": "2023-03-02T12:03:16.015438+09:00",
+          "query": "ファースト",
+          "genres": "",
+          "results": "321822,327926,334187,339180,339722,341523,342687,342706,345863,347358,351301,353113,360445,361870,362671,363021,363105,363978,365007,367080,369783,372058,374440"
+        }
+      ],
+      "checked": [
+        "321822_title",
+        "321822_year"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "観たことがないですね。ハワイいいですね、どんなお話ですか？",
+      "timestamp": "2023-03-02T12:04:40.188593+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ハワイの水族館で働くヘンリー（アダム・サンドラー）と、ルーシー（ドリュー・バリモア）の恋物語です。彼女は事故の後遺症により、事故前日までの記憶は残っているが、以後の記憶が全て一晩でリセットされてしまうという短期記憶喪失障害でした。",
+      "timestamp": "2023-03-02T12:06:26.298705+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ハワイの水族館で働くヘンリー（アダム・サンドラー）と、ルーシー（ドリュー・バリモア）の恋物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "事故の後遺症",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "事故前日までの記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "以後の記憶",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "一晩",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "リセットされてしまうという短期記憶喪失障害",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321822_cast_name-0",
+        "321822_cast_name-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "毎日初めてって感じですか？珍しい設定ですね、",
+      "timestamp": "2023-03-02T12:07:28.348197+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "珍しい設定",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうです、せっかく恋がうまくいきそうになっても、翌日になったら忘れてリセットされてしまうんです。ヘンリーは毎日、初対面から始め、愛を告白し続けます。ここまではコメディ要素もあるのですが、なぜか応援したくなり、そして最後はとても感動します。",
+      "timestamp": "2023-03-02T12:08:26.041830+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "恋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "翌日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ヘンリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "毎日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "初対面",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "愛",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "コメディ要素",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "へぇー、大変そうですね。毎日告白されるのは羨ましいです(笑)",
+      "timestamp": "2023-03-02T12:12:51.753490+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "毎日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "しかもアダム・サンドラーにね（笑）。2005年なので、二人とも和解から、かっこいいし、可愛かったです。特にドリュー・バリモアがチャーミングで、ハワイの景色とマッチしています。",
+      "timestamp": "2023-03-02T12:13:51.175354+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "アダム・サンドラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "2005年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "二人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "和解",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ドリュー・バリモア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ハワイの景色",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "321822_cast_name-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうそう、アダム・サンドラーっていうところが肝心です(笑)\n映画の中でハワイの風景はいっぱい見れるのですね、考えるだけでウキウキです",
+      "timestamp": "2023-03-02T12:16:48.224621+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "アダム・サンドラーっていうところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ハワイの風景",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "海も、山も美しく、水族館の動物たちも可愛いんです。ハワイに行きたくなります。脇役も個性的で良いですよ。お兄さん役が、確かロードオブザリングに出ていた俳優さんだったような気がします。",
+      "timestamp": "2023-03-02T12:18:11.587522+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "海",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "山",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "水族館の動物たち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ハワイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "脇役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "お兄さん役が、確かロードオブザリングに出ていた俳優さんだったような気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "美しい景色にかわいい動物たち、幸せな気分になりそうですね\n脇役まで大物ですか、期待満点じゃないですか、いいですね",
+      "timestamp": "2023-03-02T12:20:46.818802+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "美しい景色にかわいい動物たち、幸せな気分",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "脇役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "大物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "期待満点",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "長澤まさみで、リメイクされた邦画がでていましたが、観る気になりませんでした。ご覧になる際は、アメリカ版でぜひ！今日はありがとうございました。",
+      "timestamp": "2023-03-02T12:21:01.015780+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "長澤まさみ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "リメイクされた邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "観る気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ご覧になる際",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "アメリカ版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "分かりました、アメリカ版で。\nこちらこそありがとうございました。",
+      "timestamp": "2023-03-02T12:21:45.894970+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "分かりました、アメリカ版",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

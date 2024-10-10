@@ -1,0 +1,664 @@
+{
+  "dialog_id": "3784c896-88d0-40d5-9373-b2e60640b426",
+  "created_timestamp": "2022-12-21T14:12:26.509309+09:00",
+  "archived_timestamp": "2022-12-21T14:35:55.409599+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2022-12-21T14:13:47.492275+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2022-12-21T14:13:48.366605+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルの映画がお好きでしょうか？",
+      "timestamp": "2022-12-21T14:15:10.858267+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "恋愛映画以外は、どんなジャンルの映画も好きです。",
+      "timestamp": "2022-12-21T14:16:02.942197+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "恋愛映画以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "最近アバター2の予告編をテレビで見たのですが、アバター1はご覧になったことはありますか？",
+      "timestamp": "2022-12-21T14:18:30.987779+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "アバター2の予告編",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "アバター1",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-21T14:17:53.982582+09:00",
+          "query": "アバター",
+          "genres": "",
+          "results": "333497,334089,336142,361726,375099"
+        },
+        {
+          "timestamp": "2022-12-21T14:17:54.475277+09:00",
+          "query": "アバター",
+          "genres": "",
+          "results": "333497,334089,336142,361726,375099"
+        }
+      ],
+      "checked": [
+        "334089_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "アバター1は映画館で見ました。すごい映像美でした。",
+      "timestamp": "2022-12-21T14:19:20.924591+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "アバター1",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "すごい映像美",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "2009年でしたね。私も初めて映画館で観たときは映像美に驚きました。\n少し登場するキャラクターが似ているなと思ったのですが「ガーディアンズ・オブ・ギャラクシー」はいかがでしょうか？",
+      "timestamp": "2022-12-21T14:21:55.912587+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "映画館で観たとき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "映像美",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "登場するキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「ガーディアンズ・オブ・ギャラクシー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-21T14:20:48.528655+09:00",
+          "query": "ファンタジー",
+          "genres": "",
+          "results": "1709,236590,237101,330912,334089,336630,350752,352648"
+        },
+        {
+          "timestamp": "2022-12-21T14:21:16.959924+09:00",
+          "query": "ガーディアンズ・オブ・ギャラクシー",
+          "genres": "",
+          "results": "349437,359505,361806,366491,382432"
+        }
+      ],
+      "checked": [
+        "334089_year",
+        "349437_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "タイトルは聞いたことがあります。どんな内容ですか？",
+      "timestamp": "2022-12-21T14:22:46.753556+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ジャンルでいうとアクションとアドベンチャーでしょうか。半分人間、半分道の種族の主人公が仲間と一緒に宇宙を旅し、星を守るという内容です。",
+      "timestamp": "2022-12-21T14:25:12.668144+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "アドベンチャー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "半分人間、半分道の種族の主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "仲間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "宇宙",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "星",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "守るという内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349437_genre-0",
+        "349437_genre-1",
+        "349437_plot-29"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "アクションアドベンチャー大好きです。主演は誰ですか？",
+      "timestamp": "2022-12-21T14:26:33.915603+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "アクションアドベンチャー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ジュラシックワールドでも主演を務めているクリスプラットです。ご存知でしょうか？",
+      "timestamp": "2022-12-21T14:27:33.922735+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "ジュラシックワールドでも主演を務めているクリスプラット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ジュラシックワールドを見たので知ってます。かっこいい俳優さんですよね。他にはどんな役者さんが出演されてますか？",
+      "timestamp": "2022-12-21T14:29:10.777474+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ジュラシックワールド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "かっこいい俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "どんな役者さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ゾーイ・サルダナは先ほどのアバターに出ていた女優ですね。あとはブラッドリー・クーパーはアライグマの声で出演しています。",
+      "timestamp": "2022-12-21T14:30:49.085496+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ゾーイ・サルダナ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "先ほどのアバターに出ていた女優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ブラッドリー・クーパー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "アライグマの声",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349437_cast_name-1",
+        "349437_cast_name-4"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "豪華ですね。ブラッドリー・クーパーが声だけの出演なんて少しもったいない気もします。",
+      "timestamp": "2022-12-21T14:32:41.913200+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "ブラッドリー・クーパー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "声だけの出演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "もったいない気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "観ている最中は気づかず、エンドロールで知りました。もう一度見たくなりました",
+      "timestamp": "2022-12-21T14:33:20.148377+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "観ている最中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "エンドロール",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "すごく面白そうなのでアライグマの声にも注目しながら、見てみたいと思います。",
+      "timestamp": "2022-12-21T14:34:22.328799+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "アライグマの声",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ぜひ。興味を持っていただいてよかったです。ありがとうございました。",
+      "timestamp": "2022-12-21T14:35:03.623209+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "お話しできて楽しかったです。ありがとうございました。",
+      "timestamp": "2022-12-21T14:35:33.240455+09:00",
+      "internal_states": []
+    }
+  ]
+}

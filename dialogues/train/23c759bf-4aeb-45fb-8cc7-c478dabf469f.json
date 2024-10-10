@@ -1,0 +1,1120 @@
+{
+  "dialog_id": "23c759bf-4aeb-45fb-8cc7-c478dabf469f",
+  "created_timestamp": "2023-03-20T19:57:50.599117+09:00",
+  "archived_timestamp": "2023-03-20T20:35:29.497301+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。",
+      "timestamp": "2023-03-20T19:59:22.987637+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。こちらこそよろしくお願いいたします。",
+      "timestamp": "2023-03-20T19:59:36.515229+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんな映画がお好きですか。\n洋画メインなので、あまり邦画はお勧めできません。",
+      "timestamp": "2023-03-20T20:00:15.491079+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画メイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "私も洋画を観ることの方が多いです。\nヒューマンドラマを観ることが多いですが、ジャンルを問わずその時の気分で観たい映画を選んでいます。\n普段自分では選ばないようなジャンルの作品を推奨いただき、意外と面白くて新しい発見があったりしましたので、今日はお任せしてみたい気分です。",
+      "timestamp": "2023-03-20T20:02:24.883311+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "私も洋画を観ることの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ヒューマンドラマを観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "問わずその時の気分で観たい映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "普段自分では選ばないようなジャンルの作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "意外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "面白くて新しい発見",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "お任せしてみたい気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "コメディ系で「スクール・オブ・ロック」「イエスマン “YES”は人生のパスワード」、ドラマ系で「女神の見えざる手」「グリーンブック」、アクション系で「ナイト＆デイ」などはいかがでしょうか。",
+      "timestamp": "2023-03-20T20:05:32.139776+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "コメディ系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「スクール・オブ・ロック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「イエスマン　“YES”は人生のパスワード」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ドラマ系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「女神の見えざる手」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「グリーンブック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "アクション系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「ナイト＆デイ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-20T20:02:59.553118+09:00",
+          "query": "スクール",
+          "genres": "",
+          "results": "19931,236645,319234,325768,327928,328996,329456,329681,332153,340604,350237,351663,360962,363013,369671,370182,374337"
+        },
+        {
+          "timestamp": "2023-03-20T20:03:29.329112+09:00",
+          "query": "女神",
+          "genres": "",
+          "results": "161136,2257,239768,325606,326744,327529,329614,332676,334089,343488,348085,357342,361391,378066"
+        },
+        {
+          "timestamp": "2023-03-20T20:03:51.045433+09:00",
+          "query": "ナイト",
+          "genres": "",
+          "results": "159811,16482,17046,22237,236636,237781,239768,239900,240710,318646,319653,320372,320917,323368,323917,324027,324329,326503,326744,327386,328495,329605,329767,330573,332598,333196,333965,334943,335605,336078,336142,337331,337671,338067,338090,338494,338546,339054,339223,340611,341568,342677,344613,345058,346480,350077,350366,350926,350931,352299,353277,353390,353463,354676,355085,355740,358894,359052,359506,359622,360632,362179,362936,363223,364938,365009,365598,366068,372555,376781,377442,378165,7298,85349,8674"
+        },
+        {
+          "timestamp": "2023-03-20T20:04:28.654263+09:00",
+          "query": "イエスマン",
+          "genres": "",
+          "results": "332669"
+        },
+        {
+          "timestamp": "2023-03-20T20:05:07.917932+09:00",
+          "query": "グリーン",
+          "genres": "",
+          "results": "1220,159812,161112,19931,22113,2257,234686,236401,239580,28621,319039,319234,320063,320073,325032,325438,327081,328151,328224,328367,329887,330798,334832,336109,337000,337723,338510,339740,341641,341643,341880,343694,344500,344722,346309,346480,347535,347722,350077,350659,351464,353595,354254,355735,358425,360497,362501,365598,365979,366007,369043,378066,4450,495,6207,7931,9848"
+        }
+      ],
+      "checked": [
+        "319234_title",
+        "332669_title",
+        "361391_title",
+        "365598_title",
+        "336078_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "「グリーンブック」、「ナイト＆デイ」は観たことがあります。他の作品はまだ観たことがありません。どれも面白そうですが、一押しはどの映画でしょうか。",
+      "timestamp": "2023-03-20T20:07:16.587045+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "「グリーンブック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「ナイト＆デイ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "他の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "一押し",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "どの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「女神の見えざる手」は、観た後にそこまでするかと思える作品です。\n楽しい気分になりたい時は「スクール・オブ・ロック」がお勧めです。洋楽を聴かれるのならよりこちらをお勧めします。",
+      "timestamp": "2023-03-20T20:09:29.806678+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "「女神の見えざる手」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "そこまでするかと思える作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "楽しい気分になりたい時",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「スクール・オブ・ロック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "洋楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "361391_title",
+        "365598_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どちらも面白そうなので迷いますが、気が晴れるような楽しい映画を観たい気分なので、「スクール・オブ・ロック」の方をお願いします。",
+      "timestamp": "2023-03-20T20:12:25.108023+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "気が晴れるような楽しい映画を観たい気分",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "「スクール・オブ・ロック」の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "「スクール・オブ・ロック」の主人公は、バンドを首になってしまった音楽オタクです。友人に来た臨時教師の仕事に、成り済まして名門私立学校に雇われてしまいます。\nそこで初めは、自習だけさせて給料をもらえれば良いと考えていたのですが、生徒たちの音楽の才能に触れ、クラスでバンドを組んでバンドバトルに出ることを画策します。",
+      "timestamp": "2023-03-20T20:15:54.542825+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "「スクール・オブ・ロック」の主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "バンドを首になってしまった音楽オタク",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "友人に来た臨時教師の仕事",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "名門私立学校",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "初め",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "自習",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "給料",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "生徒たちの音楽の才能",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "クラス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "バンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "41",
+          "text": "組んでバンドバトルに出ること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-20T20:12:10.926220+09:00",
+          "query": "アラビアのロレンス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-20T20:12:13.820597+09:00",
+          "query": "アラビアの",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-20T20:12:14.917557+09:00",
+          "query": "アラビアの",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-20T20:12:16.618250+09:00",
+          "query": "アラビアの",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-20T20:12:21.340751+09:00",
+          "query": "ロレンス",
+          "genres": "",
+          "results": "12926"
+        }
+      ],
+      "checked": [
+        "365598_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "コメディー系の作品とのことですが、その音楽オタクはコメディアンが演じているのですか？演奏シーンがありそうなので、ミュージシャンですか？",
+      "timestamp": "2023-03-20T20:20:42.356195+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "コメディー系の作品とのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "その音楽オタク",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "コメディアン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "演奏シーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ミュージシャン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "主人公を演じているのは、ジャック・ブラックで、彼は実際に音楽活動もしています。",
+      "timestamp": "2023-03-20T20:22:12.591997+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "ジャック・ブラック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "音楽活動",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ロックですね。ストーリー展開も面白そうですが、演奏も楽しみです。",
+      "timestamp": "2023-03-20T20:24:06.238905+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "ロック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ストーリー展開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "演奏",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "バックには、70年代から90年代前半までの曲が多く使われています。\nクラスのバンドが演奏するのは、生徒が歌詞を考え主人公が曲を付けたものになります。",
+      "timestamp": "2023-03-20T20:25:30.052711+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "バック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "70年代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "90年代前半までの曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "クラスのバンド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "生徒",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "歌詞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "考え主人公が曲を付けたもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "それは楽しみです！音楽オタク教師と生徒たちとのやり取りも面白そうですね。\n笑いだけでなく感動して泣ける場面もあるのかな？と推測します。",
+      "timestamp": "2023-03-20T20:27:59.247452+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "音楽オタク教師と生徒たちとのやり取り",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "感動して泣ける場面",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "もともと口八丁で、みんなを丸め込んでしまう、強引さも笑ってしまうのですが、泣けるとまでは行かないですが、親の厳しい躾に悩んでいた生徒に抗ってもいいんだといって感謝されたりする場面もあります。\n当然コメディなので、お約束のように成り済ましているのがバレて大ごとになります。",
+      "timestamp": "2023-03-20T20:31:06.165762+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "口八丁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "強引さ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "親の厳しい躾に悩んでいた生徒",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "抗ってもいいんだといって感謝されたりする場面",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "67",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "大ごと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "どういう展開になるのか楽しみです。\nとても面白そうな映画をご紹介いただきありがとうございました！\n今日紹介いただいた他の作品も観てみたいと思いました。",
+      "timestamp": "2023-03-20T20:32:36.851459+09:00",
+      "internal_states": [
+        {
+          "id": "69",
+          "text": "どういう展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "70",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "71",
+          "text": "今日紹介いただいた他の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、気に入っていただけたのなら幸いです。\n今日はありがとうございました。",
+      "timestamp": "2023-03-20T20:35:23.332858+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-03-20T20:35:03.175547+09:00",
+          "query": "僕のミライ",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    }
+  ]
+}

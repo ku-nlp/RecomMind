@@ -1,0 +1,1150 @@
+{
+  "dialog_id": "ad03860e-a040-417f-b550-bc11d4600af3",
+  "created_timestamp": "2023-02-14T16:55:48.719528+09:00",
+  "archived_timestamp": "2023-02-14T17:23:18.348341+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "003",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。今日はよろしくお願いします。",
+      "timestamp": "2023-02-14T16:58:24.380587+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。早速ですがどのようなジャンルが普段お好きでしょうか？",
+      "timestamp": "2023-02-14T16:58:48.716054+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "普段はこれといったジャンルを問わず、邦画を観ることが多いです。\nホラーは苦手ですが、コメディや推理ものが好きです。",
+      "timestamp": "2023-02-14T17:00:14.691608+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "これといったジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "問わず、邦画を観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "コメディや推理もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "私もホラーは苦手です。去年の大河ドラマが好きで欠かさず観ていたのですが、小栗旬さん主演の「信長協奏曲（のぶながコンツェルト）」は観ましたか？",
+      "timestamp": "2023-02-14T17:01:09.500979+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "5",
+          "text": "去年の大河ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "小栗旬さん主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「信長協奏曲（のぶながコンツェルト）」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T17:00:03.738887+09:00",
+          "query": "ベン",
+          "genres": "",
+          "results": "10911,11457,11830,11893,13239,13693,159869,161376,161716,17046,17608,19931,20696,20726,234686,234690,235071,235232,237362,240096,240346,24917,25599,320917,321200,321603,321617,321932,322086,322404,322605,324253,324293,324826,325317,325627,326062,326503,326623,327000,327025,327386,327707,327928,328224,328546,328626,328724,328807,329299,329925,329929,330416,330764,330813,330912,331823,332328,332361,332757,333030,333193,333196,333331,333332,333367,333858,334058,334235,334768,334777,335210,335381,335565,335850,336052,336142,336791,337245,337331,337475,337855,338546,339180,339230,339690,339722,339817,340335,340403,340512,340605,340606,340877,341532,341611,341641,342051,342363,342444,342725,342769,343336,343488,343946,344013,344443,344686,345215,345366,346480,346944,347535,347542,347686,348170,349124,349849,350277,350366,350870,350897,351301,351419,351663,352092,352157,352368,352378,352384,352585,352899,353088,353113,353277,353390,353403,353426,353612,353627,354629,354700,354826,354902,355057,355109,355424,355696,355740,355751,355752,356057,356150,356251,356423,356506,357823,357995,358010,358340,358906,359026,359315,359685,359716,360444,360620,360948,361068,361332,361373,361665,361726,361749,361759,361801,361806,362179,362501,362605,362656,362706,362712,363106,363117,363223,363347,363360,364079,364123,364404,364754,364985,365276,365402,365489,365768,365988,366007,366075,366134,366409,366464,366465,366491,367080,367924,368191,369221,369522,370087,370110,370356,370448,370460,371833,372807,374137,376781,378214,379025,83416,83436,83886,83888,84307,84618,84698,9532"
+        },
+        {
+          "timestamp": "2023-02-14T17:00:27.993756+09:00",
+          "query": "のぶなが",
+          "genres": "",
+          "results": "353539"
+        }
+      ],
+      "checked": [
+        "353539_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "鎌倉・・の小栗旬さんはお見事でしたね！\n\nその作品は観ていないです！\nどんな小栗「信長」像ですか？",
+      "timestamp": "2023-02-14T17:03:00.776509+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "鎌倉・・の小栗旬さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "その作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "どんな小栗",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「信長」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ではぜひ紹介させてください！勉強が苦手な高校生がひょんなことから戦国時代にタイムスリップしてしまい、そこで出会った本物の織田信長に、瓜二つの容貌をしていたことから、病弱な自分の代わりに信長として生きてくれと頼まれ、信長として生きていくこととなるというストーリーです。この高校生が小栗旬さんです。",
+      "timestamp": "2023-02-14T17:03:56.416252+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "勉強が苦手な高校生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ひょんなこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "戦国時代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "タイムスリップしてしまい、そこで出会った本物の織田信長に、瓜二つの容貌をしていたこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "病弱な自分の代わり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "信長",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "生きていくこととなるというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "この高校生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "小栗旬さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_plot-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "面白い設定ですね。\n未来からタイムスリップするということは、歴史の史実も理解した上で、信長として生きていくんですか？",
+      "timestamp": "2023-02-14T17:05:36.060477+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "面白い設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "タイムスリップするということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "歴史の史実も理解した上",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "信長",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "それが勉強が苦手なので、タイムスリップした際に持っていた教科書と記憶の底にある歴史の授業を頼りに暮らすので、最初は周囲から困惑され、さらには裏切りや暗殺されかかることもあります。",
+      "timestamp": "2023-02-14T17:07:17.736221+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "勉強",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "タイムスリップした際に持っていた教科書と記憶の底にある歴史の授業",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "頼り",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "周囲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "裏切り",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_plot-1"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "そうなんですね。慌てふためく小栗信長を楽しみたいです。\nこの作品は、協奏曲とタイトルにあるように、劇中歌も凝ってあるのでしょうか？\nあるいは、ストーリーの意味合いの表現に当たりますか？",
+      "timestamp": "2023-02-14T17:11:15.633691+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "慌てふためく小栗信長",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "協奏曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "劇中歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ストーリーの意味合いの表現",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "主題歌はミスターチルドレンです。恐らくストーリーの意味合いだと思います。偶然が重なり飄々と切り抜く姿が見どころの一つです。",
+      "timestamp": "2023-02-14T17:12:45.608063+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "主題歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ミスターチルドレン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ストーリーの意味合い",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "偶然",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "切り抜く姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "見どころの一つ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353539_plot-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "ミスチルなんですね。ストーリーも面白そうですし、今の大河と同じ時代設定なので、合わせて楽しみたいと思います。\nありがとうございます。\n\n他にも邦画、洋画問わず何かおすすめはありますか？\nジャンルは問いません。",
+      "timestamp": "2023-02-14T17:14:08.348832+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "ミスチル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "今の大河と同じ時代設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "邦画のタイムスリップ系でいうと「テルマエ・ロマエ」は観たことはありますか？",
+      "timestamp": "2023-02-14T17:15:34.251969+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "邦画のタイムスリップ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "「テルマエ・ロマエ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-14T17:15:11.186455+09:00",
+          "query": "タイムスリップ",
+          "genres": "",
+          "results": "18114,237101,237272,324826,333194,333522,340852,341568,345075,347375,347865,349443,350843,352692,353539,358066,358645,362741,367854,86099"
+        }
+      ],
+      "checked": [
+        "340852_title"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "阿部寛さんですよね。観たいなと思いながら観れていないです。\nぜひ、教えてください！",
+      "timestamp": "2023-02-14T17:16:25.318912+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "阿部寛さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "そうです！古代ローマの浴場設計技師がローマの公衆浴場から21世紀の日本の銭湯に突然タイムスリップしてしまうというストーリーです。このローマ人は阿部寛さんですね。",
+      "timestamp": "2023-02-14T17:17:14.737502+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "古代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ローマの浴場設計技師",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ローマの公衆浴場",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "21世紀の日本の銭湯",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "突然タイムスリップしてしまうというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "このローマ人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "57",
+          "text": "阿部寛さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340852_plot-1"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "日本人の阿部さんがローマに行くと思い込んでいました笑\n逆なんですね！\nすでに笑ってしまいます。\n銭湯にタイムスリップしてから、どうなるんですか？",
+      "timestamp": "2023-02-14T17:19:52.100181+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "日本人の阿部さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "ローマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "行くと思い込んでいました笑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "銭湯",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "タイム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "そうなんです！初めて見る日本人の平たい顔に戸惑い、進んだ風呂文化に衝撃を受けます。やがて古代ローマに戻り、その風呂文化を採り入れた浴場を設計し、大評判を呼ぶという展開です。",
+      "timestamp": "2023-02-14T17:20:37.433840+09:00",
+      "internal_states": [
+        {
+          "id": "63",
+          "text": "見る日本人の平たい顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "進んだ風呂文化",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "衝撃",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "66",
+          "text": "古代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "ローマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "その風呂文化",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "69",
+          "text": "入れた浴場",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "70",
+          "text": "大評判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "71",
+          "text": "呼ぶという展開",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "平たい顔・・・笑\n阿部さんしかできない役ですね。\n古代ローマの歴史も知れて楽しそうです。\nありがとうございます。",
+      "timestamp": "2023-02-14T17:22:24.935281+09:00",
+      "internal_states": [
+        {
+          "id": "72",
+          "text": "平たい顔・・・笑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "73",
+          "text": "阿部さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "できない役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "75",
+          "text": "ローマの歴史",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "「テルマエ・ロマエ II」もあるので、ぜひ一緒にご覧ください。本日はありがとうございました。",
+      "timestamp": "2023-02-14T17:22:47.410685+09:00",
+      "internal_states": [
+        {
+          "id": "76",
+          "text": "「テルマエ・ロマエ　II」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "347375_title"
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "はい。そちらもみますね！\n\n今日は、ありがとうございました。",
+      "timestamp": "2023-02-14T17:23:14.683980+09:00",
+      "internal_states": []
+    }
+  ]
+}

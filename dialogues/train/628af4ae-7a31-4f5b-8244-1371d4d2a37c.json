@@ -1,0 +1,946 @@
+{
+  "dialog_id": "628af4ae-7a31-4f5b-8244-1371d4d2a37c",
+  "created_timestamp": "2023-03-02T19:56:27.006283+09:00",
+  "archived_timestamp": "2023-03-02T20:35:37.013238+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "033",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-03-02T20:00:10.304313+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-03-02T20:00:30.041032+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近はどんな映画をご覧になりたいでしょうか？",
+      "timestamp": "2023-03-02T20:00:50.331174+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、ミュージカルを見たい気分です。",
+      "timestamp": "2023-03-02T20:01:22.406085+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "そうですね、ミュージカルを見たい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ミュージカルと言えば、定番のシカゴ、ウエスト・サイド・ストーリー、ラ・ラ・ランドあたりはご覧になったことがありますでしょうか？",
+      "timestamp": "2023-03-02T20:05:25.159125+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "定番のシカゴ、ウエスト・サイド・ストーリー、ラ・ラ・ランドあたり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T20:03:57.056420+09:00",
+          "query": "シカゴ",
+          "genres": "",
+          "results": "11933,159869,1635,20555,21356,23290,235067,239783,239900,24940,27724,320063,334775,335381,338678,340423,340856,348088,348248,348495,354512,363405,84046"
+        },
+        {
+          "timestamp": "2023-03-02T20:04:47.873573+09:00",
+          "query": "ラ・ラ・ランド",
+          "genres": "",
+          "results": "358727"
+        },
+        {
+          "timestamp": "2023-03-02T20:04:57.148679+09:00",
+          "query": "ウエスト・サイド・ストーリー",
+          "genres": "",
+          "results": "378317"
+        }
+      ],
+      "checked": [
+        "239900_title",
+        "378317_title",
+        "358727_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "実はあんなにヒットしたラ・ラ・ランド見たことないのです。売りを教えていただけますか。",
+      "timestamp": "2023-03-02T20:06:38.893358+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "あんなにヒットしたラ・ラ・ランド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "売り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "なんと！ラ・ラ・ランドと言えば、オープニング曲の「Another Day of Sun」が最近のCMでも使われていますが、音楽がとても印象的です。私なんて、今でも、しょっちゅう、「Another Day of Sun」などのサントラを聴いていますよ。",
+      "timestamp": "2023-03-02T20:10:50.272524+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ラ・ラ・ランド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "オープニング曲",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "最近のCM",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「Another　Day　of　Sun」などのサントラ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "曲がとてもいいんですね！オープニング曲という事ですが、どんなシーンのナンバーなのでしょうか。",
+      "timestamp": "2023-03-02T20:13:34.927771+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "オープニング曲という事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "どんなシーンのナンバー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "オープニング曲は渋滞している高速道路の車の上で人が踊るというシーンです。渋滞してイライラしている人たちが楽しげな曲に乗って踊り出すというシーンで、見ていて爽快な気分になります。オープニング曲のシーンだけならYouTubeとかでも見れるかと思いますので、そのシーンだけでも見ていただけると、良さが伝わるかと思います。",
+      "timestamp": "2023-03-02T20:16:31.118238+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "渋滞している高速道路の車の上",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "踊るというシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "渋滞してイライラしている人たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "楽しげな曲",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "踊り出すというシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "見ていて爽快な気分",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "オープニング曲のシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "YouTube",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "そのシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "良さ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なるほど、ぼんやりとはそのシーン分かります。渋滞のシーンなんですね。ちなみにどんなお話なのでしょうか。",
+      "timestamp": "2023-03-02T20:17:38.345612+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "そのシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "渋滞のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "冒頭のシーンと違って、決してハッピーな感じだけの作品ではなくて、色々抱えながら成長していくカップルの出会いから別れ、そして、その後を描いている作品です。冒頭の渋滞の中で女優の卵のミアが、車中で台詞を覚えようとするが、後続車を運転していた自分の店をもつのが夢のジャズピアニストのセブに煽られて悪態をつくシーンから二人の出会いが始まります。",
+      "timestamp": "2023-03-02T20:23:06.475463+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "冒頭のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ハッピーな感じだけの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "抱えながら成長していくカップルの出会い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "別れ、そして、その後を描いている作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "冒頭の渋滞の中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "女優の卵のミア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "車中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "台詞",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "後続車を運転していた自分の店",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "夢のジャズピアニストのセブ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "煽られて悪態をつくシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "二人の出会い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T20:19:02.601946+09:00",
+          "query": "ラ・ラ・ランド",
+          "genres": "",
+          "results": "358727"
+        }
+      ],
+      "checked": [
+        "358727_plot-3",
+        "358727_plot-5",
+        "358727_plot-6"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "印象最悪なボーイミーツガールからのナンバー何ですか！紆余曲折の二人が中心のお話なのですね。天邪鬼で見ていなかったのですが、俄然興味が出てきました。(笑)ご存じだったら教えていただきたいのですが、この映画の監督は他にどんな作品を作っているのでしょうか。",
+      "timestamp": "2023-03-02T20:26:46.846475+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "印象最悪なボーイミーツガール",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ナンバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "紆余曲折の二人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "天邪鬼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "この映画の監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "監督はデミアン・チャゼルですが、この映画で監督・脚本を務め、アカデミー賞で史上最年少となる32歳で監督賞を受賞しています。彼の代表作としては、セッション、ファースト・マン、バビロンがあり、バビロンは先月公開され、話題になっています。",
+      "timestamp": "2023-03-02T20:31:18.100896+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "デミアン・チャゼル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "監督・脚本",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "務め、アカデミー賞で史上最年少となる32歳",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "監督賞",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "彼の代表作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "セッション、ファースト・マン、バビロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "バビロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "先月",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "358727_director_name"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "おーセッションの監督さんなのですか。バビロンはコスチュームの展示がされたりして日本でのプロモーションに力が入ってましたね。その監督でしたかー！",
+      "timestamp": "2023-03-02T20:32:46.319135+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "おーセッションの監督さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "バビロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "コスチュームの展示",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "日本でのプロモーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "その監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "実は私は元々あまりミュージカル映画には興味がなかったのですが、ラ・ラ・ランドに出会ってから、こういう映画も面白いなと思い、ミュージカル映画を見るようになりました。もし良かったら、ぜひご覧になっていただけますと幸いです。ありがとうございました。",
+      "timestamp": "2023-03-02T20:34:09.684366+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "ラ・ラ・ランド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "こういう映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ミュージカルもいいですよね。こちらこそ色々教えていただきありがとうございました。",
+      "timestamp": "2023-03-02T20:35:28.801244+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

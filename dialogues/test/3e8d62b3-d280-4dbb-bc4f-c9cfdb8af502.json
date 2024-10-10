@@ -1,0 +1,748 @@
+{
+  "dialog_id": "3e8d62b3-d280-4dbb-bc4f-c9cfdb8af502",
+  "created_timestamp": "2023-03-28T15:51:55.244237+09:00",
+  "archived_timestamp": "2023-03-28T16:17:40.602560+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-03-28T15:53:53.053911+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いします。さっそくですが、お好きな映画のジャンルはありますか？",
+      "timestamp": "2023-03-28T15:54:14.580449+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お好きな映画のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "気軽に観れるような映画が知りたいです。\nコメディやミステリーが好きです。",
+      "timestamp": "2023-03-28T15:54:50.363200+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "気軽に観れるような映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "コメディやミステリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "ミステリーだと、コメディーのように明るくはないですが、大丈夫でしょうか？「ダ・ヴィンチ・コード」、ソロモンの偽証」、「七つの会議」と書いてきて、池井戸潤の小説にミステリー要素もあったとは！と驚きました。ご覧になっているでしょうか？",
+      "timestamp": "2023-03-28T15:59:42.792903+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "コメディー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「ダ・ヴィンチ・コード」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「七つの会議」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "池井戸潤の小説",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ミステリー要素",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T15:55:23.673301+09:00",
+          "query": "東野圭吾",
+          "genres": "",
+          "results": "325646,337910,340705,344074,344361,351635,356755,359729,361110,364211,365592"
+        },
+        {
+          "timestamp": "2023-03-28T15:55:41.126239+09:00",
+          "query": "ホテル",
+          "genres": "",
+          "results": "10248,1484,148647,15072,151731,159307,161112,162761,163038,19132,19931,20486,21553,234690,235071,235078,236636,240843,25289,28698,319160,320268,320917,322208,322747,322994,323478,324260,324328,325032,325467,325798,326063,327025,327386,328191,328959,328975,329925,330798,330912,331238,332328,332676,332756,333331,333828,334235,334832,334837,336078,339107,340605,340799,341568,342444,342745,343085,343946,344016,344074,344584,345939,346346,346480,347420,347931,348087,349021,349260,349344,350237,350309,350659,350825,351031,351033,351464,351663,352299,352332,352357,352378,352549,353896,353946,354205,357933,358066,358340,358936,359026,359637,359685,360444,361822,362671,363202,363978,365013,366398,366483,366852,367707,367867,367982,368191,368764,369103,370728,374516,374583,376781,377442,377732,51461,51832,7394,85258,981"
+        },
+        {
+          "timestamp": "2023-03-28T15:56:19.873012+09:00",
+          "query": "",
+          "genres": "mystery",
+          "results": "159318,159810,162761,163032,19207,1964,234817,237362,239580,239807,28593,28680,318699,319653,320073,321011,321200,322729,322731,322747,323849,324256,324260,324329,326201,326220,326658,326664,327204,327802,328207,328224,328357,328754,329546,329681,329767,329774,329978,330418,330912,330914,332388,332551,332569,332616,332673,332676,332756,333332,333957,334016,334058,334235,334301,334339,334659,334768,335026,335517,335732,335766,336717,336818,337899,337910,338607,338644,339107,339915,340019,340705,340799,340849,341440,342770,343259,343365,343694,344074,344361,344381,344605,344614,345159,346099,346100,346346,346607,347018,347420,347428,348084,348087,348090,348862,349551,350277,350416,350825,350977,351031,352549,352900,353189,353643,354107,354239,354552,354576,354676,354941,354943,354960,355349,355424,355570,355734,355752,356389,357933,357981,358066,358099,358365,358670,358926,358928,358936,359500,359685,359771,360062,360115,360199,360354,360838,360905,361050,361109,361110,361111,361302,361374,361686,361754,362613,363102,363207,364211,364767,364877,365075,365575,365592,366068,366341,366398,368008,369158,369949,370745,371342,371442,371785,372190,372724,375074,377436,378165,380305,51452,83681,84047,85126,87762"
+        }
+      ],
+      "checked": [
+        "364877_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "「ソロモンの偽証」を観ていないので、ご紹介いただけますでしょうか。",
+      "timestamp": "2023-03-28T16:00:12.631646+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "「ソロモンの偽証」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "「ソロモンの偽証」は、前編と後編に分かれています。前編が事件編、後編が裁判編です。宮部みゆき原作です。ある中学校で起きた不可解な生徒死亡事件と、その真相を暴こうする女子生徒が開く学校内裁判の話です。",
+      "timestamp": "2023-03-28T16:03:44.884874+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "「ソロモンの偽証」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "前編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "事件編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "後編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "裁判編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "宮部みゆき原作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ある中学校で起きた不可解な生徒死亡事件と、その真相を暴こうする女子生徒が開く学校内裁判の話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T16:00:26.790625+09:00",
+          "query": "ソロモンの偽証",
+          "genres": "",
+          "results": "348862,350416"
+        }
+      ],
+      "checked": [
+        "348862_title",
+        "350416_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "宮部みゆきでしたか！本もいくつか読んでいますし、彼女の本を基にした映画も何本か観ています。\n前編と後編に分かれているということは、2作とも観て完結するということでしょうか？",
+      "timestamp": "2023-03-28T16:06:04.383623+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "宮部みゆき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "本",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "読んでいますし、彼女の本を基にした映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "前編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "後編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "分かれているということ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "2作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "完結するということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "２作とも観ないといけないと思います。個人的な感想は、「暗かった」。なので、途中リタイアする方もいるかもしれません。",
+      "timestamp": "2023-03-28T16:07:30.191958+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "２作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "個人的な感想",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "途中リタイアする方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "宮部みゆきの作品は好きなので、暗くても大丈夫だと思います。\n見どころを教えてください。",
+      "timestamp": "2023-03-28T16:08:04.579447+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "宮部みゆきの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "中学生だけによる前代未聞の学校内裁判の行方をスリリングに描かれています。生徒が一人亡くなっているので、いじめによる自殺かどうか、真相を究明したいという気持ちはわかるのですが、、暗かったです。あと、実力派の俳優さんたちが出演されています。",
+      "timestamp": "2023-03-28T16:10:14.977921+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "中学生だけによる前代未聞の学校内裁判の行方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "生徒",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "一人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "いじめ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "真相",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "究明したいという気持ち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "実力派の俳優さんたち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "この話を聞いて「告白」を思い出しました。\nどなたが出演されているんですか？",
+      "timestamp": "2023-03-28T16:11:29.365213+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "この話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "「告白」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "藤野涼子、稲垣瑞生、佐々木蔵之介、夏川結衣、永作博美、黒木華、小日向文世、尾野真千子と続きます。",
+      "timestamp": "2023-03-28T16:14:47.477264+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "藤野涼子、稲垣瑞生、佐々木蔵之介、夏川結衣、永作博美、黒木華、小日向文世、尾野真千子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "348862_title",
+        "348862_cast_name-0",
+        "348862_cast_name-1",
+        "348862_cast_name-2",
+        "348862_cast_name-3",
+        "348862_cast_name-4",
+        "348862_cast_name-5",
+        "348862_cast_name-6",
+        "348862_cast_name-7"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "主演並みの俳優ばかりですね。",
+      "timestamp": "2023-03-28T16:15:29.294058+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "主演並みの俳優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "俳優陣は、豪華ですので、演技に問題はないと思います。",
+      "timestamp": "2023-03-28T16:16:01.718356+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "俳優陣",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "問題",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "はい、演技派ばかりの面々ですね。\nぜひ観てみたいと思います。\n本日はありがとうございました。",
+      "timestamp": "2023-03-28T16:17:08.435082+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "演技派ばかりの面々",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "見どころはありました。ぜひご覧になってみてください！こちらこそ、ありがとうございました！",
+      "timestamp": "2023-03-28T16:17:36.122024+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

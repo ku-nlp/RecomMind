@@ -1,0 +1,807 @@
+{
+  "dialog_id": "c9e2eca9-750c-4b54-baf4-b88f9bf84cd5",
+  "created_timestamp": "2023-03-02T13:58:19.839614+09:00",
+  "archived_timestamp": "2023-03-02T14:29:59.677691+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-02T14:00:26.832706+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは、宜しくお願いします。どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-03-02T14:00:54.759169+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "洋画、邦画は問わないですが、コメディーやヒューマンな映画を観ることが多いです。アクションがメインのものや怖い映画は苦手ですが、話題になっていて、ストーリーが面白そうな映画はアクションものでも観ることがあります。",
+      "timestamp": "2023-03-02T14:04:22.007988+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画、邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "コメディーやヒューマンな映画を観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "メインのものや怖い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ストーリーが面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "アクションもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "アニメはあまりご覧にならない感じでしょうか？",
+      "timestamp": "2023-03-02T14:05:05.435216+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ご覧にならない感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "あまり観ませんね。嫌いではありませんが、アニメ好きの人にストーリーだけ聞いたら満足してしまうタイプのようです。",
+      "timestamp": "2023-03-02T14:06:50.985762+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "アニメ好きの人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "聞いたら満足してしまうタイプ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "承知しました。では、2015年の「マイ・インターン」はいかがでしょうか、ご覧になったことはございますか？",
+      "timestamp": "2023-03-02T14:07:22.146123+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「マイ・インターン」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T14:05:33.327246+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "観たことありません。どんな映画ですか？",
+      "timestamp": "2023-03-02T14:07:41.426764+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "観たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "アン・ハサウェイ演じる若手女性社長ジュールズが、シニアインターン制度でロバート・デ・ニーロ演じる老人ベンを雇います。最初は考え方の違いによって、距離をおくジュールズでしたが、じょじょに心を開いていきます。",
+      "timestamp": "2023-03-02T14:09:30.969403+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "アン・ハサウェイ演じる若手女性社長ジュールズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "シニアインターン制度",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ロバート・デ・ニーロ演じる老人ベン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "考え方の違いによって、距離をおくジュールズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "心",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T14:07:39.739291+09:00",
+          "query": "ワーキング",
+          "genres": "",
+          "results": "25895,337475,350453,351032,351840,359180"
+        },
+        {
+          "timestamp": "2023-03-02T14:07:47.201180+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_cast_name-0",
+        "353403_cast_name-1"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "心を開くきっかけのような事件はあったのですか？",
+      "timestamp": "2023-03-02T14:13:02.905177+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "心を開くきっかけのような事件",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "とある大きな決断を迫られていたジュールズですが、誰にも気持ちを打ち明けることができず苦しい思いをしていました。そこに、ベンが年の功というか、温かな励ましとアドバイスを与えたことにより、いつしか心を開くようになっていき、目の前に立ちはだかる数々の難問に立ち向かっていく決意をします。",
+      "timestamp": "2023-03-02T14:15:25.993536+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "とある大きな決断を迫られていたジュールズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "気持ち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "苦しい思い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ベン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "年の功",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "励まし",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "アドバイスを与えたこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "心",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "目の前に立ちはだかる数々の難問に立ち向かっていく決意",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_review-1"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "そうなんですね。的確なアドバイスや温かい励ましがあると、自信が持てますよね。高齢者のインターンが頼もしい存在になって、信頼関係が出来ていく過程を描いた映画なんですね。",
+      "timestamp": "2023-03-02T14:19:51.001465+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "的確なアドバイスや温かい励まし",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "自信",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "高齢者のインターン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "頼もしい存在",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "信頼関係が出来ていく過程を描いた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そうですね、実社会でも起こってるようなストーリーに引きこまれました。仕事をして子供を育てること、夫との関係。働く女性なら直面する問題についても描かれており男性女性どちらにも観て欲しいと思えました。ロバート・デ・ニーロが、良い味を出していました。",
+      "timestamp": "2023-03-02T14:20:41.619668+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "そうですね、実社会でも起こってるようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "仕事をして子供を育てること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "夫との関係",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "働く女性なら直面する問題",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "男性女性どちら",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "良い味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "立場の違いを超えて支え合っていける社会は理想ですよね。それをデニーロが上手く演じておられるのですね。さすが！です。",
+      "timestamp": "2023-03-02T14:24:43.588349+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "立場の違い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "超えて支え合っていける社会",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "理想",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "デニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "そして、アン・ハサウェイもとってもかわいいです。オフィスもスタイリッシュですし、衣装も素敵なので、観ていてワクワクします。",
+      "timestamp": "2023-03-02T14:25:18.440347+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "オフィス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "衣装",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_review-3"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうなんですね。オフィスの華やかな日常とは、一見対照的な出来事が起こるところが、この映画の見どころかもしれませんね。今日はありがとうございました。",
+      "timestamp": "2023-03-02T14:29:15.022261+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "オフィスの華やかな日常",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "対照的な出来事が起こるところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "この映画の見どころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "気軽にご覧いただけると思います。機会があればぜひ、ご覧になってくださいね。今日はありがとうございました。",
+      "timestamp": "2023-03-02T14:29:40.417382+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

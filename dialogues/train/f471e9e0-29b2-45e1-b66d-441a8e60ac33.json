@@ -1,0 +1,823 @@
+{
+  "dialog_id": "f471e9e0-29b2-45e1-b66d-441a8e60ac33",
+  "created_timestamp": "2023-03-08T12:55:48.580952+09:00",
+  "archived_timestamp": "2023-03-08T13:27:42.622760+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-03-08T12:57:33.806987+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！こちらこそよろしくお願いします。",
+      "timestamp": "2023-03-08T12:57:45.944925+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "SFやファンタジーでおすすめの映画があれば教えていただけますか？",
+      "timestamp": "2023-03-08T12:58:31.000157+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "SFやファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "では、これはファンタジーに入るのだと思いますが、「イエスタデイ」という作品をご存じですか？",
+      "timestamp": "2023-03-08T13:03:17.212327+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "「イエスタデイ」という作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-08T12:58:49.499269+09:00",
+          "query": "ファンタジー",
+          "genres": "",
+          "results": "1709,236590,237101,330912,334089,336630,350752,352648"
+        },
+        {
+          "timestamp": "2023-03-08T12:59:06.136198+09:00",
+          "query": "SF",
+          "genres": "",
+          "results": "1709,235794,322489,336755,343233,343336,348091,349221,353437,355704,361665,364195,84618"
+        },
+        {
+          "timestamp": "2023-03-08T13:01:53.336316+09:00",
+          "query": "イエスタデイ",
+          "genres": "",
+          "results": "366465,367867"
+        }
+      ],
+      "checked": [
+        "367867_title",
+        "367867_cast-1_other_title-2:367867"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "いえ、そのタイトルは初めて聞きました！どんな作品でしょうか？",
+      "timestamp": "2023-03-08T13:04:10.111732+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "そのタイトル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "2019年のイギリス映画で、世界中で起きた謎の大停電の後、なぜか人々から昔の一部の記憶が消え、ビートルズを知っているのが自分しかいないという状況に陥った売れないミュージシャンのジャックは、ビートルズの曲を自分の曲として世に出して有名になる、というストーリーです。",
+      "timestamp": "2023-03-08T13:05:17.233784+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "2019年のイギリス映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "世界中で起きた謎の大停電の後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "人々から昔の一部の記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ビートルズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "いないという状況に陥った売れないミュージシャンのジャック",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ビートルズの曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "自分の曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "有名になる、というストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "「イエスタデイ」はビートルズの曲から来てるんですね。面白そうです！\nネタバレになるかもですが、最後まで主人公以外のみんなの記憶は戻らないんでしょうか？",
+      "timestamp": "2023-03-08T13:08:55.912896+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「イエスタデイ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ビートルズの曲",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "主人公以外のみんなの記憶",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "気になるところですよね！\n実は、ある日ホテルの屋上でコンサートを行ったとき、ビートルズの存在を覚えている、という２人が現れます。脅されるのかと思いきや、逆にビートルズがいない世界でビートルズの楽曲を世界に発信したことを感謝されたのです。",
+      "timestamp": "2023-03-08T13:12:28.613717+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "気になるところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ある日ホテルの屋上でコンサートを行ったとき",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ビートルズの存在",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "覚えている、という２人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "逆にビートルズがいない世界でビートルズの楽曲を世界に発信したこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "367867_plot-28"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "えっ2人だけ記憶がある人が出てくるんですね。なるほど！みんな記憶がない状況では、逆に感謝されるんですね（笑）続きが気になります！",
+      "timestamp": "2023-03-08T13:14:30.212784+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "2人だけ記憶がある人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "記憶がない状況",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "感謝されるんですね（笑）続き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "その後の展開も面白いです。なかた\nなんと、ジョン・レノンがミュージシャンにならなかったことで、暗殺を免れ、78歳のおじいちゃんとして生きている、という設定なんです。主人公はジョンに会いにいき、本当の幸せが何かを教わります。",
+      "timestamp": "2023-03-08T13:17:51.577492+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "その後の展開",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "なかた",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ジョン・レノンがミュージシャンにならなかったこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "暗殺",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "78歳のおじいちゃん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "生きている、という設定",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ジョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "本当の幸せ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "えー！すごい展開ですね（笑）オノ・ヨーコも出てくるんでしょうか？",
+      "timestamp": "2023-03-08T13:18:45.110450+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "すごい展開ですね（笑）オノ・ヨーコ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "残念ながら、オノ・ヨーコは出てこないです。\nジョンはミュージシャンではなく、船乗りとして平凡ながらも幸せな人生を送っている、という設定でした。",
+      "timestamp": "2023-03-08T13:19:57.215409+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "オノ・ヨーコ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ジョン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ミュージシャン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "船乗りとして平凡ながらも幸せな人生",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "送っている、という設定",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "そうなんですね。でも監督や脚本家のビートルズへの愛をなんだか感じますね。\nちなみに主人公とジョン役は誰が演じているんでしょうか？",
+      "timestamp": "2023-03-08T13:21:37.583600+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "監督や脚本家のビートルズへの愛",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ジョン役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "主人公は、ヒメーシュ・パテルというイギリスの俳優で、圧倒的な歌唱力でした。\nジョン役は、ロバート・カーライルという方でした。",
+      "timestamp": "2023-03-08T13:25:21.722908+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ヒメーシュ・パテルというイギリスの俳優で、圧倒的な歌唱力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ジョン役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ロバート・カーライルという方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "367867_cast_name-0"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "ヒメーシュ・パテルは知らない役者さんですが、ロバート・カーライルは名前を聞いたことがあります。ビートルズの曲も楽しめるような、良い映画を紹介いただいてありがとうございます。",
+      "timestamp": "2023-03-08T13:27:01.495830+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "ヒメーシュ・パテル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "知らない役者さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ロバート・カーライル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "ビートルズの曲も楽しめるような、良い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "こちらこそ、楽しかったです。\nありがとうございました。",
+      "timestamp": "2023-03-08T13:27:27.579739+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "ありがとうございました！",
+      "timestamp": "2023-03-08T13:27:34.260298+09:00",
+      "internal_states": []
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "dialog_id": "b2087418-64fb-4b39-a513-43bf98c51a3f",
+  "created_timestamp": "2023-03-12T18:57:48.031159+09:00",
+  "archived_timestamp": "2023-03-12T19:17:53.134355+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-03-12T18:59:33.766927+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。よろしくお願い致します。\nホラー以外の英語の映画のお勧めを教えてください。",
+      "timestamp": "2023-03-12T19:00:12.966462+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ホラー以外の英語の映画のお勧め",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "「ゴーストバスターズ／アフターライフ」はご覧になられましたか？\n1984年の映画のストーリーの続きで、2022年の作品です。",
+      "timestamp": "2023-03-12T19:01:42.332580+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "「ゴーストバスターズ／アフターライフ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "1984年の映画のストーリーの続き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "2022年の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T19:00:45.449186+09:00",
+          "query": "ゴーストバスターズ",
+          "genres": "",
+          "results": "355704,366945"
+        }
+      ],
+      "checked": [
+        "355704_year",
+        "366945_title",
+        "366945_year"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "「ゴーストバスターズ／アフターライフ」は、昨年映画館で観てしまいました。",
+      "timestamp": "2023-03-12T19:02:30.772954+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "「ゴーストバスターズ／アフターライフ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "昨年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうでしたか、ではオリジナルの1984年の作品も観ましたか？",
+      "timestamp": "2023-03-12T19:03:15.914695+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ではオリジナルの1984年の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "355704_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "すみません、シリーズ全て観ています。",
+      "timestamp": "2023-03-12T19:03:55.802110+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "シリーズ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ではミュージカル映画で「ヘアスプレー」はご覧になられましたか？",
+      "timestamp": "2023-03-12T19:04:28.678244+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「ヘアスプレー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T19:04:07.137115+09:00",
+          "query": "ヘアスプレー",
+          "genres": "",
+          "results": "328271"
+        }
+      ],
+      "checked": [
+        "328271_title",
+        "328271_genre-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "「ヘアスプレー」は、観ていないと思います。どのようなストーリーですか。",
+      "timestamp": "2023-03-12T19:05:10.123038+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「ヘアスプレー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "設定は1962年、米メリーランド州ボルチモアです。ダンスとオシャレに夢中な16歳の女子高生は、ヘアスプレー企業が手掛ける人気テレビ番組に出演し、憧れのリンクと踊ることを夢見ていました。そんなある日、彼女は母の反対を押し切り、番組のオーディションに参加するという物語です。",
+      "timestamp": "2023-03-12T19:06:24.597947+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "1962年、米メリーランド州ボルチモア",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ダンスとオシャレに夢中な16歳の女子高生",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ヘアスプレー企業が手掛ける人気テレビ番組",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "出演し、憧れのリンクと踊ること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "そんなある日、彼女",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "母の反対",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "番組のオーディション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "参加するという物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328271_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "古き良きアメリカが舞台なのですね。\nどなたが出演されているのですか。",
+      "timestamp": "2023-03-12T19:08:39.912205+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "古き良きアメリカ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "見どころの一つとしてジョン・トラヴォルタが女装をして母親役をしているところです。\nあとはザック・エフロンが番組のメインキャストの役をしています。",
+      "timestamp": "2023-03-12T19:10:08.079330+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "見どころの一つとしてジョン・トラヴォルタが女装をして母親役をしているところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ザック・エフロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "番組のメインキャストの役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328271_cast_name-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "女装のジョン・トラヴォルタは見てみたいような、見てみたくないような、、、\nザック・エフロンは良いですね。",
+      "timestamp": "2023-03-12T19:11:10.688019+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "女装のジョン・トラヴォルタ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ザック・エフロン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "しかも主人公のトレイシーは、ダンスとおしゃれが大好きなビッグサイズの女の子なので、母親役のジョン・トラヴォルタは女装だけでなく大きな女性になっています。なぜこのキャスティングだったのか気になります…",
+      "timestamp": "2023-03-12T19:12:57.974520+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "主人公のトレイシー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "ダンス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "おしゃれ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "大好きなビッグサイズの女の子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "母親役のジョン・トラヴォルタ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "女装",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "大きな女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "このキャスティング",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328271_plot-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ジョン・トラヴォルタが、結構チャレンジした役柄だったのですね。\n通常であれば、主人公がオーディションで選ばれるのであろうと思いますが、途中どのような障害があるのですか。",
+      "timestamp": "2023-03-12T19:14:51.668658+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "ジョン・トラヴォルタ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "チャレンジした役柄",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "オーディション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "42",
+          "text": "どのような障害",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "まず番組のプロデューサーからは太っているとの理由で一方的に落とされてしまいます。結果的に番組に出れるようになるのですが、それをどうするかがストーリーの見どころですね。ご興味あればご覧ください。",
+      "timestamp": "2023-03-12T19:16:19.884808+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "番組のプロデューサーからは太っているとの理由",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "番組",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ストーリーの見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328271_plot-5"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "面白そうですので、観てみたいと思います。\n今日は、良い映画を紹介して頂きありがとうございました。",
+      "timestamp": "2023-03-12T19:17:25.981048+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "本日はありがとうございました。",
+      "timestamp": "2023-03-12T19:17:51.057520+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

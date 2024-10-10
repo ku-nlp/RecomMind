@@ -1,0 +1,882 @@
+{
+  "dialog_id": "56ecaba1-3ccf-4731-9873-06757ede6ce2",
+  "created_timestamp": "2023-01-26T09:55:28.408589+09:00",
+  "archived_timestamp": "2023-01-26T10:29:26.889141+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 3,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "007",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。\nよろしくお願いします。",
+      "timestamp": "2023-01-26T10:00:24.731247+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "おはようございます、よろしくお願いいたします！",
+      "timestamp": "2023-01-26T10:00:27.004809+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近何か映画を観ましたか？",
+      "timestamp": "2023-01-26T10:00:45.430212+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ここ10年くらい見ていないんです。なので、ジャンル問いませんので、これ面白かった！というのをご紹介いただけますか？",
+      "timestamp": "2023-01-26T10:01:22.969509+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "ここ10年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "最近観たメジャーな映画の中では、ブラッドピットの「ブレットトレイン」とか、ダイアナ妃を描いた「スペンサー」が浮かびますが、興味がありそうですか？",
+      "timestamp": "2023-01-26T10:04:09.802798+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "最近観たメジャーな映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ブラッドピット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「ブレットトレイン」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ダイアナ妃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T10:00:57.977333+09:00",
+          "query": "ジーサンズ",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "では、まったく観たことがない感じの「スペンサー」をお願いします。\n主演や監督はどなたですか？",
+      "timestamp": "2023-01-26T10:05:11.759526+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "観たことがない感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "主演や監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "監督は私はまったく知らなかった方ですがパブロ・ララインです。ダイアナ妃を演じた主演はクリステン・スチュワートという女優さんです。この女優さんの演技がとても素晴らしくて感動しました。",
+      "timestamp": "2023-01-26T10:07:25.333545+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "12",
+          "text": "知らなかった方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "パブロ・ラライン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ダイアナ妃を演じた主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "クリステン・スチュワートという女優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "この女優さんの演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T10:04:35.149585+09:00",
+          "query": "トレイン",
+          "genres": "",
+          "results": "239767,333332,339115,363207,381726,51832"
+        }
+      ],
+      "checked": [
+        "381726_title",
+        "381726_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "なるほど、私もどちらも存じ上げないです・・・\n主演の方が素晴らしかったということですが、どんなところがよかったんでしょうか？",
+      "timestamp": "2023-01-26T10:08:27.977127+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "主演の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "素晴らしかったということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "どんなところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "この女優さん出演の映画を他にもいろいろ観たことがあり、かなり激しいアクションもしていたので、ダイアナ妃のイメージとはかなりかけ離れていました。映画を観ていると、完全にダイアナ妃そのものに見えてきたところですね。",
+      "timestamp": "2023-01-26T10:11:50.852046+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "この女優さん出演の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "いろいろ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "激しいアクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ダイアナ妃のイメージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "完全にダイアナ妃そのものに見えてきたところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T10:07:35.600334+09:00",
+          "query": "スペンサー",
+          "genres": "",
+          "results": "24136,336357,338678,345712,347764,360660,361498,361726,361841,362725,362746,369013,369413,374516,51226"
+        },
+        {
+          "timestamp": "2023-01-26T10:07:48.889956+09:00",
+          "query": "クリステン・スチュワート",
+          "genres": "",
+          "results": "237049,332281,334197,336862,341293,354455,359203,370460"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そうなんですね！\n紹介していただいてる映画からはちょっと話題が離れますが、\n他にはどんな映画に出られてたんでしょうか？",
+      "timestamp": "2023-01-26T10:12:52.474646+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "紹介していただいてる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "まったく系統の違う2015年の映画ですが「エージェント・ウルトラ」に出ていました。ちょっと現実味のないアクションラブコメディということで、「スペンサー」とは同一人物とは思えないかもしれません。\n有名なところでは新しい方の「チャーリーズエンジェル」にも出ています。",
+      "timestamp": "2023-01-26T10:17:16.541134+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "系統の違う2015年の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「エージェント・ウルトラ」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "30",
+          "text": "現実味のないアクションラブコメディということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "31",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "32",
+          "text": "同一人物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "有名なところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "新しい方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「チャーリーズエンジェル」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど、ありがとうございます。\nでは、「スペンサー」について聞かせてください。\n見どころはどこですか？",
+      "timestamp": "2023-01-26T10:18:12.451816+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "37",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "イギリス王室が過ごすクリスマスの3日間の話です。ダイアナ妃はチャールズ皇太子との関係が冷え切っていて息の詰まるクリスマスなんですが、それだけに子どもたち2人対する愛情がほんとに暖かく描かれていたと思います。",
+      "timestamp": "2023-01-26T10:21:05.838246+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "イギリス王室が過ごすクリスマスの3日間の話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ダイアナ妃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "40",
+          "text": "チャールズ皇太子との関係",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "冷え切っていて息の詰まるクリスマス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "それだけに子どもたち2人対する愛情",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "354455_title",
+        "370460_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ちょっと検索してみたんですが、女優さん、もともとのお顔立ちがダイアナ元妃に似ている気がします。\nクリスマスの3日間で何があったんでしょう？",
+      "timestamp": "2023-01-26T10:24:46.563506+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "もともとのお顔立ちがダイアナ元妃に似ている気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "クリスマスの3日間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "たしかに、髪が短いと似ているかもしれませんね。\nクリスマス3日間に特に大きな出来事があったわけでなく、クリスマス時期は特に王室のしきたりがいろいろあり、それに従うのも限界だったという感じでしょうか。ダイアナ妃の心の動きが繊細に描かれているように思います。ぜひ一度ご覧になってみてください。",
+      "timestamp": "2023-01-26T10:28:42.705385+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "髪",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "47",
+          "text": "クリスマス3日間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "大きな出来事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "クリスマス時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "王室のしきたり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "限界だったという感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ダイアナ妃の心の動き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T10:21:31.831802+09:00",
+          "query": "スペンサー",
+          "genres": "",
+          "results": "24136,336357,338678,345712,347764,360660,361498,361726,361841,362725,362746,369013,369413,374516,51226"
+        },
+        {
+          "timestamp": "2023-01-26T10:21:36.528686+09:00",
+          "query": "スペンサー",
+          "genres": "",
+          "results": "24136,336357,338678,345712,347764,360660,361498,361726,361841,362725,362746,369013,369413,374516,51226"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "イギリス王室、いろいろと裏事情があるんですね・・・\n今日はご紹介、ありがとうございました！",
+      "timestamp": "2023-01-26T10:29:13.985870+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "イギリス王室",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "54",
+          "text": "裏事情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございました！",
+      "timestamp": "2023-01-26T10:29:21.768475+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

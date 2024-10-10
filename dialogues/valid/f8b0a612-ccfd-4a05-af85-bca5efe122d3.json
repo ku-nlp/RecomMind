@@ -1,0 +1,828 @@
+{
+  "dialog_id": "f8b0a612-ccfd-4a05-af85-bca5efe122d3",
+  "created_timestamp": "2023-02-17T14:59:14.796318+09:00",
+  "archived_timestamp": "2023-02-17T15:23:44.380605+09:00",
+  "recommender": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-17T14:59:52.039861+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。本日は宜しくお願いします。",
+      "timestamp": "2023-02-17T14:59:54.154525+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、映画は普段よくご覧になりますか？",
+      "timestamp": "2023-02-17T15:00:01.275263+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は好きですが、あまりよく多くは観ていません。",
+      "timestamp": "2023-02-17T15:00:52.492449+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "多く",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。\nどんなジャンルの映画がお好きですか？\n苦手なジャンルも教えていただけると有り難いです。",
+      "timestamp": "2023-02-17T15:01:47.111609+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "苦手なジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "見たいと思っているのは、アニメ映画で、苦手はホラー映画ですね。",
+      "timestamp": "2023-02-17T15:02:25.030424+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "苦手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ホラー映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "アニメ映画お好きなんですね。アニメはどんな系統でも大丈夫ですか？",
+      "timestamp": "2023-02-17T15:04:11.539597+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "どんな系統",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい、何か良い作品はご存じですか。",
+      "timestamp": "2023-02-17T15:04:32.889860+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "何か良い作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "アニメだと『GHOST IN THE SHELL 攻殻機動隊』がおすすめです。ご覧になったことありますか？",
+      "timestamp": "2023-02-17T15:06:32.081932+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "『GHOST　IN　THE　SHELL　攻殻機動",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-17T15:04:41.649588+09:00",
+          "query": "攻殻機動隊",
+          "genres": "",
+          "results": "152697,240800,351361"
+        },
+        {
+          "timestamp": "2023-02-17T15:05:55.569436+09:00",
+          "query": "",
+          "genres": "animation",
+          "results": "146948,148866,148901,149868,150405,150435,150436,151441,151731,152271,152697,153289,153473,159561,159811,159875,162761,162856,163027,163032,16482,236590,237101,237362,238828,239072,240799,240800,241003,241078,241171,25688,28621,319257,319681,321736,322086,322704,322814,323636,323818,324031,324138,324260,324261,324734,324826,325441,325630,326246,326247,326362,326442,326527,326660,326664,326905,327253,327495,327496,327529,328359,328367,329124,329464,329522,329546,329604,329606,329809,331366,331426,332361,332425,332753,332756,332848,333030,333194,333212,333261,333497,333712,333833,333957,333967,334304,334624,334878,335255,335402,335426,335440,335453,335605,335655,335712,335766,335800,335873,336170,336237,336703,336808,337581,338017,338303,338546,338607,338753,339678,339690,339818,340427,340606,341009,341437,341440,341770,342051,342793,342818,343233,343318,343345,343413,343498,343761,344380,344381,344584,344585,344686,345075,345366,345373,345374,346346,346540,347290,347371,347372,347764,348001,348091,348264,348641,349021,349443,349726,349728,349761,349882,349920,350111,350630,350824,350825,350897,351145,351361,351369,351372,351464,351663,351822,351838,351840,351841,352166,352385,352692,353496,353505,353538,353664,353896,354239,354345,354499,354512,354523,354602,354676,354988,355058,355061,355316,355734,355820,356166,356202,356422,357342,357411,357979,358306,358499,358645,358894,358936,358954,358994,359118,359120,359126,359479,359551,359622,359641,359899,360093,360198,360845,360846,360948,360986,361050,361167,361183,361356,361463,361801,361886,362186,362195,362526,362613,362714,362717,362725,362741,362962,363013,363528,363668,363717,363762,363978,364183,364195,364327,364403,364779,364985,365020,365064,365243,365768,365791,365929,366007,366015,366134,366398,366464,366465,366483,366550,366607,366737,366859,367006,367144,367145,367173,367239,367670,367707,367886,368738,369058,369333,369413,369619,369911,370020,370728,370745,370836,370849,371105,371973,372058,372796,373919,374449,374768,374882,375074,375099,375327,375424,376504,377017,378013,378116,378914,380179,380305,380375,89778,89848,89972,89993"
+        }
+      ],
+      "checked": [
+        "152697_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "いいえ、全く知りません。主人公やキャラクターは、どんな性格かしら。どんな点が魅力ですか。",
+      "timestamp": "2023-02-17T15:07:52.633705+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "主人公やキャラクター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "どんな性格",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "どんな点",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "魅力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "サイボーグ技術が進んだ近未来で公安9課に所属する草薙素子（少佐と呼ばれています）がテロなどの犯罪を防ぐという設定です。\n\nアクションアニメではあるのですが、主人公の素子は事故で幼い頃から義体と呼ばれるサイボーグが故に様々な葛藤があるのも見どころです。",
+      "timestamp": "2023-02-17T15:11:34.653777+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "サイボーグ技術が進んだ近未来で公安9課に所属する草薙素子（少佐と呼ばれています）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "テロなどの犯罪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "防ぐという設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "アクションアニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "主人公の素子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "事故で幼い頃から義体と呼ばれるサイボーグが故に様々な葛藤",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-17T15:08:16.265572+09:00",
+          "query": "攻殻機動隊",
+          "genres": "animation",
+          "results": "152697,240800,351361"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なんだか現実に近いような、不思議なストーリーですね。エピソードや格好が魅力ですかね。",
+      "timestamp": "2023-02-17T15:13:20.508153+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "現実に近いような、不思議なストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "エピソードや格好",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "魅力",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "おっしゃる通りで、古いアニメですがハッカーが出てきたり今の現実にも通じる部分があります。人間ドラマの描き方も素晴らしいです。\n\nこのアニメは世界的にも有名で海外の監督などにもファンが多いです。『マトリックス』の監督であるウォシャウスキー兄弟は攻殻機動隊に影響を受けてマトリックスを作ったほどです。",
+      "timestamp": "2023-02-17T15:17:15.919476+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "おっしゃる通りで、古いアニメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ハッカー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "出てきたり今の現実にも通じる部分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "人間ドラマの描き方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "このアニメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "海外の監督",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ファン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "『マトリックス』の監督であるウォシャウスキー兄弟",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "攻殻機動隊",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "影響",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "受けてマトリックスを作ったほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ファンの間では、著名な作品なのですね。音楽や映像は、どのような印象でしょうか。",
+      "timestamp": "2023-02-17T15:19:03.446090+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ファンの間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "著名な作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "音楽や映像",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "どのような印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "音楽や映像のセンスも良いので今観ても古さを感じさせません。普段、アニメを観ない方にもおすすめしたい作品です。",
+      "timestamp": "2023-02-17T15:20:23.484688+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "音楽や映像のセンス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "古さ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "普段、アニメを観ない方にもおすすめしたい作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうですか。レンタルビデオか配信で観られるかしら。",
+      "timestamp": "2023-02-17T15:20:59.830064+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "レンタルビデオ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "有名な作品なので有料の配信であるはずです。ちなみにネットフリックスでも配信されています。ご興味あれば、ぜひご覧ください。",
+      "timestamp": "2023-02-17T15:22:54.523540+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "有名な作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "有料の配信",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ネットフリックス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "いい作品はいつまでたっても色あせませんね。今日はいい作品をお勧めいただき有り難うございました。",
+      "timestamp": "2023-02-17T15:23:35.207086+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "いい作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました｡",
+      "timestamp": "2023-02-17T15:23:40.818687+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

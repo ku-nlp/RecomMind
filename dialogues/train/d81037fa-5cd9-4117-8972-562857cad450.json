@@ -1,0 +1,643 @@
+{
+  "dialog_id": "d81037fa-5cd9-4117-8972-562857cad450",
+  "created_timestamp": "2023-02-26T10:55:49.015259+09:00",
+  "archived_timestamp": "2023-02-26T11:27:05.292886+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "040",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-02-26T10:58:22.360482+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、今日は宜しくお願いいたします！",
+      "timestamp": "2023-02-26T10:58:24.952504+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "いつもはどんな映画をみていますか？",
+      "timestamp": "2023-02-26T10:58:50.041717+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "最近はジャンルを問わず人からお勧めいただいた映画をジャンルを問わず片っ端から見ています。どれもとても面白いです。",
+      "timestamp": "2023-02-26T11:00:32.817266+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お勧めいただいた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "いろいろみられてるんですね。動物が出てくるのは好きですか？",
+      "timestamp": "2023-02-26T11:01:47.656889+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-26T10:59:43.139617+09:00",
+          "query": "犬",
+          "genres": "",
+          "results": "159561,159811,18114,20324,20876,22238,2257,234828,235078,235794,236645,237101,237781,237942,23987,240800,241897,28621,320267,322208,323470,324791,326216,327496,327925,327928,327992,328448,328493,329604,329887,331732,332362,332670,332848,333261,333965,334300,335850,336307,336887,336888,338319,338676,339678,340799,341445,341474,342687,342745,342793,343456,345863,346264,346339,346639,347372,347428,348085,349009,349437,349742,3503,350501,351529,352299,353152,353489,353664,354031,354569,354843,355704,355740,357312,357968,358340,359479,359637,359685,359816,360777,360962,361302,361595,3617,361801,361886,362464,362741,362951,364183,365201,365786,365936,366550,366945,367638,367823,367982,368136,368738,369158,369195,369370,370555,370565,371442,373593,374768,375940,377732,6098,86066,90294,9532"
+        },
+        {
+          "timestamp": "2023-02-26T11:00:06.554575+09:00",
+          "query": "犬ヶ島",
+          "genres": "",
+          "results": "361886"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "動物が出てくるものもとても好きです。",
+      "timestamp": "2023-02-26T11:02:38.462858+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "動物が出てくるもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「僕のワンダフル・ライフ」はみられましたか？",
+      "timestamp": "2023-02-26T11:03:39.160464+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "「僕のワンダフル・ライフ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-26T11:03:14.595275+09:00",
+          "query": "僕のワンダフル",
+          "genres": "",
+          "results": "360962,367823"
+        }
+      ],
+      "checked": [
+        "360962_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "CMを見かけてタイトルは知っているのですが、見たことはないのです。",
+      "timestamp": "2023-02-26T11:04:22.551602+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "CM",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ベイリーという犬が主人公で、大好きな飼い主の元に帰るまで違う犬として何回も生まれ変わるというお話です。五種類くらいの犬になります。",
+      "timestamp": "2023-02-26T11:06:53.650711+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ベイリーという犬",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "大好きな飼い主の元",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "帰るまで違う犬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "五種類くらいの犬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なんと！ユニークなストーリーですね！犬が生まれ変わりをしている間、犬の好きな飼い主の人間はその間は歳をとっていくのでしょうか。",
+      "timestamp": "2023-02-26T11:10:11.261911+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "ユニークなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "犬が生まれ変わりをしている間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "犬の好きな飼い主の人間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうです。最初の飼い主はまだ子供だったので、最後はおじさん（おじいさん？）になった飼い主と再会します。",
+      "timestamp": "2023-02-26T11:13:24.062710+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "最初の飼い主",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "おじさん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "（おじいさん？）になった飼い主",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど！面白いですね。犬の健気さが感じられるストーリーですね。",
+      "timestamp": "2023-02-26T11:14:47.688679+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "犬の健気さが感じられるストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね。ちょっときれいすぎるお話の面は否めませんが、わたしは犬がいろいろでてきて楽しかったです。次に「僕のワンダフル・ジャーニー」というのも出てます。",
+      "timestamp": "2023-02-26T11:17:27.738619+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "きれいすぎるお話の面",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "犬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "「僕のワンダフル・ジャーニー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "367823_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "私は小さな頃から犬と猫を飼っている動物好きなので、映画を見ているだけで笑顔になれそうです。しかもシリーズ化されているのですね！２作目は犬が旅をする話でしょうか？",
+      "timestamp": "2023-02-26T11:20:33.239312+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "小さな頃",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "猫を飼っている動物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "笑顔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "２作目",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "犬が旅をする話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "再会した飼い主の元で寿命を終えたベイリーが、今度はその飼い主の孫娘に再開するために、何度も生まれ変わって頑張るお話です。",
+      "timestamp": "2023-02-26T11:23:22.893022+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "再会した飼い主の元",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "寿命を終えたベイリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "その飼い主の孫娘に再開するため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ベイリーは頑張りますね。なんだかストーリーを聞いただけで、動物好きにはグッと来てしまいます。ぜひ見ようと思います。とても良い映画を教えていただき、今日はありがとうございました。",
+      "timestamp": "2023-02-26T11:26:20.045028+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "ベイリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございました。",
+      "timestamp": "2023-02-26T11:26:43.091736+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

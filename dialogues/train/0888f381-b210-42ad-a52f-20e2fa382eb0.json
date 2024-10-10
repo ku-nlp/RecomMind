@@ -1,0 +1,918 @@
+{
+  "dialog_id": "0888f381-b210-42ad-a52f-20e2fa382eb0",
+  "created_timestamp": "2023-03-04T20:00:57.363600+09:00",
+  "archived_timestamp": "2023-03-04T20:27:00.494197+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "006",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。宜しくお願い致します。",
+      "timestamp": "2023-03-04T20:01:47.213041+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。最近、ファンタジー映画にはまっています\nもしお勧めのファンタジー映画があればご紹介くださいませ",
+      "timestamp": "2023-03-04T20:02:01.938549+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ファンタジー映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "お勧めのファンタジー映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "ファンタジー映画というと、アニメが多くなる傾向があるのですが、アニメはご覧になりますか？",
+      "timestamp": "2023-03-04T20:03:13.426499+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "ファンタジー映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "アニメが多くなる傾向",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-04T20:02:08.801405+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        },
+        {
+          "timestamp": "2023-03-04T20:02:21.131830+09:00",
+          "query": "",
+          "genres": "fantasy",
+          "results": "11830,11831,11832,1484,148866,148901,149868,150435,151731,15544,159561,161559,162817,163027,16482,1709,17252,19132,19758,20109,2257,2278,23099,233769,23378,234444,235078,235790,236086,236590,237272,237942,238828,238972,239580,239980,240799,241078,241897,241899,24661,28627,318531,318642,319263,319681,320372,320647,321598,321602,321945,322404,322736,322814,323222,323818,324031,324138,324197,324286,324329,324398,324408,324826,324899,325097,325317,325325,325441,325622,325630,326220,326294,326442,326503,326536,326662,326699,326905,327080,327081,327529,327545,327707,327770,328545,328581,328622,328626,328681,328724,328736,329294,329418,329419,329604,329807,329809,330764,330871,330912,331366,332566,332672,333194,333196,333240,333522,333712,333833,333976,334095,334288,334516,334855,334878,335026,335196,335255,335440,335568,335596,335605,335800,335873,335983,336142,336170,336520,336630,336703,336808,336887,336888,337245,337581,337854,337959,338303,338644,338676,339053,339723,340427,340852,340877,341293,341319,341436,341437,341568,341643,341644,341645,341770,342280,342725,342745,342773,342793,342818,343318,343345,343507,343731,343761,344473,344585,345373,346264,346413,346540,346791,347372,347535,347865,348091,348264,348610,348826,349009,349022,349443,349677,349679,350111,350366,350605,350870,350897,351369,351372,351529,352612,352692,352873,353040,353813,353896,354239,354392,354523,354524,354603,354988,355058,355080,355316,355434,355734,355757,355761,356166,356582,357226,357342,357423,357980,357984,358425,358506,358653,358928,358954,358961,358994,359118,359126,359289,359479,359622,359729,359816,360074,360198,360432,360497,360948,360962,361111,361167,361183,361332,361356,361565,3617,361841,361886,362186,362348,362549,362741,363528,363669,363717,363809,363978,364123,364183,364878,364938,365064,365085,365402,365489,365929,366255,366264,366341,366464,366483,366505,366737,366859,367145,367239,367777,367823,367886,369014,369019,369413,369903,369911,370020,370110,370565,371105,371496,371810,371973,372796,374449,374516,375048,375099,376504,378116,380179,380251,380322,54734,7631,84617,85110,86066,89972,9889"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "アニメはあまり見ないです。ハリポタとかチャーリーとチョコレート工場みたいなのが好きです",
+      "timestamp": "2023-03-04T20:03:42.597137+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ハリポタとかチャーリーとチョコレート工場みたいなの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画系のアニメですね。。邦画の「もののけ姫」とか、「となりのトトロ」とかはご覧になりましたか？",
+      "timestamp": "2023-03-04T20:04:55.893923+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "洋画系のアニメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「もののけ姫」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「となりのトトロ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "実写の方がいいのですが…\nハリポタやチャーリーとチョコレート工場も実写です　\nジブリやアニメはあまり好きじゃないですね\n邦画でも実写のファンタジー系ならいいんですが。",
+      "timestamp": "2023-03-04T20:07:05.328813+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "実写の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ハリポタやチャーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "チョコレート工場",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ジブリやアニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "実写のファンタジー系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "承知しました！古い映画ですが、実写のハリウッド映画（恋愛もの）で、「ゴースト／ニューヨークの幻」はご覧になりましたか？デミ・ムーアとパトリック・スウェイジが出演しています。評価が高い作品だと思います。",
+      "timestamp": "2023-03-04T20:08:55.984242+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "古い映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "実写のハリウッド映画（恋愛もの）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「ゴースト／ニューヨークの幻」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "デミ・ムーア",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "パトリック・スウェイジ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "評価が高い作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "7631_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "懐かしいですね。見ましたけど、お勧めしていただいたら、二度見するかもです！",
+      "timestamp": "2023-03-04T20:09:29.508089+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "二度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "パトリック・スウェイジがかっこいいです！テレビドラマで観て、好きになりました。。あと、音楽がとても良いと思います！２度観の価値はあるかと。。",
+      "timestamp": "2023-03-04T20:11:03.270567+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "パトリック・スウェイジ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "テレビドラマ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "２度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "観の価値",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "デミムーアはしっかり覚えているんですが、パトリックスウェイジが今一つ記憶になく…　\n音楽は、わりとレトロな曲でしたか　確かにいい音楽だったような気がします。二度見の価値ありそうですね！",
+      "timestamp": "2023-03-04T20:12:53.402749+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "デミムーア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "パトリックスウェイジ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "レトロな曲でしたか　確かにいい音楽だったような気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "二度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "見の価値",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "映画で観たのは、この映画が初めてだった気がします。2009年に亡くなっておられます。。ダンサーでもあったのですね。映画の中でダンスをしていたような気もしますが、記憶があいまいです。",
+      "timestamp": "2023-03-04T20:15:39.276916+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "この映画が初めてだった気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "2009年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ダンサー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "映画の中でダンスをしていたような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "7631_cast_name-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "もう亡くなられたんですね。残念です。\n他にすごい女優さん出ていませんでしたか？　占い師かなんかの　インパクト大でしたよね",
+      "timestamp": "2023-03-04T20:16:30.048666+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "すごい女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "占い師かなんかの　インパクト大",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ウーピー・ゴールドバーグでしょうか？迫力のある方ですね。テレビの冠番組とか持ってましたね。好きな女優さんです。",
+      "timestamp": "2023-03-04T20:18:28.241630+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "ウーピー・ゴールドバーグ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "迫力のある方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "テレビの冠番組",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "好きな女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうです。ウーピー・ゴールドバーグです。この人のことはしっかり覚えています。\n結局、最後はハッピーエンドでしたか？　彼氏は生き返るんでしたか？",
+      "timestamp": "2023-03-04T20:19:41.367966+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "ウーピー・ゴールドバーグ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "この人のこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "彼氏",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "私の記憶では、生き返らなかったような。。ラストです。「サムは、感動の涙を流すモリーと自分を惜しむオダ=メイに別れを告げ、天国へと旅立ってゆくのだった。」でも、悲しかったという印象はありません。",
+      "timestamp": "2023-03-04T20:23:31.792903+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "私の記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ラスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "「サムは、感動の涙を流すモリーと自分を惜しむオダ=メイに別れを告げ、天国へと旅立ってゆくのだった。」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "悲しかったという印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "7631_plot-75"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうでしたか。生き返ったら、もっといい映画になりそうですけど\n久々に懐かしい映画見たくなりました。おすすめありがとうございました！",
+      "timestamp": "2023-03-04T20:25:11.640831+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "いい映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "懐かしい映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "個人的には、音楽とパトリック・スウェイジを押します！こちらこそ、有難うございました！",
+      "timestamp": "2023-03-04T20:26:19.955253+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "7631_cast_name-0"
+      ]
+    }
+  ]
+}

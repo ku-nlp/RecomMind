@@ -1,0 +1,775 @@
+{
+  "dialog_id": "81e61313-16d2-48ef-bc3a-80638258bcd8",
+  "created_timestamp": "2023-02-09T19:51:20.304584+09:00",
+  "archived_timestamp": "2023-02-09T20:12:35.921708+09:00",
+  "recommender": {
+    "name": "036",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "033",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。どうぞよろしくお願いいたします。",
+      "timestamp": "2023-02-09T19:55:49.831285+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-02-09T19:55:58.308966+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "映画はよくご覧になりますか？",
+      "timestamp": "2023-02-09T19:56:15.171256+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "あまり見ない方だと思います。",
+      "timestamp": "2023-02-09T19:56:44.537349+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "見ない方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。今回はどんな作品がご希望でしょうか？",
+      "timestamp": "2023-02-09T19:56:59.772400+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T19:56:25.257665+09:00",
+          "query": "グランド",
+          "genres": "",
+          "results": "1484,162615,234690,28671,323067,328495,329147,330569,331364,333627,334624,336827,339054,346052,348087,351464,356150,357070,359023,360074,360620,362261,363978,365099,366483,369103,369903,370087,374516,376704,378066,85197,9532"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "アニメ映画をおすすめしていただけますか？",
+      "timestamp": "2023-02-09T19:57:42.366527+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "アニメ映画ですか・・・あまり詳しくないので、実写ではないもの、と解釈してもよろしいですか。申し訳ありませんが、原作の漫画のアニメ化は見ないので・・・",
+      "timestamp": "2023-02-09T19:58:57.295914+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "アニメ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "実写ではないもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "原作の漫画のアニメ化",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T19:58:06.670524+09:00",
+          "query": "アニメ",
+          "genres": "",
+          "results": "159561,241078,25688,321945,325097,326442,330690,333030,335872,336170,337581,338017,338546,339690,341611,342051,342806,343233,345939,346346,346393,346394,347372,347722,349125,349728,351145,351372,351663,354576,354988,357980,358306,358506,360986,362725,362741,362962,363060,363105,363668,364123,364195,365243,366007,371358,379025"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい、その解釈で結構です。もしくはSFでお薦めの映画でも構いません。より推す映画がございましたらぜひ教えてください。",
+      "timestamp": "2023-02-09T20:00:16.024642+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "その解釈",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "SF",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "お薦めの映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "推す映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "それでは実写ではなく、そしてSF映画とも言えるウォーリーはいかがでしょうか。ご存じですか？",
+      "timestamp": "2023-02-09T20:01:27.704859+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "SF映画とも言えるウォーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T19:59:35.685621+09:00",
+          "query": "ディズニー",
+          "genres": "",
+          "results": "159811,241078,329886,337581,348610,350870,358506,363762"
+        },
+        {
+          "timestamp": "2023-02-09T20:00:40.352399+09:00",
+          "query": "ウォー",
+          "genres": "",
+          "results": "11830,11831,11832,12902,148866,14978,15544,159811,159812,163038,16329,19931,2046,20486,2278,23099,233769,234846,235065,235790,2361,236590,240273,241600,25895,318677,319263,319653,319937,320268,321200,321602,321603,321617,324329,324486,325622,325647,325867,327707,327713,328271,328626,329124,329418,329767,329805,329887,331733,332598,333497,334855,335567,335900,336630,336887,336888,338115,341319,341460,341959,342725,344125,344443,344691,344974,345058,345554,346309,346339,346408,346630,346706,347375,347542,347925,348248,349124,349344,349437,349750,350698,350752,350895,350977,351301,351419,352092,352378,353046,353088,354960,355057,355228,355574,355619,355757,356251,356423,357070,358961,358993,359256,359315,359505,359716,360445,360497,360776,361132,361391,361595,361806,361841,362706,363223,363273,363669,364313,365988,366341,366491,367080,367775,368180,368780,369013,370448,376383,378147,380322,85110,9184"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "いえ、絵本のウォーリーとは違うんですよね。",
+      "timestamp": "2023-02-09T20:01:53.877159+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "絵本のウォーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "違います。2805年の未来に登場するロボットです。",
+      "timestamp": "2023-02-09T20:02:26.030081+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "2805年の未来に登場するロボット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "329124_title",
+        "329124_plot-3"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "おーずいぶんな未来ですね！ぜひ教えてください！",
+      "timestamp": "2023-02-09T20:03:02.812477+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "おーずいぶんな未来",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい。ピクサー・アニメーション・スタジオとウォルト・ディズニー・ピクチャーズが製作した全編CG映画で、もうその時代には、地球はゴミの山と化していて、ウォーリーはそのゴミを処理する量産型ロボットです。とはいえ、汚い感じは全きなく、仲間が壊れた後も淡々と仕事をしてきたのに、ある日突然感情を持ってしまいま・・・",
+      "timestamp": "2023-02-09T20:05:02.058525+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "ピクサー・アニメーション・スタジオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ウォルト・ディズニー・ピクチャーズが製作した全編CG映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "その時代",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "地球",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ゴミの山",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ウォーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "そのゴミを処理する量産型ロボット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "汚い感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "仲間が壊れた後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "仕事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ある日突然感情",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ピクサーとディズニー映画なんですね！しかもしっかりSFな設定なようですね。ロボットが感情を持ってしまう…そのきっかけは聞いてもいいでしょうか。それとも見てからのお楽しみにした方がいいでしょうか。",
+      "timestamp": "2023-02-09T20:07:47.499625+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ピクサー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ディズニー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "SFな設定",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ロボット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "感情を持ってしまう…そのきっかけ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "見てからのお楽しみにした方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "確かシステムエラーとか、その程度で、ネタバレになるような大きな影響はありません。その結果、別のロボットと恋に落ちます。何百年も登場をまった相手です！",
+      "timestamp": "2023-02-09T20:09:24.536176+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "確かシステムエラーとか、その程度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ネタバレになるような大きな影響",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "その結果",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ロボット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "恋",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "何百年も登場をまった相手",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "まさかのロマンス的な流れになるのですね！さすがディズニーですね。あらすじを聞いただけで見たくなりますね。",
+      "timestamp": "2023-02-09T20:10:48.595333+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "まさかのロマンス的な流れ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "はい。そしてぜひ動いているのを見てあげてください！とても可愛いです、仕事ぶりも。",
+      "timestamp": "2023-02-09T20:11:12.054637+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "可愛いです、仕事ぶり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ロボットなのに可愛いんですか！それは絶対見ます！週末に良い見るものが出来て良かったです。今日はぴったりな映画を見つけてくださいありがとうございました。",
+      "timestamp": "2023-02-09T20:12:13.190730+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "ロボット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "週末",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "良い見るもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ぴったりな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "はい、週末にどうぞ。ありがとうございました！！",
+      "timestamp": "2023-02-09T20:12:29.711418+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

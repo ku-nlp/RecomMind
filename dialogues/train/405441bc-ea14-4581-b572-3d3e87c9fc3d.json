@@ -1,0 +1,810 @@
+{
+  "dialog_id": "405441bc-ea14-4581-b572-3d3e87c9fc3d",
+  "created_timestamp": "2023-03-02T09:54:11.238316+09:00",
+  "archived_timestamp": "2023-03-02T10:22:06.232282+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "042",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！今日はよろしくお願いいたします！",
+      "timestamp": "2023-03-02T09:56:45.347546+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそよろしくお願いします！",
+      "timestamp": "2023-03-02T09:56:58.606271+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段どのような映画をご覧になりますか？",
+      "timestamp": "2023-03-02T09:57:16.522121+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "普段どのような映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、１０年以上映画館に行っていないのですが、テレビでやっている映画はよく見ます。ドラマ系の映画が好きかな、と思います。",
+      "timestamp": "2023-03-02T09:58:44.369969+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "そうですね、１０年以上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "テレビでやっている映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ドラマ系の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "好き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。私もドラマ大好きです。\n最近見て面白かったのは、邦画ですが、篠原涼子さんの「今日も嫌がらせ弁当」とか、天海祐希さん主演の「老後の資金がありません！」です。\nご存じですか？",
+      "timestamp": "2023-03-02T10:03:11.666201+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "篠原涼子さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「今日も嫌がらせ弁当」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「老後の資金がありません！」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T10:00:50.053258+09:00",
+          "query": "老後の",
+          "genres": "",
+          "results": "370652"
+        },
+        {
+          "timestamp": "2023-03-02T10:02:23.348300+09:00",
+          "query": "嫌がらせ",
+          "genres": "",
+          "results": "23378,241897,319768,325627,328271,329925,332286,337503,344686,345691,346639,349750,359061,362181,365598,366787,366965"
+        },
+        {
+          "timestamp": "2023-03-02T10:02:50.195235+09:00",
+          "query": "老後の",
+          "genres": "",
+          "results": "370652"
+        }
+      ],
+      "checked": [
+        "370652_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "あまり邦画を見たことがないのでどちらも知りません。\n老後の資金がありませんは身につまされるタイトルですね。コメディですか？",
+      "timestamp": "2023-03-02T10:04:33.838629+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "老後の資金がありませんは身につまされるタイトル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい！コメディなので楽しく観ることができますよ！そして、人生で本当に大切なことは何なのか考えさせられる内容になっています。\n節約主婦の天海祐希さんと姑の草笛光子さんとのやりとりが痛快です！",
+      "timestamp": "2023-03-02T10:07:44.376693+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "楽しく観ることができますよ！そして、人生で本当に大切なこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "何なのか考えさせられる内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "節約主婦の天海祐希さんと姑の草笛光子さんとのやりとり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "370652_cast_name-0",
+        "370652_cast_name-19"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いつ頃の映画でしょうか。",
+      "timestamp": "2023-03-02T10:08:12.914762+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "いつ頃の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "2021年に製作なので、わりと新しい映画ですね。",
+      "timestamp": "2023-03-02T10:08:37.127037+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "新しい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "370652_year"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ごく最近ですね、気象のはっきりして要るっぽい二人のやり取りなら確かに痛快そうです。ほかにどんな俳優さんが出ていますか？",
+      "timestamp": "2023-03-02T10:09:35.122609+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "最近ですね、気象のはっきりして要るっぽい二人のやり取り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ほか",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "夫役に松重豊さん、娘の結婚相手が加藤諒さん、その両親が北斗晶さん夫婦、そのほか、柴田理恵さん、哀川翔さんなど、豪華なメンバーが出ています。",
+      "timestamp": "2023-03-02T10:12:56.985369+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "夫役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "松重豊さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "結婚相手",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "加藤諒さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "その両親",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "北斗晶さん夫婦",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "柴田理恵さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "哀川翔さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "豪華なメンバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "370652_cast_name-1",
+        "370652_cast_name-4",
+        "370652_cast_name-5",
+        "370652_cast_name-12",
+        "370652_cast_name-16"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "悲しくなさそうなコメディのようなので見てみたいと思います。ちなみに先ほどおしゃっていたもう１本の映画の方は、タイトルの通りお弁当を作っていくことがメインにあるストーリーですか？",
+      "timestamp": "2023-03-02T10:15:25.618798+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "悲しくなさそうなコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "先ほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "いたもう１本の映画の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "タイトルの通りお弁当を作っていくことがメインにあるストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ぜひご覧下さい！\n\n「今日も嫌がらせ弁当」は、反抗期で口を利かなくなった娘に、嫌がらせとしてキャラ弁を毎日作るお母さんの話です。最初は嫌がらせだったのですが、だんだん娘を勇気づける手段になってきて、最後にはとても心温まる結末が待っています！",
+      "timestamp": "2023-03-02T10:17:58.849559+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "「今日も嫌がらせ弁当」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "反抗期で口を利かなくなった娘に、嫌がらせとしてキャラ弁を毎日作るお母さんの話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "嫌がらせ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "娘を勇気づける手段",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "心温まる結末",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど、あったかコメディですね。コメディはさらっとみられて娯楽としてよいものですね。どちらも配信で探してみてみたいと思います。",
+      "timestamp": "2023-03-02T10:19:37.228108+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "みられて娯楽としてよいもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "この２つの作品は、コメディとしての要素と、大切なことを考えさせられたり、心がほっこりする要素が入っているので、観た後に満足感があると思います。ぜひお楽しみ下さい。\n今日は楽しいお時間をありがとうございました！",
+      "timestamp": "2023-03-02T10:21:47.908600+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "この２つの作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "コメディとしての要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "大切なこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "心がほっこりする要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "観た後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "満足感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "楽しいお時間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそありがとうございました！",
+      "timestamp": "2023-03-02T10:22:03.118435+09:00",
+      "internal_states": []
+    }
+  ]
+}

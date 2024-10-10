@@ -1,0 +1,930 @@
+{
+  "dialog_id": "5bad797e-56ae-45df-b32d-e2b79f88638d",
+  "created_timestamp": "2023-03-02T15:51:11.053799+09:00",
+  "archived_timestamp": "2023-03-02T16:33:37.618253+09:00",
+  "recommender": {
+    "name": "050",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "053",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-03-02T15:53:24.343453+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "はじめましてこんにちは。宜しくお願いします。",
+      "timestamp": "2023-03-02T15:53:28.904369+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、最近ご覧になられた映画はありますか？",
+      "timestamp": "2023-03-02T15:53:51.446985+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "最近ご覧になられた映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "クリストファー・ノーラン監督のテネットを鑑賞しました。シリアスなストーリーとテンポの良い作品で面白かったです。",
+      "timestamp": "2023-03-02T15:55:21.956723+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "クリストファー・ノーラン監督のテネット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "シリアスなストーリーとテンポの良い作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "テネット、何度も繰り返して見たくなる作品ですよね！同じ監督の作品ですが、インターステラーはご覧になられていますか？",
+      "timestamp": "2023-03-02T15:57:58.433476+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "テネット、何度も繰り返して見たくなる作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "同じ監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "インターステラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T15:55:44.288613+09:00",
+          "query": "クリストファーノーラン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-02T15:57:30.466892+09:00",
+          "query": "インターステラー",
+          "genres": "",
+          "results": "349221,353437"
+        }
+      ],
+      "checked": [
+        "349221_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "2日立て続けに繰り返して観ました！難しいけれど内容が濃くていいですよね。\nインターステラｰは観たような観てないような・・・うろ覚えです。\nどんな内容でしたでしょうか。",
+      "timestamp": "2023-03-02T16:00:06.935437+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "立て続け",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "インターステラｰ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "観たような観てないような・・・うろ覚え",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ノーラン作品は難解だけど、クセになる感じですよね。2日立て続けはすごいですね！\nインターステラーはSFものです。\n近未来の地球で、宇宙で新たに発見された未開の地を求めて旅をするお話です。\nマシューマコノヒーやアンハサウェイが出ています。",
+      "timestamp": "2023-03-02T16:04:16.825665+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ノーラン作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "クセになる感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "2日",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "立て続け",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "インターステラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "15",
+          "text": "SFもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "近未来の地球",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "宇宙で新たに発見された未開の地",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "旅",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "マシューマコノヒーやアンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349221_director_name"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "それはまだ未鑑賞です。\n予告ムービーを見たのかもしれません。\nアンハサウェイ大好きです！",
+      "timestamp": "2023-03-02T16:05:25.915159+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "未鑑賞",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "予告ムービー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "でしたら、ぜひ見ていただきたいなぁと思います。ショートカットのアンハサウェイが可愛すぎます！笑\nノーラン監督特有の伏線回収もお見事で、家族の愛をすごく感じられます。",
+      "timestamp": "2023-03-02T16:11:02.263981+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ショートカットのアンハサウェイ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "ノーラン監督特有の伏線回収",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "家族の愛",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ショートカットのアンハサウェイ！ミドル～ロングヘアのイメージなので新鮮です。\n他の作品でも本当に伏線回収が上手で、ストーリーが練り込まれていて物語にのめり込んでしまいます。\nインターステラーは更に家族愛の人間ドラマも入った作品なのですね。面白そうです！",
+      "timestamp": "2023-03-02T16:15:57.589300+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ショートカットのアンハサウェイ！ミドル～ロングヘアのイメージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "他の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "伏線回収",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "インターステラー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "家族愛の人間ドラマも入った作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "私もアンハサウェイ好きなので彼女の作品はよく見るのですが、この作品ではいつもと雰囲気が違う感じがします。\n理系の知識があればもう少し理解できるのかもしれないですが、笑、愛が時空を超えて存在するような、とてもあたたかいお話です。",
+      "timestamp": "2023-03-02T16:20:51.866642+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "彼女の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "見るのですが、この作品ではいつもと雰囲気が違う感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "理系の知識",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "笑、愛",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "時空",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T16:13:02.714731+09:00",
+          "query": "アンハサウェイ",
+          "genres": "",
+          "results": "234690"
+        },
+        {
+          "timestamp": "2023-03-02T16:14:24.949579+09:00",
+          "query": "オーシャンズ",
+          "genres": "",
+          "results": "234690,320917,327386,334978,363392"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうなのですか、彼女は明るく前向きで可愛らしい役のイメージなので、作品によってガラッと雰囲気が変わるところも見所ですね！\nノーラン監督で愛の溢れる優しい展開、クールシリアス系の作風を見ていたので気になりますね。",
+      "timestamp": "2023-03-02T16:25:05.222312+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "前向きで可愛らしい役のイメージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "雰囲気が変わるところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "見所",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "ノーラン監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "愛の溢れる優しい展開、クールシリアス系の作風",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ぜひぜひ、お時間のある時におすすめです。\nアンハサウェイと言えばのプラダを着た悪魔はきっとご覧になられてますよね？\n彼女の魅力がたっぷり詰まっていて、いい映画ですよね",
+      "timestamp": "2023-03-02T16:27:13.160164+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "お時間のある時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "アンハサウェイと言えばのプラダを着た悪魔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "彼女の魅力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "いい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T16:21:30.752037+09:00",
+          "query": "アンハサウェイ",
+          "genres": "",
+          "results": "234690"
+        },
+        {
+          "timestamp": "2023-03-02T16:21:51.760105+09:00",
+          "query": "プラダを着た悪魔",
+          "genres": "",
+          "results": "325271"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "はい、機会をみて鑑賞してみたいと思います！\nプラダを着た悪魔、アンハサウェイは可愛いですし、物語も観たあとの満足感と爽快感が最高ですよね。\nハッピーエンド大好きです。笑",
+      "timestamp": "2023-03-02T16:30:18.239186+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "プラダを着た悪魔、アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "物語も観たあと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "満足感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "爽快感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "わかります～！！！\nアンハサウェイファンの方とお話できて、楽しい時間でした。ありがとうございました！",
+      "timestamp": "2023-03-02T16:31:49.536302+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "アンハサウェイファンの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "楽しい時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそとても楽しくお話できて嬉しかったです。\nノーラン監督作品も、気になる映画を紹介してくださってありがとうございました！\nショートのアンハサウェイチェックします！",
+      "timestamp": "2023-03-02T16:32:59.437639+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "ノーラン監督作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "気になる映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "アンハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

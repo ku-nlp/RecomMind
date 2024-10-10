@@ -1,0 +1,926 @@
+{
+  "dialog_id": "b9694db4-72af-4a56-a1e3-20fa5138f36a",
+  "created_timestamp": "2023-02-13T20:56:22.833439+09:00",
+  "archived_timestamp": "2023-02-13T21:41:55.942785+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いいたします。最近どんな映画を見たい気分ですか？",
+      "timestamp": "2023-02-13T21:00:02.578842+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。あまり重苦しい内容でない作品を観たい気分です。アクションやホラーは苦手ですが、それ以外のジャンルなら何でも構いません。",
+      "timestamp": "2023-02-13T21:02:49.186885+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "重苦しい内容でない作品を観たい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "アクションやホラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "それ以外のジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "分りました。洋画と邦画、どちらがお好きですか？それともどちらも好きですか？",
+      "timestamp": "2023-02-13T21:04:07.729616+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "洋画を観ることの方が多いですが、面白そうなら洋画、邦画どちらも観ます。",
+      "timestamp": "2023-02-13T21:04:38.887682+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "洋画を観ることの方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画、邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "そうなんですね。気になる監督や俳優はいますか？",
+      "timestamp": "2023-02-13T21:05:14.136782+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "気になる監督や俳優",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "監督で映画を選ぶことはありますが、俳優は作品の中でのキャラクターとしてしかみれないので、好きな俳優は誰かと聞かれたらいつも困ってしまうのですが、推奨者様が好きな監督の作品や好きな俳優さんの出ている作品で感動された作品をぜひご紹介ください。",
+      "timestamp": "2023-02-13T21:07:46.879538+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "作品の中でのキャラクター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "推奨者様が好きな監督の作品や好きな俳優さんの出ている作品で感動された作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「サマーウォーズ」というアニメ映画はご覧になったことはありますか？",
+      "timestamp": "2023-02-13T21:12:32.244496+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "「サマーウォーズ」というアニメ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T21:10:45.297160+09:00",
+          "query": "",
+          "genres": "hero",
+          "results": "324791,327598,330095,330178,331727,333379,334285,334943,336824,337823,338786,339054,340731,341061,341880,342677,343337,343647,344822,345056,347290,348266,349437,352157,352551,352769,355359,355448,355574,357823,359026,359063,359505,360620,361068,361595,361806,362627,362717,362962,364079,365201,365472,365988,366007,366409,366491,366852,367670,369976,370448,370794,373697,374882,376383,376781,376782,378066,380731,382432"
+        },
+        {
+          "timestamp": "2023-02-13T21:11:00.505250+09:00",
+          "query": "",
+          "genres": "animation",
+          "results": "146948,148866,148901,149868,150405,150435,150436,151441,151731,152271,152697,153289,153473,159561,159811,159875,162761,162856,163027,163032,16482,236590,237101,237362,238828,239072,240799,240800,241003,241078,241171,25688,28621,319257,319681,321736,322086,322704,322814,323636,323818,324031,324138,324260,324261,324734,324826,325441,325630,326246,326247,326362,326442,326527,326660,326664,326905,327253,327495,327496,327529,328359,328367,329124,329464,329522,329546,329604,329606,329809,331366,331426,332361,332425,332753,332756,332848,333030,333194,333212,333261,333497,333712,333833,333957,333967,334304,334624,334878,335255,335402,335426,335440,335453,335605,335655,335712,335766,335800,335873,336170,336237,336703,336808,337581,338017,338303,338546,338607,338753,339678,339690,339818,340427,340606,341009,341437,341440,341770,342051,342793,342818,343233,343318,343345,343413,343498,343761,344380,344381,344584,344585,344686,345075,345366,345373,345374,346346,346540,347290,347371,347372,347764,348001,348091,348264,348641,349021,349443,349726,349728,349761,349882,349920,350111,350630,350824,350825,350897,351145,351361,351369,351372,351464,351663,351822,351838,351840,351841,352166,352385,352692,353496,353505,353538,353664,353896,354239,354345,354499,354512,354523,354602,354676,354988,355058,355061,355316,355734,355820,356166,356202,356422,357342,357411,357979,358306,358499,358645,358894,358936,358954,358994,359118,359120,359126,359479,359551,359622,359641,359899,360093,360198,360845,360846,360948,360986,361050,361167,361183,361356,361463,361801,361886,362186,362195,362526,362613,362714,362717,362725,362741,362962,363013,363528,363668,363717,363762,363978,364183,364195,364327,364403,364779,364985,365020,365064,365243,365768,365791,365929,366007,366015,366134,366398,366464,366465,366483,366550,366607,366737,366859,367006,367144,367145,367173,367239,367670,367707,367886,368738,369058,369333,369413,369619,369911,370020,370728,370745,370836,370849,371105,371973,372058,372796,373919,374449,374768,374882,375074,375099,375327,375424,376504,377017,378013,378116,378914,380179,380305,380375,89778,89848,89972,89993"
+        }
+      ],
+      "checked": [
+        "333497_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いえ、ありません。",
+      "timestamp": "2023-02-13T21:13:04.399483+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "こちらは細田守の初の長編オリジナル作品で、インターネット上の仮想世界とリンクする世界を舞台に、インターネットの中で起った世界を揺るがすサイバーテロと、それに立ち向かう田舎の大家族の現実社会でのつながりとインターネットを介した世界中の人々とのヴァーチャルなつながりが描かれる作品です。",
+      "timestamp": "2023-02-13T21:16:21.452235+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "細田守の初の長編オリジナル作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "仮想世界",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "リンクする世界を舞台",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "インターネットの中で起った世界を揺るがすサイバーテロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "それに立ち向かう田舎の大家族の現実社会でのつながり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "インターネットを介した世界中の人々とのヴァーチャルなつながりが描かれる作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "面白そうなストーリーですね。アニメーションは自分で選んで観ることはあまりないので、ご紹介いただけるとありがたいです。この監督のアニメーションがお好きなんですか？",
+      "timestamp": "2023-02-13T21:19:06.689914+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "面白そうなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "アニメーション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "自分で選んで観ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "この監督のアニメーション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "はい。細田守監督の映画は、映像も綺麗ですし、ストーリーも展開が面白いですよ。例えば、この作品は長野県上田市が舞台ですが、作中で綺麗に描かれています。",
+      "timestamp": "2023-02-13T21:23:54.471251+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "細田守監督の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "長野県上田市",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "作中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "それは一見の価値ありですね。世界を揺るがすサイバーテロ、それに立ち向かう田舎の大家族の現実社会でのつながり、インターネットを介した世界中の人々とのヴァーチャルなつながりがこの作品でどのように描かれているのか興味が沸きます。長野県上田市のある一家族を中心にストーリーが展開していくのですね？",
+      "timestamp": "2023-02-13T21:29:56.898371+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "一見の価値あり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "世界を揺るがすサイバーテロ、それに立ち向かう田舎の大家族の現実社会でのつながり、インターネットを介した世界中の人々とのヴァーチャルなつながり",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "長野県上田市のある一家族を中心",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "厳密には、東京に住む高校生が、先輩の曽祖母が住む上田市に行き、その曽祖母の親族と一緒にサイバーテロに立ち向かうという物語です。同じ細田監督の「時をかける少女」という映画を観て、面白かったので、この作品を見ました。仮想世界やサイバーテロというとちょっと重そうですが、アニメなので割とコミカルな部分もあり、人と人の繋がりの大切さを感じるほっこりとした作品だと思います。",
+      "timestamp": "2023-02-13T21:34:25.901227+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "厳密には、東京に住む高校生",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "先輩の曽祖母が住む上田市",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "39",
+          "text": "その曽祖母の親族",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "サイバーテロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "立ち向かうという物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "同じ細田監督の「時をかける少女」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "仮想世界やサイバーテロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "コミカルな部分",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "あり、人と人の繋がりの大切さを感じるほっこりとした作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "映像が綺麗とのことですので、映画館の大スクリーンで観た方がよさそうですが、ストーリーも面白そうなのでオンライン配信でも楽しめそうです。\n「時をかける少女」、ずいぶん昔に筒井康隆さん原作の同名映画を観たことがありますが、同じ原作者のアニメーションでしょうか。そちらの作品にも興味が沸きました。",
+      "timestamp": "2023-02-13T21:37:54.050967+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "映像が綺麗とのこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "映画館の大スクリーンで観た方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "オンライン配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "「時をかける少女」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "筒井康隆さん原作の同名映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "同じ原作者のアニメーション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "そちらの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい。「時をかける少女」は、筒井康隆さん原作のアニメーションです。ドラマ化されたり、実写映画化されたりしていますが、アニメ版もとても良かったですよ。もし良かったらぜひご覧になってください。ありがとうございました。",
+      "timestamp": "2023-02-13T21:40:45.998341+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "「時をかける少女」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "筒井康隆さん原作のアニメーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "アニメ版",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "面白そうな作品をご紹介いただきありがとうございました。\nエンディングが気になるところですが、それは観てからのお楽しみですね。",
+      "timestamp": "2023-02-13T21:41:24.700011+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "面白そうな作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "エンディングが気になるところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

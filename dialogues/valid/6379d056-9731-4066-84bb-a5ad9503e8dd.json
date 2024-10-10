@@ -1,0 +1,711 @@
+{
+  "dialog_id": "6379d056-9731-4066-84bb-a5ad9503e8dd",
+  "created_timestamp": "2023-02-20T13:57:04.373349+09:00",
+  "archived_timestamp": "2023-02-20T14:24:09.268785+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-20T13:57:55.597902+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-02-20T13:58:58.769929+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "いつもどんな映画をご覧になるのですか？わたしは以前はよく観ていましたが、最近はあまり観ていません。洋画ばかり観ていた時期もありましたけど、最近は邦画もいいな、と思うようになりました。",
+      "timestamp": "2023-02-20T14:00:47.245335+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画ばかり観ていた時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "分かります。私も以前は洋画が多かったのですが、最近は邦画もよく見ますよ。\n印象に残っているのは、「今日も嫌がらせ弁当」ですが、ご存じですか？",
+      "timestamp": "2023-02-20T14:04:18.588210+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「今日も嫌がらせ弁当」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-20T14:03:26.020831+09:00",
+          "query": "ハウ",
+          "genres": "",
+          "results": "1220,152697,162566,162761,19931,20486,20674,21553,23378,237035,239768,240799,241741,25570,319428,320267,321200,321232,321698,326032,326623,327204,328314,328315,329131,330134,333518,333627,333670,334089,334775,334913,335434,335785,335800,339013,339690,342444,344016,345215,345554,346480,347925,348170,349047,352378,355751,357070,357424,357933,358340,359061,359476,361148,361870,362346,365276,366341,367339,367638,367742,368450,369903,370397,370448,370964,372048,374768,375940,50427,51816,52312,84618,86183"
+        },
+        {
+          "timestamp": "2023-02-20T14:04:01.160354+09:00",
+          "query": "嫌がらせ",
+          "genres": "",
+          "results": "23378,241897,319768,325627,328271,329925,332286,337503,344686,345691,346639,349750,359061,362181,365598,366787,366965"
+        }
+      ],
+      "checked": [
+        "366787_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "観たことありません。どんな映画ですか？",
+      "timestamp": "2023-02-20T14:04:40.698053+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "観たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ちょうど今、卒業シーズンなのでぜひ見て頂きたいです。\n篠原涼子さん演じるお母さんが、反抗期でろくに口も利いてくれない娘に、嫌がらせでキャラ弁を作る、というストーリーです。高校３年間毎日作り続けます。",
+      "timestamp": "2023-02-20T14:06:09.164891+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "卒業シーズン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "篠原涼子さん演じるお母さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "反抗期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "口も利いてくれない娘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "嫌がらせ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "作る、というストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "高校３年間毎日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "366787_cast_name-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "3年間毎日キャラ弁ですか。女子高生なら嫌がるかもしれませんね。でも、作る方も大変ですよね。",
+      "timestamp": "2023-02-20T14:07:51.781056+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "3年間毎日",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "キャラ弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "女子高生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "作る方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "はい、朝早く起きて本格的に作っているので大変です。毎日中身を考えるだけでもすごいですよね。毎日メーセージが海苔で書かれているのも面白いです。",
+      "timestamp": "2023-02-20T14:10:16.848535+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "朝",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "中身",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "毎日",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "メーセージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "海苔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "どんなメッセージが一番面白かったですか？",
+      "timestamp": "2023-02-20T14:11:01.810645+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "どんなメッセージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "車で送ってくれーと甘えられる娘に「歩け！！」というメッセージがありました。",
+      "timestamp": "2023-02-20T14:13:21.651721+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "車",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "送ってくれーと甘えられる娘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「歩け！！」というメッセージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "反抗期で口をきいてくれないから、お弁当で言いたいことを伝えるわけですね。なかなかいいアイデアですね。",
+      "timestamp": "2023-02-20T14:15:36.900594+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "反抗期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "口",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "お弁当",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "言いたいこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "いいアイデア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そうなんです！\nところが、最初は嫌がらせで始めたメッセージも、どんどん元気づけるメッセージへと変わっていき、最後、卒業式の日に最高に感動的なお弁当が娘に渡されます！",
+      "timestamp": "2023-02-20T14:17:59.307812+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "嫌がらせで始めたメッセージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "元気づけるメッセージ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "最後、卒業式の日に最高に感動的なお弁当",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "娘",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "嫌がらせのようでも、やはり愛情のこもったお弁当なのですね。卒業式の日はどんなお弁当だったのですか？",
+      "timestamp": "2023-02-20T14:19:53.712132+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "嫌がらせ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "愛情のこもったお弁当",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "卒業式の日",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "どんなお弁当",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "ネタバレになりますが大丈夫でしょうか？",
+      "timestamp": "2023-02-20T14:20:41.249380+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "ネタバレ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "では、映画を観てからのお楽しみにしますね。今日はありがとうございました。",
+      "timestamp": "2023-02-20T14:22:22.301886+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "映画を観てからのお楽しみ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "はい、お弁当と一緒で楽しみは食べるときまで取っておきましょう！\nこちらこそ、楽しかったです。\nありがとうございました！",
+      "timestamp": "2023-02-20T14:23:41.102159+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

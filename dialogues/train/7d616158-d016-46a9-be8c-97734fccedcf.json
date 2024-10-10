@@ -1,0 +1,691 @@
+{
+  "dialog_id": "7d616158-d016-46a9-be8c-97734fccedcf",
+  "created_timestamp": "2023-01-30T14:58:06.710567+09:00",
+  "archived_timestamp": "2023-01-30T15:29:19.139391+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "025",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-01-30T14:58:54.931382+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-01-30T14:59:15.404085+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-01-30T14:59:45.962853+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "好きなジャンルは、コメディです。今は洋画より、邦画に興味があります。",
+      "timestamp": "2023-01-30T15:01:04.139030+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "好きなジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "1",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ザ・ファブルはご覧になったことはありますか？",
+      "timestamp": "2023-01-30T15:05:22.986870+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ザ・ファブル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T15:04:20.484462+09:00",
+          "query": "コメディ　邦画",
+          "genres": "",
+          "results": "20324,21943,322489,324021,332598,333367,336078,341643,344472,349046,352092,356055,360430,363764,368253,83465"
+        },
+        {
+          "timestamp": "2023-01-30T15:04:29.476161+09:00",
+          "query": "コメディ　日本",
+          "genres": "",
+          "results": "12902,12926,13908,142154,146948,150436,151599,153289,159561,159811,161716,162856,163032,20324,21943,234857,237362,237383,238828,239783,240096,241003,319160,319937,320059,321931,321932,322193,322489,322931,323470,323636,323638,324021,324328,324406,324563,324782,324897,325100,325136,325441,325627,325865,326745,326850,327000,327082,327253,327495,328445,329614,330507,330914,331288,331364,331380,332068,332286,332430,332598,332676,333212,333367,333529,334142,334832,334913,335434,335605,336078,336110,336791,337257,337450,337723,337962,338137,338546,338644,338786,339379,339701,340496,340605,340705,340849,340852,341516,341611,341643,341806,343318,344013,344125,344472,344562,344573,344584,344722,344920,345215,346099,346152,346346,346540,346791,347371,347372,347375,347764,347810,347874,347931,348001,348085,348266,348610,348641,349046,350555,350824,350825,350977,351372,351464,351663,351822,351840,351841,352092,352549,352899,352900,353092,353496,353627,354106,354182,354205,354239,354473,354676,355278,355359,355482,355619,355696,355740,355756,355934,356055,356308,356422,356636,357226,357845,358068,358189,358205,358375,358499,358653,358670,358894,358926,358936,358947,359061,359622,359685,360062,360430,360444,360566,360576,361091,361110,361356,361463,361822,361870,362179,362181,362464,362706,362937,363105,363119,363764,363978,365245,365978,366009,366076,366134,366398,366505,367201,367924,367926,367982,368191,368253,368692,369338,369470,370020,370182,370458,370524,371442,372190,372705,372796,373859,374034,374583,376704,377743,378595,83437,83465,83886,86183,87762,89848"
+        },
+        {
+          "timestamp": "2023-01-30T15:05:01.533554+09:00",
+          "query": "ファブル",
+          "genres": "",
+          "results": "366492,373772"
+        }
+      ],
+      "checked": [
+        "366492_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "名前は聞いたことがありますが、見たことはありません。どのような内容ですか？",
+      "timestamp": "2023-01-30T15:06:30.284462+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "どのような内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "どんな相手でも6秒以内に殺してしまう伝説の殺し屋・ファブルがある日、ボスから1年の休養を命じられた彼は、誰も殺してはならないという条件のもと大阪で暮らしていくというストーリーです。",
+      "timestamp": "2023-01-30T15:09:14.752174+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どんな相手でも6秒以内に殺してしまう伝説の殺し屋・ファブルがある日、ボスから1年の休養を命じられた彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "殺してはならないという条件のもと大阪",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "暮らしていくというストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "どんな相手でも6秒以内に殺すなんて、とても凄腕ですね。彼は、休養期間に誰も殺さずに過ごせたのですか？",
+      "timestamp": "2023-01-30T15:10:22.787482+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "どんな相手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "6秒以内",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "凄腕",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "休養期間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そこがストーリーの見どころです。思わぬトラブルに巻き込まれる中、本当はすぐに倒せる相手なのにどうやって切り抜いていくかが面白いです。",
+      "timestamp": "2023-01-30T15:12:35.731670+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "ストーリーの見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "思わぬトラブルに巻き込まれる中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "本当",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "すぐに倒せる相手",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "なるほど。殺さずに、どうやって切り抜くかがポイントなんですね。大阪が舞台ということは、主人公は関西弁を使ったりするのですか？",
+      "timestamp": "2023-01-30T15:14:20.301819+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ポイント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "大阪",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "舞台ということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "関西弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "大阪出身の岡田准一が演じているので、大阪弁もうまかったですよ。一般社会に溶け込むために奮闘している姿が面白いです。",
+      "timestamp": "2023-01-30T15:18:23.679617+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "大阪出身の岡田准一",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "大阪弁",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "一般社会に溶け込むために奮闘している姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "岡田准一が演じているのですね、彼の演技は好きなので、とても期待が持てます。ちなみに、休養期間の間、彼はどんな肩書きで過ごしているのですか？フリーターとかですか？",
+      "timestamp": "2023-01-30T15:20:49.276807+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "岡田准一",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "演じているのですね、彼の演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "期待",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "休養期間の間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "どんな肩書き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "フリーター",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ひょんなことからイラストレーターの会社で勤めます。下手な絵がなぜかウケたんです。",
+      "timestamp": "2023-01-30T15:22:23.879661+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "ひょんなこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "35",
+          "text": "イラストレーターの会社",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "下手な絵",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "凄腕の殺し屋が下手な絵を描く姿を想像するだけで、とても面白そうです。他にどんな俳優さんが出演していますか？",
+      "timestamp": "2023-01-30T15:24:44.455696+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "凄腕の殺し屋",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "下手な絵を描く姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "木村文乃や福士蒼汰、柳楽優弥です。もし機会があればご覧ください。",
+      "timestamp": "2023-01-30T15:27:40.043448+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "木村文乃や福士蒼汰、柳楽優弥",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "豪華な共演陣ですね。早速みてみます。素敵な映画を紹介いただき、ありがとうございました。",
+      "timestamp": "2023-01-30T15:28:16.831019+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "豪華な共演陣",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "素敵な映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

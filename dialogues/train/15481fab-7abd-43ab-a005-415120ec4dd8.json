@@ -1,0 +1,781 @@
+{
+  "dialog_id": "15481fab-7abd-43ab-a005-415120ec4dd8",
+  "created_timestamp": "2023-02-03T12:59:32.510906+09:00",
+  "archived_timestamp": "2023-02-03T13:20:30.828658+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-03T13:00:09.646157+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-02-03T13:00:30.659717+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-03T13:00:34.831112+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。ホラー映画以外はわりといろいろなジャンルの映画を観ますね。",
+      "timestamp": "2023-02-03T13:01:17.334771+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ホラー映画以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画、洋画のお好みはございますか？",
+      "timestamp": "2023-02-03T13:01:40.481281+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画、洋画のお好み",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらかというと洋画を観ることのほうが多いです。",
+      "timestamp": "2023-02-03T13:02:07.060762+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画を観ることのほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ミュージカル映画や、ラブコメディ、よりストーリー性を重視されますか？",
+      "timestamp": "2023-02-03T13:03:17.739499+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ミュージカル映画や、ラブコメディ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ストーリー性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい。ミュージカル映画は当たりはずれが大きい気がするので、あまり観ませんが、ストーリーは重視します。ミュージカル映画で秀作が何かありますか？",
+      "timestamp": "2023-02-03T13:05:26.253032+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "はずれが大きい気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "秀作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ミュージカル映画では、2015年版のANNIE／アニーが面白かったですが、ご覧になったことはありますか？",
+      "timestamp": "2023-02-03T13:06:30.066617+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "ミュージカル映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "2015年版のANNIE／アニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T13:06:05.047311+09:00",
+          "query": "アニー",
+          "genres": "",
+          "results": "12124,163038,19758,22667,23290,233769,241899,26638,320267,349742,351610,361586,365075,365276,366134,366945,375940,54734"
+        }
+      ],
+      "checked": [
+        "349742_title",
+        "349742_year"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "アニーは観ました。舞台でもよく上演される作品なので、大きなはずれはないかと思って観ました。良い作品ですよね。",
+      "timestamp": "2023-02-03T13:07:38.729214+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "アニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "舞台でもよく上演される作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "大きなはずれ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "良い作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ご覧になられましたが、では別の映画で、ミュージカルではありませんが、最近驚いた映画を紹介させてください。2011年のコンテイジョンという映画はご覧になられましたか？コロナを予知したかのような映画なんです。",
+      "timestamp": "2023-02-03T13:09:23.898965+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "では別の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "最近驚いた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "2011年のコンテイジョンという映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "コロナを予知したかのような映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-03T13:07:50.810018+09:00",
+          "query": "Sing",
+          "genres": "",
+          "results": "320442,347925,355820,356506"
+        },
+        {
+          "timestamp": "2023-02-03T13:08:54.356323+09:00",
+          "query": "コンテイジョン",
+          "genres": "",
+          "results": "340856"
+        }
+      ],
+      "checked": [
+        "340856_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "それは観ていないと思います。どんな映画ですか？",
+      "timestamp": "2023-02-03T13:10:02.185018+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "香港出張からアメリカに帰国した女性が急死し、次々と感染が広まっていくのです。コウモリ由来の未知のウイルスにより引き起こされるロックダウン、SNSによるデマ拡散、ワクチン開発の難航、ワクチン開発後も打つ順番でもめたり、まさに今の世の中を見ているような気になりますが、10年以上も前に作られた映画なんです。",
+      "timestamp": "2023-02-03T13:12:27.037878+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "香港出張からアメリカに帰国した女性",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "感染",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "コウモリ由来の未知のウイルス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "引き起こされるロックダウン、SNSによるデマ拡散、ワクチン開発の難航、ワクチン開発後も打つ順番",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "今の世の中を見ているような気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "10年以上も前に作られた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340856_plot-0",
+        "340856_plot-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "観ていないですね。でもまさに、今回のコロナ騒動と同じような状況ですね。びっくりします！出演している俳優は誰ですか？",
+      "timestamp": "2023-02-03T13:14:15.858085+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "今回のコロナ騒動と同じような状況",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "出演している俳優",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "キャストはマット・デイモン、ジュード・ロウ、グウィネス・パルトロー、ケイト・ウィンスレットなど、豪華な顔ぶれなのですが、グウィネス・パルトローは一番に死んでしまう役で、正直、え、もう？もったいない、と思ってしまいました。",
+      "timestamp": "2023-02-03T13:15:05.753763+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "キャスト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "マット・デイモン、ジュード・ロウ、グウィネス・パルトロー、ケイト・ウィンスレット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "豪華な顔ぶれ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "グウィネス・パルトロー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "一番に死んでしまう役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340856_cast_name-1",
+        "340856_cast_name-3"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "豪華なキャスト陣ですね！あまりパニック映画系はすすんでは観ないので、スルーしていたのかもしれません。グウィネス・パルトローが一番に亡くなる役なんて、大胆なキャスティングをした映画ですよね。それも製作側の狙いなのでしょうか。",
+      "timestamp": "2023-02-03T13:18:17.076543+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "豪華なキャスト陣",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "パニック映画系",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "グウィネス・パルトロー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "一番に亡くなる役なんて、大胆なキャスティングをした映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "製作側の狙い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "監督がオーシャンズ11シリーズのスティーブン・ソダーバーグなので、俳優陣とのコネクションが強いのかな、と思いました。\n全体的に暗い感じの映画にはなりますが、予知映画かしら、と思うぐらい見ていてとても不思議な感覚になりました。機会があればぜひご覧になって下さいね。",
+      "timestamp": "2023-02-03T13:19:45.467408+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "オーシャンズ11シリーズのスティーブン・ソダーバーグ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "俳優陣とのコネクション",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "全体的に暗い感じの映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "43",
+          "text": "なりますが、予知映画かしら、と思うぐらい",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "不思議な感覚",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "340856_director_name",
+        "340856_director_other_title-0:234690"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "なるほど。監督も大物なんですね。教えていただいてどうもありがとうございました。",
+      "timestamp": "2023-02-03T13:20:24.037231+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "大物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

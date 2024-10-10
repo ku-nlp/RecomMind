@@ -1,0 +1,772 @@
+{
+  "dialog_id": "a102cd05-c982-4644-a11d-2221f63ec65c",
+  "created_timestamp": "2023-02-02T11:58:23.338748+09:00",
+  "archived_timestamp": "2023-02-02T12:19:22.388906+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-02T11:59:41.204246+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-02T12:00:23.618183+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-02T12:00:33.725262+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ヒューマンドラマ、サスペンス、コメディーも好きです。",
+      "timestamp": "2023-02-02T12:01:00.831253+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ヒューマンドラマ、サスペンス、コメディー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画ですが「ゲット スマート」はご覧になったことはありますか？",
+      "timestamp": "2023-02-02T12:01:57.499124+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "2",
+          "text": "「ゲット　スマート」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-02T12:01:33.534908+09:00",
+          "query": "ゲットスマート",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-02T12:01:35.785358+09:00",
+          "query": "ゲット　スマート",
+          "genres": "",
+          "results": "11457,239348,24136,242063,321766,328207,329859,330473,331380,338302,340611,346341,347420,349516,351032,352378,353046,353627,355619,355740,356113,356150,356422,359052,359479,361132,361302,364767,365929,366008,366409,366491,367559,368153,368576,372742,373788,378799,381457"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ありません。ハリウッド映画ですか？\nどのようなストーリーですか？",
+      "timestamp": "2023-02-02T12:02:36.913837+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ハリウッド映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい、ハリウッド映画です。ジャンルで言うとアクションとコメディです。ドジなエージェントが大きな事件に巻き込まれていくストーリーです。",
+      "timestamp": "2023-02-02T12:03:43.275134+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ハリウッド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "アクション",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ドジなエージェントが大きな事件に巻き込まれていくストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "329859_genre-0",
+        "329859_genre-1"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "テレビドラマの映画版でしょうか？",
+      "timestamp": "2023-02-02T12:04:28.386560+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "テレビドラマの映画版",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "すみません、ドラマがあったのかは知りませんでした。敏腕分析官が地味なイメージの内勤ではなく、花形である現場エージェントとして活躍することを願い昇格試験を受験し、7回目の受験で念願の合格を果たし仕事をしていく物語です。",
+      "timestamp": "2023-02-02T12:05:27.219817+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "敏腕分析官",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "地味なイメージの内勤ではなく、花形である現場エージェントとして活躍すること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "昇格試験",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "7回目の受験",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "念願の合格",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "果たし仕事をしていく物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "329859_plot-2",
+        "329859_plot-3"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "コメディーの要素があれば、笑えそうですね。ネットで観られそうなら、観てみます。個人的には００７の方が好きかも。",
+      "timestamp": "2023-02-02T12:07:26.832177+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "コメディーの要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ネット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "００７の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "好き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "007のようなカッコイイエージェントとは真逆です。それがまたこの映画の見どころです。ただ分析官として収集した情報から解決していくなど、別のカッコイイ姿も見れます。",
+      "timestamp": "2023-02-02T12:09:09.350256+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "007のようなカッコイイエージェント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "それがまたこの映画の見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "分析官として収集した情報",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "別のカッコイイ姿",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "329859_plot-8"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "アクションメインというよりは、情報戦ですね。それもおもしろそうです。サスペンス系でお勧めはありますか？",
+      "timestamp": "2023-02-02T12:09:54.942741+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "アクションメイン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "情報戦",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "サスペンス系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "「ダ・ヴィンチ・コード」はご覧になったことはありますか？サスペンスと謎解きといったジャンルでしょうか。",
+      "timestamp": "2023-02-02T12:10:36.382654+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "「ダ・ヴィンチ・コード」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "サスペンス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "謎解きといったジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-02T12:10:05.331115+09:00",
+          "query": "サスペンス",
+          "genres": "",
+          "results": "322729,334832,336078,351899,354552"
+        }
+      ],
+      "checked": [
+        "322729_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "１と２の両方観ました。トム・ハンクスの出ている映画は、よく観ます。",
+      "timestamp": "2023-02-02T12:11:06.802308+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "１と２の両方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "トム・ハンクスの出ている映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "色々なキーがあり、難解でおもしろいですよね。何度か見てしまう面白さがあったように思います。",
+      "timestamp": "2023-02-02T12:12:39.732488+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "色々なキー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "何度か見てしまう面白さ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "322729_review-0",
+        "322729_review-3"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "確かにそうですね。ちょっと重くて暗かったですが。法廷物でお勧めはありますか？",
+      "timestamp": "2023-02-02T12:13:21.117444+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "法廷物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "2004年のRunaway Juryが個人的には好きです。謎の外部者と、陪審コンサルタントとの駆け引きを描いています。もし機会があればご覧ください。",
+      "timestamp": "2023-02-02T12:15:15.150306+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "2004年のRunaway Jury",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "謎の外部者と、陪審コンサルタントとの駆け引き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "メインの出演者は誰でしょうか？",
+      "timestamp": "2023-02-02T12:15:46.510463+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "メインの出演者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ダスティンホフマンです。",
+      "timestamp": "2023-02-02T12:16:26.768781+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "ダスティンホフマン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "「ニューオーリンズ・トライアル」ですね？おもしろそうな内容ですね。ジーン・ハックマンが好きなので、機会があれば観てみようと思います。有難うございました！",
+      "timestamp": "2023-02-02T12:18:42.513097+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "「ニューオーリンズ・トライアル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "おもしろそうな内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ジーン・ハックマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "speaker": "recommender",
+      "text": "はい、一番好きな法廷映画です。ありがとうございました。",
+      "timestamp": "2023-02-02T12:19:19.509574+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

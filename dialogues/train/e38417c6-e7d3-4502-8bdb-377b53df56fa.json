@@ -1,0 +1,811 @@
+{
+  "dialog_id": "e38417c6-e7d3-4502-8bdb-377b53df56fa",
+  "created_timestamp": "2023-02-27T13:58:09.293589+09:00",
+  "archived_timestamp": "2023-02-27T14:34:07.367047+09:00",
+  "recommender": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 1,
+      "recommendation_success": 1,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "049",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 2,
+      "recommendation_success": 1,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-27T13:59:45.836008+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちわ。こちらこそよろしくお願いいたします。",
+      "timestamp": "2023-02-27T14:00:24.787408+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段はどういうジャンルの映画をご覧になることが多いですか？",
+      "timestamp": "2023-02-27T14:00:28.780200+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どういうジャンルの映画をご覧になること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "最近は邦画が多いです。",
+      "timestamp": "2023-02-27T14:00:50.533549+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画をご覧になることが多いのですね。\nでは、今日はどういう映画のご気分でしょうか？\nこういうジャンルの映画が観たい、など何かありますか？",
+      "timestamp": "2023-02-27T14:01:46.921663+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画をご覧になること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "どういう映画のご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "こういうジャンルの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "家族ものが気楽に見れそうで良さそうですね",
+      "timestamp": "2023-02-27T14:02:37.206052+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "家族もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "やはり邦画がよいですか？",
+      "timestamp": "2023-02-27T14:03:06.854916+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T14:02:52.395264+09:00",
+          "query": "",
+          "genres": "family",
+          "results": "150435,152271,159561,159811,159875,162761,162856,20735,20876,21356,236089,236590,237101,237362,241078,241897,28621,28627,318678,319257,321736,321839,321932,322086,322281,322404,322704,322771,323098,323222,323636,323686,324260,324261,324398,324408,325317,326008,326246,326247,326362,326442,326445,326551,326660,326664,326905,327496,327529,327770,328367,328448,328493,328626,328724,329124,329418,329464,329546,329604,329606,329736,329809,329970,330039,330487,331366,332068,332361,332425,332670,332672,332753,332848,333194,333261,333331,333712,333833,333957,333976,334288,334304,335255,335426,335440,335605,335655,335712,335766,335850,336170,336292,336605,336703,336808,337854,338017,338048,338075,339701,339775,339818,339986,340427,340606,341531,341770,342051,343345,343456,343761,344380,345366,346960,347371,347372,348091,348264,349443,349726,349728,349920,350111,350897,351369,352692,353496,353538,353612,353664,354523,354988,355316,356423,356582,358499,358645,358954,359120,359899,360962,360986,361373,361801,362195,362714,362962,363528,363644,363762,363978,364123,364183,365085,365489,365791,366015,366134,366550,366607,367144,367321,367823,369058,369413,369619,370020,370565,370836,371076,371105,371973,372796,374449,374768,375074,375327,381859,495,6207,8508"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "邦画であれば家族もの。洋画でしたら、2000年より前の映画を見ることが多いです。",
+      "timestamp": "2023-02-27T14:03:49.469095+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "家族もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "2000年より前の映画を見ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "なるほど。\n邦画で家族もの、ですね？\nでは、吉岡秀隆さん主演の「ALWAYS　三丁目の夕日」はご覧になったことはありますか？",
+      "timestamp": "2023-02-27T14:06:02.187430+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "家族もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "吉岡秀隆さん主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「ALWAYS　三丁目の夕日」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "322281_title",
+        "322281_cast_name-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "あります。懐かしいですね。",
+      "timestamp": "2023-02-27T14:06:24.536621+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ご覧になっていましたか。\nでは、「若おかみは小学生！」はご覧になったことはありますか？",
+      "timestamp": "2023-02-27T14:09:24.899135+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "「若おかみは小学生！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "何冊か本を読んだことはありますが、映画は見ていません。どんな感じですか？",
+      "timestamp": "2023-02-27T14:10:31.958922+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "本を読まれているのですね？\nこの映画の主人公の女の子を人気子役の小林星蘭ちゃんが演じています。\n主人公の女の子が両親を亡くし、祖母のもとにやってくるところから若女将修行を始めるところが第一巻のストーリーになっています。\nその後もそれぞれのエピソードが各巻として、ショートストーリーが展開していきます。",
+      "timestamp": "2023-02-27T14:15:59.143452+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "この映画の主人公の女の子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "人気子役の小林星蘭ちゃん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "21",
+          "text": "主人公の女の子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "両親",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "亡くし、祖母のもとにやってくるところから若女将修行を始めるところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "第一巻のストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "それぞれのエピソード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "各巻",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ショートストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363978_title",
+        "363978_cast_name-0"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "本では結構な巻数がありますが、映画ではショートストーリーでいくつか連続して見られるんですね。それは気楽で見やすそうですね。\n確か幽霊が出てきたと思いますが、それは誰がやっているんですか？",
+      "timestamp": "2023-02-27T14:17:51.473376+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "結構な巻数",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ショートストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "確か幽霊",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "すいません。大変失礼いたしました。\nこちらは実写版ではなく、アニメです。\n声優さんはウリ坊を松田楓水さん、長い白髪の美幼女を遠藤瑠菜さんが演じています。",
+      "timestamp": "2023-02-27T14:26:23.693192+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "実写版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "声優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ウリ坊",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "松田楓水さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "38",
+          "text": "長い白髪の美幼女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "遠藤瑠菜さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "声優なんですね。ご紹介頂いた3名の方は存じ上げませんが有名な方なんですか？",
+      "timestamp": "2023-02-27T14:27:41.289296+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "声優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ご紹介頂いた3名の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "有名な方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "すいません。\n私も声優さんにはあまり詳しくありませんが、この二人は有名声優ではないようです。\n他のキャストに人気声優の水樹奈々さんが豪華旅館の一人娘役だったり、薬丸裕英さんや鈴木杏樹さんなども出演しています。",
+      "timestamp": "2023-02-27T14:32:04.751682+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "声優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "44",
+          "text": "この二人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "有名声優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "46",
+          "text": "他のキャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "人気声優の水樹奈々さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "豪華旅館の一人娘役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "薬丸裕英さんや鈴木杏樹さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363978_cast_name-8",
+        "363978_cast_name-9",
+        "363978_cast_name-10"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "そうでしたか。よくわかりました。\n本日はありがとうございました。",
+      "timestamp": "2023-02-27T14:32:55.843342+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "他にもホラン千秋さんや人気声優の山寺宏一さんも出演されています。情報不足で申し訳ありません。\nお時間長々とかかってしまい、すいません。\nどうもありがとうございました。",
+      "timestamp": "2023-02-27T14:33:50.241333+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": [
+        "363978_cast_name-12"
+      ]
+    }
+  ]
+}

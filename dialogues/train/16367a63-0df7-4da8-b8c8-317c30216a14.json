@@ -1,0 +1,872 @@
+{
+  "dialog_id": "16367a63-0df7-4da8-b8c8-317c30216a14",
+  "created_timestamp": "2023-02-28T16:53:59.714837+09:00",
+  "archived_timestamp": "2023-02-28T17:31:39.505089+09:00",
+  "recommender": {
+    "name": "040",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。どうぞ宜しくお願いいたします。",
+      "timestamp": "2023-02-28T16:56:51.339741+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。",
+      "timestamp": "2023-02-28T16:57:00.102496+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どのような映画をご覧になるのがお好きですか？何かこんな映画が観たい気分だなというのがあれば教えてください。",
+      "timestamp": "2023-02-28T16:58:14.298986+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "何かこんな映画が観たい気分",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "実話に基づいたストーリーで、おすすめはありますか？ホラーや残酷系は苦手なんですが。",
+      "timestamp": "2023-02-28T16:58:36.624986+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "実話に基づいたストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ホラーや残酷系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ドキュメンタリー映画というより実話をベースにした映画という理解で大丈夫でしょうか。",
+      "timestamp": "2023-02-28T16:59:41.261193+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ドキュメンタリー映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "いうより実話をベースにした映画という理解",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらでも大丈夫です！SFやファンタジーではなく、現実に近いもので、ジャンルは問いません。ホラー以外で（笑）。",
+      "timestamp": "2023-02-28T17:01:15.687103+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "SFやファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "現実に近いもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ホラー以外ですね笑。　実話をベースにした映画で私が心に残っているものに、「最強のふたり」「イミテーション・ゲーム／エニグマと天才数学者の秘密」「エリンブロコビッチ」などがありますが、ご覧になられましたか？",
+      "timestamp": "2023-02-28T17:03:43.229688+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ホラー以外ですね笑",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "実話をベースにした映画で私が心に残っているもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「最強のふたり」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「イミテーション・ゲーム／エニグマと天才数学者の秘密」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「エリンブロコビッチ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-28T17:02:27.252902+09:00",
+          "query": "最強の",
+          "genres": "",
+          "results": "235794,319069,329522,330551,333379,333700,334820,336736,338302,338382,338786,341701,347290,349046,349437,350823,351336,352157,355740,358186,358645,360777,362951,363392,363668,364327,364743,368153,369014,370020,370667,377017,842"
+        },
+        {
+          "timestamp": "2023-02-28T17:02:41.386946+09:00",
+          "query": "最強のふたり",
+          "genres": "",
+          "results": "341701"
+        },
+        {
+          "timestamp": "2023-02-28T17:03:16.425963+09:00",
+          "query": "イミテーション・ゲーム／エニグマと天才数学者の秘密 ...",
+          "genres": "",
+          "results": "11832,241372,321617,329144,329886,330039,342627,350926,351301,352367,353189,355085,359023,360566,361302,363273,364005,367261,369903,370964,371973,375074,380731,84047"
+        }
+      ],
+      "checked": [
+        "341701_title",
+        "350926_title",
+        "160227_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "「エリンブロコビッチ」だけ昔観たことがあります。確か女性が主演の裁判ものだったような？\n「最強のふたり」「イミテーション・ゲーム／エニグマと天才数学者の秘密」はまだ観たことがないです。どんなストーリーでしょうか？",
+      "timestamp": "2023-02-28T17:06:03.342121+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "「エリンブロコビッチ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "確か女性",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "主演の裁判もの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「最強のふたり」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「イミテーション・ゲーム／エニグマと天才数学者の秘密」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "では、より私的によりおすすめ度が高い「最強のふたり」についてストーリーをお話ししたいと思います。フランス映画なのですが、日本においても、ヒットした映画です。車いす生活を送る富豪と、彼の介護をすることになったスラム出身の黒人青年という、まったく境遇の異なる2人が深い友情で結ばれていく様を描いたものです。",
+      "timestamp": "2023-02-28T17:09:47.722819+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "おすすめ度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「最強のふたり」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "フランス映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "日本においても、ヒットした映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "車いす生活を送る富豪と、彼の介護をすることになったスラム出身の黒人青年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "境遇の異なる2人が深い友情で結ばれていく様を描いたもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "341701_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "おすすめ度が高いと聞くとより興味がわきますね！フランスの映画なんですね。「まったく境遇の異なる2人が深い友情で結ばれていく」というと、ノンフィクションっぽいですが、実話なんですか？",
+      "timestamp": "2023-02-28T17:13:40.874660+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "おすすめ度",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "フランスの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "境遇の異なる2人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "深い友情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうなんです。大富豪であるフィリップ氏が、事故で首から下が動かせなくなったことや、その介護人のアブデルとのことを書いた本を出版し、\nこの本がきっかけで、二人はフランスのテレビ番組で取り上げられ、\n続いて二人の関係性を描いたドキュメンタリー番組が制作され、さらに映画「最強のふたり」へと連鎖することになりました。",
+      "timestamp": "2023-02-28T17:16:24.425861+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "大富豪であるフィリップ氏",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "事故で首から下が動かせなくなったことや、その介護人のアブデルとのことを書いた本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "この本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "きっかけ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "二人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "フランスのテレビ番組",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "続いて二人の関係性を描いたドキュメンタリー番組",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "「最強のふたり」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "えーそうなんですか！本が出版されたのはいつ頃だったんでしょうか？",
+      "timestamp": "2023-02-28T17:17:28.648393+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "最初にフランスで出版されたのは2001年ですね。",
+      "timestamp": "2023-02-28T17:21:00.724029+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "フランス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "2001年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "2001年ということは、20年前くらいということですね。ジャンルでいうと、「ヒューマニズム」とか「友情」といった感じでしょうか？じんわり感動するストーリーですか？または重たい感じ？",
+      "timestamp": "2023-02-28T17:24:00.944035+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "2001年ということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "20年前くらいということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "いうと、「ヒューマニズム」とか「友情」といった感じでしょうか？じんわり感動するストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "重たい感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "貧困や格差、社会問題も扱っていますが、重たくならずあたたかいコメディ調でストーリーが進んでいきます。大きな事件などはないのですが、2人の日常のやり取りにじんわりと心がやさしくなる友情物語かと思います。",
+      "timestamp": "2023-02-28T17:26:13.230633+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "貧困や格差、社会問題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "あたたかいコメディ調",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "大きな事件",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "2人の日常のやり取り",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "じんわり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "心がやさしくなる友情物語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "なるほど！良い映画を教えていただいてありがとうございます。機会があればぜひ観てみたいです。",
+      "timestamp": "2023-02-28T17:29:14.374292+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございます。ちょっと疲れた時に観るのに、ちょうど良い映画かもしれません。本日はありがとうございました。",
+      "timestamp": "2023-02-28T17:30:55.809933+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

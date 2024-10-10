@@ -1,0 +1,669 @@
+{
+  "dialog_id": "afbabf1b-4335-4dce-bdb3-8ed2d4f4d12a",
+  "created_timestamp": "2022-12-21T14:12:32.394762+09:00",
+  "archived_timestamp": "2022-12-21T14:38:44.824150+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは\nよろしくお願いします",
+      "timestamp": "2022-12-21T14:14:15.589756+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "よろしくお願いします。\n映画はよくご覧になりますか？",
+      "timestamp": "2022-12-21T14:14:43.952226+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "洋画をかなり観ています",
+      "timestamp": "2022-12-21T14:14:57.307899+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "そうですか。どんなジャンルが好きですか？好きな俳優さんとかいらっしゃいますか？",
+      "timestamp": "2022-12-21T14:16:31.090175+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "女性が主役のアメリカ映画を多くみています",
+      "timestamp": "2022-12-21T14:16:58.316293+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "主役のアメリカ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "そうですか。ジャンルは問わずですかね？\n次に映画を観るとしたら同じ系統を選びますか？それともまったく新しい物にチャレンジしたいですか？",
+      "timestamp": "2022-12-21T14:20:40.303595+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "同じ系統",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "新しい物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "SFは苦手ですが、それ以外はなんでも観ます",
+      "timestamp": "2022-12-21T14:21:31.674323+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "SF",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "なるほど。私も以前は洋画をたくさん見ていました。英語の勉強にもなるので。\nただ、最近は邦画も面白いものが多く、家族で一緒に楽しんでいます。",
+      "timestamp": "2022-12-21T14:23:34.723341+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "英語の勉強",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "邦画も面白いもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "邦画はほとんど観たことがないのですが、\nクリスマスシーズンなので何か楽しいそうな邦画でお勧めはありますか？",
+      "timestamp": "2022-12-21T14:25:01.660380+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "クリスマスシーズン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "何か楽しいそうな邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "クリスマスとは関係なのですが、笑いあり、感動ありのおすすめがあります。「老後の資金がありません！」です。観たことありますか？",
+      "timestamp": "2022-12-21T14:28:40.329251+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "クリスマス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "関係",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "感動ありのおすすめ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「老後の資金がありません！」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "観たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-21T14:25:35.391112+09:00",
+          "query": "クリスマス",
+          "genres": "",
+          "results": "12926,13780,162818,16482,21356,23290,233769,235071,235078,237035,237942,239807,24012,241171,28621,28627,29038,318646,319681,321945,324029,324253,325867,326504,332676,333332,333976,334339,334943,335453,336448,338127,341641,344125,344443,345215,346639,348862,351031,352692,353113,354600,354960,357055,358727,359685,362671,363978,364183,364195,364938,365598,365929,366409,366853,370019,371833,378066,6608,85193,86183,9588,9889"
+        },
+        {
+          "timestamp": "2022-12-21T14:27:58.819189+09:00",
+          "query": "老後",
+          "genres": "",
+          "results": "370652"
+        }
+      ],
+      "checked": [
+        "370652_title"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "観たことはありませんが、宣伝を観て面白そうだなと思っていました",
+      "timestamp": "2022-12-21T14:29:32.863080+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "宣伝",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "おすすめです。個人的に天海祐希さんが大好きなので、彼女の演技は抜群ですし、姑役の草笛光子さんとの掛け合いがすごくおもしろいです。",
+      "timestamp": "2022-12-21T14:31:13.619113+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "天海祐希さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "彼女の演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "姑役の草笛光子さんとの掛け合い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "370652_cast_name-0"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "ネットでフリーで観れるのでぜひみてみたいと思います",
+      "timestamp": "2022-12-21T14:32:01.669787+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ネット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "はい！ぜひ観てみて下さい。色々あって最後はハッピーエンドなのですが、何が幸せなのかこちらも色々考えさせられます。",
+      "timestamp": "2022-12-21T14:33:54.916939+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "ハッピーエンドで、幸せを考える映画いいですね",
+      "timestamp": "2022-12-21T14:34:21.129948+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "ハッピーエンドで、幸せを考える映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "今回推薦する側は私の方でしたが、女性が主役のアメリカ映画のおすすめがあれば、ぜひ参考までに教えてもらえますか？",
+      "timestamp": "2022-12-21T14:36:14.269284+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "今回推薦する側",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "私の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "主役のアメリカ映画のおすすめ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "参考",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "ありすぎて...",
+      "timestamp": "2022-12-21T14:36:28.802120+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "あえて一つ選ぶとしたら？",
+      "timestamp": "2022-12-21T14:36:45.926255+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "一つ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "では、オーシャンズ8をぜひ！",
+      "timestamp": "2022-12-21T14:37:26.210746+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "オーシャンズ8",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "speaker": "recommender",
+      "text": "いいですね。ありがとうございます！\n今日は楽しかったっです。",
+      "timestamp": "2022-12-21T14:38:12.760909+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "20",
+      "speaker": "seeker",
+      "text": "楽しかったです。\nありがとうございました！",
+      "timestamp": "2022-12-21T14:38:34.711558+09:00",
+      "internal_states": []
+    }
+  ]
+}

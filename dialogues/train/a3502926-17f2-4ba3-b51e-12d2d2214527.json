@@ -1,0 +1,554 @@
+{
+  "dialog_id": "a3502926-17f2-4ba3-b51e-12d2d2214527",
+  "created_timestamp": "2023-02-19T10:59:16.378186+09:00",
+  "archived_timestamp": "2023-02-19T11:32:33.837845+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願い致します。",
+      "timestamp": "2023-02-19T11:01:38.717666+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願い致します。",
+      "timestamp": "2023-02-19T11:01:38.835557+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段はどんな映画をみられますか？",
+      "timestamp": "2023-02-19T11:02:00.546583+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ジャンル問わず、邦画をよく見ます。",
+      "timestamp": "2023-02-19T11:04:08.078207+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画ですね。ちょっと変わった映画で「DESTINY 鎌倉ものがたり」というのがありますがご存じでしょうか？",
+      "timestamp": "2023-02-19T11:05:55.120485+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "変わった映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「DESTINY　鎌倉ものがたり」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:05:31.505134+09:00",
+          "query": "DESTINY 鎌倉ものがたり",
+          "genres": "",
+          "results": "360432"
+        }
+      ],
+      "checked": [
+        "360432_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "みたことないです。どんな映画でしょうか？",
+      "timestamp": "2023-02-19T11:15:45.071332+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "鎌倉に暮らす売れないミステリー作家と、その作家のもとへ嫁いだ新妻の周りで起こる奇妙な体験から、次第に自分達の運命が判明していくというストーリーです。妖怪とか幽霊とかが出てきておもしろいですよ。だって鎌倉ですから、と。",
+      "timestamp": "2023-02-19T11:17:45.707577+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "鎌倉に暮らす売れないミステリー作家と、その作家のもとへ嫁いだ新妻の周りで起こる奇妙な体験",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "自分達の運命",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "判明していくというストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "妖怪とか幽霊",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "だって鎌倉",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:08:23.434460+09:00",
+          "query": "鎌倉",
+          "genres": "",
+          "results": "349516,354182,359685,360432"
+        },
+        {
+          "timestamp": "2023-02-19T11:08:44.365059+09:00",
+          "query": "羊",
+          "genres": "",
+          "results": "163178,16329,19207,20674,320268,325136,329131,339678,345697,347542,351029,351030,351899,354798,356331,356636,357140,359122,361374,362261,362533,363809,366134,366550,367984,369783,8508"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "面白そうですね。鎌倉の街風景なども出たりしますか？",
+      "timestamp": "2023-02-19T11:18:31.496188+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "鎌倉の街風景",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "鎌倉の風景はそんなには出てこないですね。列車で黄泉の国へ行くことになるので、ちょっとファンタジー？っぽい映像になります。",
+      "timestamp": "2023-02-19T11:21:51.258189+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "鎌倉の風景",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "列車",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "黄泉の国",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ファンタジー？っぽい映像",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そういえばなんか聞いたことがある映画だと思い出しました。確か、堺雅人さんが出ていますね？",
+      "timestamp": "2023-02-19T11:23:06.582056+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "そういえばなんか聞いたことがある映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "確か、堺雅人さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうです。その新妻を高畑充希が演じています。",
+      "timestamp": "2023-02-19T11:23:48.472078+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "その新妻",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "高畑充希",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど。両方とも好きな俳優さんなので、ぜひ見てみたいと思います！",
+      "timestamp": "2023-02-19T11:24:42.591648+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "両方とも好きな俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "鎌倉を舞台にしている映画だと「海街diary」というのもありますが、こちらは話題作だったのでご存じかもしれません。",
+      "timestamp": "2023-02-19T11:26:41.159081+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "鎌倉を舞台にしている映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「海街diary」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "話題作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:25:51.327976+09:00",
+          "query": "海街",
+          "genres": "",
+          "results": "349516"
+        }
+      ],
+      "checked": [
+        "349516_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "はい、見たことがあります。是枝監督の作品ですよね？",
+      "timestamp": "2023-02-19T11:27:23.219782+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "是枝監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうです。ご存じですね。",
+      "timestamp": "2023-02-19T11:29:51.356188+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:29:15.155755+09:00",
+          "query": "ラジオ",
+          "genres": "",
+          "results": "1281,12902,159811,161559,162856,17608,23290,239348,239900,241372,2823,29038,318590,318646,319078,319522,320442,324328,326032,328314,328550,331380,332430,334016,334324,334913,336520,338127,338303,340721,342769,346914,349125,350897,352174,355095,355424,356308,360198,364005,364404,365009,369005,369195,374583,84338"
+        },
+        {
+          "timestamp": "2023-02-19T11:29:24.500469+09:00",
+          "query": "ラジオの",
+          "genres": "",
+          "results": "12902,23290,2823,29038,360198"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "はい、是枝監督の作品が好きなので、穏やかな気持ちになります。ただ、鎌倉の話だった部分の記憶が曖昧になっていました。もう一度見てみようと思います。ご紹介ありがとうございました。",
+      "timestamp": "2023-02-19T11:31:52.545776+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "是枝監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "穏やかな気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "鎌倉の話だった部分の記憶",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございました。",
+      "timestamp": "2023-02-19T11:32:24.394284+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-02-19T11:31:01.892109+09:00",
+          "query": "花よりも",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-19T11:31:09.504767+09:00",
+          "query": "誰も知らない",
+          "genres": "",
+          "results": "320084,320372,341460,359685"
+        }
+      ],
+      "checked": []
+    }
+  ]
+}

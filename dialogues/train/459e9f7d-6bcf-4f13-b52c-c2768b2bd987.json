@@ -1,0 +1,934 @@
+{
+  "dialog_id": "459e9f7d-6bcf-4f13-b52c-c2768b2bd987",
+  "created_timestamp": "2023-01-26T13:03:24.869609+09:00",
+  "archived_timestamp": "2023-01-26T13:36:18.385017+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。\nよろしくお願いします。",
+      "timestamp": "2023-01-26T13:03:55.308232+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！どうぞよろしくおねがいします。",
+      "timestamp": "2023-01-26T13:04:02.370068+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近何か映画を観ましたか？",
+      "timestamp": "2023-01-26T13:04:27.284675+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "まだ観ていない映画なんですが、是枝監督の新作「怪物」に興味があります。人間ドラマが好きです。",
+      "timestamp": "2023-01-26T13:05:53.047866+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "観ていない映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "是枝監督の新作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「怪物」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "人間ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「怪物」という映画は知りませんでした。\n邦画をよく観られるのでしょうか？",
+      "timestamp": "2023-01-26T13:06:36.974662+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「怪物」という映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T13:04:44.291658+09:00",
+          "query": "エニグマ",
+          "genres": "",
+          "results": "350926,361595"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "実は是枝監督以外、邦画をほとんど観たことないんです。何かお好きな邦画はありますか？",
+      "timestamp": "2023-01-26T13:07:31.629865+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "是枝監督以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "何かお好きな邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "私も実は邦画をほとんどみないので、できれば洋画でお勧めしたいと思うのですが…\n最近観た、人間ドラマというジャンルに当てはまると思うのは、ダイアナ妃を描いた「スペンサー」ですが、興味ありそうですか？",
+      "timestamp": "2023-01-26T13:10:35.443916+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "12",
+          "text": "最近観た、人間ドラマというジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ダイアナ妃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T13:09:01.311409+09:00",
+          "query": "人間ドラマ",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": [
+        "378667_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "もちろん洋画も大歓迎です！「スペンサー」は名前だけ聞いたことがあります。クリスティン・スチュアートが出てましたか？",
+      "timestamp": "2023-01-26T13:11:53.320479+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "大歓迎",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「スペンサー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "名前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "クリスティン・スチュアート",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうです！\nクリステン・スチュワートは好きな女優で他の作品も観ていたのですが、いままでと印象がまったくちがっていて驚きました。",
+      "timestamp": "2023-01-26T13:14:11.593484+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "クリステン・スチュワート",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "好きな女優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "他の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "印象",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T13:10:54.085819+09:00",
+          "query": "スペンサー",
+          "genres": "",
+          "results": "24136,336357,338678,345712,347764,360660,361498,361726,361841,362725,362746,369013,369413,374516,51226"
+        },
+        {
+          "timestamp": "2023-01-26T13:12:29.424105+09:00",
+          "query": "クリスティン・スチュアート",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-26T13:12:32.922054+09:00",
+          "query": "スチュアート",
+          "genres": "",
+          "results": "333828,350926,351145,359126,54739,9184"
+        },
+        {
+          "timestamp": "2023-01-26T13:12:45.486753+09:00",
+          "query": "クリステイン・スチュアート",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-26T13:12:55.760075+09:00",
+          "query": "チャーリーズエンジェル",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-26T13:12:58.862788+09:00",
+          "query": "チャーリーズ・エンジェル",
+          "genres": "",
+          "results": "240346,370460"
+        }
+      ],
+      "checked": [
+        "370460_cast_name-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "写真を観ましたが、ほんとうに違う人みたいでしたね。ダイアナ妃というと悲劇のイメージがありますが、恋愛や政治、どんな要素が強いお話ですか？",
+      "timestamp": "2023-01-26T13:16:02.045103+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "写真",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ほんとうに違う人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ダイアナ妃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "悲劇のイメージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "恋愛や政治、どんな要素",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "クリスマスの3日間をイギリス王室のしきたりに従って過ごす話なのですが、チャールズ皇太子との中が冷え切っているダイアナにとっては苦痛でしかなく、これまでのストレスが限界に達している様子に胸が詰まります。\nが、2人の子どもたちにかける愛情が温かく救われます。\n一言でいえば家族の在り方なんでしょうか…女性の立場というものも考えされられます。",
+      "timestamp": "2023-01-26T13:19:33.702368+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "クリスマスの3日間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "イギリス王室のしきたり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "従って過ごす話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "チャールズ皇太子との中が冷え切っているダイアナ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "苦痛",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "これまでのストレスが限界に達している様子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "2人の子どもたちにかける愛情",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "一言",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "家族の在り方なんでしょうか…女性の立場というもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "たった３日間のお話だって知りませんでした。もっとスキャンダル的な内容なのかと思ったら家族の在り方のお話なんですね。エンディングは希望がある感じですか？",
+      "timestamp": "2023-01-26T13:27:04.477403+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "たった３日間のお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "スキャンダル的な内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "家族の在り方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "エンディング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "希望がある感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "最後のダイアナ妃の表情を観て救われる感じのエンディングです。",
+      "timestamp": "2023-01-26T13:28:23.699926+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "最後のダイアナ妃の表情",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "観て救われる感じのエンディング",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-26T13:26:52.711549+09:00",
+          "query": "是枝",
+          "genres": "",
+          "results": "320084,333252,345678,349516,355278,359771,363357,363929"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ちょっと安心しました。最近コロナ等で明るい話題があまりないので、希望がないエンディングの映画は見るのがしんどいかもと思って。。イギリスの美しい風景や建築は楽しめますか？",
+      "timestamp": "2023-01-26T13:29:48.206003+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "最近コロナ等で明るい話題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "希望",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ないエンディングの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "イギリスの美しい風景や建築",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ほんとに、このご時世観る映画も選んでしまいますよね。王室のきらびやかな感じも建築や自然の風景も楽しめました。\n\nイギリス王室とは自分の世界は次元が違いますが、自分にとって本当に大切なものを見失わないようにしたいと思えて、想像をはるかに超えていい映画だったと思いますので、ぜひご覧になってみてくださいね。",
+      "timestamp": "2023-01-26T13:33:14.409724+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "ほんとに、このご時世観る映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "王室のきらびやかな感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "建築や自然の風景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "イギリス王室",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "自分の世界",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "次元",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "自分にとって本当に大切なもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "想像をはるかに超えていい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "想像をはるかに超えていい映画だと伺ってますます興味がわきました。観てみますね。ありがとうございました。",
+      "timestamp": "2023-01-26T13:35:21.454578+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "想像をはるかに超えていい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "是枝監督の映画も観てみたいと思います。\nありがとうございました！",
+      "timestamp": "2023-01-26T13:35:28.236033+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

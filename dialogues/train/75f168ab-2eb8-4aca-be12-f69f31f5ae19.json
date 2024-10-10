@@ -1,0 +1,737 @@
+{
+  "dialog_id": "75f168ab-2eb8-4aca-be12-f69f31f5ae19",
+  "created_timestamp": "2023-02-27T11:56:50.168301+09:00",
+  "archived_timestamp": "2023-02-27T12:33:58.588532+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "012",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。今日は宜しくお願いします。",
+      "timestamp": "2023-02-27T11:58:24.155023+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いします!\n映画はよくご覧になりますか？",
+      "timestamp": "2023-02-27T11:59:21.362558+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "たくさんは観ないのですが、予告や宣伝はよくチェックしたりしています。洋画でカッコイイスパイが登場する映画をご存じですか。",
+      "timestamp": "2023-02-27T12:00:23.847978+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "予告や宣伝",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画でカッコイイスパイが登場する映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "スパイ映画はあまり詳しくないのですが、「Mr.&Mrs. スミス」はご存じですか？",
+      "timestamp": "2023-02-27T12:04:54.816048+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "スパイ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「Mr.&Mrs.　スミス」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T12:03:58.835905+09:00",
+          "query": "ミスターミスター",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-27T12:04:02.884961+09:00",
+          "query": "ミスター",
+          "genres": "",
+          "results": "12926,13239,159811,328271,330473,330798,334913,343498,344605,350698,354239,359052,359506,364938,366068,366409,368191,371239,371973,83436"
+        },
+        {
+          "timestamp": "2023-02-27T12:04:13.228641+09:00",
+          "query": "スミス",
+          "genres": "",
+          "results": "1281,15577,161112,1635,2046,2257,235078,235794,237942,239766,239767,241897,320063,320267,321945,322086,322605,326201,326536,327066,327925,328367,328626,330434,330764,330798,332361,334208,336061,336292,336888,337854,338090,339772,341460,342051,342725,343488,344613,346944,350949,351201,351369,352378,354600,355448,357070,359126,359876,360632,362657,362712,366341,366505,368153,375940,378799,51816,83465,84618"
+        }
+      ],
+      "checked": [
+        "322605_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "いえ、知りません。どんな作品かしら。",
+      "timestamp": "2023-02-27T12:05:11.245549+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "お互いに正体を明かせない別組織に所属する殺し屋の夫婦（ブラッド・ピットとアンジェリーナ・ジョリー）には、正体が知られたら、愛する相手でも始末するというルールがあります。そんな2人の間に戦いが勃発するというストーリーです。",
+      "timestamp": "2023-02-27T12:09:32.811590+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "正体を明かせない別組織に所属する殺し屋の夫婦（ブラッド・ピットとアンジェリーナ・ジョリー）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "正体",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "愛する相手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "始末するというルール",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "そんな2人の間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "戦い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "勃発するというストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "322605_cast_name-0",
+        "322605_cast_name-1"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "俳優さんが有名な作品ですね。なかなか面白いな内容ですが、アクションシーンが多いのでしょうか。楽しむポイントは、その点ですか。",
+      "timestamp": "2023-02-27T12:11:17.060309+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "有名な作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "面白いな内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "アクションシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "楽しむポイント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "その点",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "アクションシーンももちろんですが、\n最初はお互いの素性を偽って生活していますが、ある日お互いスパイだったことに気づきます。その後の心理線、そして、最後には共通の敵と一緒に戦うことになる展開がポイントだと思います。",
+      "timestamp": "2023-02-27T12:15:36.474348+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "アクションシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "お互いの素性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ある日お互いスパイだったこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "その後の心理線、そして、最後には共通の敵と一緒に戦うことになる展開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ポイント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "同業者の夫婦ってなかなか成立しにくいのではと思いますね。小道具や背景は、やはりアメリカらしいのでしょうか。",
+      "timestamp": "2023-02-27T12:17:35.924061+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "同業者の夫婦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "小道具や背景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "アメリカ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "夫婦が住むのは、素敵なキッチンやリビングのあるゴージャスな一軒家。\nそしてスパイの任務に行くときは、それぞれ小道具が色々出てきて面白いです。\nあとは銃が出てきたり、高層ビルの高いところからロープで降りたりします。",
+      "timestamp": "2023-02-27T12:25:28.282584+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "夫婦",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "素敵なキッチンやリビングのあるゴージャスな一軒家",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "スパイの任務に行くとき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "小道具",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "銃",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "高層ビルの高いところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "ロープ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "まあ、楽しめそう。殺し屋という職業、謎の生活ぶりに興味が沸きます。",
+      "timestamp": "2023-02-27T12:26:28.130332+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "殺し屋という職業、謎の生活ぶり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "そうですね。スパイのときにアンジェリーナ・ジョリーのスタイルがとてもセクシーです！",
+      "timestamp": "2023-02-27T12:26:59.681675+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "スパイのとき",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "アンジェリーナ・ジョリーのスタイル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "ちょっと想像しただけでも、観たいなあと思わせる映画ですね。",
+      "timestamp": "2023-02-27T12:27:38.363690+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "観たいなあと思わせる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "はい、ぜひご覧下さい。\nスパイは、仕事柄、自分を押し殺して生きていくのが当たり前なのですが、最後には２人とも初めて自分のことを語ったところがハッピーエンドの見所です。",
+      "timestamp": "2023-02-27T12:30:34.794030+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "スパイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "仕事柄、自分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "２人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "自分のことを語ったところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ハッピーエンドの見所",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "最後の見所を聞いてほっとした感じがして、気楽に楽しめそうな作品ですね。是非鑑賞したいと思います。",
+      "timestamp": "2023-02-27T12:32:40.157706+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "最後の見所",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "聞いてほっとした感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "気楽に楽しめそうな作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "はい！ぜひお楽しみ下さい！\n今日はとても楽しかったです。ありがとうございました！",
+      "timestamp": "2023-02-27T12:33:29.538643+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "こちらこそ、本日は有り難うございました。",
+      "timestamp": "2023-02-27T12:33:50.494843+09:00",
+      "internal_states": []
+    }
+  ]
+}

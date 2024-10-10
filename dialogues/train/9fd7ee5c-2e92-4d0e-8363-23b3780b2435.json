@@ -1,0 +1,937 @@
+{
+  "dialog_id": "9fd7ee5c-2e92-4d0e-8363-23b3780b2435",
+  "created_timestamp": "2023-02-22T13:55:32.541130+09:00",
+  "archived_timestamp": "2023-02-22T14:29:27.294123+09:00",
+  "recommender": {
+    "name": "022",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-22T13:59:40.482705+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ！よろしくお願いいたします！",
+      "timestamp": "2023-02-22T14:00:00.283169+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、映画は普段よくご覧になりますか？",
+      "timestamp": "2023-02-22T14:00:09.900936+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "はい、よく観る方だと思います。\n最近観た映画で、子役の女の子の名演技に感動したのですが、\n他にも子役の名演技が光る作品がないかなと探しております。\nおすすめの作品はありますでしょうか？",
+      "timestamp": "2023-02-22T14:01:52.516298+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "観る方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "最近観た映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "子役の女の子の名演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "他にも子役の名演技が光る作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "おすすめの作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど。映画よくご覧になるんですね。\n子役の名演技が光る作品だと『I am Sam アイ・アム・サム』はいかがでしょうか？",
+      "timestamp": "2023-02-22T14:04:25.275632+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "子役の名演技が光る作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "『I　am　Sam　アイ・アム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-22T14:02:14.448045+09:00",
+          "query": "アイアムサム",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-22T14:02:22.932642+09:00",
+          "query": "サム",
+          "genres": "",
+          "results": "10659,11169,12124,13523,159869,162811,162855,18187,23290,234444,234686,236574,237383,237942,238161,238972,240096,240273,241899,242063,2969,318646,318677,319039,321232,323225,323799,324246,324444,324486,325627,326203,327081,327925,329605,330560,331238,331380,331398,331508,333193,333332,333402,333828,334089,334197,334820,335550,335567,335568,335732,335798,336078,336448,336703,336755,337607,338678,340466,340512,340604,340611,341009,341293,342363,343507,344125,344573,344722,345863,347842,348610,350237,350309,350531,350659,350698,350825,352092,352378,352585,353390,353538,353946,354254,354902,355057,355080,357070,357279,357346,358425,359052,359061,361036,361391,361806,362181,363106,363202,363207,364313,364566,365013,365099,366360,366491,367742,368253,369014,369239,369351,369949,369976,370266,370397,370460,370915,373697,377441,380731,6354,7631,85126"
+        }
+      ],
+      "checked": [
+        "238161_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いいですね！だいぶ前に観たことがあり、感動したことは\n覚えているのですが、内容をすっかり忘れております（笑）\n主人公のサムは何か障害を抱えているのでしたっけ？",
+      "timestamp": "2023-02-22T14:06:00.155315+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "観たことがあり、感動したこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "忘れております（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "主人公のサム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "障害",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "すごく良い映画ですよね！\nあらすじは主人公のサムが知的障害で7歳児と同じ知能で、サムの娘のルーシーは成長をしていくにつれてサムの養育能力が問題視され裁判になってしまうという流れです。",
+      "timestamp": "2023-02-22T14:09:33.615067+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "すごく良い映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "あらすじ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "主人公のサム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "知的障害",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "7歳児と同じ知能",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "サムの娘のルーシー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "成長",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "サムの養育能力",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "問題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "裁判",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "なってしまうという流れ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-22T14:04:55.840800+09:00",
+          "query": "クレーマー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-22T14:04:57.840278+09:00",
+          "query": "クレーマー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-22T14:05:47.769749+09:00",
+          "query": "ホームアローン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-22T14:05:49.235885+09:00",
+          "query": "ホームアローン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-22T14:05:56.499799+09:00",
+          "query": "カルキン",
+          "genres": "",
+          "results": "21356"
+        },
+        {
+          "timestamp": "2023-02-22T14:06:17.511284+09:00",
+          "query": "サム",
+          "genres": "",
+          "results": "10659,11169,12124,13523,159869,162811,162855,18187,23290,234444,234686,236574,237383,237942,238161,238972,240096,240273,241899,242063,2969,318646,318677,319039,321232,323225,323799,324246,324444,324486,325627,326203,327081,327925,329605,330560,331238,331380,331398,331508,333193,333332,333402,333828,334089,334197,334820,335550,335567,335568,335732,335798,336078,336448,336703,336755,337607,338678,340466,340512,340604,340611,341009,341293,342363,343507,344125,344573,344722,345863,347842,348610,350237,350309,350531,350659,350698,350825,352092,352378,352585,353390,353538,353946,354254,354902,355057,355080,357070,357279,357346,358425,359052,359061,361036,361391,361806,362181,363106,363202,363207,364313,364566,365013,365099,366360,366491,367742,368253,369014,369239,369351,369949,369976,370266,370397,370460,370915,373697,377441,380731,6354,7631,85126"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "なるほど。娘さんはお父さんとどんな風に関わっているのですか？\nお父さんの障害について、何か葛藤があったりするのでしょうか？",
+      "timestamp": "2023-02-22T14:10:59.915022+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "娘さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "お父さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "お父さんの障害",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "葛藤",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "サムの養育能力が問題視され、ルーシーは施設に保護されることになり、サムは落ち込んでしまいます。彼はルーシーとまた一緒に暮らすため法廷争いをします。",
+      "timestamp": "2023-02-22T14:13:16.366710+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "サムの養育能力",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "問題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "施設",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "サム",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ルーシーとまた一緒に暮らすため",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "法廷争い",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "こちらとしては、裁判に勝ってまた一緒に暮らせるように\nなる、という結末を期待してしまいますが、勝てたのでしょうか？",
+      "timestamp": "2023-02-22T14:15:22.110794+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "裁判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "なる、という結末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "かなり不利な裁判と思われたのですが、敏腕の弁護士のおかげもあって裁判に勝ち、サムとルーシーはまた一緒に暮らします。",
+      "timestamp": "2023-02-22T14:18:10.085175+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "不利な裁判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "敏腕の弁護士のおかげ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "裁判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "サム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ルーシー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "それはよかったです！\n娘役の演技で印象的なシーンや見所はどの辺りでしょうか？",
+      "timestamp": "2023-02-22T14:19:55.237000+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "娘役の演技で印象的なシーンや見所",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "どの辺り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ルーシーがサムのことをとても愛しているんだなと分かるシーンが見どころではないかなと思います。ルーシー役のダコタ・ファニングの演技力の高さは本当に素晴らしいです。",
+      "timestamp": "2023-02-22T14:23:02.596589+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "サムのこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "愛しているんだなと分かるシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ルーシー役のダコタ・ファニングの演技力の高さ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "確かに、愛を表現するのって、簡単なようで難しいですよね。\nそれを子役で見事にやってのけるのですから、すごいです\nダコタ・ファニングの演技に注目して、観てみますね。\n\n彼女はその後、他の作品にも出ているのでしょうか？",
+      "timestamp": "2023-02-22T14:26:17.707148+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "愛",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "子役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ダコタ・ファニングの演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "彼女",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "その後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "他の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "色々出演していますが、他にはトム・クルーズと共演した『宇宙戦争』が有名だと思います。",
+      "timestamp": "2023-02-22T14:28:35.797519+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "トム・クルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-22T14:26:41.545578+09:00",
+          "query": "ダコタ",
+          "genres": "",
+          "results": "238161,321599,321733,323686,325317,327081,335440,336862,346336,350309,359476,367638,51452"
+        },
+        {
+          "timestamp": "2023-02-22T14:26:52.859196+09:00",
+          "query": "ダコタ・ファニング",
+          "genres": "",
+          "results": "238161,321599,321733,323686,325317,335440,336862,367638"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。『宇宙戦争』もチェックしてみます。\n今日は素敵な作品を紹介して下さって、ありがとうございました！",
+      "timestamp": "2023-02-22T14:29:20.130756+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "素敵な作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました｡",
+      "timestamp": "2023-02-22T14:29:24.729962+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

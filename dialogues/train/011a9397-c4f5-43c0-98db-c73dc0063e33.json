@@ -1,0 +1,896 @@
+{
+  "dialog_id": "011a9397-c4f5-43c0-98db-c73dc0063e33",
+  "created_timestamp": "2023-01-30T13:57:34.982916+09:00",
+  "archived_timestamp": "2023-01-30T14:35:12.614112+09:00",
+  "recommender": {
+    "name": "045",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "008",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-01-30T13:59:56.407008+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは！今回はよろしくお願い致します。",
+      "timestamp": "2023-01-30T14:00:15.472783+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T13:59:53.611304+09:00",
+          "query": "",
+          "genres": "musical",
+          "results": "1220,162566,21943,2331,23378,234692,236556,239807,239900,25692,320635,323331,324021,324029,325768,326362,328271,328546,329927,331238,332153,334837,335255,337503,341646,341713,342984,346540,348578,349344,349742,350605,355820,357342,358506,358727,361326,3617,362549,363202,365402,366226,366505,367239,368738,369239,370869,373919,378013,378116,378214,378317,8508,9588"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "いつもどんな映画をよくご覧になるのですか？",
+      "timestamp": "2023-01-30T14:00:50.761171+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "最近、コロナやインフルエンザが流行しているので中々映画館に行けない状況なので、もっぱら自宅でNetflixなどを見ていますが、私は個人的に昔のミュージカル映画（米）や、ヒューマンもの、ラブコメものばかり見ています。どのような映画にご興味をお持ちですか？",
+      "timestamp": "2023-01-30T14:01:57.558386+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コロナやインフルエンザ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "1",
+          "text": "中々映画館に行けない状況",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "2",
+          "text": "自宅",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "3",
+          "text": "Netflix",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "昔のミュージカル映画（米）や、ヒューマンもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ラブコメもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "私も以前はヒューマンやコメディ映画をよく観ていました。最近はあまり観ていません。最近の映画で面白そうなものがあったら、伺いたいです。",
+      "timestamp": "2023-01-30T14:03:31.762383+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ヒューマンやコメディ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "最近の映画で面白そうなもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "最近の映画でいえば、先ほどお伝えしたのと異なるジャンルとなってしまうのですが（笑）、トム・クルーズのトップガン・マーヴェリックを見ました。思いのほか夢中になってしまいましたよ（笑）。",
+      "timestamp": "2023-01-30T14:04:59.686619+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "最近の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "いえば、先ほどお伝えしたのと異なるジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "（笑）、トム・クルーズのトップガン・マーヴェリック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369221_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "トップガンは観たことがあります。トップガン・マーヴェリックは、トップガンの続編ですか？",
+      "timestamp": "2023-01-30T14:06:01.284364+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "トップガン・マーヴェリック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "トップガンの続編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "そうです。未だに現場主義を貫いている主人公（トム・クルーズ）が、左遷されてしまいテストパイロットをしているが、色々なことが起こって、彼の古巣である海軍基地にある学校「トップガン」の教官に命じられて、今度はパイロット候補生たちを教育する・・というお話です。もしトップガンが好きならば、楽しめると思いますよ。",
+      "timestamp": "2023-01-30T14:10:26.055851+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "現場主義を貫いている主人公（トム・クルーズ）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "テストパイロット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "色々なこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "彼の古巣である海軍基地にある学校「トップガン」の教官",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "パイロット候補生たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "トップガン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-30T14:06:44.691592+09:00",
+          "query": "マーヴェリック",
+          "genres": "",
+          "results": "15997,369221"
+        }
+      ],
+      "checked": [
+        "369221_plot-1"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "年齢を重ねたトムクルーズが、続編では教官になっているのですね。\n色々なことが起こったとありますが、たとえばどんなことが起こったのですか？",
+      "timestamp": "2023-01-30T14:12:59.201611+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "年齢を重ねたトムクルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "教官",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "色々なこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "どんなこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "そうなんです。円熟味を増したトム・クルーズが、教官となりパイロット候補生たちに訓練を施すのですが、色々な生徒（プライドの高い若造たち（笑））がいるわけです。そこでの対立、また過去その学校であったトム自身の出来事のトラウマなどを乗り越えながら、特殊な攻撃作戦の訓練をこなしていくが、ある日とても難しいミッションが与えられ・・というような内容です。",
+      "timestamp": "2023-01-30T14:18:54.122095+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "円熟味を増したトム・クルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "教官",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "パイロット候補生たち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "訓練",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "色々な生徒",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "プライドの高い若造たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "そこでの対立、また過去その学校であったトム自身の出来事のトラウマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "特殊な攻撃作戦の訓練",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "難しいミッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "与えられ・・というような内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369221_plot-1",
+        "369221_plot-4"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "そうなんですね。トムクルーズ自身も生徒たちと一緒に乗り越えていく、というストーリーなんですね。どんなミッションなのか興味深いし、面白そうです。",
+      "timestamp": "2023-01-30T14:21:48.047812+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "トムクルーズ自身",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "生徒たち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "一緒に乗り越えていく、というストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "どんなミッション",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "最新鋭の戦闘機などが出てきて、（戦闘物には全く興味が無い私でしたが）そのスピードや迫力、手に汗を握る展開に久しぶりに夢中になりました（笑）。映画館での上映は終わりましたが、サブスクのチャンネルなどで放映しているので、良かったら観てみてくださいね。",
+      "timestamp": "2023-01-30T14:25:16.949132+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "最新鋭の戦闘機",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "（戦闘物には全く興味が無い私でしたが）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "映画館での上映",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "サブスクのチャンネル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "はい。観てみたいと思います。トップガンより迫力が増してそうですね。いろんな意味でヴァージョンアップしてそうで楽しみです。",
+      "timestamp": "2023-01-30T14:27:34.876290+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "トップガン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "迫力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "いろんな意味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ヴァージョン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "ぜひぜひ。実はオリジナルの「トップガン」はちゃんと見た事が無かったので、今回マーヴェリックを観た後に、初めてオリジナルの方を見たのですが、トム・クルーズが若くてカッコいい（笑）とはいえ、やはりマーヴェリックの方が全て最新鋭で迫力が増していたので面白かったですよ。トム・クルーズは、これだけスターとなった今でも、新しい作品やオリジナルを超える続編を作りだしていてスゴイですよね。",
+      "timestamp": "2023-01-30T14:30:58.199337+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "「トップガン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "見た事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "今回マーヴェリックを観た後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "オリジナルの方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "若くてカッコいい（笑）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "51",
+          "text": "マーヴェリックの方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "迫力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "トム・クルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "これだけスターとなった今",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "新しい作品やオリジナルを超える続編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "369221_plot-6"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうですよね。私もトムクルーズは好きな俳優さんの一人です。本当にスゴイですよね。期待して観たいと思います。今日はありがとうございました。楽しかったです。",
+      "timestamp": "2023-01-30T14:33:36.605362+09:00",
+      "internal_states": [
+        {
+          "id": "56",
+          "text": "トムクルーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "好きな俳優さんの一人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "本当にスゴイ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "こちらこそ楽しい時間をありがとうございました。",
+      "timestamp": "2023-01-30T14:34:51.453963+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

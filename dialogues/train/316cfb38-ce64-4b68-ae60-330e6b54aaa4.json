@@ -1,0 +1,1177 @@
+{
+  "dialog_id": "316cfb38-ce64-4b68-ae60-330e6b54aaa4",
+  "created_timestamp": "2023-03-24T18:58:50.543721+09:00",
+  "archived_timestamp": "2023-03-24T19:38:32.725175+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "005",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。",
+      "timestamp": "2023-03-24T18:59:39.711177+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。\nよろしくお願いいたします。",
+      "timestamp": "2023-03-24T18:59:49.197083+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どのような映画がお好きですか。\n洋画メインなので、邦画はあまりご紹介できません。",
+      "timestamp": "2023-03-24T19:00:32.271285+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画メイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "最近何かとストレスが多いので、あまりシリアスな映画ではなく、楽しく観れる作品がいいです。邦画も観ますが、どちらかといえば洋画の方が好きです。",
+      "timestamp": "2023-03-24T19:01:36.967276+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "ストレス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "シリアスな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "楽しく観れる作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画の方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "楽しく観られるでしたら、「キューティ・ブロンド」「ジュマンジ」シリーズや「シェフ　三ツ星フードトラック始めました」などはご覧になりましたか。",
+      "timestamp": "2023-03-24T19:03:56.303520+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "「キューティ・ブロンド」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「ジュマンジ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「シェフ　三ツ星フードトラック始めました」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T19:02:20.403776+09:00",
+          "query": "キューティ",
+          "genres": "",
+          "results": "236645"
+        },
+        {
+          "timestamp": "2023-03-24T19:02:38.135570+09:00",
+          "query": "サンドラ",
+          "genres": "",
+          "results": "12124,162615,20324,2046,27724,319263,321822,321938,325622,330487,332672,335925,336448,336520,341035,346608,346639,346876,347810,351145,352368,352585,361759,363392,366075,366826,369783,369976,375786,381726"
+        },
+        {
+          "timestamp": "2023-03-24T19:03:08.725532+09:00",
+          "query": "ジュマンジ",
+          "genres": "",
+          "results": "28627,361726,369013"
+        },
+        {
+          "timestamp": "2023-03-24T19:03:33.537243+09:00",
+          "query": "シェフ",
+          "genres": "",
+          "results": "18409,326246,340512,348781,350060,350453,366943,368692,368764"
+        }
+      ],
+      "checked": [
+        "236645_title",
+        "28627_title",
+        "350453_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いえ、どれも観たことがありません。\n食べることが好きなので「シェフ　三ツ星フードトラック始めました」に興味があります。",
+      "timestamp": "2023-03-24T19:05:08.672002+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "食べること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「シェフ　三ツ星フードトラック始めました」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「シェフ　三ツ星フードトラック始めました」は、レストランの有名シェフがオーナーの意向で古臭い料理を出したところ、ネットで有名な評論家に酷評されてしまい、何も考えずネット上で反論したところ大炎上。レストランを辞めてキューバサンドを出すフードトラックを始めます。",
+      "timestamp": "2023-03-24T19:08:23.460263+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「シェフ　三ツ星フードトラック始めました」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "レストランの有名シェフがオーナーの意向で古臭い料理を出したところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ネットで有名な評論家",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "考えずネット上で反論したところ大炎上",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "レストラン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "辞めてキューバサンドを出すフードトラック",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-24T19:04:37.803000+09:00",
+          "query": "ナイト",
+          "genres": "",
+          "results": "159811,16482,17046,22237,236636,237781,239768,239900,240710,318646,319653,320372,320917,323368,323917,324027,324329,326503,326744,327386,328495,329605,329767,330573,332598,333196,333965,334943,335605,336078,336142,337331,337671,338067,338090,338494,338546,339054,339223,340611,341568,342677,344613,345058,346480,350077,350366,350926,350931,352299,353277,353390,353463,354676,355085,355740,358894,359052,359506,359622,360632,362179,362936,363223,364938,365009,365598,366068,372555,376781,377442,378165,7298,85349,8674"
+        },
+        {
+          "timestamp": "2023-03-24T19:05:02.155431+09:00",
+          "query": "僕の",
+          "genres": "",
+          "results": "234444,241899,327992,329807,333529,334187,345678,346339,347781,354031,354944,358645,360962,361332,362606,362717,365929,366264,367670,367684,367777,367823,369158,371867,374882,9588"
+        },
+        {
+          "timestamp": "2023-03-24T19:05:09.672241+09:00",
+          "query": "ワンダフル",
+          "genres": "",
+          "results": "360962,367823"
+        },
+        {
+          "timestamp": "2023-03-24T19:05:35.652879+09:00",
+          "query": "シェフ　三ツ星フードトラック始めました",
+          "genres": "",
+          "results": "18409,326246,340512,348781,350060,350453,366943,368692,368764"
+        }
+      ],
+      "checked": [
+        "350453_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "面白そうなストーリーですね。コメディーですか？",
+      "timestamp": "2023-03-24T19:09:51.758684+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "面白そうなストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "コメディー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "コメディーよりのロード&ファミリームービーです。\nマイアミで、トラックを購入し息子が学校が休みのため、一緒にレストランを辞めた副シェフとともに、ロスまで移動販売していきます。",
+      "timestamp": "2023-03-24T19:12:20.804090+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "コメディーよりのロード&ファミリームービー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "マイアミ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "トラック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "購入し息子が学校が休みのため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "一緒にレストランを辞めた副シェフ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ロス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "移動",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "キューバンサンドイッチ、食べたことがないのでどんなサンドイッチかわかりませんが、キューバのサンドイッチですよね？キューバサンドを出すフードトラックをはじめることにしたということは、主役はキューバ人のシェフなんですか？",
+      "timestamp": "2023-03-24T19:13:51.636468+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "キューバンサンドイッチ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "どんなサンドイッチ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "キューバのサンドイッチ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "キューバサンドを出すフードトラック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "はじめることにしたということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "キューバ人のシェフ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "キューバ人ではないですが、元妻の設定がキューバ系だったと思います。\nキューバサンドは、パニーニみたいに具を入れたサンドを両面を焼いて作っていました。",
+      "timestamp": "2023-03-24T19:16:04.512804+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "キューバ人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "元妻の設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "キューバ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "キューバサンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "パニーニみたいに具を入れたサンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "両面",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なぜ他の食べ物でなくてキューバサンドを販売することにしたんだろうと思いましたが、元妻がキューバ系なのでなじみのフードだったんですね。\nマイアミからロスまでの道のりで出会う人々とのやりとりなども楽しめそうですが、ファミリームービーとのことですので、息子との関係にもフォーカスされていたりするんでしょうか。",
+      "timestamp": "2023-03-24T19:21:22.591203+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "他の食べ物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "キューバサンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "元妻",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "キューバ系",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "なじみのフード",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "マイアミからロスまでの道のりで出会う人々とのやりとり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ファミリームービーとのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "息子との関係",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "離婚しているため、こういう風に一緒に長くいることで関係が深まっていくのと、\n息子はデジタルネイティブなので旅の経過などをTikTokなのかはっきりわかりませんが、ショートムビーをネットで上げてフードトラックは有名になっていきます。\n最初は、炎上した有名シェフ目当てが多かったようですが。",
+      "timestamp": "2023-03-24T19:25:08.578839+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "離婚しているため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "こういう風",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "一緒に長くいること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "関係",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "息子",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "デジタルネイティブ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "旅の経過",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "TikTok",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "ショートムビー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "ネット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "フードトラック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "炎上した有名シェフ目当て",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "シェフや彼をとりまく人々を演じているキャストも気になります。",
+      "timestamp": "2023-03-24T19:29:28.449677+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "シェフや彼をとりまく人々を演じているキャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "シェフ役は、ジョン・ファヴローです。「アイアンマン」の運転手役です。\n他に、スカーレット・ヨハンソンやダスティン・ホフマンなどが脇を固めてます。",
+      "timestamp": "2023-03-24T19:33:15.369841+09:00",
+      "internal_states": [
+        {
+          "id": "61",
+          "text": "シェフ役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "62",
+          "text": "ジョン・ファヴロー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "「アイアンマン」の運転手役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "スカーレット・ヨハンソンやダスティン・ホフマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "脇",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "シェフ役は、ジョン・ファヴローなんですね！スカーレット・ヨハンソンやダスティン・ホフマンも出演しているとのことなので、演技も楽しみです。\nキューバサンドも食べたことがなく、どんなサンドでどのように作っているのかも映画に出てきそうなので楽しみです。\n楽しそうな映画なのでぜひ観てみたいと思います！",
+      "timestamp": "2023-03-24T19:35:59.787364+09:00",
+      "internal_states": [
+        {
+          "id": "66",
+          "text": "シェフ役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "ジョン・ファヴロー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "スカーレット・ヨハンソンやダスティン・ホフマンも出演しているとのこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "キューバサンド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "どんなサンド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "72",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "楽しそうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "気に入っていただいたようで嬉しいです。\n各地の名物料理を食べたりもしますので、お腹が空いてる状態で観ることはお勧めしません。\n今日は、ありがとうございました。",
+      "timestamp": "2023-03-24T19:37:35.179602+09:00",
+      "internal_states": [
+        {
+          "id": "74",
+          "text": "各地の名物料理",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "お腹",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "76",
+          "text": "空いてる状態で観ること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "面白そうな映画をご紹介いただきありがとうございました！",
+      "timestamp": "2023-03-24T19:38:05.563808+09:00",
+      "internal_states": [
+        {
+          "id": "77",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

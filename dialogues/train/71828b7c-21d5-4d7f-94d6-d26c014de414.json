@@ -1,0 +1,787 @@
+{
+  "dialog_id": "71828b7c-21d5-4d7f-94d6-d26c014de414",
+  "created_timestamp": "2023-02-05T15:23:27.363869+09:00",
+  "archived_timestamp": "2023-02-05T15:48:40.216141+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-05T15:32:32.015084+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "宜しくお願いします。",
+      "timestamp": "2023-02-05T15:32:42.731095+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-05T15:32:52.877665+09:00",
+      "internal_states": [],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T15:32:42.543110+09:00",
+          "query": "エイプリルフール",
+          "genres": "",
+          "results": "350869"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "SF以外であれば割と何でも見ます。",
+      "timestamp": "2023-02-05T15:33:32.494244+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "SF以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画と洋画ならどちらがお好きでしょうか？",
+      "timestamp": "2023-02-05T15:33:46.954913+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T15:32:59.651216+09:00",
+          "query": "ジャンプストリート",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-05T15:33:08.203742+09:00",
+          "query": "アンチャーテッド",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-05T15:33:09.391767+09:00",
+          "query": "アンチャーテッド",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-05T15:33:15.331480+09:00",
+          "query": "ホランド",
+          "genres": "",
+          "results": "351419,355057,357933,358996,359026,360093,361586,361806,366491,366852,369413,378066,84338"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "洋画が好きです。",
+      "timestamp": "2023-02-05T15:33:57.082277+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「キングスマン」のシリーズはご覧になられましたか？イギリスの映画です。",
+      "timestamp": "2023-02-05T15:34:43.129619+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "「キングスマン」のシリーズ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "イギリスの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T15:33:50.225067+09:00",
+          "query": "キングスマン",
+          "genres": "",
+          "results": "353152,360777,369783"
+        }
+      ],
+      "checked": [
+        "353152_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いいえ無いです。どんな内容ですか？",
+      "timestamp": "2023-02-05T15:35:09.045036+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "世界のどの国にも所属しない謎の諜報機関「キングスマン」の諜報員たちが、世界を破滅させようとする強大な敵と戦う作品です。すこし007に近いでしょうか。",
+      "timestamp": "2023-02-05T15:35:53.118277+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "世界のどの国にも所属しない謎の諜報機関「キングスマン」の諜報員たちが、世界を破滅させようとする強大な敵と戦う作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "007",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_review-2",
+        "353152_plot-0"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "へぇ、それは知らないです。\nでもここまで聞いた感じではイギリスっぽいなぁという感じがしますね。",
+      "timestamp": "2023-02-05T15:36:59.472180+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ここまで聞いた感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "イギリスっぽいなぁという感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "コリン・ファース演じるハリー・ハートは表向きは高級テイラーの仕立て職人だが、あっという間に何人もの敵を撃退する凄腕の諜報員であるというギャップがカッコいいです。イギリスらしいスタイリッシュな作品だと思います。",
+      "timestamp": "2023-02-05T15:37:28.839047+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "コリン・ファース演じるハリー・ハート",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "表向き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "高級テイラーの仕立て職人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "あっという間に何人もの敵を撃退する凄腕の諜報員であるというギャップ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "イギリスらしいスタイリッシュな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_review-1"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "面白うそうですね。\n他にはどんな俳優が出演していますか？",
+      "timestamp": "2023-02-05T15:38:27.752159+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "タロン・エガートンが主演です。サミュエル・L・ジャクソンもいい味を出していました。映画の冒頭から最後までアクションシーン満載の、ハラハラドキドキの展開が連続しているところも見どころです。",
+      "timestamp": "2023-02-05T15:39:35.257637+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "タロン・エガートン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "サミュエル・L・ジャクソンもいい味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "アクションシーン満載",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ドキドキの展開が連続しているところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353152_cast_name-0",
+        "353152_cast_name-2",
+        "353152_review-3"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "タロン・エガートン　知らないです。顔を見れば分かるかもしれませんが。\nシリーズということは、何作か配給されているのでしょうか？",
+      "timestamp": "2023-02-05T15:40:46.010198+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "タロン・エガートン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "シリーズということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "「キングスマン：ゴールデン・サークル」と「キングスマン：ファースト・エージェント」と3作出ているのでもしスパイ映画に興味あればご覧ください。",
+      "timestamp": "2023-02-05T15:41:59.467692+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "「キングスマン：ゴールデン・サークル」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "「キングスマン：ファースト・エージェント」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "3作",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "スパイ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "360777_title",
+        "369783_title"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "見てみたいと思います。\n他にイギリス映画でオススメありますか？",
+      "timestamp": "2023-02-05T15:42:40.415287+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "イギリス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "オススメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ハリーポッターの前のストーリーを描いた「ファンタスティック・ビースト」シリーズも好きです。ご覧になられましたか？",
+      "timestamp": "2023-02-05T15:44:26.146169+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "ハリーポッターの前のストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "「ファンタスティック・ビースト」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "ハリー・ポッターを見たことがないんです。\n食わず嫌いというか、、。もし見るとしたら、「ファンタスティック・ビースト」から見たほうがいいですか？",
+      "timestamp": "2023-02-05T15:45:36.718052+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "ハリー・ポッター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "34",
+          "text": "食わず嫌い",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「ファンタスティック・ビースト」から見たほう",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ハリーポッターを全く知らなくても楽しめる作品です。魔法映画といえば、ハリーポッターと思うかもしれないが、ファンタスティックビーストは、ハリーポッターよりも前の時代を描いているにもかかわらず、新鮮で面白いです。",
+      "timestamp": "2023-02-05T15:46:36.995384+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "ハリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "知らなくても楽しめる作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "魔法映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ファンタスティックビースト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ハリーポッター",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "41",
+          "text": "前の時代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T15:44:49.652497+09:00",
+          "query": "ファンタスティック",
+          "genres": "",
+          "results": "327000,352382,355757,363669,380322"
+        }
+      ],
+      "checked": [
+        "355757_review-0"
+      ]
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "なるほど、では挑戦してみたいと思います。\nイギリス映画はあまり知らなかったので興味深かったです、有り難うございました。",
+      "timestamp": "2023-02-05T15:47:35.229828+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "イギリス映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "speaker": "recommender",
+      "text": "ハリウッド映画とはまた違った面白さがあります。機会があればご覧ください。ありがとうございました。",
+      "timestamp": "2023-02-05T15:48:37.920987+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

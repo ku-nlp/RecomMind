@@ -1,0 +1,603 @@
+{
+  "dialog_id": "6ad35611-c830-4e1b-9a93-fd9bcf0bbb9d",
+  "created_timestamp": "2023-02-25T09:58:43.453877+09:00",
+  "archived_timestamp": "2023-02-25T10:24:26.417778+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。よろしくお願い致します。",
+      "timestamp": "2023-02-25T09:59:21.298525+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いします。",
+      "timestamp": "2023-02-25T09:59:22.334724+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "お好きな映画はどんな映画でしょうか？",
+      "timestamp": "2023-02-25T10:00:24.874891+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ラブコメがすきです。アンハザウエイが出てる「プリティプリンセス」が好きです。",
+      "timestamp": "2023-02-25T10:01:29.720522+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "アンハザウエイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "「プリティプリンセス」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど、洋画がお好きなんですね？",
+      "timestamp": "2023-02-25T10:02:15.332961+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらも好きです。",
+      "timestamp": "2023-02-25T10:02:30.764894+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「プラダを着た悪魔」はご覧になったことありますか？",
+      "timestamp": "2023-02-25T10:08:17.625249+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "「プラダを着た悪魔」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-25T10:03:31.886350+09:00",
+          "query": "アンハザウエイ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T10:03:38.955801+09:00",
+          "query": "ハザウエイ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T10:03:41.690514+09:00",
+          "query": "ハザウエイ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T10:04:04.076516+09:00",
+          "query": "プリティプリンセス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T10:04:05.770822+09:00",
+          "query": "プリティプリンセス",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-25T10:05:07.704591+09:00",
+          "query": "アン・ハサウェイ",
+          "genres": "",
+          "results": "236089,325271,329859,332569,334516,340611,341932,342984,349221,353403,355434,361332,363392,374516"
+        }
+      ],
+      "checked": [
+        "236089_cast-0_other_title-0:349221"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "はい。ファッションがいろいろ出てきておもしろかったです。",
+      "timestamp": "2023-02-25T10:08:50.452488+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ファッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうですね。では「魔女がいっぱい」はご覧になったことありますか？",
+      "timestamp": "2023-02-25T10:13:13.021491+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "「魔女がいっぱい」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "349221_cast-1_other_title-3:374516"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ないです。どんな映画ですか？",
+      "timestamp": "2023-02-25T10:13:32.290474+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ロアルド・ダール作の同名児童文学作品をロバート・ゼメキス監督、アン・ハサウェイ主演で映画化したもので、ファンタジー映画です。",
+      "timestamp": "2023-02-25T10:16:24.022754+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ロアルド・ダール作の同名児童文学作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ロバート・ゼメキス監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "アン・ハサウェイ主演で映画化したもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ファンタジー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "魔女がたくさん出てくるのですか？",
+      "timestamp": "2023-02-25T10:16:51.111105+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "はい！その中の「大魔女」がアン・ハサウェイです。",
+      "timestamp": "2023-02-25T10:17:48.082595+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "その中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「大魔女」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "大魔女がその他の魔女を支配するのですか？",
+      "timestamp": "2023-02-25T10:18:33.913124+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "大魔女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "その他の魔女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "リードしている感じで、ある少年が魔女たちのある秘密を知って、大魔女にネズミの姿に変えられ、それでも少年とおばあちゃんは諦めず魔女たちと対峙するストーリーです。",
+      "timestamp": "2023-02-25T10:20:34.970884+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "リードしている感じ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ある少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "魔女たちのある秘密",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "大魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ネズミの姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "少年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "おばあちゃん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "魔女たちと対峙するストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "大魔女によってネズミに変えられたぼくとおばあちゃんが魔女と戦うのですね。面白そうですね。",
+      "timestamp": "2023-02-25T10:22:06.314019+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "大魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ネズミ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "27",
+          "text": "おばあちゃん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "はい、アン・ハサウェイが珍しく悪人役を演じているので、面白いですよ。良かったら、ぜひ見てみてくださいね。",
+      "timestamp": "2023-02-25T10:23:34.629853+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "アン・ハサウェイ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "悪人役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "はい、紹介ありがとうございました。",
+      "timestamp": "2023-02-25T10:24:03.171110+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-02-25T10:24:20.768492+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

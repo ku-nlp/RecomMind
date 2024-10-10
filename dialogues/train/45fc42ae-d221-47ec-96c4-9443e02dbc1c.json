@@ -1,0 +1,483 @@
+{
+  "dialog_id": "45fc42ae-d221-47ec-96c4-9443e02dbc1c",
+  "created_timestamp": "2023-01-31T11:59:46.645529+09:00",
+  "archived_timestamp": "2023-01-31T12:12:30.704525+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "035",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-01-31T12:03:00.141282+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ、よろしくお願いいたします",
+      "timestamp": "2023-01-31T12:03:15.725055+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-01-31T12:03:26.100276+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "広いジャンルで映画鑑賞しますが、最近は平日気軽にみられるような映画を探しています",
+      "timestamp": "2023-01-31T12:04:06.537438+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "広いジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "平日気軽にみられるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画か洋画ならどちらがお好きでしょうか？",
+      "timestamp": "2023-01-31T12:04:50.681866+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらも好きですね",
+      "timestamp": "2023-01-31T12:05:08.702914+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「ブルース・オールマイティ」はご覧になったことはありますか？洋画です。",
+      "timestamp": "2023-01-31T12:06:40.859597+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「ブルース・オールマイティ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T12:06:02.422355+09:00",
+          "query": "ジムキャリー",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-01-31T12:06:06.366439+09:00",
+          "query": "ジム・キャリー",
+          "genres": "",
+          "results": "22113,319767,332669,335516,54734,84338"
+        },
+        {
+          "timestamp": "2023-01-31T12:06:16.189639+09:00",
+          "query": "オールマイティ",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": [
+        "318496_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "ありません。どんな映画ですか？",
+      "timestamp": "2023-01-31T12:06:53.942643+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "神から全知全能を授かった男を描いたコメディ映画で、ジムキャリーが主演です。",
+      "timestamp": "2023-01-31T12:07:24.860445+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "神から全知全能を授かった男を描いたコメディ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ジムキャリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "コメディー映画ですね、面白そうです。",
+      "timestamp": "2023-01-31T12:07:51.413185+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "コメディー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "踏んだり蹴ったりの主人公は、自分ばかり不運なのを嘆き、天に向かって「神よ、あんたは仕事をしていない」と悪態をついてしまう。すると、神に「お前に全知全能の力を与えるから、代わりに神の仕事をしてみろ」と言われるストーリーです。",
+      "timestamp": "2023-01-31T12:08:17.423712+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "踏んだり蹴ったりの主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "天",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「神よ、あんたは仕事をしていない」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "悪態",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "神",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「お前に全知全能の力を与えるから、代わりに神の仕事をしてみろ」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ジムキャリーのコメディーは「トゥルーマン・ショー」や「マスク」が気に入ったので、こちらの作品もぜひ見てみたいです。",
+      "timestamp": "2023-01-31T12:09:32.752329+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "ジムキャリーのコメディー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "「トゥルーマン・ショー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「マスク」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "こちらの作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "では気に言ってもらえると思います。ジムキャリーの良さが出ています。神様役にはモーガン・フリーマンです。",
+      "timestamp": "2023-01-31T12:10:29.985079+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "ジムキャリーの良さ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "神様役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "モーガン・フリーマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "モーガンフリーマンも大好きな俳優です！\nおすすめいただきありがとうございます。",
+      "timestamp": "2023-01-31T12:11:04.888396+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "モーガンフリーマンも大好きな俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "機会があればご覧ください。ありがとうございました。",
+      "timestamp": "2023-01-31T12:12:03.746099+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-01-31T12:12:15.351158+09:00",
+      "internal_states": []
+    }
+  ]
+}

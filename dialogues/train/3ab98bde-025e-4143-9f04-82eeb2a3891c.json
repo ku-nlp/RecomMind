@@ -1,0 +1,1121 @@
+{
+  "dialog_id": "3ab98bde-025e-4143-9f04-82eeb2a3891c",
+  "created_timestamp": "2023-03-18T14:59:31.657187+09:00",
+  "archived_timestamp": "2023-03-18T15:40:22.362525+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-03-18T14:59:53.154776+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-03-18T15:00:04.434151+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "この週末はずっと雨ですね。どんな映画をご覧になりたい気分でしょうか？",
+      "timestamp": "2023-03-18T15:00:40.308455+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "この週末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "1",
+          "text": "雨",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "どんな映画をご覧になりたい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね。SFもので何かおすすめがあれば教えていただきたいです。",
+      "timestamp": "2023-03-18T15:01:36.227593+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "SFもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画と邦画、どちらがお好きとかありますか？",
+      "timestamp": "2023-03-18T15:05:15.562272+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "お好き",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-18T15:02:45.091968+09:00",
+          "query": "",
+          "genres": "science-fiction",
+          "results": "10659,11830,11831,11832,13522,13523,150405,152697,153289,15902,159875,160134,161136,161376,161562,161592,162811,163028,16329,16912,1709,18114,18115,18116,18187,20674,20696,22113,22237,22238,22811,23099,234685,234686,235790,235792,235794,2361,239072,239389,239766,239767,239768,239783,239816,23987,240800,241372,24661,2752,2753,2755,29038,318531,318674,318677,319069,319937,320063,320447,321599,321602,321603,321766,322041,322489,322931,324027,324544,325438,325630,325652,325865,326203,326247,326850,327000,327253,327495,327839,327925,328359,328996,329124,329131,329144,329231,329400,329614,329887,330415,330416,330434,330813,331380,331426,331508,331733,332425,332598,333193,333212,333331,333497,333520,333627,333700,333967,334089,334285,334339,334775,334777,334832,335402,335453,335567,335732,335765,335872,335900,336237,336307,336357,336755,337094,337257,337331,337607,337671,337855,338302,338323,338676,338678,339013,339088,339180,339354,339722,339967,340423,340758,341009,341090,341319,341436,341460,341532,341611,341641,341767,341959,342444,342687,343233,343343,343365,343391,343488,343546,343724,344074,344443,344500,344562,344613,344646,344722,344920,345075,345374,345620,345697,345712,346341,346556,346608,346944,347596,347597,347781,347810,347842,347925,348085,348088,348154,348170,348248,348495,349021,349124,349221,349260,349728,350752,350812,350843,350949,350977,351033,351163,351301,351361,351610,351660,351805,351838,351840,351841,352357,352382,352585,352769,352899,352900,353045,353046,353243,353277,353437,353452,353496,353505,353539,354182,354254,354576,354902,355057,355058,355095,355228,355424,355740,356084,356202,356251,356422,356503,357140,357423,357424,357979,358068,358130,358242,358499,358645,358781,358894,358993,359024,359122,359134,359315,359476,359500,359551,359635,360093,360428,360445,360776,360986,361167,361586,361759,361886,362179,362346,362464,362526,362706,362712,362741,362935,362951,363273,363360,363528,363668,364005,364327,364403,364528,364542,364985,365592,365756,365791,365978,366068,366075,366255,366465,366584,366738,367080,367262,367854,368153,368180,368833,368860,369043,369058,369333,369338,369671,370836,370964,371833,373111,373333,373905,373919,374337,374364,374768,375099,376782,377017,377031,377441,378799,378914,379306,51816,52312,54853,6608,83436,83437,83465,83886,83911,84126,84330,84618,85110,85186,86099,86183,89848,89993,9010,9184"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "できれば洋画のほうがうれしいですが、邦画が嫌いというわけではありません。",
+      "timestamp": "2023-03-18T15:05:53.256277+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "洋画のほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "嫌い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "2018年の「ヴァレリアン 千の惑星の救世主」という映画はご覧になったことありますか？",
+      "timestamp": "2023-03-18T15:08:27.293411+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "2018年の「ヴァレリアン　千の惑星の救世主」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-18T15:07:55.812895+09:00",
+          "query": "ヴァレリアン 千の惑星の救世主",
+          "genres": "science-fiction",
+          "results": "362346"
+        }
+      ],
+      "checked": [
+        "362346_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "いいえ。その作品はまったく知りません。\nどんなストーリーですか？",
+      "timestamp": "2023-03-18T15:08:53.470550+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "その作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "名前通りの宇宙SFで、簡潔に言うと、西暦2740年、宇宙の平和を守るため、銀河をパトロールしている連邦捜査官のヴァレリアン（デイン・デハーン）とローレリーヌ（カーラ・デルヴィーニュ）がいて、アルファ宇宙ステーションに降り立った彼らは、長い時間をかけて規模を広げ、多種多彩な種族が共存している\"千の惑星の都市\"の繁栄を目にしますが、その裏にはある秘密が存在（その都市を破壊しようとする力）に気づき、その都市を救うストーリーです。",
+      "timestamp": "2023-03-18T15:13:57.518140+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "名前通りの宇宙SFで、簡潔に言うと、西暦2740年、宇宙の平和を守るため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "銀河をパトロールしている連邦捜査官",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ヴァレリアン（デイン・デハーン）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ローレリーヌ（カーラ・デルヴィーニュ）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "いて、アルファ宇宙ステーションに降り立った彼ら",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "長い時間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "規模",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "多種多彩な種族が共存している\"千の惑星の都市\"の繁栄",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "その裏にはある秘密",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "存在（その都市を破壊しようとする力）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "その都市を救うストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "つまり、銀河を守る連邦捜査官がアルファ宇宙ステーションという場所に行き、繁栄しているように見えて、実は危機にあるその都市を救う、ということですね？\n「千の惑星の都市」というのはそのアルファ宇宙ステーションの中にあるのですね？",
+      "timestamp": "2023-03-18T15:16:59.395770+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "銀河を守る連邦捜査官",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "アルファ宇宙ステーションという場所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "危機にあるその都市",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "救う、ということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「千の惑星の都市」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "そのアルファ宇宙ステーションの中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうだと思います。補足しますと、長年拡張され続けた国際宇宙ステーションの質量が地球にとって危険になり、一千もの種族が居住する\"千の惑星の都市\"「アルファ宇宙ステーション」として外宇宙に射出されたのが背景のようです。",
+      "timestamp": "2023-03-18T15:22:23.404002+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "長年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "拡張され続けた国際宇宙ステーションの質量",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "地球",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "一千もの種族",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "居住する\"千の惑星",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「アルファ宇宙ステーション」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "外宇宙",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "背景",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "362346_plot-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど。もともとはアルファ宇宙ステーションは国際宇宙ステーションだったけれど、放置しては地球に衝突するかもしれない状態になったので、外宇宙に追い出されてしまったのですね。。。\n\nでは、その危機とはメカニック的なトラブルなのですか？それとも、繁栄したその都市をわがものにしようとするものがいる、とかですか？",
+      "timestamp": "2023-03-18T15:25:37.096194+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "アルファ宇宙ステーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "国際宇宙ステーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "放置しては地球に衝突するかもしれない状態",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "外宇宙",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "その危機",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "メカニック的なトラブルなのですか？それとも、繁栄したその都市をわがものにしようとするもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "宇宙ステーション「アルファ」にはあらゆる種族が共存し宇宙の全知識が終結しているのですが、人口は約3000万、3236種の宇宙人が居住し、5000種類以上の言語が話され、長い年月を経て、都市は拡張する一方です。巨大都市というより、ほぼ惑星で、アルファの最深部に謎の汚染が発見され、それの膨張により存続の危機を迎えるのです。",
+      "timestamp": "2023-03-18T15:33:30.598653+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "宇宙ステーション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "「アルファ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "あらゆる種族",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "宇宙の全知識",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "人口",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "約3000万、3236種の宇宙人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "5000種類以上の言語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "長い年月",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "都市",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "拡張する一方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "巨大都市",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "惑星",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "アルファの最深部",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "謎の汚染",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "それの膨張",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "存続の危機",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど。\nということは、一千もの種族というのは、すべて地球人というわけではなく、外宇宙に行った後に宇宙人も住むようになったということですね？\n連邦捜査官が謎の汚染を発見してそれを解決するために活躍するのですね。\n大量の流血シーンなどはあまり好きではないので、それはよい感じです。\nなかなかおもしろそうですね！",
+      "timestamp": "2023-03-18T15:37:16.889726+09:00",
+      "internal_states": [
+        {
+          "id": "60",
+          "text": "一千もの種族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "地球人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "外宇宙",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "行った後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "宇宙人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "住むようになったということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "66",
+          "text": "連邦捜査官",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "謎の汚染",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "発見してそれを解決するため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "大量の流血シーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "70",
+          "text": "よい感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "エグいシーンはあまりないので、どうぞご安心ください。惑星を破壊した人類が悔い改め、惑星を再生するために尽力した物語が「ヴァレリアン 千の惑星の救世主」でした。世界観が「スターウォーズ」とよく似ているので、良かったら、見比べてみてはいかがでしょうか？ありがとうございました。",
+      "timestamp": "2023-03-18T15:39:17.894779+09:00",
+      "internal_states": [
+        {
+          "id": "71",
+          "text": "エグいシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "72",
+          "text": "惑星を破壊した人類",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "73",
+          "text": "悔い改め、惑星を再生するために尽力した物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "74",
+          "text": "「ヴァレリアン　千の惑星の救世主」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "世界観",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "76",
+          "text": "「スターウォーズ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "それはよい感じです！\nはい。観てみようと思います。\nどうもありがとうございました。",
+      "timestamp": "2023-03-18T15:40:15.903821+09:00",
+      "internal_states": [
+        {
+          "id": "77",
+          "text": "よい感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

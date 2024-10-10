@@ -1,0 +1,962 @@
+{
+  "dialog_id": "9ab63d09-c347-4fdd-a65e-2d644db2fcf9",
+  "created_timestamp": "2023-02-02T18:57:45.072072+09:00",
+  "archived_timestamp": "2023-02-02T19:30:12.901961+09:00",
+  "recommender": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "033",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんわ、宜しくお願いします。",
+      "timestamp": "2023-02-02T18:59:35.898253+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは、よろしくお願いします。",
+      "timestamp": "2023-02-02T18:59:54.085435+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "邦画と洋画はどちらがお好きですか？好きなジャンルなどありますか？",
+      "timestamp": "2023-02-02T19:00:22.312331+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "好きなジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "邦画を全然見ないのですが、演技がしっかりしている邦画でお薦めありますか？",
+      "timestamp": "2023-02-02T19:01:55.988480+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "演技",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "5",
+          "text": "しっかりしている邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「硫黄島からの手紙」は見たことがありますか？",
+      "timestamp": "2023-02-02T19:03:29.975474+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "「硫黄島からの手紙」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-02T19:02:24.661349+09:00",
+          "query": "邦画",
+          "genres": "war",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-02T19:02:28.197107+09:00",
+          "query": "",
+          "genres": "war",
+          "results": "11457,12902,12926,13693,13908,142154,14978,150405,150436,161716,163178,19370,20373,20625,236401,236636,237035,237220,239348,24012,241600,24779,319506,319796,320059,321938,322114,323478,323799,323822,324253,324328,324537,324563,324782,325100,325152,326623,327271,327713,327994,328445,328495,328955,329129,329886,332362,332706,332860,333030,333332,333858,335594,335798,336109,336110,337960,337962,338137,338279,340426,340493,340496,344170,344301,346152,346336,347542,348641,349021,349750,350555,350823,350926,351838,352873,354254,354569,357995,358077,359061,361132,362605,365020,366009,366076,367693,368780,369351,370266,370458,370890,373859,6098,83886,84307,86099,89848,9848"
+        },
+        {
+          "timestamp": "2023-02-02T19:02:29.491337+09:00",
+          "query": "",
+          "genres": "war",
+          "results": "11457,12902,12926,13693,13908,142154,14978,150405,150436,161716,163178,19370,20373,20625,236401,236636,237035,237220,239348,24012,241600,24779,319506,319796,320059,321938,322114,323478,323799,323822,324253,324328,324537,324563,324782,325100,325152,326623,327271,327713,327994,328445,328495,328955,329129,329886,332362,332706,332860,333030,333332,333858,335594,335798,336109,336110,337960,337962,338137,338279,340426,340493,340496,344170,344301,346152,346336,347542,348641,349021,349750,350555,350823,350926,351838,352873,354254,354569,357995,358077,359061,361132,362605,365020,366009,366076,367693,368780,369351,370266,370458,370890,373859,6098,83886,84307,86099,89848,9848"
+        },
+        {
+          "timestamp": "2023-02-02T19:02:58.581193+09:00",
+          "query": "硫黄島",
+          "genres": "",
+          "results": "324328,324563"
+        }
+      ],
+      "checked": [
+        "324563_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "題名は知っていますが、見たことないです。これをまずは着目せよ的なポイントを教えていただけますか。",
+      "timestamp": "2023-02-02T19:05:05.540118+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "題名",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "着目せよ的なポイント",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "すみません、先にお伝えすべきでしたがこれはクリント・イーストウッド監督のアメリカ映画になります。ただし太平洋戦争のお話でありcastも渡辺謙や二宮和也などが出ています。\nご興味おありですか？",
+      "timestamp": "2023-02-02T19:06:51.274961+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "先",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "クリント・イーストウッド監督のアメリカ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "太平洋戦争",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "cast",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "渡辺謙や二宮和也",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "ほお、アメリカ映画なのですね。でもがっつり日本で有名な芸能人が出演されているんですね。ぜひこの映画を教えてください。",
+      "timestamp": "2023-02-02T19:08:34.884690+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "ほお、アメリカ映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "日本で有名な芸能人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうなのです。個人的に最大の見どころは、アメリカ人である クリント・イーストウッドが監督をした日本人の物語だと思っております。\nストーリーのさわりを説明しますと、舞台は東京都小笠原諸島硫黄島。\n調査隊が、地下壕の地中に埋められていた鞄から数百通もの手紙を発見するところから始まります。この手紙は、61年前、この島で戦った兵士たちが、家族に宛てて書き残したものなのですが、その届くことのなかった手紙の内容と行方が中心になるかと思います。",
+      "timestamp": "2023-02-02T19:11:44.504224+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "最大の見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "18",
+          "text": "アメリカ人である　クリント・イーストウッドが監督をした日本人の物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ストーリーのさわり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "東京都小笠原諸島硫黄島",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "調査隊が、地下壕の地中に埋められていた鞄から数百通もの手紙を発見するところ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "この手紙",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "61年前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "この島で戦った兵士たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "宛てて書き残したもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "その届くことのなかった手紙",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "行方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "中心",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "324563_plot-1",
+        "324563_plot-2"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そういえば、日本の番組宣伝の影響か二宮さんのイメージしかなかったので、イーストウッド監督と聞いてとても興味が出てきました。いきなりですいませんが、後味はどんなでしょうか。",
+      "timestamp": "2023-02-02T19:15:21.639012+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "日本の番組宣伝の影響",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "二宮さんのイメージ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "イーストウッド監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "後味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうですね、日本人であれば見るべき映画と思うのですが、体調や気分がすぐれないときにはオススメできないかもしれません。見ている最中はもちろんのこと見終わったあとも何とも言えない悲しみや切なさが込み上げます。でもただ悲しい、辛い、というだけではない、どこか温かみもあると思っています。",
+      "timestamp": "2023-02-02T19:18:05.604311+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "そうですね、日本人であれば見るべき映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "体調や気分がすぐれないとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "見ている最中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "もちろんのこと見終わったあと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "40",
+          "text": "言えない悲しみや切なさ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "温かみ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "率直なご感想またアドバイスありがとうございます。なるほど、一度は見ておかなければいけなさそうですね。それとは別にどうしてクリント・イーストウッドがこの題材を選んだのか、作品とは別にコメンタリーもあればぜひ見てみたくなりました。",
+      "timestamp": "2023-02-02T19:20:34.070580+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "率直なご感想またアドバイス",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "クリント・イーストウッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "この題材",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "コメンタリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね、彼はとても公平な視点というかアメリカ人、日本人　の感情というものは脇に置いて、淡々と物語を撮っているような気がしました。彼のインタビュー、確かに気になりますね。\nいわゆる戦争映画とはまた一線を画していて、人間の生きざま、尊厳のようなものに重きを置いている気がします。",
+      "timestamp": "2023-02-02T19:24:12.164597+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "そうですね、彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "公平な視点",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "アメリカ人、日本人　の感情というもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "脇",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "51",
+          "text": "物語を撮っているような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "彼のインタビュー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "いわゆる戦争映画とはまた一線",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "人間の生きざま、尊厳のようなものに重きを置いている気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど、彼の人格のなせる業のようですね。とても稀有な作品のようですね。絶対見るリストに入れさせていただきます！",
+      "timestamp": "2023-02-02T19:27:28.904978+09:00",
+      "internal_states": [
+        {
+          "id": "55",
+          "text": "彼の人格のなせる業",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "56",
+          "text": "稀有な作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "見るリスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "有り難うございます！\n御所望であった、しっかりとした演技も観れると思います（ちがったらごめんなさい）\n141分と長編ですので、お時間のある時に見てじっくりと物語の世界に浸かって頂きたい、そんな作品です。",
+      "timestamp": "2023-02-02T19:28:46.224175+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "御所望であった、しっかりとした演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "（ちがったらごめんなさい）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "60",
+          "text": "長編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "お時間のある時に見てじっくりと物語の世界に浸かって頂きたい、そんな作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "骨太な作品であることはとても伝わりました。どうもありがとうございます。",
+      "timestamp": "2023-02-02T19:29:46.450761+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "骨太な作品であること",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、有り難うございました！",
+      "timestamp": "2023-02-02T19:30:06.461333+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

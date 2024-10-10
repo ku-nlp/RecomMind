@@ -1,0 +1,932 @@
+{
+  "dialog_id": "e122057c-a792-49f0-a4a3-de61f5d03e47",
+  "created_timestamp": "2023-02-09T10:58:52.217788+09:00",
+  "archived_timestamp": "2023-02-09T11:24:59.109156+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "042",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-09T11:00:07.667168+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそよろしく尾根がします！",
+      "timestamp": "2023-02-09T11:00:44.236868+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "尾根",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんなジャンルの映画がお好みか教えて頂けますか。",
+      "timestamp": "2023-02-09T11:00:57.576094+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、一番好きなのは穏やかな流れのドラマ性のある映画ですが、アクションやコメディ、SFやファンタジーも時には観ます。あまりつらい映画は観ないですネ。",
+      "timestamp": "2023-02-09T11:02:35.646647+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "穏やかな流れのドラマ性のある映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "アクションやコメディ、SFやファンタジー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "つらい映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "幅広くご覧になる感じですね。洋画、邦画、アニメなど、特にお好きなタイプはございますか？",
+      "timestamp": "2023-02-09T11:03:26.790694+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "幅広くご覧になる感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "洋画、邦画、アニメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "お好きなタイプ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ほとんどが洋画で、邦画はあまり知らないのです。穏やかな良いものなら見たいと思うのですが。\nアニメはディズニーと宮崎くらいしか興味がない感じです。",
+      "timestamp": "2023-02-09T11:06:28.155638+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "穏やかな良いもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "ディズニー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "宮崎",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "興味がない感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "邦画は私もあまり知らないので、洋画でおすすめさせて頂きます。2015年のアメリカ映画「マイ・インターン」はご覧になったことはありますか？",
+      "timestamp": "2023-02-09T11:08:26.894024+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "2015年のアメリカ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「マイ・インターン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T11:06:41.359998+09:00",
+          "query": "ジョゼ",
+          "genres": "",
+          "results": "162817,236401,320268,340721,360861,364404,367261,370728,9848"
+        },
+        {
+          "timestamp": "2023-02-09T11:07:35.590399+09:00",
+          "query": "マイインターン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T11:07:38.026367+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title",
+        "353403_year"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "デ・ニーロとアン・ハサウェイの映画ですね！たまたまテレビで観ました！デ・ニーロ、好きなのです^^",
+      "timestamp": "2023-02-09T11:10:12.014002+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "デ・ニーロとアン・ハサウェイの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "テレビ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "デ・ニーロ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "すみません、ご覧になっていましたか。では2006年のプラダを着た悪魔も、ご覧になられましたか？同じくアン・ハサウェイ主演です。",
+      "timestamp": "2023-02-09T11:11:48.257217+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "2006年のプラダを着た悪魔",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "同じくアン・ハサウェイ主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T11:10:44.390276+09:00",
+          "query": "プラダ",
+          "genres": "",
+          "results": "236645,325271"
+        }
+      ],
+      "checked": [
+        "325271_title",
+        "325271_cast_name-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "こちらもテレビで観ました！この１５年くらいは映画館にほぼ言っていないのですが、テレビで放映された時にたまたま観たのですね！",
+      "timestamp": "2023-02-09T11:13:24.888218+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "この１５年",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "テレビで放映された時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "なるほど、なかなかおススメ出来なくてすみません。では、2004年の「ラブ・アクチュアリー」はいかがでしょうか。",
+      "timestamp": "2023-02-09T11:14:54.479529+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "「ラブ・アクチュアリー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-09T11:14:17.064013+09:00",
+          "query": "ベストキッド",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-09T11:14:21.844334+09:00",
+          "query": "ベスト・キッド",
+          "genres": "",
+          "results": "336292"
+        },
+        {
+          "timestamp": "2023-02-09T11:14:39.812253+09:00",
+          "query": "アクチュアリー",
+          "genres": "",
+          "results": "318646"
+        }
+      ],
+      "checked": [
+        "318646_title",
+        "318646_year"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "何となくタイトルは聞いた気がしますが、観ていません。どのようなストーリーですか？",
+      "timestamp": "2023-02-09T11:15:39.642137+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "聞いた気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "どのようなストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "アメリカ同時多発テロ事件の犠牲者が最後に遺したのは、憎しみではなく愛のメッセージだったことに感銘を受け作られた映画です。登場人物たちの恋物語が、同時進行で語られます。６種類ぐらいの恋愛ストーリーが同時進行で進められていきます。",
+      "timestamp": "2023-02-09T11:17:50.015272+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "アメリカ同時多発テロ事件の犠牲者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "憎しみ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "32",
+          "text": "愛のメッセージだったこと",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "感銘",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "登場人物たちの恋物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "６種類ぐらいの恋愛ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "同時進行",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "318646_cast_name-0",
+        "318646_plot-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ドラマ仕立てでしょうか？それともドキュメンタリー的なものでしょうか？",
+      "timestamp": "2023-02-09T11:18:47.642347+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ドキュメンタリー的なもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "イギリスの映画で、ドラマ仕立てです。「ブリジット・ジョーンズの日記」や「ノッティングヒルの恋人」の雰囲気に似ています。ヒュー・グラントが主演ですが、そのほかの出演者も豪華です。",
+      "timestamp": "2023-02-09T11:20:46.025240+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "イギリスの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ドラマ仕立て",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "「ブリジット・ジョーンズの日記」や「ノッティングヒルの恋人」の雰囲気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "ヒュー・グラント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "そのほかの出演者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "318646_cast-0_other_title-3:85258",
+        "318646_cast-0_other_title-4:235071",
+        "318646_country",
+        "318646_plot-2"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "イギリスの映画もヒュー・グラントも大好きなので観てみたいです！他の出演者も誰か教えてもらえますか？",
+      "timestamp": "2023-02-09T11:22:06.881266+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ヒュー・グラント",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "他の出演者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "リーアム・ニーソン、エマ・トンプソン、キーラ・ナイトレイなど、イギリスの俳優さんがほとんどです。クリスマス時期のロンドンの風景も楽しめますし、愛する人、家族がいること、生きていることのありがたさも感じられます。機会があればぜひ、ご覧になって下さいね。",
+      "timestamp": "2023-02-09T11:23:14.056396+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "リーアム・ニーソン、エマ・トンプソン、キーラ・ナイトレイなど、イギリスの俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "クリスマス時期のロンドンの風景",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "愛する人、家族がいること、生きていることのありがたさ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "318646_cast_name-1",
+        "318646_cast_name-4",
+        "318646_cast_name-6"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "それは何とも豪華なキャストですね！もはやなぜ見逃していたのかが分かりません（笑）ぜひ観たいと思います！内容もなんだか合いそうです。良い映画を教えて頂き嬉しいです。ありがとうございました！",
+      "timestamp": "2023-02-09T11:24:32.623008+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "豪華なキャスト",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "分かりません（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "内容",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "良い映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "今日はありがとうございました。",
+      "timestamp": "2023-02-09T11:24:55.615362+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

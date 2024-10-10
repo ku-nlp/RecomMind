@@ -1,0 +1,920 @@
+{
+  "dialog_id": "70419c2a-5c13-407e-9340-dda98c72ff33",
+  "created_timestamp": "2023-03-28T11:55:55.833988+09:00",
+  "archived_timestamp": "2023-03-28T12:38:41.023791+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。宜しくお願いいたします。",
+      "timestamp": "2023-03-28T12:00:13.041291+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こちらこそ、よろしくお願いいたします！",
+      "timestamp": "2023-03-28T12:00:44.578531+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですが、お好きな映画のジャンルなどはありますか？",
+      "timestamp": "2023-03-28T12:01:00.058224+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お好きな映画のジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "動物が出てくる映画や、子役の演技が光る映画で\nお勧めがあればよろしくお願いします。",
+      "timestamp": "2023-03-28T12:02:45.722915+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "出てくる映画や、子役の演技が光る映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "動物＋子役となると、「マリと子犬の物語、「ジャングル・ブック」などがありますが、ご覧になったことはあるでしょうか？",
+      "timestamp": "2023-03-28T12:06:45.791140+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "動物＋子役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "マリと子犬の物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「ジャングル・ブック」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T12:04:27.699460+09:00",
+          "query": "マリ子と子犬",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T12:04:37.838452+09:00",
+          "query": "マリと子犬",
+          "genres": "",
+          "results": "328448"
+        },
+        {
+          "timestamp": "2023-03-28T12:05:27.843234+09:00",
+          "query": "ジャングル・ブック",
+          "genres": "",
+          "results": "356423"
+        },
+        {
+          "timestamp": "2023-03-28T12:06:05.489247+09:00",
+          "query": "幸せへのキセキ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T12:06:22.420023+09:00",
+          "query": "小さな世界はワンダーランド",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T12:06:24.439946+09:00",
+          "query": "小さな世界はワンダーランド",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": [
+        "356423_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ジャングル・ブックは見たことがあると思います。\nマリと子犬の物語のご紹介をお願いします！",
+      "timestamp": "2023-03-28T12:08:53.551649+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ジャングル・ブック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "マリ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "子犬の物語のご紹介",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "マリと子犬の物語には、子役が２人登場し、演技の評価が高いです。マリは、母犬の名前です。以下、ストーリーです。「新潟県中越地震発生時の実話を基に、被災地に取り残されながらも、産んだばかりの子犬たちを必死で守り抜こうとする母犬の奮闘を描いた感動作。新潟県山古志村で暮らす石川家に、新しい家族がやって来る。小学生の亮太と妹の彩が子犬を拾ってきたのだ。“マリ”と名付けられたその子犬はすくすくと成長し、やがて3匹の子を産む。しかし、新しい命の誕生に喜んだのもつかの間、村をマグニチュード6.8の大地震が襲い……。」",
+      "timestamp": "2023-03-28T12:10:57.347061+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "マリと子犬の物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "子役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "２人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "演技の評価",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "マリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "母犬の名前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "「新潟県中越地震発生時の実話を基に、被災地に取り残されながらも、産んだばかりの子犬たちを必死で守り抜こうとする母犬の奮闘を描いた感動作。新潟県山古志村で暮らす石川家に、新しい家族がやって来る。小学生の亮太と妹の彩が子犬を拾ってきたのだ。“マリ”と名付けられたその子犬はすくすくと成長し、やがて3匹の子を産む。しかし、新しい命の誕生に喜んだのもつかの間、村をマグニチュード6.8の大地震が襲い……。」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "邦画だったのですね。\n確かに、地震の被害に遭ったのは人間だけでなく、\nペットの物語もありますよね。\n\nどんなシーンが印象的でしたか？",
+      "timestamp": "2023-03-28T12:13:48.632827+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "地震の被害",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "人間",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ペットの物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "どんなシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "地震が発生した後、おじいちゃんと彩（子役）を必死で励ますマリ。自衛隊の救助を連れてくるマリですが、人命救助優先で、置いて行かれてしまいます。久石譲の音楽で、号泣です！",
+      "timestamp": "2023-03-28T12:18:40.461020+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "地震が発生した後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "おじいちゃん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "彩（子役）を必死で励ますマリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "自衛隊の救助を連れてくるマリ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "人命救助優先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "久石譲の音楽",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "号泣",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T12:13:29.934685+09:00",
+          "query": "マリと子犬の物語",
+          "genres": "",
+          "results": "328448"
+        }
+      ],
+      "checked": [
+        "328448_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "それは号泣ですね。\n自分の子供だけでなく、飼い主さんも守ろうとするマリ、\n想像するだけでも泣けてきます。\n\nマリは後からちゃんと救助されるのでしょうか？",
+      "timestamp": "2023-03-28T12:21:39.122859+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "号泣",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "自分の子供",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "飼い主さんも守ろうとするマリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "マリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "ここが映画の見どころ（涙腺決壊シーン）となりますので、実際にご覧になってみてください。おそらく、クライマックスとなります。。ストーリーはハッピー・エンドです１",
+      "timestamp": "2023-03-28T12:24:06.104312+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "映画の見どころ（涙腺決壊シーン）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "クライマックス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ハッピー・エンドです１",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ハッピーエンドと聞いただけで安心しました。\n\n子役の２人の演技は、どんなところがよかったですか？",
+      "timestamp": "2023-03-28T12:25:39.911438+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ハッピーエンド",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "子役の２人の演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "どんなところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "特に妹役の子役は、子供なのに、とにかくすごい演技力！ボランティアの方々の演技もよいです。元ネタは絵本『山古志村のマリと三匹の子犬』となります。実話みたいですね。",
+      "timestamp": "2023-03-28T12:28:26.920592+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "妹役の子役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "すごい演技力！ボランティアの方々の演技",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "44",
+          "text": "元ネタ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "絵本",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "『山古志村のマリ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "子",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなのですね。子役の方の演技、気になります。\n元の絵本も見てみたいです。\n\nちなみにマリの犬種は何ですか？",
+      "timestamp": "2023-03-28T12:31:28.693902+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "子役の方の演技、気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "50",
+          "text": "元の絵本",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "マリの犬種",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "柴犬ですね。ネットで確認しました。",
+      "timestamp": "2023-03-28T12:33:58.055323+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "柴犬",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ネット",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "わざわざ確認ありがとうございました！\n柴犬、大好きです。\n\n今日は素敵な作品をご紹介頂きありがとうございました！家族で見てみます。",
+      "timestamp": "2023-03-28T12:36:45.666376+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "確認",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "55",
+          "text": "柴犬",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "素敵な作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "家族",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "茶色の柴犬ですね。。もふもふして、可愛いです！家族愛に溢れる、素晴らしい映画だと思います。今日はありがとうございました！",
+      "timestamp": "2023-03-28T12:38:21.545003+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

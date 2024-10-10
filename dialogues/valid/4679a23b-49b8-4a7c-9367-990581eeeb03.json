@@ -1,0 +1,491 @@
+{
+  "dialog_id": "4679a23b-49b8-4a7c-9367-990581eeeb03",
+  "created_timestamp": "2023-01-31T10:57:24.555495+09:00",
+  "archived_timestamp": "2023-01-31T11:16:28.573187+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-01-31T11:00:00.201445+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。どうぞ宜しくお願いします。",
+      "timestamp": "2023-01-31T11:00:03.162105+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-01-31T11:00:30.994992+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "ヒューマンドラマが好きです。最近観たのは「ファーザー」という認知症に関する映画でした。",
+      "timestamp": "2023-01-31T11:01:26.514046+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "「ファーザー」という認知症に関する映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「ファーザー」は拝見したことはありませんでした。洋画か邦画ならどちらが良いでしょうか？",
+      "timestamp": "2023-01-31T11:03:09.920757+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「ファーザー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T11:01:46.873528+09:00",
+          "query": "ヒューマンドラマ",
+          "genres": "",
+          "results": "344125"
+        },
+        {
+          "timestamp": "2023-01-31T11:02:09.375714+09:00",
+          "query": "グリーンブック",
+          "genres": "",
+          "results": "365598"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらでもOKです。",
+      "timestamp": "2023-01-31T11:03:30.902983+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "OK",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "「そして父になる」はご覧になったことはありますか邦画です。",
+      "timestamp": "2023-01-31T11:04:05.781462+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "そして父",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T11:03:52.580479+09:00",
+          "query": "そして父に",
+          "genres": "",
+          "results": "345678,354944"
+        }
+      ],
+      "checked": [
+        "345678_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "あります。好きな映画です。",
+      "timestamp": "2023-01-31T11:04:24.900842+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "邦画のヒューマンドラマのジャンルでは是枝裕和監督が有名ですよね。「万引き家族」はご覧になったことはありますか？",
+      "timestamp": "2023-01-31T11:05:36.840808+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "邦画のヒューマンドラマのジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "是枝裕和監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「万引き家族」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-01-31T11:04:43.653822+09:00",
+          "query": "是枝裕和",
+          "genres": "",
+          "results": "320084,333252,345678,349516,355278,359771,363357"
+        }
+      ],
+      "checked": [
+        "363357_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "是枝監督の作品は好きです。でも万引き家族はまだ観てません。とても気になっています。",
+      "timestamp": "2023-01-31T11:07:12.895462+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "是枝監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "万引き家族",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "では紹介させてください。万引きによる変なつながりの影に現代を生き抜く狭苦しさを描いた作品です。",
+      "timestamp": "2023-01-31T11:07:58.645552+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "万引きによる変なつながりの影に現代を生き抜く狭苦しさを描いた作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363357_review-0"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "家族全員が万引きをして暮らしているのですか？",
+      "timestamp": "2023-01-31T11:10:58.635757+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "家族全員",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "万引き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうなんです、一見、社会の暗い闇を描いているが、自分にもありえる感情があります。見る角度（見る人の立場）によって善悪や賛否が分かれそうな映画です。",
+      "timestamp": "2023-01-31T11:11:34.081729+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "社会の暗い闇",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ありえる感情",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "見る角度（見る人の立場）によって善悪や賛否が分かれそうな映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363357_review-3",
+        "363357_review-4"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "それはとても気になります。さいきん生活費の高騰で万引きが増えているとニュースで見たので、いま見るのも良いかもしれませんね。ぜひ観てみたいと思います。",
+      "timestamp": "2023-01-31T11:15:06.442243+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "さいきん生活費の高騰",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "万引き",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ニュース",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "是枝裕和監督の良さが出ている作品ですので、機会があればご覧ください。ありがとうございました。",
+      "timestamp": "2023-01-31T11:16:00.962123+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "是枝裕和監督の良さが出ている作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "363357_director_name"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "まさに好みの映画をおすすめいただき、ありがとうございました。",
+      "timestamp": "2023-01-31T11:16:21.853064+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "好みの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    }
+  ]
+}

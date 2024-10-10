@@ -1,0 +1,582 @@
+{
+  "dialog_id": "ad24c47b-3ce9-42f6-8815-01d518a7f503",
+  "created_timestamp": "2023-02-05T17:58:48.115965+09:00",
+  "archived_timestamp": "2023-02-05T18:26:17.995024+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "034",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-02-05T18:00:56.286802+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "宜しくお願いします。",
+      "timestamp": "2023-02-05T18:01:02.203523+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "最近、ご覧になった映画は何でしょうか？",
+      "timestamp": "2023-02-05T18:01:29.353803+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "最近、ご覧になった映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "先日、「クレイマー・クレイマー」を久しぶり見返しました。",
+      "timestamp": "2023-02-05T18:03:12.075279+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "「クレイマー・クレイマー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "久しぶり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "洋画がお好きでしょうか？",
+      "timestamp": "2023-02-05T18:05:05.915808+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T18:03:41.227231+09:00",
+          "query": "クレイマー",
+          "genres": "",
+          "results": "23099,334880,361325"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "そうですね、洋画を見ることが多いです。",
+      "timestamp": "2023-02-05T18:05:20.163420+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "そうですね、洋画を見ること",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ダスティン・ホフマンがお好きでしょうか？それとも他の理由でご覧になったのでしょうか？",
+      "timestamp": "2023-02-05T18:07:26.600299+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ダスティン・ホフマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "他の理由",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "平日の夜だったので軽くサクっと見ることができる映画を見たくて見ました。ダスティン・ホフマンより、メリル・ストリープの方が好きです。\n昔見たときは、なんだか勝手な奥さんだなって思っていたのですが\n今見返すと、彼女の心情も分かる気がして\n自分の見方が少し変わっていたのも面白かったです。",
+      "timestamp": "2023-02-05T18:10:36.102206+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "平日の夜",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "軽くサクっと見ることができる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ダスティン・ホフマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "メリル・ストリープの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "昔見たとき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "勝手な奥さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "彼女の心情も分かる気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "自分の見方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "メリル・ストリープは確かに魅力的な女優さんですね。「プラダを着た悪魔」をお勧めしたのですが、ご覧になったことはありますか？",
+      "timestamp": "2023-02-05T18:15:24.345617+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "メリル・ストリープ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "確かに魅力的な女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「プラダを着た悪魔」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T18:14:17.853463+09:00",
+          "query": "プラダ",
+          "genres": "",
+          "results": "236645,325271"
+        }
+      ],
+      "checked": [
+        "325271_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "はい、あります。メリル・ストリープ\nアン・ハサウェイ　がそれぞれの立場で生き生きと描かれていて好きな映画の一つです。",
+      "timestamp": "2023-02-05T18:16:39.416790+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "それぞれの立場",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "生き生きと描かれていて好きな映画の一つ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "確かに、私はその映画の中の服装も好きで、見ていて楽しくなると思いました。「英国王のスピーチ」っていう映画はご覧になったことはありますか？",
+      "timestamp": "2023-02-05T18:20:11.925774+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "その映画の中の服装",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「英国王のスピーチ」っていう映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T18:19:22.543885+09:00",
+          "query": "鉄の女の涙",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-05T18:19:34.742078+09:00",
+          "query": "マーガレット",
+          "genres": "",
+          "results": "17046,321698,338127,357933,3617,366134,367638,370322,51816"
+        },
+        {
+          "timestamp": "2023-02-05T18:19:36.256897+09:00",
+          "query": "マーガレット",
+          "genres": "",
+          "results": "17046,321698,338127,357933,3617,366134,367638,370322,51816"
+        }
+      ],
+      "checked": [
+        "338127_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "タイトルは知っていますが、見たことはないです。",
+      "timestamp": "2023-02-05T18:20:58.529920+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "吃音に悩まされたイギリス王ジョージ6世と、その治療にあたったオーストラリア出身の平民である言語療法士ライオネル・ローグの友情を史実を基に描いた作品です。第83回アカデミー賞では作品賞など4部門を受賞した名作ですよ。",
+      "timestamp": "2023-02-05T18:22:56.643764+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "吃音に悩まされたイギリス王ジョージ6世と、その治療にあたったオーストラリア出身の平民である言語療法士ライオネル・ローグの友情を史実を基に描いた作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "第83回アカデミー賞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "作品賞",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "4部門を受賞した名作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T18:20:28.848090+09:00",
+          "query": "英国王のスピーチ",
+          "genres": "",
+          "results": "338127"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "コリン・ファースですよね。トレーラーだけは見たことがあって、いつか見ようと思いつつまだ見ていなかったです。今度見てみたいと思います。",
+      "timestamp": "2023-02-05T18:24:55.389150+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "コリン・ファース",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "トレーラー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい！拙い紹介でしたが、お役に立てると幸いです。ありがとうございます。",
+      "timestamp": "2023-02-05T18:25:44.582833+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "拙い紹介",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "お役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "こちらこそ、ありがとうございました。",
+      "timestamp": "2023-02-05T18:26:14.775253+09:00",
+      "internal_states": []
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "dialog_id": "52585923-e4d3-43d5-a462-bb4f9c8086ea",
+  "created_timestamp": "2023-02-27T14:59:47.339342+09:00",
+  "archived_timestamp": "2023-02-27T15:32:35.556237+09:00",
+  "recommender": {
+    "name": "049",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちわ。よろしくお願いいたします。",
+      "timestamp": "2023-02-27T15:00:21.424635+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、よろしくお願いいたします。",
+      "timestamp": "2023-02-27T15:00:27.849701+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "好きなジャンルや俳優さんを教えて下さい。",
+      "timestamp": "2023-02-27T15:01:25.325441+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画は好きで、ホラー映画以外はわりといろいろなジャンルの映画を観ています。",
+      "timestamp": "2023-02-27T15:01:59.985339+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ホラー映画以外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "いろいろなジャンルの映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "ちょうど1年前、ウエスト・サイド・ストーリーが話題になりましたがご覧になりましたか？\nスティーヴン・スピルバーグ監督の作品です。",
+      "timestamp": "2023-02-27T15:03:55.899367+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "1年前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ウエスト・サイド・ストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "話題",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "スティーヴン・スピルバーグ監督の作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T15:02:19.499826+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        },
+        {
+          "timestamp": "2023-02-27T15:02:30.192506+09:00",
+          "query": "",
+          "genres": "musical",
+          "results": "1220,162566,21943,2257,2331,23378,234692,236556,239807,239900,25692,320635,323331,324021,324029,325768,326362,328271,328546,329927,331238,332153,334837,335255,337503,341646,341713,342984,346540,348578,349344,349742,350605,355820,357342,358506,358727,361326,3617,362549,363202,365402,366226,366505,367239,368738,369239,370869,373919,378013,378116,378214,378317,8508,9588"
+        }
+      ],
+      "checked": [
+        "378317_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "リメイク版ですね？はい。旧作品も観ています。",
+      "timestamp": "2023-02-27T15:04:37.416417+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "リメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "旧作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうですか。旧作品に比べて歌のレベルが高く最新の音響だとすごく楽しめましたね。",
+      "timestamp": "2023-02-27T15:07:30.407944+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "旧作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "歌のレベル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "高く最新の音響",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうですね。どちらも好きな作品です。",
+      "timestamp": "2023-02-27T15:08:17.666611+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "そうですね。どちらも好きな作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そもそもの内容は、現代版「ロミオとジュリエット」と言える物語です。\nぜひ、ロミオとジュリエットはご存じですか？",
+      "timestamp": "2023-02-27T15:13:53.455265+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "そもそもの内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "14",
+          "text": "現代版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「ロミオとジュリエット」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ロミオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ジュリエット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T15:09:37.579779+09:00",
+          "query": "ロミオ",
+          "genres": "",
+          "results": "338843,339690,369808,52336,85030"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "はい。この作品も昔の作品をディカプリオがロミオ役のリメイク版が作られたりしていますね。\n今のこの冬におすすめしたい作品やあるいは春におすすめの作品などもしあれば、教えていただけますか？",
+      "timestamp": "2023-02-27T15:16:33.929076+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "昔の作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ディカプリオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ロミオ役のリメイク版",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "今のこの冬におすすめしたい作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "春",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "おすすめの作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "「もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら」はいかがでしょうか？\nそろそろ春のセンバツも始まります。\n強豪校もさることながら、甲子園初出場という学校もあると思いますので、また別の楽しみ方が出来るかもしれません。",
+      "timestamp": "2023-02-27T15:19:25.626774+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "「もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "春のセンバツ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "強豪校",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "さることながら、甲子園初出場という学校",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "思いますので、また別の楽しみ方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-27T15:16:54.360710+09:00",
+          "query": "春",
+          "genres": "",
+          "results": "13970,144857,151599,160,161271,162057,20486,2257,234828,235234,237082,237101,237383,240096,24136,322281,323400,324021,324261,324544,324782,324826,326527,327271,328125,328746,328807,331366,332153,332753,332755,333522,333828,333858,334304,334768,335712,336172,336633,338827,339115,339223,339377,339701,341061,341931,342043,342201,342745,342769,343488,344125,344380,344472,344585,345374,345649,346152,346639,348228,348578,348635,348867,349849,350728,350818,350824,350897,351330,351464,352927,353092,353489,353643,354107,354499,354523,354552,355058,355482,355675,355764,356308,356343,356503,356895,357282,357845,357927,358727,358928,358996,359118,359505,359685,359809,360074,360093,360576,360846,361110,361463,361832,362195,362465,362721,362725,362775,362937,363103,363105,363119,363978,364115,364143,364195,364358,364462,364768,364877,365012,365099,365755,365786,366008,366255,366264,366483,366951,367127,367777,368118,369173,369619,369671,369911,370446,371684,371833,373859,373956,374034,374137,374337,374583,375327,375940,377441,379025,7378,86099,86183,87913"
+        }
+      ],
+      "checked": [
+        "338827_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "なるほど。もうすぐ春の甲子園ですね。\nどんなストーリーですか？",
+      "timestamp": "2023-02-27T15:20:28.575568+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "春の甲子園",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "どんなストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ひょんな事から野球部のマネージャーになることになった主人公が、甲子園出場を目指す第一歩としてドラッガーの「マネジメント」を”誤って”読んでしまった事からストーリーは始まります。",
+      "timestamp": "2023-02-27T15:23:49.472077+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "ひょんな事から野球部のマネージャーになることになった主人公が、甲子園出場を目指す第一歩",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ドラッガーの「マネジメント」を”誤って”読んでしまった事",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "「マネジメント」違い、ということですね？それからどうなるのですか？\n確か主役は元AKBだったような気がしますが・・・。\nどなたが出演されているのでしょう？",
+      "timestamp": "2023-02-27T15:25:33.571619+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "「マネジメント」違い、ということ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "確か主役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "元AKBだったような気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい。「マネジメント」違いです。\nしかしながら、物事の見方が変われば結果が変わるという見本のような物語なのでセンバツを見る楽しみが増えると思います。\n出演は、確かに前田敦子（AKB48）が当時は注目されていましたが、今をときめく川口春奈、瀬戸康史。また、池松壮亮、大泉洋も出演しています。\n少し前の映画を見るとこういう楽しみもありますね。",
+      "timestamp": "2023-02-27T15:29:11.969717+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "「マネジメント」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "物事の見方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "結果",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "変わるという見本のような物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "センバツを見る楽しみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "前田敦子（AKB48）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "当時",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "46",
+          "text": "今をときめく川口春奈、瀬戸康史",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "池松壮亮、大泉洋",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "前の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "こういう楽しみ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "本を読んで、主人公が野球部を強い部に変えるということでしょうか？\nそうですよね。前田敦子さんが主役ということだけは、なんとなく覚えています。\nでも、他のキャストもなかなか良い顔ぶれですね。\nまた、時間があれば観てみようと思います。\nどうもありがとうございました。",
+      "timestamp": "2023-02-27T15:31:55.096663+09:00",
+      "internal_states": [
+        {
+          "id": "50",
+          "text": "本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "野球部",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "強い部",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "変えるということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "55",
+          "text": "前田敦子さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "主役ということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "他のキャスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "良い顔ぶれ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございました。",
+      "timestamp": "2023-02-27T15:32:29.412266+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

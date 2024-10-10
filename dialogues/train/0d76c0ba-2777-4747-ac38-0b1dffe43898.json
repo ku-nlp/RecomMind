@@ -1,0 +1,759 @@
+{
+  "dialog_id": "0d76c0ba-2777-4747-ac38-0b1dffe43898",
+  "created_timestamp": "2023-02-08T19:55:07.699994+09:00",
+  "archived_timestamp": "2023-02-08T20:23:39.225515+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "宜しくお願い致します。",
+      "timestamp": "2023-02-08T20:01:21.201084+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんわ。よろしくお願いいたします。",
+      "timestamp": "2023-02-08T20:01:22.122067+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですがどのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-08T20:01:28.892483+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "サスペンスとホラー以外はだいたいみます。",
+      "timestamp": "2023-02-08T20:02:19.222079+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "サスペンス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "1",
+          "text": "ホラー以外",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画と洋画ならどちらがお好きでしょうか？",
+      "timestamp": "2023-02-08T20:02:42.680454+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-08T20:01:37.462375+09:00",
+          "query": "太陽が",
+          "genres": "",
+          "results": "333967,337450,338649,343546,353243"
+        },
+        {
+          "timestamp": "2023-02-08T20:02:01.698854+09:00",
+          "query": "アラン・ドロン",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-08T20:02:27.640039+09:00",
+          "query": "検察",
+          "genres": "",
+          "results": "1635,1964,238161,239900,28680,320267,325423,341713,348862,350416,352549,362613,363102"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "どちらもこだわりはありません。",
+      "timestamp": "2023-02-08T20:03:22.468660+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "こだわり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "洋画ですが「I am Sam　アイ・アム・サム」がご覧になられましたか？ジャンルはヒューマンドラマです。",
+      "timestamp": "2023-02-08T20:04:19.521879+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「I　am　Sam　アイ・アム・サム」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ヒューマンドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "238161_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "以前に金曜ロードショウでやっていたのをみました。障害のある父親と子供の話ですね？",
+      "timestamp": "2023-02-08T20:06:04.670148+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "金曜ロードショウ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "障害のある父親と子供の話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "その通りです。友人とその映画の話になったとおろだったので、ふと思い出しました。では全くジャンルを変えて「記憶にございません！」はいかがでしょうか？邦画です。",
+      "timestamp": "2023-02-08T20:07:43.912392+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "友人とその映画の話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "おろ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「記憶にございません！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-08T20:06:35.231259+09:00",
+          "query": "ヒューマンドラマ",
+          "genres": "",
+          "results": "344125"
+        },
+        {
+          "timestamp": "2023-02-08T20:07:09.851393+09:00",
+          "query": "ドラマ",
+          "genres": "",
+          "results": "153473,240108,324029,330912,332328,336170,336791,344125,349516,350927,354107,354182,354345,358099,361463,363764,364404,367638,367984,374583"
+        }
+      ],
+      "checked": [
+        "367984_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "記憶喪失になった首相が奮闘する話ですね。アメリカの大統領が帰国するあたりは皮肉も効いていて映画っぽいなあと思いました。",
+      "timestamp": "2023-02-08T20:10:41.718314+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "記憶喪失になった首相",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "奮闘する話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "アメリカの大統領が帰国するあたり",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "皮肉",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "それもご覧になっていましたか。では三谷幸喜作品の「ステキな金縛り」はいかがでしょうか？",
+      "timestamp": "2023-02-08T20:13:02.975888+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "三谷幸喜作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「ステキな金縛り」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-08T20:12:18.351411+09:00",
+          "query": "三谷幸喜",
+          "genres": "",
+          "results": "322994,328680,338649,345033,352648,367984,370652"
+        }
+      ],
+      "checked": [
+        "338649_title",
+        "338649_director_name"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "それは観たことないです。ミステリでしたか？",
+      "timestamp": "2023-02-08T20:14:21.881681+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "ミステリ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "殺人事件の裁判に幽霊が証言台に立つという設定のミステリー・コメディとでも言うのでしょうか。",
+      "timestamp": "2023-02-08T20:15:53.505300+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "殺人事件の裁判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "幽霊",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "25",
+          "text": "証言台",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "立つという設定のミステリー・コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "幽霊ですか。ホラーではないですか？三谷作品だから笑いの方向ではあるのですよね？",
+      "timestamp": "2023-02-08T20:17:10.024810+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "幽霊",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "28",
+          "text": "ホラー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "29",
+          "text": "三谷作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "笑いの方向",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "西田敏行が落ち武者の幽霊役です。ホラー要素は全くないです。西田さんのこの作品での演技は全てをさらけ出しているようで面白いです。",
+      "timestamp": "2023-02-08T20:18:51.308212+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "西田敏行",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "落ち武者の幽霊役",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ホラー要素",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "34",
+          "text": "西田さんのこの作品での演技",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "338649_review-2"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "落ち武者の幽霊が裁判に出るのですね。なかなか面白い設定ですね。おもしろそうですね。",
+      "timestamp": "2023-02-08T20:20:08.668767+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "落ち武者の幽霊",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "裁判",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "37",
+          "text": "面白い設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "そうなんです。このあり得ない設定に三谷幸喜は出ていないのに、彼の顔が浮かんでしまいます。",
+      "timestamp": "2023-02-08T20:21:03.518266+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "このあり得ない設定",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "三谷幸喜",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "彼の顔",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "338649_review-0"
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "三谷さんの考える映画はいつも面白いですね。いつもどこかに三谷節が効いているというか。どうやって考えているんでしょうねえ。",
+      "timestamp": "2023-02-08T20:22:40.628344+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "三谷さんの考える映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "三谷節",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "本当に。いつも笑ってしまいます。機会があればご覧ください。ありがとうございました。",
+      "timestamp": "2023-02-08T20:23:35.024098+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

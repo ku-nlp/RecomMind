@@ -1,0 +1,942 @@
+{
+  "dialog_id": "ec84da31-43df-40a3-957a-52462ad9fe8e",
+  "created_timestamp": "2023-03-01T11:58:29.997942+09:00",
+  "archived_timestamp": "2023-03-01T12:42:12.246303+09:00",
+  "recommender": {
+    "name": "020",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 2,
+      "recommendation_success": 2,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "004",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-03-01T11:59:55.092857+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、こちらこそどうぞよろしくお願いいたします。",
+      "timestamp": "2023-03-01T12:00:26.416225+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段はどんな映画をご覧になられていますか？",
+      "timestamp": "2023-03-01T12:00:56.295689+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、特にジャンルが決まってないですけど、\nコメディやアクションなど、いろいろみますよ。",
+      "timestamp": "2023-03-01T12:03:21.702961+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "コメディやアクション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "それでは主人公がドラマティックな暮らしを送るスラムドッグ＄ミリオネアをおすすめさせていただければと思います。こちらご存じでしょうか？",
+      "timestamp": "2023-03-01T12:08:21.850246+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "主人公がドラマティックな暮らしを送るスラムドッグ＄ミリオネア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-01T12:04:49.988907+09:00",
+          "query": "ハスラーズ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T12:04:52.067613+09:00",
+          "query": "ハスラーズ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T12:05:00.800352+09:00",
+          "query": "HUSTLERS",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T12:05:11.702901+09:00",
+          "query": "HUSTLE",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T12:05:13.372232+09:00",
+          "query": "HUSTLE",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-01T12:05:20.828783+09:00",
+          "query": "ハッスル",
+          "genres": "",
+          "results": "346643"
+        },
+        {
+          "timestamp": "2023-03-01T12:05:33.244069+09:00",
+          "query": "",
+          "genres": "comedy",
+          "results": "11933,1220,146948,14886,148866,15072,150962,151599,152271,152763,15577,159811,159869,162817,162856,17046,18074,18114,18115,18116,19132,1964,20109,20555,20726,20735,20876,21356,22113,234690,234846,235071,235794,236086,236089,236590,236645,237101,237220,237272,239390,239807,239900,240127,240346,240408,240710,242063,25599,25688,25895,27023,28621,28671,29040,318646,318678,319016,319159,319160,319234,319257,319259,319263,319428,319767,320268,320442,321052,321099,321598,321822,321839,322086,322281,322460,322489,322605,322704,322736,322814,322994,323368,323400,323638,323681,323799,323917,324021,324138,324261,324398,324402,324486,324537,325271,325622,325768,325865,326063,326246,326289,326503,326504,326554,326660,326699,326744,327025,327078,327082,327204,327386,327423,327689,327719,328271,328367,328581,328680,328969,329291,329294,329299,329419,329493,329516,329522,329594,329604,329668,329674,329681,329811,329859,330134,330288,330434,330464,330487,330560,330569,330690,330915,331238,331826,331863,332065,332328,332361,332566,332669,332672,332753,332848,333196,333240,333261,333367,333494,333529,333712,334016,334095,334208,334235,334576,334577,335210,335381,335402,335516,335517,335655,335712,335957,336605,336808,337482,337854,338048,338115,338136,338199,338382,338393,338644,338649,339115,339775,340604,340605,340721,340758,340849,340852,340953,341445,341460,341474,341568,341583,341640,341643,341701,342205,342238,342280,342770,342773,343345,343711,344125,344300,344358,344380,344429,344472,344621,345033,345047,345056,345075,345366,345649,345853,345939,346099,346100,346408,346413,346630,346643,346663,346720,347021,347261,347290,347358,347371,347375,347552,347781,347864,347865,348001,348087,348291,348578,348781,348826,349079,349124,349188,349571,349679,349726,349920,350110,350237,350275,350366,350453,350531,350678,350824,350869,351030,351128,351145,351201,351640,351817,352092,352156,352174,352357,352585,352647,352648,352927,353113,353214,353403,353460,353612,353664,353722,353813,354027,354031,354092,354392,354455,354523,354629,354931,355278,355381,355434,355482,355570,355574,355581,355696,355704,355756,355820,356033,356055,356331,356368,356464,356503,356636,356755,356835,357030,357055,357070,357209,357362,357845,357886,357933,358011,358066,358068,358306,358499,358905,358946,358947,359118,359203,359752,359876,359899,360430,360432,360593,360839,360977,361091,361148,361332,361356,361373,361565,361726,361801,361832,362181,362195,362465,362627,362656,362657,363021,363060,363101,363106,363119,363202,363253,363374,363392,363565,363762,363764,364143,364183,364358,364579,364766,364768,365099,365243,365245,365513,365596,365598,365768,365786,366008,366015,366031,366134,366226,366360,366409,366492,366550,366584,366665,366786,366787,366826,366853,366945,366964,367254,367261,367262,367521,367638,367687,367867,367984,368323,368576,369013,369157,369333,369344,369351,369470,369522,369619,369693,369808,369949,370019,370093,370182,370446,370555,370652,371076,371343,372048,372784,373349,373772,374440,374516,374719,375074,375316,375327,375373,375940,377123,377743,378013,378595,379867,381046,381726,381816,383234,52312,54734,7378,7400,83465,84338,84698,85030,85258,9001,981"
+        },
+        {
+          "timestamp": "2023-03-01T12:06:48.933820+09:00",
+          "query": "スラムドッグ",
+          "genres": "",
+          "results": "332328"
+        }
+      ],
+      "checked": [
+        "332328_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "存じないですね、是非聞かせてください",
+      "timestamp": "2023-03-01T12:10:24.078437+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "承知いたしました。こちら舞台がインドなのですが、主人公がミリオネアに出場する話なんです。昔みのもんたが司会をしていたクイズ番組と、まったく同じ形式のものですが、観られたことはございますでしょうか？",
+      "timestamp": "2023-03-01T12:12:23.895181+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "こちら舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "インド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "主人公がミリオネアに出場する話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "昔みのもんたが司会をしていたクイズ番組",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "同じ形式のもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "観られたこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "クイズ番組ですか？",
+      "timestamp": "2023-03-01T12:15:06.234558+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "クイズ番組",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "はい、2000年から7年放送していて、「ファイナルアンサー？」とみのもんたが言う決め台詞が流行語になりました。",
+      "timestamp": "2023-03-01T12:17:13.933886+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "2000年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "7年",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「ファイナルアンサー？」とみのもんたが言う決め台詞",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "流行語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "あの番組が終わるまでは日本にいなかったですので、観たことがなくて残念です。\n児玉清さん司会のなら少しみましたけど、また全然違うのですか？",
+      "timestamp": "2023-03-01T12:19:20.047611+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "あの番組",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "日本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "児玉清さん司会のなら",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "海外にいらしたのですね。はい、児玉清さんの方はアタック25ですね。アタック25は出場者が複数いて得点をきそいますが、ミリオネアは１人だけ出場します。４択クイズに連続正解すれば大金が手にはいるのですが、少しだけ賞金をもらって２，３問正解で途中退場できたり、制限回数ありで友人にヘルプの電話をかけられる仕掛けが少し違いました。",
+      "timestamp": "2023-03-01T12:23:40.264756+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "海外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "児玉清さんの方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "アタック25",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "出場者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "複数",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "得点",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "ミリオネア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "１人",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "４択クイズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "連続",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "大金",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "手",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "賞金",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "２，３問正解",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "途中",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "退場できたり、制限回数ありで友人にヘルプの電話をかけられる仕掛け",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "へぇー、そんなのあったのですね。そして、映画はその昔みのもんたスタイル似ですね？",
+      "timestamp": "2023-03-01T12:25:34.089479+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "みのもんたスタイル似",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうなんですよ。それで主人公があと１問ですべて正解！というところで警察に取り調べを受けることになります。学歴もないし貧しい育ちなので、不正を疑われてしまい、主人公はなぜこんなに難しい質問に次々こたえられることができたのか、人生語ることになるのですが、ものすごく壮絶で見ごたえがありました！",
+      "timestamp": "2023-03-01T12:27:39.420873+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "あと１問",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "正解！というところ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "警察",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "取り調べ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "学歴",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "貧しい育ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "不正",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "こんなに難しい質問",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほどです。確かにみんな気になりますよね。\nけど、クイズを解くのに、警察の取り調べを受けるのもすごい発想ですね(笑)",
+      "timestamp": "2023-03-01T12:29:38.934472+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "クイズを解くのに、警察の取り調べを受けるのもすごい発想",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ですよね(笑)それで警察にテレビ録画を再生しながら、主人公は「これはなんで知ってた⁉」と問い詰められるのですが警察がひどすぎて笑ってしまいました。",
+      "timestamp": "2023-03-01T12:32:36.234216+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "テレビ録画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "「これはなんで知ってた⁉」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "警察",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "気になります、ぜひ見てみたいと思います。\n新作とかではないですよね？",
+      "timestamp": "2023-03-01T12:37:45.899026+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "新作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "ありがとうございます！少し主人公の生い立ちで残酷というか心痛むシーンもありましたので、被推薦者様がしんどい時以外に観ていただいた方がよいかもしれません。はい、2009年製作で、まあまあ古いので配信サイトにあるかと思います。よろしければご覧ください。本日はありがとうございました。",
+      "timestamp": "2023-03-01T12:40:37.427978+09:00",
+      "internal_states": [
+        {
+          "id": "52",
+          "text": "主人公の生い立ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "残酷",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "54",
+          "text": "心痛むシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "55",
+          "text": "被推薦者様がしんどい時以外に観ていただいた方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "2009年製作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "配信サイト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "こちらこそありがとうございました。\nアドバイスも承知しました。ぜひ見てみたいと思います。",
+      "timestamp": "2023-03-01T12:42:11.034523+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "アドバイス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    }
+  ]
+}

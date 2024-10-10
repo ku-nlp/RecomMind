@@ -1,0 +1,1128 @@
+{
+  "dialog_id": "9ccf1e4e-f95d-4baa-beab-9e7401928a54",
+  "created_timestamp": "2023-03-06T13:59:29.582360+09:00",
+  "archived_timestamp": "2023-03-06T14:30:15.113220+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "031",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-03-06T14:00:21.166890+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。初めまして。よろしくお願い致します。",
+      "timestamp": "2023-03-06T14:00:38.184058+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "今日はどのような映画をご覧になりたいご気分でしょうか。",
+      "timestamp": "2023-03-06T14:00:48.541335+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "漠然としていますが、励ましてくれるような映画があれば観たいです。",
+      "timestamp": "2023-03-06T14:01:40.640500+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "励ましてくれるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画、洋画、ジャンルなどは、何かお好みはございますか？逆にこれだけは苦手、というジャンルがあれば教えて頂けますでしょうか。",
+      "timestamp": "2023-03-06T14:02:37.519393+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画、洋画、ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "3",
+          "text": "苦手、というジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "洋画でドラマがいいですね。苦手は戦争ものです。けれど、もし特にオススメという映画があればジャンル問わず教えていただけると嬉しいです！",
+      "timestamp": "2023-03-06T14:04:18.127135+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "苦手",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "戦争もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "8",
+          "text": "オススメという映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "洋画のドラマで、励まされる映画でしたら、2015年の「マイ・インターン」はご覧になったことはありますか？ロバート・デ・ニーロがシニアインターン制度で再就職して活躍していく話です。",
+      "timestamp": "2023-03-06T14:05:34.644143+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "洋画のドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "励まされる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「マイ・インターン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "14",
+          "text": "シニアインターン制度",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "再就職して活躍していく話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T14:02:44.592893+09:00",
+          "query": "ザリガニ",
+          "genres": "",
+          "results": "323638"
+        },
+        {
+          "timestamp": "2023-03-06T14:04:47.055980+09:00",
+          "query": "インターン",
+          "genres": "",
+          "results": "350931,353403"
+        }
+      ],
+      "checked": [
+        "353403_title",
+        "353403_cast_name-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "「マイ・インターン」は観たことがあります。デニーロでしたか。ちょっと役柄がいつもと違った感じなので忘れていました。他にオススメはありますでしょうか。",
+      "timestamp": "2023-03-06T14:07:40.818926+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "「マイ・インターン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "17",
+          "text": "デニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "18",
+          "text": "役柄がいつもと違った感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "オススメ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "最近80年代の映画を見直しているのですが、1989年の「ワーキング・ガール」はいかがでしょうか。若かりし頃のハリソン・フォードがカッコいいです。",
+      "timestamp": "2023-03-06T14:09:04.976943+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "最近80年代の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「ワーキング・ガール」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "りし頃のハリソン・フォード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T14:07:59.158907+09:00",
+          "query": "ワーキング",
+          "genres": "",
+          "results": "25895,337475,350453,351032,351840,359180"
+        },
+        {
+          "timestamp": "2023-03-06T14:08:04.498861+09:00",
+          "query": "ワーキング",
+          "genres": "",
+          "results": "25895,337475,350453,351032,351840,359180"
+        }
+      ],
+      "checked": [
+        "25895_title",
+        "25895_cast_name-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "80年代の映画ですか。いいですね！「ワーキング・ガール」は観たことがあります。ハリソン・フォード素敵ですね！メラニー・グリフィスとシガーニー・ウィーバーもなかなかいいキャラクターだと思います。また観てみたくなりました（笑）",
+      "timestamp": "2023-03-06T14:11:51.944337+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "80年代の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「ワーキング・ガール」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ハリソン・フォード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "メラニー・グリフィス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "シガーニー・ウィーバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "いいキャラクター",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "観てみたくなりました（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "古い映画良いですよね。先日はゴーストバスターズと古いバージョンのベストキッドを見ました。新しいバージョンの「ベスト・キッド」はご覧になられましたか？ジャッキーチェンが主演です。",
+      "timestamp": "2023-03-06T14:14:14.156471+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "古い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ゴーストバスターズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "古いバージョンのベストキッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "新しいバージョン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "「ベスト・キッド」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ジャッキーチェン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T14:09:26.178118+09:00",
+          "query": "ソフィー",
+          "genres": "",
+          "results": "240799,322729,323478,327078,338843,350870,351128,355740,356582,366075,367339,368253,372807"
+        },
+        {
+          "timestamp": "2023-03-06T14:09:30.982375+09:00",
+          "query": "ソフィ",
+          "genres": "",
+          "results": "160166,19370,236574,240799,319160,319428,322729,323478,325318,327078,328622,329400,331238,333331,334300,334837,335426,338843,340512,341531,348248,350453,350870,351128,354345,355740,355752,356582,358010,360497,361036,361609,363202,366075,366738,367339,367982,368253,372807,85126"
+        },
+        {
+          "timestamp": "2023-03-06T14:09:43.067959+09:00",
+          "query": "選択",
+          "genres": "",
+          "results": "15902,19132,19758,20782,2132,237362,239766,239767,320063,321766,324256,327271,330473,331288,332328,332598,332669,334339,335874,337960,338302,338319,339115,341770,342444,343391,349221,349516,349677,350923,350926,354944,355057,357995,359023,359052,360564,361665,362501,362605,362725,364211,364403,364788,366134,366738,367173,367262,368191,370087,373349,374583,379867,380251,51226,84338,85186,87913"
+        },
+        {
+          "timestamp": "2023-03-06T14:09:53.851775+09:00",
+          "query": "ワーキング",
+          "genres": "",
+          "results": "25895,337475,350453,351032,351840,359180"
+        },
+        {
+          "timestamp": "2023-03-06T14:11:24.672598+09:00",
+          "query": "",
+          "genres": "family",
+          "results": "150435,152271,159561,159811,159875,162761,162856,20735,20876,21356,236089,236590,237101,237362,241078,241897,28621,28627,318678,319257,321736,321839,321932,322086,322281,322404,322704,322771,323098,323222,323636,323686,324260,324261,324398,324408,325317,326008,326246,326247,326362,326442,326445,326551,326660,326664,326905,327496,327529,327770,328367,328448,328493,328626,328724,329124,329418,329464,329546,329604,329606,329736,329809,329970,330039,330487,331366,332068,332361,332425,332670,332672,332753,332848,333194,333261,333331,333712,333833,333957,333976,334288,334304,335255,335426,335440,335605,335655,335712,335766,335850,336170,336292,336605,336703,336808,337854,338017,338048,338075,339701,339775,339818,339986,340427,340606,341531,341770,342051,343345,343456,343761,344380,345366,346960,347371,347372,348091,348264,349443,349726,349728,349920,350111,350897,351369,352692,353496,353538,353612,353664,354523,354988,355316,356423,356582,358499,358645,358954,359120,359899,360962,360986,361373,361801,362195,362714,362962,363528,363644,363762,363978,364123,364183,365085,365489,365791,366015,366134,366550,366607,367144,367321,367823,369058,369413,369619,370020,370565,370836,371076,371105,371973,372796,374449,374768,375074,375327,381859,495,6207,8508"
+        },
+        {
+          "timestamp": "2023-03-06T14:12:49.503696+09:00",
+          "query": "ベストキッド",
+          "genres": "family",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-06T14:12:55.922927+09:00",
+          "query": "ベスト",
+          "genres": "",
+          "results": "237383,25289,318646,319257,321617,325867,327025,336292,344605,346099,350923,354473,357279,357995,358670,359809,362962,369195,370458,51461"
+        }
+      ],
+      "checked": [
+        "336292_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ゴーストバスターズ！懐かしいです。ベストキッドはラルフ・マッチオ主演のではなくてですか？ジャッキー・チェン主演のものは観たことがないです。",
+      "timestamp": "2023-03-06T14:16:28.847175+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "ゴーストバスターズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ベストキッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ラルフ・マッチオ主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ジャッキー・チェン主演のもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ラルフマッチオ（笑）懐かしすぎます。2010年にリメイクされて、舞台は中国、カンフーバージョンになっています。ジャッキー・チェンがミヤギさんの役柄、マッチオを、ウィルスミスの息子のジェイデン・スミスが演じています。",
+      "timestamp": "2023-03-06T14:18:40.063251+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "ラルフマッチオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "2010年",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "中国、カンフーバージョン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "ジャッキー・チェン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ミヤギさんの役柄、マッチオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "ウィルスミスの息子のジェイデン・スミス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T14:15:44.832872+09:00",
+          "query": "美しく",
+          "genres": "",
+          "results": "10909,159815,23378,236089,240346,319263,321945,341293,345863,347018,349571,350870,351201,358949,362606,366134,370667,6098,87913,9889"
+        },
+        {
+          "timestamp": "2023-03-06T14:16:12.499881+09:00",
+          "query": "永遠に",
+          "genres": "",
+          "results": "159811,160134,161716,163028,233769,241003,241899,320635,325669,325867,326062,326744,327719,333828,335516,341090,341437,344013,348091,350366,357342,357404,358506,361801,364403,364768,367684,369470,375940,7547"
+        },
+        {
+          "timestamp": "2023-03-06T14:16:43.104606+09:00",
+          "query": "ベスト",
+          "genres": "",
+          "results": "237383,25289,318646,319257,321617,325867,327025,336292,344605,346099,350923,354473,357279,357995,358670,359809,362962,369195,370458,51461"
+        }
+      ],
+      "checked": [
+        "336292_year",
+        "336292_cast_name-0",
+        "336292_cast_name-1"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "私の中でベストキッドはラルフ・マッチオでミヤギさんはノリユキ・パット・モリタに固定されてしまっていて。。ペンキを塗る動作が訓練になったり、お箸でハエを掴むシーンでむかしお腹が捩れるくらい笑いました。\n\nジェイデン・スミスは知りませんでした。もさっとしたラルフ・マッチオよりクールになっているのでしょうか。",
+      "timestamp": "2023-03-06T14:23:39.587857+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "私の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ベストキッド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "ラルフ・マッチオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "51",
+          "text": "ミヤギさん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ノリユキ・パット・モリタ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "ペンキを塗る動作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "訓練",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "55",
+          "text": "なったり、お箸でハエを掴むシーンでむかしお腹が捩れるくらい",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "56",
+          "text": "ジェイデン・スミス",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "57",
+          "text": "もさっとしたラルフ・マッチオ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ノリユキ・パット・モリタ、フルネーム！めちゃくちゃ詳しいじゃないですか！(笑）\nそのペンキやお箸のシーンも、別の動きですが再現されていて面白かったですよ。最後はジェイデン君の顔つきも体つきも変わって、かなり訓練したんだろうなと感心しました。あの名作（笑）とは別物だと思って楽しんで観て下さい。",
+      "timestamp": "2023-03-06T14:25:31.452615+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "ノリユキ・パット・モリタ、フルネーム！めちゃくちゃ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "59",
+          "text": "そのペンキやお箸のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "別の動き",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "62",
+          "text": "顔つき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "63",
+          "text": "体つき",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "64",
+          "text": "あの名作（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "65",
+          "text": "別物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ペンキやお箸のシーンも別の動きで再現されているんですね！そして面白いとお感じになったんですね！俄然観てみたくなりました（笑）理由はわからないけれど観たら励まされるような気がします（笑）ご紹介いただきどうもありがとうございました！！",
+      "timestamp": "2023-03-06T14:30:01.759258+09:00",
+      "internal_states": [
+        {
+          "id": "66",
+          "text": "ペンキやお箸のシーン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "別の動き",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "68",
+          "text": "お感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "観てみたくなりました（笑）理由",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "70",
+          "text": "観たら励まされるような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "今日はお付き合いありがとうございました。",
+      "timestamp": "2023-03-06T14:30:11.191128+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

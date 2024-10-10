@@ -1,0 +1,716 @@
+{
+  "dialog_id": "f54b4508-63e8-41d2-a627-119f1b030d30",
+  "created_timestamp": "2023-03-12T15:03:34.705481+09:00",
+  "archived_timestamp": "2023-03-12T15:38:46.153937+09:00",
+  "recommender": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "052",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 2,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！よろしくお願いいたします。",
+      "timestamp": "2023-03-12T15:04:59.630051+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは！よろしくお願いします。（エラーが出てしまいすみません）",
+      "timestamp": "2023-03-12T15:05:10.825606+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "（エラーが出てしまいすみません）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "桜が咲いていますね。今日はどんな映画を見たい気分でしょうか？",
+      "timestamp": "2023-03-12T15:05:31.078785+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "桜",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "すっかり春らしい季節になりましたね！\n実話に基づいたストーリーでおすすめはありますか？ジャンルは問わないです。",
+      "timestamp": "2023-03-12T15:06:50.875114+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "春らしい季節",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "実話に基づいたストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「戦火の中へ」という韓国の映画はご覧になったことはありますか？",
+      "timestamp": "2023-03-12T15:10:07.844678+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「戦火の中へ」という韓国の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-12T15:07:50.149854+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        },
+        {
+          "timestamp": "2023-03-12T15:09:05.638074+09:00",
+          "query": "8Mile",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-12T15:09:26.932174+09:00",
+          "query": "戦火の中へ",
+          "genres": "",
+          "results": "337960"
+        }
+      ],
+      "checked": [
+        "337960_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "いえ、まだ観たことはないです。戦争の映画ですか？",
+      "timestamp": "2023-03-12T15:10:49.398115+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "戦争の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "はい、アクション、ドラマの要素が入っている戦争映画です。朝鮮戦争時、北朝鮮軍の猛攻に立ち向かったわずか71名の韓国軍学徒兵たちの実話に基づいた映画です。",
+      "timestamp": "2023-03-12T15:11:44.945132+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "アクション、ドラマの要素が入っている戦争映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "朝鮮戦争時、北朝鮮軍の猛攻に立ち向かったわずか71名の韓国軍学徒兵たちの実話に基づいた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そんな実話があったとは知らなかったです。なんだか辛いシーンが出てきそうですね。いつ頃作られた映画でしょうか？",
+      "timestamp": "2023-03-12T15:13:19.779483+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "そんな実話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "辛いシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "いつ頃作られた映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "2011年の映画で、「天国の階段」というドラマに出ていたクォン・サンウも出ています。",
+      "timestamp": "2023-03-12T15:14:34.220269+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "2011年の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「天国の階段」というドラマに出ていたクォン・サンウ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "337960_year"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "あまり韓国のドラマに詳しくないのですが、クォン・サンウという方は人気の俳優さんでしょうか？聞くのが辛いところですが、映画の中では、何人くらい生き残られるのでしょうか、、？",
+      "timestamp": "2023-03-12T15:17:43.459957+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "韓国のドラマ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "クォン・サンウという方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "人気の俳優さん",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "辛いところ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "映画の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "はい、韓国で有名な俳優です。凄まじい戦火の中にあって学徒兵は全滅かと思われましたが、生き残った人が数人かいたと思います。実話という事で、生き残りの元学生のインタビューを流したエンディングもあった記憶があります。",
+      "timestamp": "2023-03-12T15:23:13.580379+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "韓国で有名な俳優",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "凄まじい戦火の中",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "21",
+          "text": "学徒兵",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "22",
+          "text": "全滅",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "23",
+          "text": "生き残った人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "24",
+          "text": "数人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "実話という事で、生き残りの元学生のインタビューを流したエンディングもあった記憶",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "すみません、そしてジャンルは問わないとお伝えして、せっかく推薦いただいたのですが、ちょっと辛そうで観るのを躊躇しております。。一番のおすすめポイントは、つらいだけではなくて、アクションや人間ドラマがあるようなところでしょうか？",
+      "timestamp": "2023-03-12T15:29:12.022303+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "一番のおすすめポイント",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "つらいだけではなくて、アクションや人間ドラマがあるようなところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "そうですね、勇敢に戦って散っていった韓国軍学徒兵たちの姿を破格のスケールで描く戦争アクション大作なので、アクションシーンを楽しめるのと、T.O.Pというアイドルも出演していて、不安と責任に揺れる一人の少年の成長をとてもよく演じていました。",
+      "timestamp": "2023-03-12T15:31:45.711451+09:00",
+      "internal_states": [
+        {
+          "id": "29",
+          "text": "そうですね、勇敢に戦って散っていった韓国軍学徒兵たちの姿を破格のスケールで描く戦争アクション大作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "アクションシーン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "T.O.Pというアイドル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "不安と責任に揺れる一人の少年の成長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "なるほど！かなりスケールも大きくて、若い方たちも楽しめたり、深く考えさせてもらえるような内容なんですね。監督も韓国では有名な方なんでしょうか？",
+      "timestamp": "2023-03-12T15:36:32.472356+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "スケール",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "大きくて、若い方たち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "35",
+          "text": "深く考えさせてもらえるような内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "韓国では有名な方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "『私の頭の中の消しゴム』『サヨナライツカ』のイ・ジェハン監督で、有名な監督です。人はなぜ戦うのかと考えさせられる良い作品だと思います。良かったら是非見てみてください。",
+      "timestamp": "2023-03-12T15:37:46.707295+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "『私の頭の中の消しゴム』『サヨナライツカ』のイ・ジェハン監督で、有名な監督",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "戦うのかと考えさせられる良い作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "『私の頭の中の消しゴム』は観たことがありました！詳しい内容を教えていただいてありがとうございました！",
+      "timestamp": "2023-03-12T15:38:26.217413+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "『私の頭の中",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "消し",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "詳しい内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "こちらこそ、ありがとうございました！",
+      "timestamp": "2023-03-12T15:38:41.573275+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "dialog_id": "ef048a10-49c6-4922-b8ed-aa795e89fbf5",
+  "created_timestamp": "2023-02-24T18:58:27.678742+09:00",
+  "archived_timestamp": "2023-02-24T19:24:11.602912+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんばんは！よろしくお願いいたします。",
+      "timestamp": "2023-02-24T18:59:38.991108+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いします。",
+      "timestamp": "2023-02-24T18:59:40.179760+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "雨が降っていますね。雨の日にぴったりな映画とかありますか？",
+      "timestamp": "2023-02-24T19:00:20.736403+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "雨",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "雨の日",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ぴったりな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "雨の日だと、恋愛映画で、雨に濡れながらダンスするミュージカル映画があります。ミュージカルはお好きですか？",
+      "timestamp": "2023-02-24T19:02:56.724285+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "雨の日",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "恋愛映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "雨",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "濡れながらダンスするミュージカル映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T19:01:39.087981+09:00",
+          "query": "雨に",
+          "genres": "",
+          "results": "1220,15902,162818,28671,328448,335925,341770,345047,355718,357070,358653,842"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ララランドしか見たことないですが、他のミュージカルはあんまり見たことないです。",
+      "timestamp": "2023-02-24T19:04:03.544873+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ララランド",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "他のミュージカル",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "あんまり",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "「雨に唄えば」という映画で、1950年代のアメリカ映画で、ストーリー自体はベタな恋愛映画で、コメディも入っているので明るい気持ちで見られます。",
+      "timestamp": "2023-02-24T19:06:07.017989+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「雨に唄えば」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "1950年代のアメリカ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "ストーリー自体",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ベタな恋愛映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "明るい気持ち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "1220_title"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "なるほど。恋愛映画は割と好きなので、見てみたいと思います。",
+      "timestamp": "2023-02-24T19:07:16.788746+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "恋愛映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "レイニーデイインニューヨークはご存じですか？こちらも恋愛映画ですが、2019年制作なので新しめですね。大学生カップルのラブコメです。",
+      "timestamp": "2023-02-24T19:09:14.183408+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "レイニーデイインニューヨーク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "恋愛映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "2019年制作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "大学生カップルのラブコメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T19:07:04.985239+09:00",
+          "query": "レイニーデイ",
+          "genres": "",
+          "results": ""
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "有名な俳優など出ていますか？",
+      "timestamp": "2023-02-24T19:10:07.756723+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "有名な俳優",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "出演はティモシー・シャラメとエル・ファニングです。背景にNYの名所が出て来るのでそのあたりがお好きな方は楽しめると思います。",
+      "timestamp": "2023-02-24T19:12:10.652724+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "出演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "ティモシー・シャラメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "26",
+          "text": "エル・ファニング",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "27",
+          "text": "背景",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "NYの名所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "そのあたりがお好きな方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "そうなんですね。洋画以外に、邦画やアジアの映画でおすすめの作品はありますか？",
+      "timestamp": "2023-02-24T19:14:27.574371+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "洋画以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "邦画やアジアの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "おすすめの作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "邦画というか、アニメで雨をテーマにしているものでは「言の葉の庭」や「天気の子」があります。アニメだけど描写が美しいです。",
+      "timestamp": "2023-02-24T19:17:07.005840+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "いうか、アニメで雨をテーマにしているもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「言の葉の庭」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "「天気の子」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "描写",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T19:15:22.619530+09:00",
+          "query": "言の葉",
+          "genres": "",
+          "results": "344686"
+        },
+        {
+          "timestamp": "2023-02-24T19:15:29.033334+09:00",
+          "query": "ことの",
+          "genres": "",
+          "results": "11831,12902,12926,152271,16482,20109,2046,2331,236086,318646,319259,320059,320442,321617,324563,325097,326850,327082,327926,329231,329675,330178,330507,333193,333252,333402,334089,335568,3367,338319,340427,340496,341880,343498,345678,346639,347764,348260,349677,350698,350728,351032,351128,352551,352927,354629,355696,357140,358340,358906,358994,359026,359061,359641,360198,360444,360839,362186,362606,363357,363764,364403,364404,366068,367262,367924,368191,368738,369470,371358,374583,377182,85030"
+        },
+        {
+          "timestamp": "2023-02-24T19:15:38.586511+09:00",
+          "query": "ことの葉",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-24T19:16:18.156796+09:00",
+          "query": "言の葉の庭",
+          "genres": "",
+          "results": "344686"
+        },
+        {
+          "timestamp": "2023-02-24T19:16:37.862164+09:00",
+          "query": "天気の",
+          "genres": "",
+          "results": "355278,366483"
+        }
+      ],
+      "checked": [
+        "366483_title"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "はい、その２作は見ました。とても良い作品ですね。",
+      "timestamp": "2023-02-24T19:17:39.636404+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "その２作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "良い作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "ええ、私も雨を通して心を通わせるシーンをアニメでこんなふうにきれいに演出できるんだなと思いながら見ました。",
+      "timestamp": "2023-02-24T19:19:29.878583+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "私も雨を通して心を通わせるシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "色々ご紹介いただき、ありがとうございました！週末はいろいろ楽しめそうです。",
+      "timestamp": "2023-02-24T19:20:58.996671+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "週末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "あ、「恋は雨上がりのように」は見られました？こちらは大泉洋と小松菜奈の年の差の恋愛ストーリーです。もしよければ。",
+      "timestamp": "2023-02-24T19:22:10.739966+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "「恋は雨上がりのように」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "大泉洋と小松菜奈の年の差の恋愛ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-24T19:19:56.456994+09:00",
+          "query": "恋は",
+          "genres": "",
+          "results": "21553,321822,349344,353040,362533,362671,366965,369157,379025,7378"
+        }
+      ],
+      "checked": [
+        "362533_title"
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "見たことないです！２人とも好きな俳優さんです。是非見てみたいです。",
+      "timestamp": "2023-02-24T19:22:46.568539+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "２人とも好きな俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "では今週末は「恋は雨上がりのように」がいちばんおすすめかもしれませんね！ありがとうございました。",
+      "timestamp": "2023-02-24T19:23:41.261937+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "今週末",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "「恋は雨上がりのように」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "362533_title"
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-02-24T19:24:06.993712+09:00",
+      "internal_states": []
+    }
+  ]
+}

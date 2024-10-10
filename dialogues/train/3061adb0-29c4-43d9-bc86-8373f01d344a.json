@@ -1,0 +1,804 @@
+{
+  "dialog_id": "3061adb0-29c4-43d9-bc86-8373f01d344a",
+  "created_timestamp": "2023-03-04T12:58:43.514999+09:00",
+  "archived_timestamp": "2023-03-04T13:33:58.280653+09:00",
+  "recommender": {
+    "name": "018",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 3,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "049",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 2,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは。よろしくお願いします。",
+      "timestamp": "2023-03-04T12:59:27.084865+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちわ。こちらこそよろしくお願いいたします。",
+      "timestamp": "2023-03-04T13:00:03.819157+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "お昼はもう食べられましたか？お料理に関する映画などはお好きですか？",
+      "timestamp": "2023-03-04T13:01:57.181506+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "お料理に関する映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "今日はまだ食べていませんが、食に関する映画は好きです。何かオススメの映画はありますか？",
+      "timestamp": "2023-03-04T13:02:40.158596+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "食に関する映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画だと武士の献立、南極料理人、邦画だとレミーのレストランとかフードトラック始めましたがあります。",
+      "timestamp": "2023-03-04T13:07:20.653705+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "武士の献立、南極料理人、邦画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "レミーのレストランとかフードトラック",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-04T13:03:11.397658+09:00",
+          "query": "武士の",
+          "genres": "",
+          "results": "338649,370667,374034,87913"
+        },
+        {
+          "timestamp": "2023-03-04T13:05:00.707086+09:00",
+          "query": "南極",
+          "genres": "",
+          "results": "2361,23987,318677,319069,319937,326362,328996,332598,333529,342687,358645,364985,365978,368180,86183"
+        },
+        {
+          "timestamp": "2023-03-04T13:05:02.851906+09:00",
+          "query": "南極",
+          "genres": "",
+          "results": "2361,23987,318677,319069,319937,326362,328996,332598,333529,342687,358645,364985,365978,368180,86183"
+        }
+      ],
+      "checked": [
+        "333529_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "「南極料理人」というのはどんな映画ですか？南極の基地が舞台なんでしょうか？",
+      "timestamp": "2023-03-04T13:08:34.015128+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「南極料理人」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "南極の基地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうです。いろいろ不便な南極値基地で、隊員たちのご飯を作ります。料理のやり方とかメニューとか、南極だとこうなるのか・・・と思います。",
+      "timestamp": "2023-03-04T13:11:45.771797+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "不便な南極値基地",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "隊員たちのご飯",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "料理のやり方とかメニューとか、南極",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "333529_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうなんですね。キャストはどんな人が出ているんでしょうか？",
+      "timestamp": "2023-03-04T13:12:24.016146+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "キャスト",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "どんな人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "主役が堺雅人さんで、生瀬勝久、高良健吾、西田尚美さんなどです。",
+      "timestamp": "2023-03-04T13:14:18.717510+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "主役",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "堺雅人さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "生瀬勝久、高良健吾、西田尚美さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "実力派のメンバーなんですね。見応えありそうです。",
+      "timestamp": "2023-03-04T13:15:00.815157+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "実力派のメンバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "見応え",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "最初和食がでてきて、ぶりの照り焼きとかおひたしとか、エビフライとか中華もあります。でも隊員がラーメンが食べたいと言って麺作りから頑張るのです。",
+      "timestamp": "2023-03-04T13:18:20.076545+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "和食",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ぶりの照り焼きとかおひたしとか、エビフライとか中華",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "隊員",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ラーメン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "麺作り",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "南極探検隊は長期の滞在になるそうなので、時間はたっぷりあるということですね。",
+      "timestamp": "2023-03-04T13:19:29.028528+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "南極探検隊",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "長期の滞在",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "たっぷりあるということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "やっぱりみんなラーメンが好きなのです。わたしは「シェフ 三ツ星フードトラック始めました」も好きで、キューバサンドの移動販売の話で、サンドイッチがおいしそうです。食べたことないからどんな味かなと思いながら観てました。",
+      "timestamp": "2023-03-04T13:23:10.044255+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "ラーメン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「シェフ　三ツ星フードトラック始めました」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "キューバサンドの移動販売の話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "サンドイッチ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "どんな味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-04T13:20:40.748375+09:00",
+          "query": "シェフ",
+          "genres": "",
+          "results": "18409,326246,340512,348781,350453,366943,368692,368764"
+        }
+      ],
+      "checked": [
+        "350453_title"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "キューバサンドってどんな感じの物なんですか？",
+      "timestamp": "2023-03-04T13:24:09.196120+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "キューバサンド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "どんな感じの物",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "ローストポーク、チーズ、ピクル、をはさんだサンドイッチで、パンはバケットが定番です。",
+      "timestamp": "2023-03-04T13:26:55.691253+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "ローストポーク、チーズ、ピクル、をはさんだサンドイッチ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "パン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "バケット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "定番",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "350453_title"
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "食べ応えありそうですね。\n一度映像で見てみたいと思います。",
+      "timestamp": "2023-03-04T13:28:50.967330+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "バケットをぎゅっとするので平らでしわしわ？になるけどボリュームはありますね。あと、ソースはマスタードで、たっぷりバターで焼くのでバターが濃くありつつぴりっとていうかんじかなあ。わたしもどこかで食べてみたいとおもいつつまだありません。",
+      "timestamp": "2023-03-04T13:32:18.393829+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "バケット",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ボリューム",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "あと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ソース",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "43",
+          "text": "マスタード",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "44",
+          "text": "バター",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "45",
+          "text": "濃くありつつぴりっとていうかんじかなあ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "はさむだけじゃなく、焼きも入るんですね。\nぜひ観てみたくなりました。面白そうな映画をオススメ頂いてありがとうございました。",
+      "timestamp": "2023-03-04T13:33:40.981373+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "焼き",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "ありがとうございました。",
+      "timestamp": "2023-03-04T13:33:53.099924+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

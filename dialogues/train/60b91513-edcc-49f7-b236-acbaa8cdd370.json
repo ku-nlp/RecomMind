@@ -1,0 +1,1046 @@
+{
+  "dialog_id": "60b91513-edcc-49f7-b236-acbaa8cdd370",
+  "created_timestamp": "2023-03-28T13:46:26.705158+09:00",
+  "archived_timestamp": "2023-03-28T14:27:42.560548+09:00",
+  "recommender": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "よろしくお願いします。",
+      "timestamp": "2023-03-28T13:48:59.617607+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こちらこそ、よろしくお願いします。さっそくですが、どのようなジャンルの映画がお好きですか？",
+      "timestamp": "2023-03-28T13:50:26.426486+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "コメディ映画が好きです！",
+      "timestamp": "2023-03-28T13:52:14.474853+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "コメディ映画、楽しいですよね！ラブコメなら、「ノッティングヒルの恋人」、動物が出てくる映画だと、「ドクター・ドリトル」（エディ・マーフィー版）、兄弟愛だと「ツインズ」などがお勧めです。ご覧になったことはありますか？",
+      "timestamp": "2023-03-28T13:55:03.923651+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "「ノッティングヒルの恋人」、動物が出てくる映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「ドクター・ドリトル」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "（エディ・マーフィー版）、兄弟愛",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「ツインズ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T13:52:52.051605+09:00",
+          "query": "ノッティングヒルの恋人",
+          "genres": "",
+          "results": "85258"
+        },
+        {
+          "timestamp": "2023-03-28T13:53:45.997423+09:00",
+          "query": "ドクター・ドリトル",
+          "genres": "",
+          "results": "370565"
+        },
+        {
+          "timestamp": "2023-03-28T13:54:20.030624+09:00",
+          "query": "ツインズ",
+          "genres": "",
+          "results": "14886"
+        }
+      ],
+      "checked": [
+        "14886_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "すみません、どれも観たことあります。好みが似ているということですね！！",
+      "timestamp": "2023-03-28T13:56:45.168986+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どれも観たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "似ているということ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "すごい偶然ですね！邦画の「Shall we ダンス？」、そのハリウッド・リメイク版「Shall we dance?」は、いかがでしょうか？ラブコメです。",
+      "timestamp": "2023-03-28T13:59:09.370661+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "「Shall　we　ダンス？」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "そのハリウッド・リメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「Shall　we　dance?」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T13:58:10.337977+09:00",
+          "query": "Shall we ダンス？",
+          "genres": "",
+          "results": "152763,18114,240843,24562,321617,328681,339230,342769,345047,347552,347686,349742,352899,353489,356057,356166,357070,362348,363978,370397,83911,84618"
+        }
+      ],
+      "checked": [
+        "152763_title",
+        "152763_genre-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "そのハリウッド・リメイク版「Shall we dance?」ってリチャードギアが出演していますか？どちらも観たことがあると記憶していますが、どういうとことが見どころが教えてください。",
+      "timestamp": "2023-03-28T14:01:48.544990+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "そのハリウッド・リメイク版",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "14",
+          "text": "「Shall　we　dance?」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "リチャードギア",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "どういうとこ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "17",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "どちらもご覧になっていますね。。一応初見作品にトライしてみますね。「帝一の國」、「ハンサム★スーツ」、「引越し大名」、「記憶にございません！」はいかがでしょうか？後者２作は、単なるコメディーとは感じられない作品でした。",
+      "timestamp": "2023-03-28T14:06:17.743585+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "初見作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "19",
+          "text": "「帝一の國」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「ハンサム★スーツ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "21",
+          "text": "「引越し大名」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "「記憶にございません！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "後者２作",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "24",
+          "text": "単なるコメディーとは感じられない作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T14:05:34.793514+09:00",
+          "query": "ハンサムスーツ",
+          "genres": "",
+          "results": "330560"
+        },
+        {
+          "timestamp": "2023-03-28T14:05:35.287497+09:00",
+          "query": "ハンサムスーツ",
+          "genres": "",
+          "results": "330560"
+        }
+      ],
+      "checked": [
+        "330560_title"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "「帝一の國」と「引越し大名」は全く知りません！どちらでも良いので教えてください。",
+      "timestamp": "2023-03-28T14:06:55.202587+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "「帝一の國」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "「引越し大名」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "それでは、初見作品をご紹介いたします！コメディ＝オーバーリアクションで笑える、イケメン高校生が軍団で登場するのが、「帝一の國」です。ものすごくおもしろかったです！菅田将暉主演です。役柄にはまっていました。「引越し大名」は、星野源主演で、時代劇の中にコメディー要素を備えた作品です。しかし、ラストは感度のあまり、ものすごく涙が出た作品です。",
+      "timestamp": "2023-03-28T14:10:26.528602+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "初見作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "コメディ＝オーバーリアクション",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "29",
+          "text": "イケメン高校生",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "軍団",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "31",
+          "text": "「帝一の國」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "菅田将暉主演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "33",
+          "text": "役柄",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "34",
+          "text": "「引越し大名」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "星野源主演",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "36",
+          "text": "時代劇の中にコメディー要素を備えた作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ラスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "38",
+          "text": "感度のあまり、ものすごく涙が出た作品",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T14:08:22.274410+09:00",
+          "query": "帝一の國",
+          "genres": "",
+          "results": "358947"
+        }
+      ],
+      "checked": [
+        "358947_title"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "今話を聞けばアマゾンプライムで「帝一の國」のポスターを見た気がします。\nまた「引越し大名」はコメディなのに感動するとは深い物語なんでしょうね。",
+      "timestamp": "2023-03-28T14:12:55.904443+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "今話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "40",
+          "text": "聞けばアマゾンプライムで「帝一の國」のポスターを見た気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "「引越し大名」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "感動するとは深い物語",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "「引越し大名！」は、星野源が良い味を出しています。げらげら笑うタイプのコメディーではありません。のほほーんとした主人公ですが、国替えの責任者とての重責を担うにあたり、素晴らしいリーダーシップを発揮します。「帝一の國」は、菅田将暉が良い味を出しています。ネット配信で観たのですが、映画館で観ても良かったと思いました！",
+      "timestamp": "2023-03-28T14:17:20.956129+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "「引越し大名！」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "星野源が良い味",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "笑うタイプのコメディー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "47",
+          "text": "のほほーんとした主人公",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "48",
+          "text": "国替えの責任者とての重責",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "49",
+          "text": "素晴らしいリーダーシップ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "50",
+          "text": "「帝一の國」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "菅田将暉が良い味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ネット配信",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "53",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "星野源も菅田将暉もいろんな演技ができる人ですよね。\nぜひ両作品とも観てみたいと思いました。",
+      "timestamp": "2023-03-28T14:18:33.796839+09:00",
+      "internal_states": [
+        {
+          "id": "54",
+          "text": "星野源",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "菅田将暉",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "いろんな演技ができる人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "両作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "２人とも、芸達者な役者さんですね！「引越し大名」は、原作の小説を基に作られています。ラストが感動的で、、ヒューマンドラマ・歴史物の要素が強いかも。「超高速！参勤交代」の系列に入るかもしれません。",
+      "timestamp": "2023-03-28T14:21:57.148933+09:00",
+      "internal_states": [
+        {
+          "id": "58",
+          "text": "２人とも、芸達者な役者さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "59",
+          "text": "「引越し大名」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "原作の小説を基",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "61",
+          "text": "ラスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "62",
+          "text": "感動的で、、ヒューマンドラマ・歴史物の要素",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "63",
+          "text": "「超高速！参勤交代」の系列",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-28T14:18:13.645119+09:00",
+          "query": "引越し大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:15.283864+09:00",
+          "query": "引越し大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:18.533089+09:00",
+          "query": "引越大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:19.619644+09:00",
+          "query": "引越大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:19.913456+09:00",
+          "query": "引越大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:21.567161+09:00",
+          "query": "引越大名",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-28T14:18:27.261251+09:00",
+          "query": "帝一の國",
+          "genres": "",
+          "results": "358947"
+        }
+      ],
+      "checked": [
+        "358947_title"
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "面白いのに、感動的…素敵ですね！\nどちらも観たいです。ありがとうございました。",
+      "timestamp": "2023-03-28T14:25:57.051080+09:00",
+      "internal_states": [
+        {
+          "id": "64",
+          "text": "感動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひご覧になってみてください。今日はありがとうございました！",
+      "timestamp": "2023-03-28T14:27:15.413748+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

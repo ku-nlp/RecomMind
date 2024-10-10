@@ -1,0 +1,825 @@
+{
+  "dialog_id": "48df2a26-8ada-42dd-b0e7-88fd51feb5ae",
+  "created_timestamp": "2022-12-23T13:27:45.285361+09:00",
+  "archived_timestamp": "2022-12-23T13:53:34.874468+09:00",
+  "recommender": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 2,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "013",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 1,
+      "recommendation_success": 3,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。はじめまして。よろしくお願いいたします。",
+      "timestamp": "2022-12-23T13:29:34.140283+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは\nよろしくお願いします",
+      "timestamp": "2022-12-23T13:29:52.839001+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "こちらこそ。",
+      "timestamp": "2022-12-23T13:30:24.832139+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "普段はどのようなジャンルの映画を観ますか？",
+      "timestamp": "2022-12-23T13:31:08.111134+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "ホラー映画以外はわりといろいろなジャンルの映画を見るほうだと思います。",
+      "timestamp": "2022-12-23T13:31:45.734217+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "ホラー映画以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "いろいろなジャンルの映画を見るほう",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "好きな俳優はいますか？",
+      "timestamp": "2022-12-23T13:32:17.247656+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "そうですね。映画を選ぶ時は、出演している俳優も気になりますが、ストーリーなどのほうに重点をおいている気がします。",
+      "timestamp": "2022-12-23T13:33:35.421942+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "映画を選ぶ時",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "3",
+          "text": "出演している俳優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ストーリーなどのほうに重点をおいている気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "そうなんですね\nクリスマス時期にお勧めの恋愛映画があるのですが、興味ありますか？",
+      "timestamp": "2022-12-23T13:34:33.468016+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "クリスマス時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "お勧めの恋愛映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "あります！どんな内容の映画ですか？\n出演している俳優さんも一緒に教えていただけるとうれしいです。",
+      "timestamp": "2022-12-23T13:35:19.555660+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どんな内容の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "出演している俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "キャメロンディアスとジュードロウ、ケイトウィンスレットが出演していて、最終的にほっと心が温かくなるような映画です",
+      "timestamp": "2022-12-23T13:37:32.104685+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "キャメロンディアス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ジュードロウ、ケイトウィンスレット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "心が温かくなるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T13:34:48.396324+09:00",
+          "query": "ホリデイ",
+          "genres": "",
+          "results": "326504,350870,354700,6608"
+        }
+      ],
+      "checked": [
+        "326504_cast_name-0",
+        "326504_cast_name-1",
+        "326504_cast_name-2"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "もしかして、「ホリデー」でした？タイトルが少し自信がありませんが。クリスマスにお互いの家にステイする映画ですか？",
+      "timestamp": "2022-12-23T13:38:48.139370+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「ホリデー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "自信",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "クリスマスにお互いの家にステイする映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "タイトルを忘れていましたね\nそうです「ホリデイ」です\n観たことありますか？",
+      "timestamp": "2022-12-23T13:39:24.026318+09:00",
+      "internal_states": [
+        {
+          "id": "16",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "「ホリデイ」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "観たこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "326504_title"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "はい。何度か観ました。素敵な映画ですよね。",
+      "timestamp": "2022-12-23T13:39:49.412803+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "素敵な映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "大好きで、この時期何度もみてしまいます\n他に興味のある内容とかありますか？",
+      "timestamp": "2022-12-23T13:40:52.624664+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "この時期何度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "他に興味のある内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T13:39:57.688839+09:00",
+          "query": "クリスマス",
+          "genres": "",
+          "results": "12926,13780,162818,16482,21356,23290,233769,235071,235078,237035,237942,239807,24012,241171,28621,28627,29038,318646,319681,321945,324029,324253,325867,326504,332676,333332,333976,334339,334943,335453,336448,338127,341641,344125,344443,345215,346639,348862,351031,352692,353113,354600,354960,357055,358727,359685,362671,363978,364183,364195,364938,365598,365929,366409,366853,370019,371833,378066,6608,85193,86183,9588,9889"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "他にもクリスマスの時期におすすめの映画はありますか？",
+      "timestamp": "2022-12-23T13:41:30.178118+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "クリスマスの時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "題名から「キャロル」という映画もありますが、これはちょっと重たい内容なのでお勧めという訳ではありません…\nただ、ケイトフランシェットという女優さんはとても素敵だなと思います",
+      "timestamp": "2022-12-23T13:44:23.660500+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "題名",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「キャロル」という映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "25",
+          "text": "重たい内容",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "26",
+          "text": "お勧めという訳",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "ケイトフランシェットという女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "ケイト・ブランシェットは「エリザベス」ではかなりはまり役という感じでしたが、どちらかと言えばああいう重厚な内容ですか？それは、ちょっと今は、どうかなという感じです。",
+      "timestamp": "2022-12-23T13:46:25.729722+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "ケイト・ブランシェット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "「エリザベス」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "はまり役という感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ああいう重厚な内容",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "どうかなという感じ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "1952年ニューヨークが舞台で女性同士が許されない恋に落ちる映画です\n確かにクリスマス時期はほっこりする映画の方がいいですね\nケイトブレンジェットは「オーシャン８」で観てとてもカッコイイ女優さんだとはまってしまいました\nまだみてなければ、「オーシャンズ８」もぜひ！",
+      "timestamp": "2022-12-23T13:49:38.049710+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "ニューヨーク",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "舞台で女性同士が許されない恋に落ちる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "クリスマス時期",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ほっこりする映画の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "ケイトブレンジェット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "「オーシャン８」",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "カッコイイ女優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "「オーシャンズ８」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T13:44:46.402096+09:00",
+          "query": "キャロル",
+          "genres": "",
+          "results": "1281,318646,333976,334288,336605,344500,345554,354600,358340,365988,366491,369005,376781,52338"
+        }
+      ],
+      "checked": [
+        "354600_plot-0"
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "seeker",
+      "text": "なるほど。同性愛を描いた映画ですね？今はちょっとそういう気分ではありませんね。「オーシャンズ８」も観たことがあります。確かに素敵な俳優さんです。",
+      "timestamp": "2022-12-23T13:51:26.269541+09:00",
+      "internal_states": [
+        {
+          "id": "41",
+          "text": "同性愛を描いた映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "42",
+          "text": "そういう気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "43",
+          "text": "「オーシャンズ８」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "確かに素敵な俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "speaker": "recommender",
+      "text": "いろいろ映画を観られているのですね",
+      "timestamp": "2022-12-23T13:51:51.922070+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "20",
+      "speaker": "seeker",
+      "text": "最近はあまり時間が取れませんが、好きでわりといろいろなジャンルの映画を観ているほうだと思います。また「オーシャンズ８」も観てみます。ありがとうございました。",
+      "timestamp": "2022-12-23T13:52:55.689741+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "時間",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "いろいろなジャンルの映画を観ているほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "48",
+          "text": "「オーシャンズ８」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

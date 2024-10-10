@@ -1,0 +1,688 @@
+{
+  "dialog_id": "1179c535-e592-407d-a3cb-9e4c21cb9da6",
+  "created_timestamp": "2023-02-05T17:16:48.305561+09:00",
+  "archived_timestamp": "2023-02-05T17:32:57.351255+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "019",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-05T17:18:59.903196+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "よろしくお願いいたします。",
+      "timestamp": "2023-02-05T17:19:10.868889+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "普段はよく映画は観られますか？どのようなジャンルがお好きでしょうか？",
+      "timestamp": "2023-02-05T17:19:27.225446+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "映画館に行って観るのが好きです。ヒューマンドラマ、サスペンス系が好きです。",
+      "timestamp": "2023-02-05T17:20:07.663911+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "2",
+          "text": "ヒューマンドラマ、サスペンス系",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "私も映画館で鑑賞するのが好きですが、最近はなかなか行けていません。「ウエスト・サイド・ストーリー」はご覧になられましたか？",
+      "timestamp": "2023-02-05T17:21:33.525933+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "映画館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "4",
+          "text": "「ウエスト・サイド・ストーリー」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T17:19:46.433145+09:00",
+          "query": "60セカンズ",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-02-05T17:19:48.820358+09:00",
+          "query": "セカンズ",
+          "genres": "",
+          "results": "239783,368072"
+        },
+        {
+          "timestamp": "2023-02-05T17:19:59.275598+09:00",
+          "query": "ニコラス・ケイジ",
+          "genres": "",
+          "results": "233769,242063,321200,326662,327802,328224,329231,333520,335983,337482,366007,51226"
+        },
+        {
+          "timestamp": "2023-02-05T17:21:08.354340+09:00",
+          "query": "ウエスト",
+          "genres": "",
+          "results": "159709,2331,241899,338090,339180,378317"
+        }
+      ],
+      "checked": [
+        "378317_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "興味があったのですが、見逃しました。",
+      "timestamp": "2023-02-05T17:21:49.290007+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "もしミュージカルに苦手意識がなければ紹介させてください。スティーヴン・スピルバーグが監督したというので有名になりましたね。",
+      "timestamp": "2023-02-05T17:22:25.118080+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "6",
+          "text": "苦手意識",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "7",
+          "text": "スティーヴン・スピルバーグ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "378317_director_name"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうですね。でも、ミュージカルに苦手意識がありまして、、それでラ・ラ・ランドも観ずじまいでした。",
+      "timestamp": "2023-02-05T17:23:58.264467+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "9",
+          "text": "苦手意識",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "ラ・ラ・ランド",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "11",
+          "text": "観ずじまい",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "「ウエスト・サイド・ストーリー」はミュージカルを基にしているので、どうしても歌が入っていますね。スピルバーグが自身のキャリアの集大成と言っているくらいなので、もしスピルバーグ作品ですを1本でもお好きなものがあれば観ていただきたいです。",
+      "timestamp": "2023-02-05T17:25:42.007934+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "「ウエスト・サイド・ストーリー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ミュージカル",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "14",
+          "text": "基",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "スピルバーグが自身のキャリアの集大成と言っているくらい",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "スピルバーグ作品ですを1本",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "お好きなもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "378317_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "ストーリーは知っています。恋愛ものは、ハッピーエンディングでないと悲しくなるので、ラブコメを観てしまいます。",
+      "timestamp": "2023-02-05T17:27:49.266078+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "20",
+          "text": "恋愛もの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "ハッピーエンディング",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "私もラブコメ好きです。王道ですが、「ノッティングヒルの恋人」が好きです。",
+      "timestamp": "2023-02-05T17:28:44.453415+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "ラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "王道",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "「ノッティングヒルの恋人」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-05T17:28:24.188264+09:00",
+          "query": "ヒュー・グラント",
+          "genres": "",
+          "results": "19331,235071,28671,318646,321052,327078,343488,352332,353722,361373,85258"
+        }
+      ],
+      "checked": [
+        "85258_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "私も観ました！音楽も良くて、CDも買いました。",
+      "timestamp": "2023-02-05T17:29:08.767830+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "27",
+          "text": "CD",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "私も音楽がすごく気に入っています。99年の映画ですが未だに根強い人気がありますよね。",
+      "timestamp": "2023-02-05T17:29:45.889151+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "99年の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "根強い人気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "85258_title",
+        "85258_year"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "今でもお店で音楽が流れてくることがありますね。エルヴィス・コステロの歌が良いです！",
+      "timestamp": "2023-02-05T17:31:07.340420+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "お店",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "エルヴィス・コステロの歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "はい、そのたびに心が躍ります。ウエストサイド～は完全なハッピーエンドではないですが、気合を入れて観れる時に？ぜひご覧ください。本日はありがとうございました。",
+      "timestamp": "2023-02-05T17:32:21.464903+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "そのたび",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "心",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "ウエストサイド～",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "完全なハッピーエンド",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "気合",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "入れて観れる時",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうですね。機会があれば観てみようと思います。本日は有難うございました！",
+      "timestamp": "2023-02-05T17:32:52.823834+09:00",
+      "internal_states": []
+    }
+  ]
+}

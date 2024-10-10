@@ -1,0 +1,727 @@
+{
+  "dialog_id": "a485b163-4ea1-439c-bb39-1f7b7c7735a5",
+  "created_timestamp": "2023-03-06T15:54:05.338009+09:00",
+  "archived_timestamp": "2023-03-06T16:18:12.945546+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "023",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "今日はよろしくお願いします。",
+      "timestamp": "2023-03-06T15:59:30.704707+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いします。",
+      "timestamp": "2023-03-06T15:59:41.140468+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どのような映画をご覧になりたいご気分でしょうか。",
+      "timestamp": "2023-03-06T15:59:49.919226+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "どのような映画をご覧になりたいご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "歴史の勉強をしたいので歴史に基づいたお話のを見たいです。",
+      "timestamp": "2023-03-06T16:00:26.565543+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "歴史の勉強",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "歴史に基づいたお話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "歴史物は戦争もの以外あまり詳しくないのですが、苦手でいらっしゃいませんか？",
+      "timestamp": "2023-03-06T16:02:10.026412+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "歴史物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "戦争もの以外",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T16:00:46.448272+09:00",
+          "query": "ブレイブ",
+          "genres": "",
+          "results": "323818,374337"
+        },
+        {
+          "timestamp": "2023-03-06T16:00:52.962690+09:00",
+          "query": "ハート",
+          "genres": "",
+          "results": "161716,20625,2257,23290,235078,236636,237942,239900,2752,28671,319263,319653,321011,323067,326062,326662,327713,330227,330415,330434,330813,333965,335594,336827,336887,336888,340877,341569,345678,345712,347931,353152,353664,354239,355057,356422,357070,359063,359505,360777,361036,361356,361665,361726,361806,364079,366491,366550,369013,370448,376781,83641,85113,9889"
+        },
+        {
+          "timestamp": "2023-03-06T16:00:58.624192+09:00",
+          "query": "300",
+          "genres": "",
+          "results": "16912,20486,238972,241600,324328,326664,327079,330288,331398,331727,332362,340606,342238,343546,344500,349750,350752,350949,354182,357226,357979,358130,358205,360444,362951,364327,85042"
+        },
+        {
+          "timestamp": "2023-03-06T16:01:26.813298+09:00",
+          "query": "エリザベス",
+          "genres": "",
+          "results": "161271,161376,161559,19132,240710,24917,323368,323917,324293,326744,327066,327838,329147,330039,335402,338127,339107,339377,341641,341643,342687,342725,343085,346556,347290,347810,350923,351145,351163,351610,352157,352174,352332,352899,355057,355424,355752,356582,357070,359063,359315,359505,359876,360839,360962,361391,361806,363106,363117,366491,366550,368153,368450,369671,369976,370460,370964,371795,380731,85030,85197"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "うーん。そうですね。戦争ものは苦手ですね。残虐なシーンなどは苦手です。もしそのようなシーンがないならいいのですが・・・。",
+      "timestamp": "2023-03-06T16:03:17.746507+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "戦争もの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "6",
+          "text": "残虐なシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "そのようなシーン",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "ご紹介しようとしていたものは、ちょっと残酷なシーンもあるので、やめておきますね。いくつかご紹介したいものがあったのですが、リストになくて、申し訳ありません。歴史もの以外でお好みはございませんか？",
+      "timestamp": "2023-03-06T16:05:32.966045+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "ご紹介しようとしていたもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "残酷なシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "10",
+          "text": "いくつかご紹介したいもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "11",
+          "text": "リスト",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "歴史もの以外",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T16:03:06.454509+09:00",
+          "query": "ハクソー",
+          "genres": "",
+          "results": "359061"
+        },
+        {
+          "timestamp": "2023-03-06T16:03:48.004928+09:00",
+          "query": "",
+          "genres": "historical",
+          "results": "159561,234051,237101,238297,240096,321931,326308,329862,330507,333522,335402,336481,338319,339723,341516,345033,345075,346393,346394,346791,347552,350112,353460,353539,354343,356033,356148,356895,357209,358205,362465,363374,364143,364542,365786,366964,367926,368738,369333,369911,370667,370963,374337,86066,87913"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "そうなんですね。残念です。\nコメディやラブコメ等笑えるものが好きです。",
+      "timestamp": "2023-03-06T16:06:37.685309+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "コメディやラブコメ等笑えるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "最近80年代の映画を観ているのですが、「ワーキング・ガール」はご覧になったことはありますか？ハリソン・フォード主演です。",
+      "timestamp": "2023-03-06T16:07:45.565296+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "最近80年代の映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「ワーキング・ガール」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "ハリソン・フォード主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T16:05:41.345998+09:00",
+          "query": "",
+          "genres": "documentary",
+          "results": "240123,322310,324304,325452,327025,327926,328630,328907,329634,330004,331483,333030,334766,334913,334978,336191,336754,341523,346436,349372,353577,353677,358472,359542,365471,367387,367454,371593,371770"
+        },
+        {
+          "timestamp": "2023-03-06T16:06:06.515634+09:00",
+          "query": "",
+          "genres": "western",
+          "results": "13171,24136,327551,328547,329925,334142,338090,339354,342722,344573,354960,357279,7547,7583,842,9532"
+        },
+        {
+          "timestamp": "2023-03-06T16:07:16.293052+09:00",
+          "query": "ワーキング",
+          "genres": "",
+          "results": "25895,337475,350453,351032,351840,359180"
+        }
+      ],
+      "checked": [
+        "25895_title",
+        "25895_cast_name-1"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "かなり前ですが見たことがあります。英語の授業の教材でした。スカッとする話ですよね。",
+      "timestamp": "2023-03-06T16:08:43.173888+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "英語の授業の教材",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "スカッとする話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "あー、私も大学の英語の授業で使っていました。懐かしいですよね。「キャッチ・ミー・イフ・ユー・キャン」などはいかがですか？一応実話ですが、ディカプリオがカッコいいです。",
+      "timestamp": "2023-03-06T16:10:07.749561+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "大学の英語の授業",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "「キャッチ・ミー・イフ・ユー・キャン」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ディカプリオ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-06T16:09:31.681128+09:00",
+          "query": "キャッチ",
+          "genres": "",
+          "results": "159811,19758,2155,22811,239816,240127,338827,351200,352156,355228,376383,90357"
+        }
+      ],
+      "checked": [
+        "240127_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "そうなんですね。教材にしやすい映画なんですね。\n「キャッチ・ミー・イフ・ユー・キャン」は聞いたことがありますが、見たことはありません。実話なんですね。どんなお話ですか？",
+      "timestamp": "2023-03-06T16:11:30.177060+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "そうなんですね。教材にしやすい映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「キャッチ・ミー・イフ・ユー・キャン」",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "実話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "監督はスティーヴン・スピルバーグで、、フランク・W・アバグネイル・Jrという実在した伝説の詐欺師の自伝小説を映画化したものです。",
+      "timestamp": "2023-03-06T16:13:23.429010+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "監督",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "スティーヴン・スピルバーグで、、フランク・W・アバグネイル・Jrという実在した伝説の詐欺師の自伝小説を映画化したもの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "240127_director_name"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "詐欺師が自伝小説を書いたんですか。それだけでとても興味深いですね。その詐欺師は捕まったということですか？",
+      "timestamp": "2023-03-06T16:15:19.593917+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "詐欺師",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "自伝小説",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "その詐欺師",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "31",
+          "text": "捕まったということ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "FBIが動き出し、最終的に捕まるのですが、その後二度、脱走しています。ディカプリオが演じていて、とても素敵な詐欺師で、だまされても仕方が無いな、というほどの人たらしなんですが、そのだまし方が爽快ですよ。",
+      "timestamp": "2023-03-06T16:16:16.696911+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "FBI",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "その後二度",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ディカプリオ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "素敵な詐欺師",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "仕方が無いな、というほどの人たらし",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "そのだまし方",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。それは面白そうですね。\n実在の人物もそういう素敵な人だったんですかね。\n機会があれば是非見てみます！",
+      "timestamp": "2023-03-06T16:17:52.756462+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "実在の人物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "そういう素敵な人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "とにかくカッコいいです、是非ご覧になってください。今日はありがとうございました。",
+      "timestamp": "2023-03-06T16:18:07.752980+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

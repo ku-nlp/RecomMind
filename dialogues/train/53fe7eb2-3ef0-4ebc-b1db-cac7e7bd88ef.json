@@ -1,0 +1,1492 @@
+{
+  "dialog_id": "53fe7eb2-3ef0-4ebc-b1db-cac7e7bd88ef",
+  "created_timestamp": "2023-02-28T14:52:15.803307+09:00",
+  "archived_timestamp": "2023-02-28T15:30:36.888249+09:00",
+  "recommender": {
+    "name": "010",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "045",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは！今日はよろしくお願いします。",
+      "timestamp": "2023-02-28T14:55:37.381682+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。こちらこそ、どうぞよろしくお願い致します！",
+      "timestamp": "2023-02-28T14:55:43.776080+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "早速ですが、どんな映画がお好きですか？",
+      "timestamp": "2023-02-28T14:56:11.590815+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "好きなジャンルはほぼ決まっていて、明るくて良質なラブコメ、ヒューマン、ミュージカルなど、さわやかで最後にハッピーな気持ちになれるような映画が好きです。暴力色の強いもの・人間のダークな部分を描くような暗くて重いテーマのもの・戦争ものの映画作品などはかなり苦手です。。",
+      "timestamp": "2023-02-28T14:56:43.764739+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "好きなジャンル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "明るくて良質なラブコメ、ヒューマン、ミュージカル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "最後にハッピーな気持ちになれるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "暴力色の強いもの・人間のダークな部分を描くような暗くて重いテーマのもの・戦争ものの映画作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "なるほど、さわやかでハッピーになれるような映画がお好きなのですね。\nでしたら、「マイ・インターン」という映画はご存じですか？",
+      "timestamp": "2023-02-28T14:58:26.323720+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "ハッピーになれるような映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「マイ・インターン」という映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-28T14:57:52.764871+09:00",
+          "query": "マイ",
+          "genres": "",
+          "results": "11991,1281,13239,13522,13523,14978,151599,15902,159318,159812,161716,162811,162856,16329,16812,17046,1709,18114,18115,18116,18187,20324,20782,21943,22113,2257,23099,23378,235078,235792,236089,2361,236556,236590,236636,237033,237383,237942,239779,239783,24012,240123,241146,24136,241897,25289,25304,25895,26638,2753,28698,318519,318531,318642,318646,318678,319257,320059,320267,321232,321598,321603,321617,321945,322041,322250,322251,323067,323212,323225,324026,324197,324199,324246,324286,324328,324444,324734,325032,325097,325622,325652,326063,326203,326220,326504,326536,327000,327204,327713,327719,327838,327926,327928,327992,328191,328314,328445,328550,329400,329516,329522,329605,329614,329805,329978,330134,330227,330434,330551,330560,330764,331823,332153,332362,332753,332848,333193,333240,333332,333529,333700,333858,334235,334285,334301,334304,334766,334777,334832,334913,335381,335434,335565,335567,335798,335925,336142,336237,336605,336754,336887,336888,337245,337331,337503,337607,338323,338494,338546,338677,338678,339180,339772,340426,340466,340496,340512,340611,340799,341375,341568,341569,341611,341641,342363,342444,343085,343345,343546,343647,344381,344429,345215,345356,345366,345554,346052,346339,346341,346480,346639,346662,347241,347358,347542,347686,347864,347931,348035,348088,348170,348248,349221,349344,349437,349444,349726,349750,350453,350531,350843,350927,350977,351033,351145,351419,352174,352382,352769,352899,353046,353152,353403,353437,353612,354167,354254,354289,354345,354455,354522,354700,354702,354902,354960,354963,354988,355060,355061,355228,355740,355751,355820,356055,356150,356582,357279,357823,357845,358010,358130,358242,358727,358781,358946,358993,358996,359023,359024,359026,359315,359505,360198,360620,361325,361326,361356,361372,361373,361391,361665,361801,361806,361841,362526,362606,362712,362717,362962,363105,363106,363762,363764,363978,364079,364403,364404,364528,364743,364877,364938,364985,365013,365402,365471,365978,365979,366007,366031,366075,366365,366409,366491,366965,367006,368180,368191,368253,368764,369005,369013,369221,369949,370322,370448,370964,371795,371833,373111,373697,374583,377441,377442,380731,381726,382432,4450,51226,51461,52338,54664,54853,6207,6354,7931,83416,83641,83681,83886,84046,84338,84618,84698,86183,9889"
+        },
+        {
+          "timestamp": "2023-02-28T14:58:08.818823+09:00",
+          "query": "マイ・インターン",
+          "genres": "",
+          "results": "353403"
+        }
+      ],
+      "checked": [
+        "353403_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "聞いたことはありますが、観ていないです！ロバート・デニーロが出演されている作品でしょうか？！",
+      "timestamp": "2023-02-28T14:59:05.301403+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "ロバート・デニーロが出演されている作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうです！どんな役もこなすロバート・デ・ニーロが見どころです。\nニューヨークで女性向けファッション通販サイトを運営している女社長と、その会社にシニア・インターンとして雇われた男性の友情物語です。",
+      "timestamp": "2023-02-28T15:00:38.702027+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "どんな役もこなすロバート・デ・ニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "見どころ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ニューヨークで女性向けファッション通販サイトを運営している女社長と、その会社にシニア・インターンとして雇われた男性の友情物語",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "353403_review-0",
+        "353403_plot-0"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "面白そうですね！（学生のインターンなら聞いた事あありますが）シニア・インターンというのは、聞いたことがなくて新鮮です。とても面白そうな映画ですね。ぜひ詳しく教えてもらえたら嬉しいです！",
+      "timestamp": "2023-02-28T15:02:16.445485+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "（学生のインターンなら聞いた事あありますが）シニア・インターン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "70歳の老人ベンは、40年間も電話帳の会社で働いていた超アナログ人間。とても前向きなベンは、退職後、新しいことに挑戦したくなり、あえてIT系の会社でシニア・インターンとしてチャレンジすることを選びます。最初は浮いた存在でしたが、だんだん社内の人気者になっていきます。何でも一人でこなしてきた仕事人間の社長も、ベンの前ではどんどん心を開き、最後には公私ともに最高のパートナー（友人）となっていく、というお話です。",
+      "timestamp": "2023-02-28T15:05:57.035604+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "70歳の老人ベン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "40年間も電話帳の会社で働いていた超アナログ人間",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "前向きなベン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "退職後",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "新しいこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "IT系の会社でシニア・インターンとしてチャレンジすること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "最初",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "浮いた存在",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "社内の人気者",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "一人でこなしてきた仕事人間の社長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "ベンの前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "心",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "公私",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "最高のパートナー（友人）",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "お話伺うだけで、とても前向きで明るい映画なのが分かります！\n70歳で新しいことに挑戦するっていう設定がとっても素敵ですね。人間って年齢を重ねるごとに、自分の年齢や色々をコンプレックスに思ってしまい、新しい場所に飛び込むことに躊躇してしまうものだから。。\n\nロバート・デニーロの強面なイメージ（笑）が、この作品では影を潜めていそうで、前向きなシニア世代をどのように\n演じているのか、とても興味深いです！",
+      "timestamp": "2023-02-28T15:09:00.982504+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "前向きで明るい映画なの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "28",
+          "text": "70歳",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "新しいこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "挑戦するっていう設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "人間って年齢を重ねるごと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "年齢",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "コンプレックス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "思ってしまい、新しい場所に飛び込むことに躊躇してしまうもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "35",
+          "text": "ロバート・デニーロの強面",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "イメージ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "この作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "影",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "39",
+          "text": "潜めていそうで、前向きなシニア世代",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "そうなんですよ！一生懸命パソコンに挑戦する姿はとてもかわいかったです。\n一方で、彼の仕事への姿勢は、多くの若い社員に刺激を与えました。\nとくに、女社長は、デニーロから勇気をもらい、家族との関係や仕事の本当のやり甲斐を発見していくのです。",
+      "timestamp": "2023-02-28T15:14:00.753050+09:00",
+      "internal_states": [
+        {
+          "id": "40",
+          "text": "一生懸命パソコンに挑戦する姿",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "一方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "彼の仕事への姿勢",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "多くの若い社員",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "刺激",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "女社長",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "デニーロ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "勇気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "家族との関係や仕事の本当のやり甲斐",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "すごく良いストーリーですね！\nこの主人公のシニア男性が、どのような事で人気者になっていくのか気になります（笑）。また、仕事人間の社長がベンさんから、どんな風に勇気を貰って新境地を開いていくのでしょうか、、、！\n\nきっと、若者と、経験を積んできたシニア世代が、それぞれの持つ長所を互いに与えあって共に成長していく・・という感じなのかもしれませんね。\n\n今の先進国は、体力がありデジタルに強い若者だけが偏重される傾向もあるようなので、各世代がいて様々な意見や見方で\n温かく皆が働けるような企業文化が無くなってきているので、一つの理想がこの映画では描かれているのかも。。！\n\nパソコンに挑戦する可愛いデニーロ、ぜひ観てみたいです（笑！",
+      "timestamp": "2023-02-28T15:17:00.958336+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "すごく良いストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "この主人公のシニア男性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "どのような事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "人気者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "なっていくのか気になります（笑）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "54",
+          "text": "仕事人間の社長",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "ベンさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "どんな風",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "57",
+          "text": "勇気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "新境地",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "若者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "経験を積んできたシニア世代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "それぞれの持つ長所",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "成長していく・・という感じ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "今の先進国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "64",
+          "text": "体力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "デジタル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "66",
+          "text": "強い若者だけが偏重される傾向",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "各世代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "いて様々な意見や見方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "69",
+          "text": "温かく皆が働けるような企業文化",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "一つの理想",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "72",
+          "text": "パソコンに挑戦する可愛いデニーロ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "まさに、その通りだと思います。どんな人も自分の個性を生かせて働ける職場っていいですよね。\nこの映画の後に、メイキング映像がついていて、この映画の監督さんがまさにこのことを語っていました。",
+      "timestamp": "2023-02-28T15:19:20.665107+09:00",
+      "internal_states": [
+        {
+          "id": "73",
+          "text": "どんな人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "74",
+          "text": "自分の個性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "75",
+          "text": "生かせて働ける職場",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "76",
+          "text": "この映画の後",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "77",
+          "text": "メイキング映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "78",
+          "text": "この映画の監督さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "79",
+          "text": "まさ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "80",
+          "text": "このこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうなんですか！期せずして監督さんと同じようなことを語っていたなんで（嬉＆照）。\nこの映画を製作する上で、監督さんには明確な意図があったのですねぇ！\n\n本当におっしゃる通り、皆さんが他の人の個性を認めあえ、長所を発揮できるような環境って理想ですよね。\n\nお話を伺い感じたのは、可愛いベンさんを演じることで、シニア世代の男性が、一つの会社をそういった空気感（個性を伸び伸び活かせる職場）に生まれ変わらせる・・という成功ストーリーを、視聴者に真実味をもって伝えられるのは、やっぱりロバートデニーロの役者としての力があるからなのかもしれませんね！",
+      "timestamp": "2023-02-28T15:25:48.496601+09:00",
+      "internal_states": [
+        {
+          "id": "81",
+          "text": "監督さんと同じようなこと",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "82",
+          "text": "（嬉＆照）",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "83",
+          "text": "この映画を製作する上",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "84",
+          "text": "監督さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "85",
+          "text": "明確な意図",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "86",
+          "text": "本当におっしゃる通り",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "87",
+          "text": "皆さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "88",
+          "text": "他の人の個性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "89",
+          "text": "認めあえ、長所を発揮できるような環境",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "90",
+          "text": "理想",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "91",
+          "text": "お話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "92",
+          "text": "可愛いベンさんを演じること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "93",
+          "text": "シニア世代の男性",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "94",
+          "text": "一つの会社",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "95",
+          "text": "そういった空気感（個性を伸び伸び活かせる職場）",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "96",
+          "text": "生まれ変わらせる・・という成功ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "97",
+          "text": "視聴者",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "98",
+          "text": "真実味",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "99",
+          "text": "ロバートデニーロの役者としての力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうですね。デニーロの持つ演技力と人間としての魅力がこの映画の魅力をより一層引き立ててくれています。\n仕事のやり甲斐とは何か、家族の在り方について、など、色々な切り口で考えさせられることがある作品なので、どんな世代の方でも楽しめると思います。\nお時間ありましたらぜひご覧下さい！\n今日はとても楽しかったです。\nありがとうございました！",
+      "timestamp": "2023-02-28T15:29:51.791926+09:00",
+      "internal_states": [
+        {
+          "id": "100",
+          "text": "演技力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "101",
+          "text": "人間としての魅力",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "102",
+          "text": "この映画の魅力",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "103",
+          "text": "仕事のやり甲斐",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "104",
+          "text": "家族の在り方",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "105",
+          "text": "ついて、など、色々な切り口で考えさせられることがある作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "106",
+          "text": "どんな世代の方",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "ぜひ、すぐに観てみたいと思います！\n良い作品を紹介くださり、今日はとても楽しい時間を過ごすことが出来ました。有難うございました！",
+      "timestamp": "2023-02-28T15:30:14.721733+09:00",
+      "internal_states": [
+        {
+          "id": "107",
+          "text": "良い作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "108",
+          "text": "楽しい時間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

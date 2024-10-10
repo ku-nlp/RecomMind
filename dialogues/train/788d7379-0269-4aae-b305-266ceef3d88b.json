@@ -1,0 +1,784 @@
+{
+  "dialog_id": "788d7379-0269-4aae-b305-266ceef3d88b",
+  "created_timestamp": "2023-02-13T16:53:11.439911+09:00",
+  "archived_timestamp": "2023-02-13T17:19:01.078535+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "023",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 1
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは。よろしくお願いいたします。",
+      "timestamp": "2023-02-13T17:01:24.351841+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは。こちらこそよろしくお願いいたします。\nさっそくですが、どんな映画がお好きですか？",
+      "timestamp": "2023-02-13T17:01:51.106451+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "コメディやラブコメ等笑えるものが好きです。",
+      "timestamp": "2023-02-13T17:02:29.377113+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "コメディやラブコメ等笑えるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "笑えるものですね。洋画と日本映画でしたらどちらがお好きですか？",
+      "timestamp": "2023-02-13T17:03:20.009951+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "笑えるもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "日本映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T17:02:13.967421+09:00",
+          "query": "パリの",
+          "genres": "",
+          "results": "18409,233769,234692,236086,320917,334832,335957,341568,341701,344013,347261,348085,350977,357346,358506,363223,4450"
+        }
+      ],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "どちらかと言うと洋画が好きです。",
+      "timestamp": "2023-02-13T17:03:37.942794+09:00",
+      "internal_states": [
+        {
+          "id": "4",
+          "text": "洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "ややブラックですが、「バーン・アフター・リーディング」はご覧になりましたか？2009年のコーエン兄弟の作品ですが、ジョージ・クルーニーやブラッド・ピットも出ている映画です。",
+      "timestamp": "2023-02-13T17:05:25.049433+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "ブラック",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「バーン・アフター・リーディング」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "7",
+          "text": "2009年のコーエン兄弟の作品",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ジョージ・クルーニーやブラッド・ピットも出ている映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T17:03:34.279072+09:00",
+          "query": "バーン",
+          "genres": "",
+          "results": "11893,13693,15072,159811,160134,20373,21943,239766,239767,239813,25599,28680,321448,324026,326504,327707,328724,329107,329144,330813,331863,335925,336307,337245,337734,338090,339180,339722,340288,340512,340856,341641,343546,344562,346630,347542,347842,348826,349742,349750,350752,353277,354473,355057,355740,356582,358340,359024,359637,360861,361665,362179,363106,364079,365009,365276,366075,366365,367982,369671,371810,6354,7547,84307,85186"
+        },
+        {
+          "timestamp": "2023-02-13T17:03:52.759456+09:00",
+          "query": "リーディング",
+          "genres": "",
+          "results": "159869,331863"
+        }
+      ],
+      "checked": [
+        "331863_title",
+        "331863_cast_name-0",
+        "331863_cast_name-2"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "観ていないですし、聞いたことがないです。ブラックというのはどういうことですか？",
+      "timestamp": "2023-02-13T17:06:02.286724+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "ブラック",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "10",
+          "text": "どういうこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "ヘタレな元CIAスパイ（ジョージ・クルーニー）が主人公なのですが、まぁ、スパイが絡んでくるのでお笑いとはいえちょっと血みどろで。\n最後は最後まで自分の主張を通した全身美容整形をしたがっているおばさんがお金もゲットするという為せば成る、信じる者は報われるみたいな教訓も入っていて。",
+      "timestamp": "2023-02-13T17:08:34.986540+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "ヘタレな元CIAスパイ（ジョージ・クルーニー）",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "スパイ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "お笑い",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "最後まで自分の主張を通した全身美容整形をしたがっているおばさん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "お金",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ゲットするという為せば成る、信じる者",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "18",
+          "text": "報われるみたいな教訓",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "そうなんですね。血みどろはちょっと怖いですね・・・。\nあまりそういうのがないほうが好きなんですが、他のものはありますか。",
+      "timestamp": "2023-02-13T17:09:51.069239+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "血みどろ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        },
+        {
+          "id": "20",
+          "text": "そういうのがないほう",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "21",
+          "text": "他のもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "では最後までほんわか、皆がハッピーになるラブコメとして「あなたに降る夢」はご存じですか？ちょっと古くて1994年の作品です。",
+      "timestamp": "2023-02-13T17:11:15.016666+09:00",
+      "internal_states": [
+        {
+          "id": "22",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "皆がハッピーになるラブコメ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「あなたに降る夢」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "1994年の作品",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-13T17:10:11.932068+09:00",
+          "query": "あなたに降る夢",
+          "genres": "",
+          "results": "981"
+        }
+      ],
+      "checked": [
+        "981_title",
+        "981_year"
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "聞いたことがないです。ほんわかハッピーなラブコメ好きです。どんなお話ですか。",
+      "timestamp": "2023-02-13T17:11:47.958047+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "ハッピーなラブコメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "ニコラス・ケイジがしがない警官で嫁に言われて買った宝くじをウェイトレスにチップとして渡してしまうんですよ。それが実は当たりだったものだから大騒ぎになるのです。\nウェイトレス役のブリジット・フォンダがお人形のようにかわいくて。",
+      "timestamp": "2023-02-13T17:13:08.266044+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "ニコラス・ケイジ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "28",
+          "text": "しがない警官",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "29",
+          "text": "嫁",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "30",
+          "text": "言われて買った宝くじをウェイトレス",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "チップ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "当たりだったもの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "大騒ぎ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ウェイトレス役のブリジット・フォンダ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "お人形",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "981_cast_name-0"
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "それは面白そうですね。かわいい子が出てくるのも好きです。古い映画とのことですが、今はどのような方法で観ることができますか？",
+      "timestamp": "2023-02-13T17:14:41.736344+09:00",
+      "internal_states": [
+        {
+          "id": "36",
+          "text": "かわいい子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "古い映画とのこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "38",
+          "text": "どのような方法",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "TSUTAYA DISCASならDVD借りれるようです。ニコラス・ケージの強欲な妻役のロージー・ロペスというラテン系の女優さんもとてもいい味出してます。",
+      "timestamp": "2023-02-13T17:16:10.956137+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "TSUTAYA DISCAS",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "DVD",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "ニコラス・ケージの強欲な妻役のロージー・ロペスというラテン系の女優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "42",
+          "text": "いい味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうなんですね。ありがとうございます。\nロージー・ロペスさんという女優さんは知らないのですが、いい味出しているんですね。機会があれば是非見てみます。",
+      "timestamp": "2023-02-13T17:17:10.303213+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "ロージー・ロペスさんという女優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "いい味",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "ぜひぜひ。ブリジット・フォンダは残念ながら引退してしまいましたが本当にかわいかったです。",
+      "timestamp": "2023-02-13T17:17:56.149150+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "ブリジット・フォンダ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "そうなんですね！面白そうな映画をお勧めいただきありがとうございました！",
+      "timestamp": "2023-02-13T17:18:29.506266+09:00",
+      "internal_states": [
+        {
+          "id": "46",
+          "text": "面白そうな映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "speaker": "recommender",
+      "text": "こちらこそありがとうございました。",
+      "timestamp": "2023-02-13T17:18:53.981866+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

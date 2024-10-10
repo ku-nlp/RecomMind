@@ -1,0 +1,618 @@
+{
+  "dialog_id": "7a87eb25-cf48-4922-9eef-c0880e036ff3",
+  "created_timestamp": "2023-02-28T18:59:22.778058+09:00",
+  "archived_timestamp": "2023-02-28T19:31:27.486819+09:00",
+  "recommender": {
+    "name": "041",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 3,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "037",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いします。",
+      "timestamp": "2023-02-28T19:00:28.310434+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。よろしくお願いします。",
+      "timestamp": "2023-02-28T19:00:40.627842+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "さっそくですがどんな映画がお好きですか？",
+      "timestamp": "2023-02-28T19:00:48.677450+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "子供と一緒に楽しめる映画が良いですね。最近だとテレビでやっていたミニオンを見ました。",
+      "timestamp": "2023-02-28T19:03:52.197679+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "1",
+          "text": "一緒に楽しめる映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "2",
+          "text": "最近だとテレビでやっていたミニオン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "うちの子もミニオン大好きですよ(笑)うちで親子で楽しめる映画の定番なのが「チャーリーとチョコレート工場」なのですが、もうご覧になりましたか？",
+      "timestamp": "2023-02-28T19:05:20.487439+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "うちの子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ミニオン大好きですよ(笑)うちで親子で楽しめる映画の定番なの",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "5",
+          "text": "「チャーリーとチョコレート工場」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-28T19:03:32.460183+09:00",
+          "query": "28日",
+          "genres": "",
+          "results": "11831,12926,153473,162817,20555,20696,233769,239580,240346,240856,241372,321698,322731,322771,323822,324328,324402,324537,325136,325438,325606,325829,326008,326246,327202,327271,327496,328795,328996,329144,331364,331732,332598,333030,334197,334766,335565,335874,338494,338644,338942,340423,340611,340705,340852,341644,341645,341959,342005,345649,345678,345853,347781,347925,348495,348781,349750,350453,350535,350843,350895,350921,352092,353595,354031,354629,355751,355752,357030,357291,357312,357968,359052,359886,360115,360497,364005,364358,364579,366787,366852,367194,367261,367470,368738,370322,371462,371867,379306,7631,85197,86183"
+        },
+        {
+          "timestamp": "2023-02-28T19:04:46.249676+09:00",
+          "query": "チャーリーと",
+          "genres": "",
+          "results": "15997,237272,240346,27023,321598,321733,336520,338843,350275,350825,355316,365009,981"
+        }
+      ],
+      "checked": [
+        "321598_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "チャーリーとチョコレート工場は見たことがあります。ジョニー・デップの映画ですね。ややブラックな感じの笑いが面白かった記憶があります。",
+      "timestamp": "2023-02-28T19:09:15.828626+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "チャーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "チョコレート工場",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "ジョニー・デップの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ブラックな感じの笑いが面白かった記憶",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "そうです！うちは今でも思い立ったように親子で観てますよ。(笑)\nでももうご存じなら、「SING／シング」はいかがですか？こちらはアニメです。歌が素晴らしのです。",
+      "timestamp": "2023-02-28T19:11:07.856272+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "うち",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "11",
+          "text": "親子",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「SING／シング」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "歌",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-28T19:10:04.103612+09:00",
+          "query": "SING",
+          "genres": "",
+          "results": "355820,378013"
+        }
+      ],
+      "checked": [
+        "355820_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "SINGは見たことないです。どこかで予告を見たような気がするのですが、たしか、動物が歌う映画ですよね？",
+      "timestamp": "2023-02-28T19:12:56.512913+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "SING",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "どこかで予告を見たような気",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "17",
+          "text": "動物が歌う映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "そうです！そうです。まだご覧なっていなかったら、\n是非お勧めです。",
+      "timestamp": "2023-02-28T19:21:08.336572+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "SINGって、吹き替え版も豪華なメンバーが声優として出ており、続編が出たというニュースを目にしたような気がしますが、続編もご覧になったことがありますか？",
+      "timestamp": "2023-02-28T19:21:28.858856+09:00",
+      "internal_states": [
+        {
+          "id": "18",
+          "text": "SING",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "吹き替え版も豪華なメンバー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "声優",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "出たというニュースを目にしたような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "22",
+          "text": "続編",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "もちろん、観ております！2はさらに豪華ですよ！",
+      "timestamp": "2023-02-28T19:23:15.822036+09:00",
+      "internal_states": [
+        {
+          "id": "23",
+          "text": "2",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "へー。やっぱり１から見た方が良いですかね？２とストーリーが繋がっている感じですか？",
+      "timestamp": "2023-02-28T19:23:57.823607+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "１から見た方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "25",
+          "text": "２",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "ストーリーが繋がっている感じ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "ひとつで完結してるので、大丈夫ですよ！",
+      "timestamp": "2023-02-28T19:27:14.063247+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "ひとつ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "ちなみに、ストーリとしてはどんな感じなんでしょう？色んな動物が歌うシーンの予告を見た気がするのですが、なぜ動物が歌うことになったんでしょうか？",
+      "timestamp": "2023-02-28T19:27:42.571581+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "ストーリ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "色んな動物が歌うシーンの予告を見た気",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "30",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "動物たちの世界の話なのですよ。人間は出てきません。",
+      "timestamp": "2023-02-28T19:29:10.270822+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "動物たちの世界の話",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "人間",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうなんですね。動物好きなので、ぜひ、子供と見てみたいと思います。ご紹介頂きありがとうございました。",
+      "timestamp": "2023-02-28T19:30:09.919041+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "はい。ショービズにかける動物たちがとっても愉快で皆歌も素晴らしいらしいので必ず楽しめると思います。ありがとうございました！",
+      "timestamp": "2023-02-28T19:31:15.370486+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

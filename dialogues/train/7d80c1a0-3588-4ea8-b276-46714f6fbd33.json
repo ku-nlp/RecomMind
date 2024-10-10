@@ -1,0 +1,891 @@
+{
+  "dialog_id": "7d80c1a0-3588-4ea8-b276-46714f6fbd33",
+  "created_timestamp": "2023-02-28T10:59:54.907108+09:00",
+  "archived_timestamp": "2023-02-28T11:22:34.471958+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "027",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。",
+      "timestamp": "2023-02-28T11:00:18.965151+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは、よろしくお願いします。",
+      "timestamp": "2023-02-28T11:00:28.099676+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんな映画がお好みですか？今日のご気分でも！",
+      "timestamp": "2023-02-28T11:00:51.436710+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "今日のご気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "そうですね、ほっこり癒される映画が観たい気分です。",
+      "timestamp": "2023-02-28T11:01:29.256444+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "癒される映画が観たい気分",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "邦画、洋画、ジャンルなどお好みはございますか？これが苦手、などもあれば教えて下さい。",
+      "timestamp": "2023-02-28T11:02:08.203719+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "邦画、洋画、ジャンル",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "邦画、洋画どちらでも大丈夫です。パディントンみたいな可愛いのが好きです。苦手なのはホラー映画です。",
+      "timestamp": "2023-02-28T11:03:16.774565+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "邦画、洋画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "ホラー映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "なし"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "可愛いものでしたら、2008年のディズニー映画「魔法にかけられて」はご覧になったことはありますか？実写とアニメが融合されているんです。主演の女優さんが、チャーミングで可愛い映画です。",
+      "timestamp": "2023-02-28T11:04:20.343364+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "可愛いもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "2008年のディズニー映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "「魔法にかけられて」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "主演の女優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "チャーミングで可愛い映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-02-28T11:02:23.491170+09:00",
+          "query": "",
+          "genres": "fantasy",
+          "results": "11830,11831,11832,1484,148866,148901,149868,150435,151731,15544,159561,161559,162817,163027,16482,1709,17252,19132,19758,20109,2257,2278,23099,233769,23378,234444,235078,235790,236086,236590,237272,237942,238828,238972,239580,239980,240799,241078,241897,241899,24661,28627,318531,318642,319263,319681,320372,320647,321598,321602,321945,322404,322736,322814,323222,323818,324031,324138,324197,324286,324329,324398,324408,324826,324899,325097,325317,325325,325441,325622,325630,326220,326294,326442,326503,326536,326662,326699,326905,327080,327081,327529,327545,327707,327770,328545,328581,328622,328626,328681,328724,328736,329294,329418,329419,329604,329807,329809,330764,330871,330912,331366,332566,332672,333194,333196,333240,333522,333712,333833,333976,334095,334288,334516,334855,334878,335026,335196,335255,335440,335568,335596,335605,335800,335873,335983,336142,336170,336520,336630,336703,336808,336887,336888,337245,337581,337854,337959,338303,338644,338676,339053,339723,340427,340852,340877,341293,341319,341436,341437,341568,341643,341644,341645,341770,342280,342725,342745,342773,342793,342818,343318,343345,343507,343731,343761,344473,344585,345373,346264,346413,346540,346791,347372,347535,347865,348091,348264,348610,348826,349009,349022,349443,349677,349679,350111,350366,350605,350870,350897,351369,351372,351529,352612,352692,352873,353040,353813,353896,354239,354392,354523,354524,354603,354988,355058,355080,355316,355434,355734,355757,355761,356166,356582,357226,357342,357423,357980,357984,358425,358506,358653,358928,358954,358961,358994,359118,359126,359289,359479,359622,359729,359816,360074,360198,360432,360497,360948,360962,361111,361167,361183,361332,361356,361565,3617,361841,361886,362186,362348,362549,362741,363528,363669,363717,363809,363978,364123,364183,364878,364938,365064,365085,365402,365489,365929,366255,366264,366341,366464,366483,366505,366737,366859,367145,367239,367777,367823,367886,369014,369019,369413,369903,369911,370020,370110,370565,371105,371496,371810,371973,372796,374449,374516,375048,375099,376504,378116,380179,380251,380322,54734,7631,84617,85110,86066,89972,9889"
+        },
+        {
+          "timestamp": "2023-02-28T11:03:36.115714+09:00",
+          "query": "魔法に",
+          "genres": "",
+          "results": "328581,346540,361356,369014,369413"
+        }
+      ],
+      "checked": [
+        "328581_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "エイミー・アダムスは好きなんですが、その映画は観たことないです。どんなお話ですか？",
+      "timestamp": "2023-02-28T11:06:38.003159+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "エイミー・アダムス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "「魔法にかけられて」は、ファンタジーなので、あまり深く考えずに見て下さいね。おとぎ話の世界に住むジゼル姫は、王子と出会ってその日のうちに婚約します。しかし悪い魔女に、現代都市NYに送られてしまうんです。ここまでがアニメで、NYの世界からが実写になります。",
+      "timestamp": "2023-02-28T11:08:26.964519+09:00",
+      "internal_states": [
+        {
+          "id": "14",
+          "text": "「魔法にかけられて」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "15",
+          "text": "ファンタジー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "おとぎ話の世界に住むジゼル姫",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "王子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "その日のうち",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "悪い魔女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "現代都市NY",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "NYの世界",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328581_title"
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "悪い魔女とはどこかで対決するのですか？",
+      "timestamp": "2023-02-28T11:09:16.450656+09:00",
+      "internal_states": [
+        {
+          "id": "24",
+          "text": "悪い魔女",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "最後に対決します、魔女途中から実写になるんです。ディズニーにありがちな「一目ぼれ」「その日のうちに婚約」的な話をバッサリ切り捨てて、小動物と森で歌うシーンなんかも、ネズミやハト、ゴキブリぐらいしか集まってこないという現実が面白いです。ディズニー？って思うぐらいです。",
+      "timestamp": "2023-02-28T11:10:59.747133+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "最後に対決します、魔女途中",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "26",
+          "text": "実写",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "「一目ぼれ」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "「その日のうちに婚約」",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "小動物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "森で歌うシーン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "ネズミやハト、ゴキブリ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "32",
+          "text": "集まってこないという現実",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ディズニー？って思うぐらい",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ネズミやゴキブリが出てくるのは面白いですね。NYの街が好きだし、どの場所が出てくるのかとても気になります。",
+      "timestamp": "2023-02-28T11:14:02.897210+09:00",
+      "internal_states": [
+        {
+          "id": "34",
+          "text": "ネズミやゴキブリ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "NYの街",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "どの場所",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "セントラルパークが綺麗でした。魔女役がスーザン・サランドンでしたが、本当にアニメから抜け出したのかと思うほどぴったり役にはまっていました。",
+      "timestamp": "2023-02-28T11:15:02.875370+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "セントラルパーク",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "魔女役",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "スーザン・サランドン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "抜け出したのかと思うほど",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "ぴったり役",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "328581_cast_name-3"
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "スーザン・サランドンが悪者役なのは意外ですね。パトリック・デンプシーも出ていたのを覚えていますが、彼が婚約した王子様ですか？",
+      "timestamp": "2023-02-28T11:16:50.077305+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "スーザン・サランドン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "悪者役なの",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "45",
+          "text": "パトリック・デンプシー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "47",
+          "text": "婚約した王子様",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "そうです！ジゼルを助けにNYにやってくるのですが、白いタイツの王子がタイムズスクエアに現れたら、ただの変人扱いをされていたところが面白かったです。",
+      "timestamp": "2023-02-28T11:17:59.797399+09:00",
+      "internal_states": [
+        {
+          "id": "48",
+          "text": "ジゼルを助け",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "NY",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "白いタイツの王子",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "タイムズスクエア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ただの変人扱いをされていたところ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "セントラルパークやタイムズスクエアなど観光名所が出てくるのもいいですね。演技派の女優・俳優さんが出ているので見ごたえがありそう。是非観てみたいと思います。すてきな映画をおすすめいただき、ありがとうございました！",
+      "timestamp": "2023-02-28T11:22:24.289825+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "セントラルパークやタイムズスクエア",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "観光名所",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "演技派の女優・俳優さん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "見ごたえ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "すてきな映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "機会があればぜひご覧になって下さいね。今日はどうもありがとうございました。",
+      "timestamp": "2023-02-28T11:22:30.630515+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

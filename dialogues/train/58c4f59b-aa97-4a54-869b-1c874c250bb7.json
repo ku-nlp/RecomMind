@@ -1,0 +1,1135 @@
+{
+  "dialog_id": "58c4f59b-aa97-4a54-869b-1c874c250bb7",
+  "created_timestamp": "2023-03-17T18:59:24.658756+09:00",
+  "archived_timestamp": "2023-03-17T19:47:15.471181+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "014",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願いいたします。",
+      "timestamp": "2023-03-17T18:59:47.686161+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんばんは。こちらこそよろしくお願いいたします。",
+      "timestamp": "2023-03-17T19:00:11.968711+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "どんな映画がお好きですか？\n洋画メインなので、邦画はあまりご紹介できないのですがよろしくお願いします。",
+      "timestamp": "2023-03-17T19:01:13.374760+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "洋画メイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "邦画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "パイレーツオブカリビアンのような、子供と楽しめるような作品をご紹介いただけますか？",
+      "timestamp": "2023-03-17T19:03:17.318916+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "パイレーツオブカリビアン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "子供",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "楽しめるような作品",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "「ハリー・ポッター」シリーズ、「ナルニア国物語」シリーズなどはご覧になられましたか？",
+      "timestamp": "2023-03-17T19:05:03.780076+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "「ハリー・ポッター」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "「ナルニア国物語」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-17T19:03:50.236982+09:00",
+          "query": "ハリー",
+          "genres": "",
+          "results": "10511,12124,13693,15544,15759,159875,21356,234686,235065,235078,237942,241897,2752,318646,319039,321945,325627,326536,330764,330813,331238,331863,336887,336888,339088,340335,342444,345356,347722,349124,352299,353152,355752,355757,358077,360777,363202,363669,364579,366341,7547,84618"
+        },
+        {
+          "timestamp": "2023-03-17T19:03:57.875210+09:00",
+          "query": "ハリーポッター",
+          "genres": "",
+          "results": "355757,363669"
+        },
+        {
+          "timestamp": "2023-03-17T19:04:04.417326+09:00",
+          "query": "ハリー・ポッター",
+          "genres": "",
+          "results": "235078,237942,241897,321945,326536,330764,336887,336888,363669"
+        },
+        {
+          "timestamp": "2023-03-17T19:04:27.591303+09:00",
+          "query": "ナルニア",
+          "genres": "",
+          "results": "322404,326442,328724,337245"
+        }
+      ],
+      "checked": [
+        "235078_title",
+        "322404_title"
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "ハリーポッターシリーズは、半分ぐらい見たと思います。\nナルニア国物語は見ていないと思います。",
+      "timestamp": "2023-03-17T19:07:55.622938+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "ハリーポッターシリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "半分",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ナルニア国物語",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "お子様は、おいくつくらいですか？\n「ナルニア国物語」は、子供たちがナルニア国に入り込んでしまい、そこで王子等として国を救う物語。\n他には「ナイト ミュージアム」などもありますが、いかがでしょうか。\nこちらは、自然博物館に勤務していると、夜になると展示物たちが動き出すといった物語です。",
+      "timestamp": "2023-03-17T19:11:51.710890+09:00",
+      "internal_states": [
+        {
+          "id": "10",
+          "text": "お子様",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "「ナルニア国物語」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "12",
+          "text": "子供たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "ナルニア国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "入り込んでしまい、そこで王子等として国を救う物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "「ナイト　ミュージアム」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "自然博物館",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "夜",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "展示物たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "動き出すといった物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-17T19:08:32.849661+09:00",
+          "query": "ナイト",
+          "genres": "",
+          "results": "159811,16482,17046,22237,236636,237781,239768,239900,240710,318646,319653,320372,320917,323368,323917,324027,324329,326503,326744,327386,328495,329605,329767,330573,332598,333196,333965,334943,335605,336078,336142,337331,337671,338067,338090,338494,338546,339054,339223,340611,341568,342677,344613,345058,346480,350077,350366,350926,350931,352299,353277,353390,353463,354676,355085,355740,358894,359052,359506,359622,360632,362179,362936,363223,364938,365009,365598,366068,372555,376781,377442,378165,7298,85349,8674"
+        },
+        {
+          "timestamp": "2023-03-17T19:08:55.030798+09:00",
+          "query": "ナイト・",
+          "genres": "",
+          "results": "17046,237781,319653,320917,324329,327386,329767,335605,336142,341568,344613,353463,355085,359506,362936,366068,377442,378165,7298,85349,8674"
+        },
+        {
+          "timestamp": "2023-03-17T19:09:09.078789+09:00",
+          "query": "ミュージアム",
+          "genres": "",
+          "results": "326503,329293,330178,333196,350366,354843"
+        },
+        {
+          "timestamp": "2023-03-17T19:09:50.359445+09:00",
+          "query": "「ナルニア国物語」",
+          "genres": "",
+          "results": ""
+        },
+        {
+          "timestamp": "2023-03-17T19:09:55.412978+09:00",
+          "query": "ナルニア国物語",
+          "genres": "",
+          "results": "322404,328724,337245"
+        }
+      ],
+      "checked": [
+        "326503_title"
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "小学生低学年から高学年までいます。\n「ナイトミュージアム」は私は見たことがありますが、子供たちに見せたかなあ…ちょっと思い出せないですが\n「ナルニア国物語」は私自身も見ていないと思います。こちらもシリーズものなのでしたか？",
+      "timestamp": "2023-03-17T19:14:47.116266+09:00",
+      "internal_states": [
+        {
+          "id": "20",
+          "text": "小学生低学年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "高学年",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "「ナイトミュージアム」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "23",
+          "text": "子供たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "「ナルニア国物語」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "シリーズもの",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "シリーズで、3部作です。",
+      "timestamp": "2023-03-17T19:16:15.512869+09:00",
+      "internal_states": [
+        {
+          "id": "26",
+          "text": "シリーズ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "3部作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "そうなのですね。\n登場人物の成長する姿も見れてよさそうですね。\n3部作とも中だるみなく最後までおもしろいですか？",
+      "timestamp": "2023-03-17T19:17:55.287188+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "登場人物の成長する姿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "3部作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "中だるみ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "最後",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "少し中だるみしてますね。\nそれでは「バック・トゥ・ザ・フューチャー」はいかがですか？",
+      "timestamp": "2023-03-17T19:21:39.202225+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "「バック・トゥ・ザ・フューチャー」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-17T19:20:58.866397+09:00",
+          "query": "バック",
+          "genres": "",
+          "results": "153473,15544,15997,1709,18114,18115,18116,234444,237383,240800,241897,29038,320267,322704,323212,323470,324328,324486,325467,326032,326658,329299,333670,334058,335381,335925,337503,338494,339223,339967,340335,343391,344562,346540,347372,349344,350531,353538,355752,356506,357157,357362,358130,358340,358996,359315,359506,359685,360074,360905,360948,363273,364985,367006,367239,367684,367707,367982,368450,368738,370964,371684,371833,378799,83416,9532"
+        }
+      ],
+      "checked": [
+        "18114_title"
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "私自身は全作見ていて、以前に子供たちにも見せたこともあるのですが、まだちょっと早かったみたいで（笑）\n「ナルニア国物語」は主人公も子供たちなので、入りやすいかと思います。\nご紹介いただけますか？",
+      "timestamp": "2023-03-17T19:24:18.973316+09:00",
+      "internal_states": [
+        {
+          "id": "33",
+          "text": "全作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "子供たち",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "35",
+          "text": "「ナルニア国物語」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "子供たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "わかりました。\nナルニア国の王喋るライオンのアスランに、導かれナルニア国へ。\n今ナルニア国は、白い魔女によって冬の時代になってしまっており、アスラン1人では戦えないため、4人の兄弟を呼び寄せ、一緒に戦う物語が第一部です。",
+      "timestamp": "2023-03-17T19:28:02.337988+09:00",
+      "internal_states": [
+        {
+          "id": "38",
+          "text": "ナルニア国の王喋るライオンのアスラン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "ナルニア国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "今ナルニア国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "白い魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "冬の時代",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "アスラン1人では戦えないため",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "4人の兄弟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "一緒に戦う物語",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "第一部",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "予告でうっすら覚えているのですが、お屋敷の秘密の部屋の秘密の扉がナルニア国に続いているのでしたっけ？\n喋るライオンが王様ということは、ナルニア国側の登場人物は、白い魔女を含め、みんな動物なのですか？\n子供たちはどういう成り行きで王子様に？（ネタばれでしょうか）",
+      "timestamp": "2023-03-17T19:32:36.810814+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "予告",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "お屋敷の秘密の部屋の秘密の扉",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "49",
+          "text": "ナルニア国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "喋るライオン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "王様ということ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ナルニア国側の登場人物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "53",
+          "text": "白い魔女",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "動物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "子供たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "どういう成り行き",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "屋敷で、かくれんぼをしているときに隠れたクローゼットからナルニア国に続いていました。\nナルニアの登場人物は、動物やケンタウロスやドワーフなど人間以外の種族ばかりです。\n王子、王女になった経緯は、伝説にあった人物として認められたためです。",
+      "timestamp": "2023-03-17T19:39:13.716366+09:00",
+      "internal_states": [
+        {
+          "id": "57",
+          "text": "屋敷",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "かくれんぼをしているときに隠れたクローゼット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "ナルニア国",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "ナルニアの登場人物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "61",
+          "text": "動物やケンタウロスやドワーフなど人間以外の種族",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "62",
+          "text": "王子、王女になった経緯",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "伝説にあった人物として認められたため",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "なるほど。精霊や何かの化身が主な登場人物なのですね。特殊メイクや映像も楽しめそうですね。",
+      "timestamp": "2023-03-17T19:41:42.542315+09:00",
+      "internal_states": [
+        {
+          "id": "64",
+          "text": "精霊や何かの化身が主な登場人物",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "65",
+          "text": "特殊メイクや映像",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "映像やメイクもよくできています。\n4人の兄弟が、それぞれ成長して行っていく姿も素晴らしいです。",
+      "timestamp": "2023-03-17T19:43:42.410156+09:00",
+      "internal_states": [
+        {
+          "id": "66",
+          "text": "映像やメイク",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "67",
+          "text": "4人の兄弟",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "68",
+          "text": "成長して行っていく姿",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "アニメになりますが、ワンピースが大好きな子たちなので、少年少女たちがユニークな人物との交流を通して、成長しながら目標に向かって行くストーリーはぴったりだと思います。\nぜひ一緒に見てみようと思います。",
+      "timestamp": "2023-03-17T19:46:22.404562+09:00",
+      "internal_states": [
+        {
+          "id": "69",
+          "text": "アニメ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "70",
+          "text": "ワンピースが大好きな子たち",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "71",
+          "text": "少年少女たちがユニークな人物との交流を通して、成長しながら目標に向かって行くストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "speaker": "recommender",
+      "text": "気に入っていただけたなら、よかったです。\n今日はありがとうございました。",
+      "timestamp": "2023-03-17T19:47:00.014171+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "19",
+      "speaker": "seeker",
+      "text": "ありがとうございました！",
+      "timestamp": "2023-03-17T19:47:11.987353+09:00",
+      "internal_states": []
+    }
+  ]
+}

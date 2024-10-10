@@ -1,0 +1,969 @@
+{
+  "dialog_id": "de8e70e1-b616-4b4c-9dcd-428e2cc1e043",
+  "created_timestamp": "2023-03-02T19:55:25.892413+09:00",
+  "archived_timestamp": "2023-03-02T20:36:30.343645+09:00",
+  "recommender": {
+    "name": "030",
+    "questionnaire": {
+      "knowledge": 4,
+      "enjoyment": 2,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "026",
+    "questionnaire": {
+      "knowledge": 1,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 3
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんばんは、宜しくお願いします。",
+      "timestamp": "2023-03-02T20:00:06.782797+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんばんは。よろしくお願い致します。英語の映画が好きです。最近では「バビロン」を観てきました。どんなジャンルの映画がお好きですか。",
+      "timestamp": "2023-03-02T20:00:21.771935+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "英語の映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "「バビロン」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "テルマエ・ロマエを最近しっかり見てみました。漫画が原作ですが、とても面白かったです。コメディは洋画、日本の映画ともに好きです。",
+      "timestamp": "2023-03-02T20:02:01.476432+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "テルマエ・ロマエ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "漫画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "洋画、日本の映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "コメディはいいですよね。\n少し古いのですが「イエスマン “YES”は人生のパスワード」とか「キューティ・ブロンド」、「クレイジー・リッチ！」などはご覧になりましたか。",
+      "timestamp": "2023-03-02T20:04:52.709684+09:00",
+      "internal_states": [
+        {
+          "id": "7",
+          "text": "コメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "8",
+          "text": "「イエスマン　“YES”は人生のパスワード」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "「キューティ・ブロンド」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "「クレイジー・リッチ！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2023-03-02T20:02:35.605786+09:00",
+          "query": "",
+          "genres": "comedy",
+          "results": "11933,1220,146948,14886,148866,15072,150962,151599,152271,152763,15577,159811,159869,162817,162856,17046,18074,18114,18115,18116,19132,1964,20109,20555,20726,20735,20876,21356,22113,234690,234846,235071,235794,236086,236089,236590,236645,237101,237220,237272,239390,239807,239900,240127,240346,240408,240710,242063,25599,25688,25895,27023,28621,28671,29040,318646,318678,319016,319159,319160,319234,319257,319259,319263,319428,319767,320268,320442,321052,321099,321598,321822,321839,322086,322281,322460,322489,322605,322704,322736,322814,322994,323368,323400,323638,323681,323799,323917,324021,324138,324261,324398,324402,324486,324537,325271,325622,325768,325865,326063,326246,326289,326503,326504,326554,326660,326699,326744,327025,327078,327082,327204,327386,327423,327689,327719,328271,328367,328581,328680,328969,329291,329294,329299,329419,329493,329516,329522,329594,329604,329668,329674,329681,329811,329859,330134,330288,330434,330464,330487,330560,330569,330690,330915,331238,331826,331863,332065,332328,332361,332566,332669,332672,332753,332848,333196,333240,333261,333367,333494,333529,333712,334016,334095,334208,334235,334576,334577,335210,335381,335402,335516,335517,335655,335712,335957,336605,336808,337482,337854,338048,338115,338136,338199,338382,338393,338644,338649,339115,339775,340604,340605,340721,340758,340849,340852,340953,341445,341460,341474,341568,341583,341640,341643,341701,342205,342238,342280,342770,342773,343345,343711,344125,344300,344358,344380,344429,344472,344621,345033,345047,345056,345075,345366,345649,345853,345939,346099,346100,346408,346413,346630,346643,346663,346720,347021,347261,347290,347358,347371,347375,347552,347781,347864,347865,348001,348087,348291,348578,348781,348826,349079,349124,349188,349571,349679,349726,349920,350110,350237,350275,350366,350453,350531,350678,350824,350869,351030,351128,351145,351201,351640,351817,352092,352156,352174,352357,352585,352647,352648,352927,353113,353214,353403,353460,353612,353664,353722,353813,354027,354031,354092,354392,354455,354523,354629,354931,355278,355381,355434,355482,355570,355574,355581,355696,355704,355756,355820,356033,356055,356331,356368,356464,356503,356636,356755,356835,357030,357055,357070,357209,357362,357845,357886,357933,358011,358066,358068,358306,358499,358905,358946,358947,359118,359203,359752,359876,359899,360430,360432,360593,360839,360977,361091,361148,361332,361356,361373,361565,361726,361801,361832,362181,362195,362465,362627,362656,362657,363021,363060,363101,363106,363119,363202,363253,363374,363392,363565,363762,363764,364143,364183,364358,364579,364766,364768,365099,365243,365245,365513,365596,365598,365768,365786,366008,366015,366031,366134,366226,366360,366409,366492,366550,366584,366665,366786,366787,366826,366853,366945,366964,367254,367261,367262,367521,367638,367687,367867,367984,368323,368576,369013,369157,369333,369344,369351,369470,369522,369619,369693,369808,369949,370019,370093,370182,370446,370555,370652,371076,371343,372048,372784,373349,373772,374440,374516,374719,375074,375316,375327,375373,375940,377123,377743,378013,378595,379867,381046,381726,381816,383234,52312,54734,7378,7400,83465,84338,84698,85030,85258,9001,981"
+        }
+      ],
+      "checked": [
+        "332669_title",
+        "236645_title",
+        "364579_title"
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "「キューティー・ブロンド」は聞いたことがありますが、「イエスマン…」「クレイジー・リッチ！」は全く知りません！特に「イエスマン…」はタイトルからして面白そうですね。",
+      "timestamp": "2023-03-02T20:07:46.988209+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "「キューティー・ブロンド」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "「クレイジー・リッチ！」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "「イエスマン…」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "タイトル",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "イエスマン “YES”は人生のパスワード」は、主演がジム・キャリーです。\n彼は、1人で孤独に生きる偏屈な性格をしていたのですが、有銀からイエスマンになって人生が変わるという怪しげなセミナーに誘われ「イエス」の誓いを立ててしまっていろいろな出来事に巻き込まれていくといったお話しです。",
+      "timestamp": "2023-03-02T20:11:29.149831+09:00",
+      "internal_states": [
+        {
+          "id": "15",
+          "text": "イエスマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "16",
+          "text": "“YES”",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "主演",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ジム・キャリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "19",
+          "text": "彼",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "20",
+          "text": "1人",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "孤独に生きる偏屈な性格",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "有銀",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "イエスマン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "人生",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "変わるという怪しげなセミナー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "「イエス」の誓い",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "立ててしまっていろいろな出来事",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "興味をそそるお話ですね！また、ジム・キャリーはいいですね。最近あまり見かけないような気がしますが、こちらの映画は９０年代ですか？",
+      "timestamp": "2023-03-02T20:13:19.566462+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "ジム・キャリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "見かけないような気",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "こちらの映画",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "９０年代",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "2009年公開ですね。ジム・キャリー確かに見かけていないですね。「マスク」とかも面白かったですね。",
+      "timestamp": "2023-03-02T20:14:40.494523+09:00",
+      "internal_states": [
+        {
+          "id": "32",
+          "text": "2009年公開",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "ジム・キャリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "34",
+          "text": "「マスク」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "2009年ですと、10年ひと昔前というとそれくらいですが思った以上に古くはない印象です。私も「マスク」で面白い人だなあと思いました。ジム・キャリーをはじめ、Mr.ビーンのローワン・アトキンソンも笑いのツボに入っていました。主人公の職業は何だったのですか？",
+      "timestamp": "2023-03-02T20:20:33.048317+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "10年ひと昔前",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "思った以上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "37",
+          "text": "古くはない印象",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "「マスク」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "面白い人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "ジム・キャリーをはじめ、Mr.ビーンのローワン・アトキンソン",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "笑いのツボ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "42",
+          "text": "主人公の職業",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "主人公は、銀行員で融資審査など「NO」と言う生活送っていて、孤独死する夢をみてセミナーに参加してしまったんです。",
+      "timestamp": "2023-03-02T20:22:00.985680+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "主人公",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "銀行員",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "45",
+          "text": "融資審査",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "「NO」と言う生活",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "47",
+          "text": "孤独死する夢",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "セミナー",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "なるほど。心が滅入っているとありがちな行動ですね。でもそれがうまく功を奏したのですか？騒動に巻き込まれるとのことですが（笑）",
+      "timestamp": "2023-03-02T20:24:45.348978+09:00",
+      "internal_states": [
+        {
+          "id": "49",
+          "text": "心",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "滅入っているとありがちな行動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "51",
+          "text": "功",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "騒動に巻き込まれるとのこと",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "初めは、見事なくらい恋人が出来たり昇進したりと運気が上がるのですが、その言動が怪しすぎて警察に捕まってから、これまでの行動が裏目に出るようになります。\nこれ以上は観てのお楽しみとして下さい。",
+      "timestamp": "2023-03-02T20:27:30.059918+09:00",
+      "internal_states": [
+        {
+          "id": "53",
+          "text": "見事なくらい",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "54",
+          "text": "恋人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "55",
+          "text": "運気",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "56",
+          "text": "その言動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "57",
+          "text": "警察",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "58",
+          "text": "これまでの行動",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "59",
+          "text": "裏目",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "60",
+          "text": "以上",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "61",
+          "text": "観てのお楽しみ",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "先がとっても気になります！確かに、はい、といってばかりだと問題は起こりそうですね。ジム・キャリー自体は、制作にも携わっているのですか？",
+      "timestamp": "2023-03-02T20:32:26.272367+09:00",
+      "internal_states": [
+        {
+          "id": "62",
+          "text": "先",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "63",
+          "text": "問題",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "64",
+          "text": "ジム・キャリー自体",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "制作に、名を連ねています。",
+      "timestamp": "2023-03-02T20:33:57.663290+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "そうなんですね。今日は、楽しい映画のお話ができて、どうもありがとうございました！",
+      "timestamp": "2023-03-02T20:34:42.020913+09:00",
+      "internal_states": [
+        {
+          "id": "65",
+          "text": "楽しい映画のお話",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "気に入っていただけたのでしたら、嬉しいです。",
+      "timestamp": "2023-03-02T20:35:18.215084+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    }
+  ]
+}

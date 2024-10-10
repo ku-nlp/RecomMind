@@ -1,0 +1,730 @@
+{
+  "dialog_id": "2ae66c0a-7bed-4b99-ba50-b8b47d5984e9",
+  "created_timestamp": "2022-12-23T11:05:28.425662+09:00",
+  "archived_timestamp": "2022-12-23T11:33:26.964456+09:00",
+  "recommender": {
+    "name": "001",
+    "questionnaire": {
+      "knowledge": 5,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 4
+    }
+  },
+  "seeker": {
+    "name": "017",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 5,
+      "movie_num": 5
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "seeker",
+      "text": "こんにちは",
+      "timestamp": "2022-12-23T11:10:19.596601+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "1",
+      "speaker": "recommender",
+      "text": "こんにちは、初めまして。よろしくお願い致します。どんなジャンルの映画がおすきですか？",
+      "timestamp": "2022-12-23T11:11:05.349167+09:00",
+      "internal_states": [],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "2",
+      "speaker": "seeker",
+      "text": "よろしくお願いします\nアメリカ映画で、アクションやサスペンスを観ることが多いです",
+      "timestamp": "2022-12-23T11:12:49.172002+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "アメリカ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "1",
+          "text": "アクションやサスペンスを観ること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "recommender",
+      "text": "なるほど。お好きな特定の俳優さんなどもあれば教えて下さい。",
+      "timestamp": "2022-12-23T11:13:39.580089+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "お好きな特定の俳優さん",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "4",
+      "speaker": "seeker",
+      "text": "最近はブラッドピットの映画を何本か続けて観ました\n女性ならケイトブランシェットやサンドラブロックが最近のお気に入りです",
+      "timestamp": "2022-12-23T11:15:15.950856+09:00",
+      "internal_states": [
+        {
+          "id": "3",
+          "text": "ブラッドピットの映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "女性",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "5",
+          "text": "ケイトブランシェットやサンドラブロック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "speaker": "recommender",
+      "text": "サンドラブロック、良いですよね、私も好きです。共演つながりで、キアヌ・リーブス主演のコンスタンティンという映画をご紹介したいと　思うのですが、ご覧になったことはありますか？",
+      "timestamp": "2022-12-23T11:16:56.998536+09:00",
+      "internal_states": [
+        {
+          "id": "6",
+          "text": "サンドラブロック",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "7",
+          "text": "共演つながり",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "8",
+          "text": "キアヌ・リーブス主演のコンスタンティンという映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-23T11:14:58.491006+09:00",
+          "query": "コンスタンティン",
+          "genres": "",
+          "results": "320372"
+        }
+      ],
+      "checked": [
+        "320372_title",
+        "320372_cast_name-0"
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "seeker",
+      "text": "コンスタンティンは観たことがないです\nどのような内容の映画ですか？",
+      "timestamp": "2022-12-23T11:17:49.104643+09:00",
+      "internal_states": [
+        {
+          "id": "9",
+          "text": "コンスタンティン",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "10",
+          "text": "どのような内容の映画",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "speaker": "recommender",
+      "text": "2005年のアメリカ映画です。悪魔祓いを生業としている主人公がキアヌなのですが、過去に自殺を図ったため地獄行きが確定しているんです。",
+      "timestamp": "2022-12-23T11:18:57.294582+09:00",
+      "internal_states": [
+        {
+          "id": "11",
+          "text": "2005年のアメリカ映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "12",
+          "text": "悪魔祓いを生業としている主人公",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "13",
+          "text": "キアヌ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "過去",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "15",
+          "text": "自殺を図ったため",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "16",
+          "text": "地獄行き",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": [
+        "320372_year",
+        "320372_plot-0",
+        "320372_plot-2",
+        "320372_plot-5"
+      ]
+    },
+    {
+      "id": "8",
+      "speaker": "seeker",
+      "text": "想像を超える設定で、どのように話が進むのか気になりますね\nネタバレにならない程度にもう少しストーリーを教えてもらえますか？",
+      "timestamp": "2022-12-23T11:21:13.919772+09:00",
+      "internal_states": [
+        {
+          "id": "17",
+          "text": "想像を超える設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "話",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "19",
+          "text": "ネタバレにならない程度",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "ストーリー",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "speaker": "recommender",
+      "text": "人間界に潜む悪魔を退治することで、地獄行を免れるかと頑張っているのですが、その悪魔祓いの数々が爽快でスカッとします。間違って地獄に送られた女性を助けるために奮闘するあたりなど、若き頃のキアヌがかっこよくて見入ってしまいます。",
+      "timestamp": "2022-12-23T11:22:25.418942+09:00",
+      "internal_states": [
+        {
+          "id": "21",
+          "text": "人間界に潜む悪魔を退治すること",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "地獄行",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "23",
+          "text": "その悪魔祓い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "24",
+          "text": "間違って地獄に送られた女性を助けるために奮闘するあたりなど、若き頃のキアヌ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "10",
+      "speaker": "seeker",
+      "text": "悪魔祓いと聞いて恐ろしい話かと思ったのですが、爽快なんですね",
+      "timestamp": "2022-12-23T11:23:27.496711+09:00",
+      "internal_states": [
+        {
+          "id": "25",
+          "text": "悪魔祓い",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "聞いて恐ろしい話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "speaker": "recommender",
+      "text": "キリスト教の教えを知っている人ならもっと楽しめるのかな、とは思いました。悪魔のサタン、とか、ガブリエル、とかキリスト教関連の登場人物が出てきます。衣装や音楽もスタイリッシュ.",
+      "timestamp": "2022-12-23T11:25:25.966072+09:00",
+      "internal_states": [
+        {
+          "id": "27",
+          "text": "キリスト教の教えを知っている人",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "28",
+          "text": "悪魔のサタン、とか、ガブリエル、とかキリスト教関連の登場人物",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "衣装や音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "30",
+          "text": "スタイリッシュ",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "12",
+      "speaker": "seeker",
+      "text": "話を聞けばきくほど、想像したのとは違う世界観に大変興味がわいてきました\nキアヌリーブス自身も興味深い俳優さんなのでぜひ観てみたいです",
+      "timestamp": "2022-12-23T11:27:43.942905+09:00",
+      "internal_states": [
+        {
+          "id": "31",
+          "text": "話",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "32",
+          "text": "聞けばきくほど、想像したのとは違う世界観",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "33",
+          "text": "大変興味",
+          "knowledge": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "不適切",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "キアヌリーブス自身も興味深い俳優さん",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "speaker": "recommender",
+      "text": "この頃のキアヌリーブスがとってもかっこよくて。肺がんを患っていて、不健康そうな役柄なのですが、それでもカッコいい。ヒロイン役も綺麗な人なので、映像的に見ていてとても引き込まれますよ。",
+      "timestamp": "2022-12-23T11:28:24.870335+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "この頃のキアヌリーブス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "36",
+          "text": "肺がん",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "37",
+          "text": "不健康そうな役柄",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "ヒロイン役も綺麗な人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "14",
+      "speaker": "seeker",
+      "text": "キアヌリーブスは普段の行動とかがユニークなようですが、\n映画の世界ではやはり魅力的なのですね\n音楽とかも楽しんで観てみたいです",
+      "timestamp": "2022-12-23T11:30:23.379481+09:00",
+      "internal_states": [
+        {
+          "id": "39",
+          "text": "キアヌリーブス",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "普段の行動",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "41",
+          "text": "映画の世界",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "42",
+          "text": "音楽",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "speaker": "recommender",
+      "text": "深く考えずに映像を楽しむことが出来る映画です。今日はお付き合いありがとうございました。機会があればぜひご覧になって下さいね。",
+      "timestamp": "2022-12-23T11:31:21.942576+09:00",
+      "internal_states": [
+        {
+          "id": "43",
+          "text": "深く考えずに映像を楽しむことが出来る映画",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "16",
+      "speaker": "seeker",
+      "text": "興味深い映画を紹介していただいてありがとうございました！",
+      "timestamp": "2022-12-23T11:32:05.827114+09:00",
+      "internal_states": [
+        {
+          "id": "44",
+          "text": "興味深い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    }
+  ]
+}

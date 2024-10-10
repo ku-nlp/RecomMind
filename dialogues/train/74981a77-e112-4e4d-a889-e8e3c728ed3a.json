@@ -1,0 +1,842 @@
+{
+  "dialog_id": "74981a77-e112-4e4d-a889-e8e3c728ed3a",
+  "created_timestamp": "2022-12-09T10:43:56.612397+09:00",
+  "archived_timestamp": "2022-12-09T11:11:14.064674+09:00",
+  "recommender": {
+    "name": "011",
+    "questionnaire": {
+      "knowledge": 2,
+      "enjoyment": 4,
+      "recommendation_success": 4,
+      "movie_num": 5
+    }
+  },
+  "seeker": {
+    "name": "015",
+    "questionnaire": {
+      "knowledge": 3,
+      "enjoyment": 5,
+      "recommendation_success": 5,
+      "movie_num": 4
+    }
+  },
+  "utterances": [
+    {
+      "id": "0",
+      "speaker": "recommender",
+      "text": "おはようございます。外に出たくなるような快晴ですが、寒くなってきましたね。",
+      "timestamp": "2022-12-09T10:46:16.315623+09:00",
+      "internal_states": [
+        {
+          "id": "0",
+          "text": "外に出たくなるような快晴",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "1",
+      "speaker": "seeker",
+      "text": "こんにちは。さっそくですが、私は普段コメディ映画をよく見ます。何かおすすめはありますか。",
+      "timestamp": "2022-12-09T10:46:27.782940+09:00",
+      "internal_states": [
+        {
+          "id": "1",
+          "text": "コメディ映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "speaker": "recommender",
+      "text": "「Mr.&Mrs. スミス」はご覧になったことはありますか？ブラッドピットとアンジェリーナジョリーが主演しています。",
+      "timestamp": "2022-12-09T10:47:53.713852+09:00",
+      "internal_states": [
+        {
+          "id": "2",
+          "text": "「Mr.&Mrs.　スミス」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "3",
+          "text": "ブラッドピット",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "4",
+          "text": "アンジェリーナジョリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [
+        {
+          "timestamp": "2022-12-09T10:46:52.207434+09:00",
+          "query": "",
+          "genres": "comedy",
+          "results": "11933,1220,146948,148866,15072,151599,152271,15577,159811,159869,162817,162856,17046,18074,18114,18115,18116,19132,20555,20735,21356,22113,234690,234846,235071,235794,236086,236089,236590,236645,237101,237220,237272,239807,239900,240127,240346,240408,240710,242063,25599,28621,318646,318678,319016,319160,319234,319257,319259,319263,319428,319767,320268,320442,321052,321099,321598,321822,321839,322086,322281,322460,322489,322605,322704,322736,322814,322994,323368,323400,323638,323681,323799,323917,324021,324138,324261,324402,324537,325271,325622,325768,325865,326063,326246,326289,326503,326504,326554,326660,326699,326744,327025,327078,327082,327204,327386,327423,327689,327719,328271,328367,328581,328680,328969,329291,329294,329299,329419,329493,329516,329522,329594,329604,329668,329674,329681,329811,329859,330134,330288,330434,330464,330487,330560,330569,330690,330915,331238,331826,331863,332065,332328,332361,332566,332669,332672,332753,332848,333196,333240,333261,333367,333494,333529,333712,334016,334095,334208,334235,334576,334577,335210,335381,335402,335516,335517,335655,335712,335957,336605,336808,337482,338048,338115,338136,338199,338382,338393,338644,338649,339115,339775,340604,340605,340721,340758,340849,340852,340953,341445,341460,341474,341568,341583,341640,341643,341701,342205,342238,342280,342770,342773,343345,343711,344125,344300,344358,344380,344429,344472,344621,345033,345047,345056,345075,345366,345649,345853,345939,346099,346100,346408,346413,346630,346643,346663,346720,347021,347261,347290,347358,347371,347375,347552,347781,347864,347865,348001,348087,348291,348578,348781,348826,349079,349124,349188,349571,349679,349726,349920,350110,350237,350275,350366,350453,350531,350678,350824,350869,351030,351128,351145,351201,351640,351817,352092,352156,352174,352357,352585,352647,352648,352927,353113,353214,353403,353460,353612,353664,353722,353813,354027,354031,354092,354392,354455,354523,354629,354931,355278,355381,355434,355482,355574,355581,355696,355704,355756,355820,356033,356055,356331,356368,356503,356636,356755,356835,357030,357055,357070,357209,357362,357845,357886,357933,358066,358068,358306,358499,358905,358946,358947,359118,359203,359752,359876,359899,360430,360432,360593,360839,360977,361091,361148,361332,361356,361373,361565,361726,361801,361832,362181,362195,362465,362627,362656,362657,363021,363060,363101,363106,363119,363202,363253,363374,363392,363762,363764,364143,364183,364358,364579,364766,364768,365099,365243,365245,365513,365596,365598,365768,365786,366008,366015,366031,366134,366226,366360,366409,366492,366550,366584,366665,366786,366787,366853,366945,366964,367254,367261,367262,367638,367867,367984,368323,368576,369013,369157,369333,369344,369351,369470,369522,369619,369808,369949,370019,370182,370446,370555,370652,371076,371343,372048,372784,373349,373772,374516,374719,375074,375316,375327,375373,375940,377743,378013,378595,379867,381726,381816,52312,54734,83465,84338,84698,85030,85258"
+        }
+      ],
+      "checked": [
+        "322605_title"
+      ]
+    },
+    {
+      "id": "3",
+      "speaker": "seeker",
+      "text": "有名な映画ですよね。でもまだ見ていないんです。有名な物はつい、そのうちにと後回しにしてしまい…。",
+      "timestamp": "2022-12-09T10:49:01.584849+09:00",
+      "internal_states": [
+        {
+          "id": "5",
+          "text": "有名な映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "6",
+          "text": "有名な物",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "7",
+          "text": "後回し",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "なし",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "speaker": "recommender",
+      "text": "お互いにスパイであることを隠して結婚し、ひょんなことから互いに暗殺を依頼され殺しあおうとするという設定です。",
+      "timestamp": "2022-12-09T10:51:32.064794+09:00",
+      "internal_states": [
+        {
+          "id": "8",
+          "text": "スパイであること",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "9",
+          "text": "ひょんなこと",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "10",
+          "text": "暗殺",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "11",
+          "text": "殺しあおうとするという設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "5",
+      "speaker": "seeker",
+      "text": "面白そうですね。配信で探してみます。",
+      "timestamp": "2022-12-09T10:53:10.751465+09:00",
+      "internal_states": [
+        {
+          "id": "12",
+          "text": "配信",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "speaker": "recommender",
+      "text": "現実ではありえないような設定ですが、アクション要素も満載で、爽快感があります。ブラッドピットのコメディと言えば最近はブレットトレインがありましたが、そちらはご覧になられましたか？",
+      "timestamp": "2022-12-09T10:55:14.165842+09:00",
+      "internal_states": [
+        {
+          "id": "13",
+          "text": "現実ではありえないような設定",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "14",
+          "text": "アクション要素",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "15",
+          "text": "満載",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "16",
+          "text": "爽快感",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "17",
+          "text": "ブラッドピットのコメディ",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "18",
+          "text": "ブレットトレイン",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "なし"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "7",
+      "speaker": "seeker",
+      "text": "まだです。どんな映画ですか？",
+      "timestamp": "2022-12-09T10:55:44.359876+09:00",
+      "internal_states": []
+    },
+    {
+      "id": "8",
+      "speaker": "recommender",
+      "text": "ハリウッド映画ですが、日本が舞台になっています。この映画も殺し屋が関連するのですが、複数の殺し屋が新幹線に集結し、それぞれのミッションを行います。ただすべてが繋がっていて伏線回収が面白い映画だと思いました。",
+      "timestamp": "2022-12-09T10:57:39.158401+09:00",
+      "internal_states": [
+        {
+          "id": "19",
+          "text": "ハリウッド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "20",
+          "text": "日本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "21",
+          "text": "舞台",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "22",
+          "text": "この映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "23",
+          "text": "殺し屋",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "24",
+          "text": "複数の殺し屋",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "25",
+          "text": "新幹線",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "26",
+          "text": "それぞれのミッション",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "27",
+          "text": "繋がっていて伏線回収が面白い映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "9",
+      "speaker": "seeker",
+      "text": "あ、「新幹線が舞台になっている映画」というのは最近聞いたことがあって、気になっていました。たぶんその映画ですね。それもぜひ見てみたいです。",
+      "timestamp": "2022-12-09T10:59:43.743903+09:00",
+      "internal_states": [
+        {
+          "id": "28",
+          "text": "「新幹線が舞台になっている映画」",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "29",
+          "text": "その映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "どちらとも言えない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "speaker": "recommender",
+      "text": "はい、よく予告編がTVCMで流れていたと思います。日本人作家の本が元になっているのですが、ハリウッド風の日本の街や新幹線の車内が観ていても面白いです。",
+      "timestamp": "2022-12-09T11:02:13.474283+09:00",
+      "internal_states": [
+        {
+          "id": "30",
+          "text": "予告編",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "31",
+          "text": "TVCM",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "どちらとも言えない"
+          }
+        },
+        {
+          "id": "32",
+          "text": "日本人作家の本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "33",
+          "text": "元",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "34",
+          "text": "ハリウッド風の日本の街や新幹線の車内",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "11",
+      "speaker": "seeker",
+      "text": "ハリウッド風の日本の街ですか。気になりますね。原作はどなたですか？",
+      "timestamp": "2022-12-09T11:03:07.450900+09:00",
+      "internal_states": [
+        {
+          "id": "35",
+          "text": "ハリウッド風の日本の街",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "36",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "speaker": "recommender",
+      "text": "伊坂幸太郎です。原作は読んだことはないのですが、映画を観て、元のストーリーがどのようなものなのか、気になっています。",
+      "timestamp": "2022-12-09T11:04:58.257802+09:00",
+      "internal_states": [
+        {
+          "id": "37",
+          "text": "伊坂幸太郎",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "38",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "39",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "40",
+          "text": "元のストーリー",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "41",
+          "text": "どのようなもの",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "13",
+      "speaker": "seeker",
+      "text": "そうですね、原作も読んでみたいです。日系アメリカ人とかが原作かと思ったら、伊坂幸太郎なんですね。",
+      "timestamp": "2022-12-09T11:07:07.978858+09:00",
+      "internal_states": [
+        {
+          "id": "42",
+          "text": "日系アメリカ人",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "43",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "44",
+          "text": "伊坂幸太郎",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "speaker": "recommender",
+      "text": "完全な日本人作家の本がどのようにハリウッド映画になったのかも気になりますね。",
+      "timestamp": "2022-12-09T11:08:15.770896+09:00",
+      "internal_states": [
+        {
+          "id": "45",
+          "text": "完全な日本人作家の本",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "46",
+          "text": "ハリウッド映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "15",
+      "speaker": "seeker",
+      "text": "そうですよね。原作を先に読んでから映画を見るというのもアリかもしれません。",
+      "timestamp": "2022-12-09T11:08:47.846608+09:00",
+      "internal_states": [
+        {
+          "id": "47",
+          "text": "原作",
+          "knowledge": {
+            "recommender": "なし",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "48",
+          "text": "先",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "49",
+          "text": "映画",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "あり"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "あり"
+          }
+        },
+        {
+          "id": "50",
+          "text": "アリ",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "speaker": "recommender",
+      "text": "それはそれで面白い観た方ができそうですね。もしご興味あればご覧ください。本日はありがとうございました。",
+      "timestamp": "2022-12-09T11:09:56.088995+09:00",
+      "internal_states": [
+        {
+          "id": "51",
+          "text": "面白い観た方",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "52",
+          "text": "ご興味",
+          "knowledge": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "あり",
+            "seeker": "不適切"
+          }
+        },
+        {
+          "id": "53",
+          "text": "本日",
+          "knowledge": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          },
+          "interest": {
+            "recommender": "どちらとも言えない",
+            "seeker": "不適切"
+          }
+        }
+      ],
+      "searches": [],
+      "checked": []
+    },
+    {
+      "id": "17",
+      "speaker": "seeker",
+      "text": "はい、ありがとうございました。",
+      "timestamp": "2022-12-09T11:10:25.635960+09:00",
+      "internal_states": []
+    }
+  ]
+}
