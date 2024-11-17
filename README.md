@@ -261,6 +261,8 @@ Each movie file contains the following format:
 
 ## References
 
+- Takashi Kodama, Hirokazu Kiyomaru, Yin Jou Huang, and Sadao Kurohashi: RecomMind: Movie Recommendation Dialogue with Seeker’s Internal State, In Proceedings of the Second Workshop on Social Influence in Conversations (SICon 2024), pp.46-63, Miami, Florida, USA, 2024. https://aclanthology.org/2024.sicon-1.4/
+
 ##  Acknowledgment
 The construction of this dataset was supported by NII CRIS collaborative research program operated by NII CRIS and LINE Corporation. This work was also supported by JST, CREST Grant Number JPMJCR20D2, Japan and JSPS KAKENHI Grant Number JP22J15317.
 
